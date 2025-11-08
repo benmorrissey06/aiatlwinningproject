@@ -1,0 +1,40 @@
+
+{
+  "schema_type": "FLASH_REQUEST",
+  "item_meta": {
+    "parsed_item": "HDMI cable",
+    "category": "Electronics",
+    "tags": [
+      "cable",
+      "HDMI",
+      "electronics"
+    ]
+  },
+  "item_attributes": {
+    "primary": {
+      "size": null,
+      "color": null,
+      "condition_requested": []
+    },
+    "secondary": {
+      "material": null,
+      "brand": null
+    }
+  },
+  "transaction": {
+    "type_preferred": "borrow",
+    "type_acceptable": [
+      "borrow"
+    ],
+    "price_max": 5
+  },
+  "context": {
+    "urgency": "medium",
+    "reason": "for one night",
+    "original_text": "looking to rent an HDMI cable for one night for $5 or less"
+  },
+  "location": {
+    "text_input": null,
+    "device_gps": null
+  }
+}

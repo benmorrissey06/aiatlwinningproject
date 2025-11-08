@@ -1,0 +1,43 @@
+You are my AI coding partner. I want to build an MVP for an AI-first, hyperlocal campus marketplace called “FlashFind.”
+
+**Goal / Concept:**
+FlashFind helps students get what they need *right now* on campus. 
+A user types a request in natural language, like “I need a black blazer for a presentation” or “I’m sick and need cold medicine.” 
+Instead of browsing listings, our app saves the request and notifies other nearby students who might be able to help.
+
+For the MVP, I want to keep it simple:
+1. Users can sign up or log in with their school email (basic authentication).
+2. They can post a “Flash Request” with a short text description.
+3. All requests are stored in a database and shown on a feed page.
+4. Each request displays who posted it (name or username) and when.
+5. (Optional) We’ll add AI parsing later to detect item type and urgency.
+
+---
+
+**Tech Stack:**
+- Frontend: Next.js (React)
+- Backend & Database: Firebase (Firestore + Auth)
+- AI (later): OpenAI API
+- Deployment: Vercel
+
+---
+
+**Core Tasks for You:**
+1. Scaffold a basic Next.js app with TypeScript support.
+2. Integrate Firebase (Firestore + Auth).
+   - Authentication with school email only (example: must contain “.edu”).
+3. Create the following pages/components:
+   - `/signup` and `/login`
+   - `/new-request` — a form with a text box to post a Flash Request.
+   - `/feed` — displays all requests from Firestore (newest first).
+4. Each request should show:
+   - The request text
+   - The user’s name (or email prefix)
+   - Timestamp (e.g., “5 minutes ago”)
+5. Add simple styling (TailwindCSS preferred).
+6. Include clear comments and instructions so I can understand and modify it later.
+7. Add placeholder function for future AI integration, e.g.:
+   ```js
+   async function parseFlashRequest(text) {
+     // TODO: Use OpenAI API to parse intent, item, urgency
+   }
