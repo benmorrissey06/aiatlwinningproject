@@ -2811,18 +2811,25 @@ async def send_thread_message(
 
 @app.get("/api/profiles/{user_id}/history")
 async def get_profile_history(user_id: str, cursor: Optional[int] = None) -> Dict[str, Any]:
-    # Try to get history from seller_profiles first (for demo users)
-    if user_id in seller_profiles:
-        profile = seller_profiles[user_id]
-        parsed_profile = profile.get("parsed_profile", {})
-        history = parsed_profile.get("sales_history_summary", [])
-        
-        if not history:
-            # Fallback to old DEMO_PROFILE_HISTORY for backwards compatibility
-            history = DEMO_PROFILE_HISTORY.get(user_id, [])
-    else:
-        # Check old keys for backwards compatibility
-        history = DEMO_PROFILE_HISTORY.get(user_id)
+    # Map new user_ids to old DEMO_PROFILE_HISTORY keys
+    user_id_mapping = {
+        "jake_smith": "sustainable_style_aisha",
+        "john_roberts": "miami_refurb_mateo",
+        "sara_patel": "ai_art_evelyn",
+        "mike_williams": "diy_drone_rajesh",
+        "jamal_johnson": "fair_trade_nia",
+        "tom_anderson": "vintage_tools_tom",
+        "keiko_tanaka": "minimal_decor_keiko",
+        "jamal_williams": "streetwear_jamal",
+        "lena_chen": "edu_kits_lena",
+        "omar_martinez": "smart_home_omar"
+    }
+    
+    # Get the old key if this is a demo user with new ID
+    lookup_key = user_id_mapping.get(user_id, user_id)
+    
+    # Get history from DEMO_PROFILE_HISTORY
+    history = DEMO_PROFILE_HISTORY.get(lookup_key)
         
     if not history:
         raise HTTPException(status_code=404, detail="Profile history not found.")
