@@ -1471,7 +1471,8 @@ user_threads: Dict[str, str] = {}  # userId -> threadId mapping (for current use
 async def call_gemini_parser(endpoint: str, payload: Dict[str, Any]) -> Dict[str, Any]:
     url = f"{GEMINI_SERVICE_URL.rstrip('/')}{endpoint}"
     try:
-        async with httpx.AsyncClient(timeout=60.0) as client:
+        # Reduced timeout to 10 seconds to prevent long waits
+        async with httpx.AsyncClient(timeout=10.0) as client:
             response = await client.post(url, json=payload)
             response.raise_for_status()
             return response.json()
@@ -3141,11 +3142,14 @@ async def register(user_data: UserCreate) -> Dict[str, Any]:
     _user_name_cache[user_id] = user_data.name
     
     # Process bio with LLM to generate seller profile
+    print(f"[INFO] Processing bio for new user {user_id} via Gemini service at {GEMINI_SERVICE_URL}")
     try:
         parsed_profile = await call_gemini_parser(
             "/api/parse-profile",
             {"text": user_data.bio, "userId": user_id}
         )
+        
+        print(f"[OK] Successfully parsed profile for user {user_id}")
         
         # Create seller profile document
         seller_profile_doc = {
@@ -3181,18 +3185,32 @@ async def register(user_data: UserCreate) -> Dict[str, Any]:
             "source": "registered_user",
         }
         
+        print(f"[OK] Created seller profile for user {user_id}")
+        
     except Exception as e:
         # If bio processing fails, user is still created but without seller profile
-        print(f"Warning: Failed to process bio for user {user_id}: {e}")
+        print(f"[WARNING] Failed to process bio for user {user_id} (user account still created): {e}")
     
     # Create access token
     access_token = create_access_token(data={"sub": user_id})
+    
+    # Check if user has a seller profile
+    user_doc_updated = await db.users.find_one({"_id": ObjectId(user_id)})
+    has_seller_profile = bool(user_doc_updated.get("seller_profile_id"))
     
     return {
         "success": True,
         "userId": user_id,
         "accessToken": access_token,
-        "message": "User registered successfully"
+        "user": {
+            "id": user_id,
+            "name": user_data.name,
+            "email": user_data.email,
+            "location": user_data.location,
+            "verified": False,
+        },
+        "message": "User registered successfully",
+        "profileProcessed": has_seller_profile
     }
 
 
