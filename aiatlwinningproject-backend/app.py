@@ -1762,7 +1762,22 @@ def load_demo_profiles() -> int:
 
 async def build_match_payload(request_id: str, request_record: Dict[str, Any]) -> Dict[str, Any]:
     matches: List[Dict[str, Any]] = []
-    parsed_request = request_record.get("parsed_request") or {}
+    
+    # Add defensive checks with detailed logging
+    if not request_record:
+        print(f"[ERROR] build_match_payload: request_record is None or empty for {request_id}")
+        raise ValueError("request_record cannot be None or empty")
+    
+    parsed_request = request_record.get("parsed_request")
+    if not parsed_request:
+        print(f"[ERROR] build_match_payload: parsed_request is None for {request_id}")
+        print(f"[DEBUG] request_record keys: {list(request_record.keys())}")
+        parsed_request = {}
+    
+    if not isinstance(parsed_request, dict):
+        print(f"[ERROR] build_match_payload: parsed_request is not a dict: {type(parsed_request)}")
+        parsed_request = {}
+    
     item_meta = parsed_request.setdefault("item_meta", {}) or {}
 
     request_tokens = extract_request_tokens(request_record)
@@ -1777,6 +1792,22 @@ async def build_match_payload(request_id: str, request_record: Dict[str, Any]) -
     request_tag_tokens: Set[str] = set()
     for tag in item_meta.get("tags") or []:
         request_tag_tokens.update(tokenize(tag))
+
+    # Check if seller_profiles is empty
+    if not seller_profiles:
+        print(f"[ERROR] build_match_payload: No seller profiles loaded! Cannot generate matches.")
+        print(f"[ERROR] Make sure load_demo_profiles() or seed_profiles_from_synthetic() was called on startup")
+        return {
+            "success": True,
+            "requestId": request_id,
+            "request": parsed_request,
+            "matches": [],
+            "debug": {
+                "error": "No seller profiles available for matching",
+                "totalProfiles": 0,
+                "generatedAt": datetime.utcnow().isoformat(),
+            },
+        }
 
     # Pre-fetch all user names from database to populate cache
     user_ids_to_fetch = list(set([profile["user_id"] for profile in seller_profiles.values()]))
@@ -1943,8 +1974,15 @@ async def startup_event() -> None:
         print(f"[WARNING] MongoDB connection failed on startup: {e}")
         print("[WARNING] App will continue but user features may not work")
     # Load demo profiles (for in-memory matching)
-    loop = asyncio.get_event_loop()
-    await loop.run_in_executor(None, load_demo_profiles)
+    try:
+        loop = asyncio.get_event_loop()
+        loaded_count = await loop.run_in_executor(None, load_demo_profiles)
+        print(f"[OK] Loaded {loaded_count} demo seller profiles into memory")
+        print(f"[OK] Total seller profiles available: {len(seller_profiles)}")
+    except Exception as e:
+        print(f"[ERROR] Failed to load demo profiles: {e}")
+        import traceback
+        traceback.print_exc()
 
 
 @app.on_event("shutdown")
