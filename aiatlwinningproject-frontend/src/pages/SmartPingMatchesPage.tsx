@@ -997,6 +997,39 @@ export function SmartPingMatchesPage() {
                           </div>
                         )}
 
+                        {/* Display actual sales history */}
+                        {match.debug?.sellerProfile?.sales_history_summary && match.debug.sellerProfile.sales_history_summary.length > 0 && (
+                          <div className="mt-3 rounded-lg bg-secondary/20 border border-border/50 p-4">
+                            <div className="flex items-center gap-2 mb-3">
+                              <Package className="h-4 w-4 text-primary" />
+                              <span className="text-sm font-semibold text-foreground">Previous Sales</span>
+                            </div>
+                            <div className="space-y-2">
+                              {match.debug.sellerProfile.sales_history_summary.slice(0, 3).map((sale: any, idx: number) => (
+                                <div key={`${match.id}-sale-${idx}`} className="flex items-start gap-2 text-sm">
+                                  <Tag className="h-3.5 w-3.5 text-muted-foreground mt-0.5 flex-shrink-0" />
+                                  <div className="flex-1">
+                                    <span className="text-foreground font-medium">{sale.title || sale.item_name || 'Item'}</span>
+                                    {sale.counterpartName && (
+                                      <span className="text-muted-foreground ml-1">· {sale.counterpartName}</span>
+                                    )}
+                                    {sale.date && (
+                                      <span className="text-muted-foreground/70 text-xs ml-1">
+                                        · {new Date(sale.date).toLocaleDateString('en-US', { month: 'short', year: 'numeric' })}
+                                      </span>
+                                    )}
+                                  </div>
+                                </div>
+                              ))}
+                              {match.debug.sellerProfile.sales_history_summary.length > 3 && (
+                                <div className="text-xs text-muted-foreground pt-1">
+                                  +{match.debug.sellerProfile.sales_history_summary.length - 3} more items
+                                </div>
+                              )}
+                            </div>
+                          </div>
+                        )}
+
                         {getStatusChip(match.status) && (
                           <div className="pt-1">
                             {getStatusChip(match.status)}
