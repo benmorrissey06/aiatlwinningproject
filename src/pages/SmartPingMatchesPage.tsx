@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback, useRef, useMemo } from 'react'
 import type { ReactNode } from 'react'
-import { useSearchParams, useNavigate } from 'react-router-dom'
+import { useSearchParams, useNavigate, useLocation } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/button'
 import { Checkbox } from '@/components/ui/checkbox'
@@ -193,7 +193,11 @@ const SellerDebugPopup = ({ sellers }: { sellers: SellerDebugEntry[] }) => {
 export function SmartPingMatchesPage() {
   const [searchParams] = useSearchParams()
   const navigate = useNavigate()
+  const location = useLocation()
   const requestId = searchParams.get('requestId') || 'demo'
+
+  // Check if we have data passed from navigation state (from CreateFlashRequest)
+  const navigationState = location.state as { requestData?: any; matches?: any[]; debug?: any } | null
 
   const [requestData, setRequestData] = useState<RequestData | null>(null)
   const [matches, setMatches] = useState<SmartPingMatch[]>([])
@@ -392,6 +396,51 @@ export function SmartPingMatchesPage() {
       try {
         setLoading(true)
         setDebugPopups([])
+        
+        // If we have data from navigation state, use it first
+        if (navigationState && navigationState.requestData && navigationState.matches) {
+          console.log(`[SmartPingMatchesPage] Using data from navigation state for requestId: ${requestId}`)
+          const parsed = navigationState.requestData
+          setParsedRequest(parsed)
+          setDebugInfo(navigationState.debug || null)
+          setDebugPanelVisible(true)
+          setDebugDockVisible(true)
+          setActiveDebugPopupId(null)
+
+          const summary: RequestData = {
+            description: parsed?.context?.original_text || parsed?.item_meta?.parsed_item || '—',
+            category: parsed?.item_meta?.category || '—',
+            urgencyLabel: resolveUrgencyLabel(parsed?.context?.urgency),
+            location: parsed?.location?.text_input || '—',
+            requireCheckIn: Boolean(navigationState.debug?.requestMetadata?.requireCheckIn),
+            parsedItem: parsed?.item_meta?.parsed_item,
+            priceMax: parsed?.transaction?.price_max ?? null,
+          }
+          setRequestData(summary)
+          
+          const mappedMatches: SmartPingMatch[] = (navigationState.matches || []).map((item: any, index: number) => ({
+            id: item.user?.id ?? `${item.user?.name || 'User'}-${index}`,
+            userId: item.user?.id || '',
+            responderUserId: item.user?.id || '',
+            responderName: item.user?.name || 'User',
+            name: item.user?.name || 'User',
+            major: item.user?.major || 'Undeclared',
+            dorm: item.user?.dorm || 'On campus',
+            distance: `${(item.distanceMin || 0).toFixed(1)} mi`,
+            likelihood: item.likelihood || 0,
+            badges: item.user?.badges ?? [],
+            status: null,
+            debug: item.debug,
+          }))
+          setMatches(mappedMatches)
+          setOpenDebugMatchId(null)
+          setSelectedMatches(new Set())
+          setLoading(false)
+          return // Don't fetch from API if we have data from navigation
+        }
+        
+        // Otherwise, fetch from API
+        console.log(`[SmartPingMatchesPage] Fetching matches from API for requestId: ${requestId}`)
         const result = await api.getSmartMatches(requestId)
         const parsed = result.requestData || {}
         setParsedRequest(parsed)
@@ -427,16 +476,51 @@ export function SmartPingMatchesPage() {
         setMatches(mappedMatches)
         setOpenDebugMatchId(null)
         setSelectedMatches(new Set())
-      } catch (error) {
-        toast.error('Failed to load Smart-Ping matches')
-        console.error(error)
+      } catch (error: any) {
+        console.error('Failed to load Smart-Ping matches:', error)
+        
+        // Extract error message
+        let errorMessage = 'Failed to load Smart-Ping matches'
+        if (error instanceof Error) {
+          errorMessage = error.message
+        } else if (error?.detail) {
+          if (typeof error.detail === 'string') {
+            errorMessage = error.detail
+          } else if (Array.isArray(error.detail)) {
+            errorMessage = error.detail.map((e: any) => e.msg || e.message || String(e)).join(', ')
+          } else {
+            errorMessage = String(error.detail)
+          }
+        } else if (error?.message) {
+          errorMessage = error.message
+        }
+        
+        // Show more specific error message
+        if (errorMessage.includes('Cannot connect to backend')) {
+          errorMessage = 'Backend server is not running. Please start the backend server on port 8000.'
+        } else if (errorMessage.includes('404') || errorMessage.includes('not found')) {
+          errorMessage = `Flash request with ID "${requestId}" not found. It may have expired or been deleted.`
+        } else if (errorMessage.includes('Network')) {
+          errorMessage = 'Network error: Please check your connection and ensure the backend server is running.'
+        }
+        
+        toast.error('Failed to load Smart-Ping matches', {
+          description: errorMessage,
+          duration: 5000,
+        })
+        
+        // If request not found, allow user to create a new one
+        if (errorMessage.includes('not found') || errorMessage.includes('404')) {
+          // Don't set requestData to null immediately - let user see the error
+          // They can navigate back to create a new request
+        }
       } finally {
         setLoading(false)
       }
     }
 
     fetchMatches()
-  }, [requestId])
+  }, [requestId, navigationState])
 
   useEffect(() => {
     if (!debugInfo || !parsedRequest || matches.length === 0) return

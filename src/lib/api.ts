@@ -245,26 +245,41 @@ export const api = {
   },
 
   getSmartMatches: async (requestId: string): Promise<{ success: boolean; requestId: string; requestData: any; matches: Match[]; debug?: any }> => {
-    const response = await request<{
-      success: boolean
-      requestId: string
-      request: any
-      matches: Array<Match & { debug?: any }>
-      debug?: any
-    }>(`/api/flash-requests/${requestId}/matches`)
+    try {
+      const response = await request<{
+        success: boolean
+        requestId: string
+        request: any
+        matches: Array<Match & { debug?: any }>
+        debug?: any
+      }>(`/api/flash-requests/${requestId}/matches`)
 
-    return {
-      success: Boolean(response?.success),
-      requestId: response.requestId,
-      requestData: response.request,
-      matches: response.matches.map((match) => ({
-        user: match.user,
-        likelihood: match.likelihood,
-        distanceMin: match.distanceMin,
-        sharedTraits: match.sharedTraits,
-        debug: match.debug,
-      })),
-      debug: response.debug,
+      if (!response) {
+        throw new Error('Invalid response from server')
+      }
+
+      return {
+        success: Boolean(response?.success),
+        requestId: response.requestId || requestId,
+        requestData: response.request || {},
+        matches: (response.matches || []).map((match) => ({
+          user: match.user,
+          likelihood: match.likelihood,
+          distanceMin: match.distanceMin,
+          sharedTraits: match.sharedTraits || [],
+          debug: match.debug,
+        })),
+        debug: response.debug,
+      }
+    } catch (error: any) {
+      console.error('getSmartMatches API error:', error)
+      // Re-throw with more context
+      if (error instanceof Error) {
+        throw error
+      } else {
+        const errorMessage = error?.message || error?.detail || `Failed to load matches for request ${requestId}`
+        throw new Error(errorMessage)
+      }
     }
   },
 

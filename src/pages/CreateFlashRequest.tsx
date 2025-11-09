@@ -150,9 +150,33 @@ export default function CreateFlashRequest() {
       })
       
       if (result && result.id) {
-        toast.success("Flash Request submitted")
-        navigate(`/smart-ping?requestId=${result.id}`)
+        console.log(`[CreateFlashRequest] ✅ Flash request created successfully with ID: ${result.id}`)
+        console.log(`[CreateFlashRequest] Response data:`, result.data)
+        
+        // Check if we already have matches in the response (from create endpoint)
+        // If so, we can pass them to Smart-Ping page to avoid a second API call
+        if (result.data && result.data.matches !== undefined) {
+          console.log(`[CreateFlashRequest] ✅ Response includes matches, passing to Smart-Ping page`)
+          // Pass the full response data via navigation state
+          navigate(`/smart-ping?requestId=${result.id}`, {
+            state: {
+              requestData: result.data.request || result.data.requestData,
+              matches: result.data.matches || [],
+              debug: result.data.debug,
+            }
+          })
+        } else {
+          // If no matches in response, navigate normally and let Smart-Ping fetch them
+          console.log(`[CreateFlashRequest] ⚠️ Response doesn't include matches, Smart-Ping will fetch them`)
+          toast.success("Flash Request submitted", {
+            description: `Request ID: ${result.id}`,
+          })
+          // Small delay to ensure backend has stored the request
+          await new Promise(resolve => setTimeout(resolve, 200))
+          navigate(`/smart-ping?requestId=${result.id}`)
+        }
       } else {
+        console.error("[CreateFlashRequest] ❌ Invalid response: missing request ID", result)
         throw new Error("Invalid response from server: missing request ID")
       }
     } catch (submissionError: any) {

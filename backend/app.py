@@ -1996,6 +1996,8 @@ async def create_flash_request(payload: FlashRequestCreate) -> Dict[str, Any]:
         parsed = apply_request_metadata(parsed, payload.metadata)
 
         request_id = str(uuid.uuid4())
+        
+        # Store the request FIRST before doing anything else
         flash_requests[request_id] = {
             "id": request_id,
             "raw_text": payload.text,
@@ -2003,13 +2005,32 @@ async def create_flash_request(payload: FlashRequestCreate) -> Dict[str, Any]:
             "created_at": datetime.utcnow().isoformat(),
             "metadata": payload.metadata or {},
         }
+        
+        # Verify the request was stored
+        if request_id not in flash_requests:
+            print(f"[ERROR] Failed to store flash request {request_id}")
+            raise HTTPException(
+                status_code=500,
+                detail=f"Failed to store flash request: {request_id}"
+            )
+        
+        print(f"[OK] Stored flash request {request_id} in memory. Total requests: {len(flash_requests)}")
 
         # Try to build match payload, but handle errors gracefully
         try:
-            return await build_match_payload(request_id, flash_requests[request_id])
+            result = await build_match_payload(request_id, flash_requests[request_id])
+            # Verify the request is still in memory after building matches
+            if request_id not in flash_requests:
+                print(f"[ERROR] Flash request {request_id} was lost after building matches!")
+            else:
+                print(f"[OK] Flash request {request_id} verified in memory after building matches")
+            return result
         except Exception as e:
             print(f"[WARNING] Failed to build match payload: {e}")
-            # Return a basic response even if matching fails
+            # Verify the request is still stored even if matching failed
+            if request_id not in flash_requests:
+                print(f"[ERROR] Flash request {request_id} was lost after matching failure!")
+            # Return a basic response even if matching fails, but ensure request is stored
             return {
                 "success": True,
                 "requestId": request_id,
@@ -2049,10 +2070,60 @@ async def get_flash_request(request_id: str) -> Dict[str, Any]:
 
 @app.get("/api/flash-requests/{request_id}/matches")
 async def get_flash_request_matches(request_id: str) -> Dict[str, Any]:
-    record = flash_requests.get(request_id)
-    if not record:
-        raise HTTPException(status_code=404, detail="Flash request not found.")
-    return await build_match_payload(request_id, record)
+    try:
+        print(f"[DEBUG] Looking up flash request {request_id}. Total requests in memory: {len(flash_requests)}")
+        if len(flash_requests) > 0:
+            available_ids = list(flash_requests.keys())[:10]
+            print(f"[DEBUG] Available request IDs (first 10): {available_ids}")
+        
+        record = flash_requests.get(request_id)
+        if not record:
+            # Log available request IDs for debugging
+            available_ids = list(flash_requests.keys())[:10]  # Show first 10
+            print(f"[ERROR] Flash request {request_id} not found. Available requests: {available_ids}")
+            print(f"[ERROR] Total requests in memory: {len(flash_requests)}")
+            # Check if request_id matches any stored request (case sensitivity, etc.)
+            for stored_id in flash_requests.keys():
+                if stored_id.lower() == request_id.lower():
+                    print(f"[ERROR] Found case-insensitive match: {stored_id} matches {request_id}")
+                    record = flash_requests[stored_id]
+                    request_id = stored_id  # Use the stored ID
+                    break
+            
+            if not record:
+                raise HTTPException(
+                    status_code=404,
+                    detail=f"Flash request with ID '{request_id}' not found. Available requests: {len(flash_requests)}"
+                )
+        
+        # Try to build match payload, but handle errors gracefully
+        try:
+            return await build_match_payload(request_id, record)
+        except Exception as e:
+            print(f"[WARNING] Failed to build match payload for request {request_id}: {e}")
+            # Return a basic response even if matching fails
+            return {
+                "success": True,
+                "requestId": request_id,
+                "request": record.get("parsed_request", {}),
+                "matches": [],
+                "debug": {
+                    "error": str(e),
+                    "generatedAt": datetime.utcnow().isoformat(),
+                },
+            }
+    except HTTPException:
+        # Re-raise HTTP exceptions (they already have proper error messages)
+        raise
+    except Exception as e:
+        # Catch any other unexpected errors
+        print(f"[ERROR] Failed to get flash request matches: {e}")
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to get matches for flash request: {str(e)}"
+        )
 
 
 @app.post("/api/profiles")
