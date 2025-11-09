@@ -49,13 +49,13 @@ positive_class_index = int(np.where(model.classes_ == 1)[0][0]) if hasattr(model
 
 DEMO_SELLER_PROFILES: List[Dict[str, Any]] = [
     {
-        "user_id": "sustainable_style_aisha",
-        "raw_text": "Austin-based sustainable fashion seller with over 140 eco-conscious apparel transactions.",
+        "user_id": "jake_smith",
+        "raw_text": "Jake Smith is a Georgia Tech student specializing in sustainable fashion with over 140 eco-conscious apparel transactions.",
         "parsed_profile": {
             "schema_type": "SELLER_PROFILE",
-            "user_id": "sustainable_style_aisha",
+            "user_id": "jake_smith",
             "context": {
-                "original_text": "Austin-based sustainable fashion seller with over 140 eco-conscious apparel transactions."
+                "original_text": "Jake Smith is a Georgia Tech student specializing in sustainable fashion with over 140 eco-conscious apparel transactions."
             },
             "profile_keywords": ["sustainable fashion", "eco textiles", "upcycled", "slow fashion", "austin"],
             "inferred_major": "Sustainability Studies",
@@ -109,13 +109,13 @@ DEMO_SELLER_PROFILES: List[Dict[str, Any]] = [
         },
     },
     {
-        "user_id": "miami_refurb_mateo",
-        "raw_text": "Miami tech refurbisher handling laptops and accessories with verified condition guarantees.",
+        "user_id": "john_roberts",
+        "raw_text": "John Roberts is a Georgia Tech student who refurbishes laptops and accessories with verified condition guarantees.",
         "parsed_profile": {
             "schema_type": "SELLER_PROFILE",
-            "user_id": "miami_refurb_mateo",
+            "user_id": "john_roberts",
             "context": {
-                "original_text": "Miami tech refurbisher handling laptops and accessories with verified condition guarantees."
+                "original_text": "John Roberts is a Georgia Tech student who refurbishes laptops and accessories with verified condition guarantees."
             },
             "profile_keywords": ["refurbished electronics", "laptops", "warranty", "diagnostics", "miami"],
             "inferred_major": "Computer Engineering",
@@ -169,13 +169,13 @@ DEMO_SELLER_PROFILES: List[Dict[str, Any]] = [
         },
     },
     {
-        "user_id": "ai_art_evelyn",
-        "raw_text": "Portland AI artist blending neural art prints with hand-crafted frames for sustainability-minded buyers.",
+        "user_id": "sara_patel",
+        "raw_text": "Sara Patel is a Georgia Tech student and AI artist blending neural art prints with hand-crafted frames for sustainability-minded buyers.",
         "parsed_profile": {
             "schema_type": "SELLER_PROFILE",
-            "user_id": "ai_art_evelyn",
+            "user_id": "sara_patel",
             "context": {
-                "original_text": "Portland AI artist blending neural art prints with hand-crafted frames for sustainability-minded buyers."
+                "original_text": "Sara Patel is a Georgia Tech student and AI artist blending neural art prints with hand-crafted frames for sustainability-minded buyers."
             },
             "profile_keywords": ["ai art", "handmade frames", "sustainability", "gallery", "portland"],
             "inferred_major": "Digital Arts",
@@ -229,12 +229,12 @@ DEMO_SELLER_PROFILES: List[Dict[str, Any]] = [
         },
     },
     {
-        "user_id": "diy_drone_rajesh",
-        "raw_text": "Newark hobbyist crafting custom drones and RC components with technical documentation for buyers.",
+        "user_id": "mike_williams",
+        "raw_text": "Mike Williams is a Georgia Tech student and hobbyist crafting custom drones and RC components with technical documentation for buyers.",
         "parsed_profile": {
             "schema_type": "SELLER_PROFILE",
-            "user_id": "diy_drone_rajesh",
-            "context": {"original_text": "Newark hobbyist crafting custom drones and RC components with technical documentation for buyers."},
+            "user_id": "mike_williams",
+            "context": {"original_text": "Mike Williams is a Georgia Tech student and hobbyist crafting custom drones and RC components with technical documentation for buyers."},
             "profile_keywords": ["custom drones", "rc components", "engineering", "telemetry", "newark"],
             "inferred_major": "Electrical Engineering",
             "inferred_location_keywords": ["Newark"],
@@ -287,12 +287,12 @@ DEMO_SELLER_PROFILES: List[Dict[str, Any]] = [
         },
     },
     {
-        "user_id": "fair_trade_nia",
-        "raw_text": "Minneapolis curator of fair-trade jewelry from African cooperatives with over 200 artisan accessory sales.",
+        "user_id": "jamal_johnson",
+        "raw_text": "Jamal Johnson is a Georgia Tech student and curator of fair-trade jewelry from African cooperatives with over 200 artisan accessory sales.",
         "parsed_profile": {
             "schema_type": "SELLER_PROFILE",
-            "user_id": "fair_trade_nia",
-            "context": {"original_text": "Minneapolis curator of fair-trade jewelry from African cooperatives with over 200 artisan accessory sales."},
+            "user_id": "jamal_johnson",
+            "context": {"original_text": "Jamal Johnson is a Georgia Tech student and curator of fair-trade jewelry from African cooperatives with over 200 artisan accessory sales."},
             "profile_keywords": ["fair trade", "artisan jewelry", "african cooperatives", "storytelling", "minneapolis"],
             "inferred_major": "International Development",
             "inferred_location_keywords": ["Minneapolis"],
@@ -345,12 +345,12 @@ DEMO_SELLER_PROFILES: List[Dict[str, Any]] = [
         },
     },
     {
-        "user_id": "vintage_tools_tom",
-        "raw_text": "Retired Boise carpenter restoring vintage woodworking tools with meticulous maintenance notes.",
+        "user_id": "tom_anderson",
+        "raw_text": "Tom Anderson is a Georgia Tech student restoring vintage woodworking tools with meticulous maintenance notes.",
         "parsed_profile": {
             "schema_type": "SELLER_PROFILE",
-            "user_id": "vintage_tools_tom",
-            "context": {"original_text": "Retired Boise carpenter restoring vintage woodworking tools with meticulous maintenance notes."},
+            "user_id": "tom_anderson",
+            "context": {"original_text": "Tom Anderson is a Georgia Tech student restoring vintage woodworking tools with meticulous maintenance notes."},
             "profile_keywords": ["vintage tools", "woodworking", "restoration", "carpentry", "boise"],
             "inferred_major": "Carpentry",
             "inferred_location_keywords": ["Boise"],
@@ -403,12 +403,12 @@ DEMO_SELLER_PROFILES: List[Dict[str, Any]] = [
         },
     },
     {
-        "user_id": "minimal_decor_keiko",
-        "raw_text": "San Francisco minimalist decor designer crafting Japanese-inspired pieces for modern apartments.",
+        "user_id": "keiko_tanaka",
+        "raw_text": "Keiko Tanaka is a Georgia Tech student and minimalist decor designer crafting Japanese-inspired pieces for modern apartments.",
         "parsed_profile": {
             "schema_type": "SELLER_PROFILE",
-            "user_id": "minimal_decor_keiko",
-            "context": {"original_text": "San Francisco minimalist decor designer crafting Japanese-inspired pieces for modern apartments."},
+            "user_id": "keiko_tanaka",
+            "context": {"original_text": "Keiko Tanaka is a Georgia Tech student and minimalist decor designer crafting Japanese-inspired pieces for modern apartments."},
             "profile_keywords": ["minimalist decor", "japanese design", "ikebana", "modern home", "san francisco"],
             "inferred_major": "Industrial Design",
             "inferred_location_keywords": ["San Francisco"],
@@ -461,12 +461,12 @@ DEMO_SELLER_PROFILES: List[Dict[str, Any]] = [
         },
     },
     {
-        "user_id": "streetwear_jamal",
-        "raw_text": "Atlanta sneaker and streetwear collector flipping limited drops with rapid sell-through and high engagement.",
+        "user_id": "jamal_williams",
+        "raw_text": "Jamal Williams is a Georgia Tech student and sneaker collector flipping limited drops with rapid sell-through and high engagement.",
         "parsed_profile": {
             "schema_type": "SELLER_PROFILE",
-            "user_id": "streetwear_jamal",
-            "context": {"original_text": "Atlanta sneaker and streetwear collector flipping limited drops with rapid sell-through and high engagement."},
+            "user_id": "jamal_williams",
+            "context": {"original_text": "Jamal Williams is a Georgia Tech student and sneaker collector flipping limited drops with rapid sell-through and high engagement."},
             "profile_keywords": ["sneakers", "streetwear", "limited edition", "resell", "atlanta"],
             "inferred_major": "Marketing",
             "inferred_location_keywords": ["Atlanta"],
@@ -519,12 +519,12 @@ DEMO_SELLER_PROFILES: List[Dict[str, Any]] = [
         },
     },
     {
-        "user_id": "edu_kits_lena",
-        "raw_text": "Chicago physics education PhD crafting hands-on science kits with safety certifications and learning outcomes.",
+        "user_id": "lena_chen",
+        "raw_text": "Lena Chen is a Georgia Tech student crafting hands-on science kits with safety certifications and learning outcomes.",
         "parsed_profile": {
             "schema_type": "SELLER_PROFILE",
-            "user_id": "edu_kits_lena",
-            "context": {"original_text": "Chicago physics education PhD crafting hands-on science kits with safety certifications and learning outcomes."},
+            "user_id": "lena_chen",
+            "context": {"original_text": "Lena Chen is a Georgia Tech student crafting hands-on science kits with safety certifications and learning outcomes."},
             "profile_keywords": ["STEM kits", "education", "hands-on learning", "safety certified", "chicago"],
             "inferred_major": "Physics Education",
             "inferred_location_keywords": ["Chicago"],
@@ -577,12 +577,12 @@ DEMO_SELLER_PROFILES: List[Dict[str, Any]] = [
         },
     },
     {
-        "user_id": "smart_home_omar",
-        "raw_text": "Seattle smart home builder delivering Raspberry Pi automation kits with firmware support for early adopters.",
+        "user_id": "omar_martinez",
+        "raw_text": "Omar Martinez is a Georgia Tech student delivering Raspberry Pi automation kits with firmware support for early adopters.",
         "parsed_profile": {
             "schema_type": "SELLER_PROFILE",
-            "user_id": "smart_home_omar",
-            "context": {"original_text": "Seattle smart home builder delivering Raspberry Pi automation kits with firmware support for early adopters."},
+            "user_id": "omar_martinez",
+            "context": {"original_text": "Omar Martinez is a Georgia Tech student delivering Raspberry Pi automation kits with firmware support for early adopters."},
             "profile_keywords": ["smart home", "raspberry pi", "automation", "firmware", "seattle"],
             "inferred_major": "Computer Science",
             "inferred_location_keywords": ["Seattle"],
@@ -1604,11 +1604,33 @@ def pseudo_random(seed_input: str) -> random.Random:
 # Cache for user names to avoid repeated database queries
 _user_name_cache: Dict[str, str] = {}
 
+def extract_name_from_raw_text(raw_text: str) -> Optional[str]:
+    """
+    Extract a person's name from raw_text using regex pattern.
+    Looks for capitalized names at the start of the text.
+    
+    Examples:
+    - "Jake Smith is a Georgia Tech student..." -> "Jake Smith"
+    - "Jamal Williams is a Georgia Tech student..." -> "Jamal Williams"
+    - "Austin-based sustainable fashion seller..." -> None
+    """
+    if not raw_text:
+        return None
+    
+    # Pattern matches names at the start: "FirstName LastName" or "FirstName MiddleName LastName"
+    pattern = r'^([A-Z][a-z]+(?:\s+[A-Z][a-z]+)+)'
+    match = re.match(pattern, raw_text.strip())
+    if match:
+        return match.group(1)
+    return None
+
 def display_name_from_user_id(user_id: str) -> str:
     """
-    Get the actual user name from the database cache or formatted user_id.
-    Note: This is a synchronous function, so it uses a cache that should be
-    populated by async functions that fetch user data.
+    Get the actual user name from seller profile raw_text, database cache, or formatted user_id.
+    Priority:
+    1. Check name cache (from database or raw_text extraction)
+    2. Check seller_profiles for raw_text and extract name
+    3. Fallback: format the user_id as a name
     """
     if not user_id:
         return "Unknown Seller"
@@ -1616,6 +1638,17 @@ def display_name_from_user_id(user_id: str) -> str:
     # Check cache first
     if user_id in _user_name_cache:
         return _user_name_cache[user_id]
+    
+    # Try to extract name from seller profile raw_text
+    if user_id in seller_profiles:
+        profile = seller_profiles[user_id]
+        raw_text = profile.get("raw_text")
+        if raw_text:
+            extracted_name = extract_name_from_raw_text(raw_text)
+            if extracted_name:
+                # Cache it for future use
+                _user_name_cache[user_id] = extracted_name
+                return extracted_name
     
     # Fallback: format the user_id as a name
     cleaned = user_id.replace("_", " ").replace("-", " ").strip()
@@ -1768,6 +1801,15 @@ def load_demo_profiles() -> int:
             "source": "demo",
             "metadata": {"note": "demo_profile"},
         }
+        
+        # Pre-populate name cache from raw_text
+        raw_text = entry.get("raw_text")
+        if raw_text:
+            extracted_name = extract_name_from_raw_text(raw_text)
+            if extracted_name:
+                _user_name_cache[user_id] = extracted_name
+                print(f"[OK] Cached name for {user_id}: {extracted_name}")
+        
         inserted += 1
     return inserted
 
