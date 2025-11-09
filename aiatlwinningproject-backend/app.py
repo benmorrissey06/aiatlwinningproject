@@ -1969,12 +1969,11 @@ async def build_match_payload(request_id: str, request_record: Dict[str, Any]) -
     diversified: List[Dict[str, Any]] = []
     seen_categories: set[str] = set()
     for match in matches:
-        category = (
-            (match.get("debug") or {})
-            .get("representativeItem", {})
-            .get("item_meta", {})
-            .get("category")
-        )
+        # Defensive extraction of category - handle None values at each level
+        debug_info = match.get("debug") or {}
+        rep_item = debug_info.get("representativeItem") or {}
+        item_meta = rep_item.get("item_meta") or {}
+        category = item_meta.get("category")
         normalized = category.lower() if isinstance(category, str) else None
         if normalized and normalized in seen_categories:
             continue
