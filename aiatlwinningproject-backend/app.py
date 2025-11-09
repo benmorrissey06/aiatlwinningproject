@@ -2811,8 +2811,20 @@ async def send_thread_message(
 
 @app.get("/api/profiles/{user_id}/history")
 async def get_profile_history(user_id: str, cursor: Optional[int] = None) -> Dict[str, Any]:
-    history = DEMO_PROFILE_HISTORY.get(user_id)
-    if history is None:
+    # Try to get history from seller_profiles first (for demo users)
+    if user_id in seller_profiles:
+        profile = seller_profiles[user_id]
+        parsed_profile = profile.get("parsed_profile", {})
+        history = parsed_profile.get("sales_history_summary", [])
+        
+        if not history:
+            # Fallback to old DEMO_PROFILE_HISTORY for backwards compatibility
+            history = DEMO_PROFILE_HISTORY.get(user_id, [])
+    else:
+        # Check old keys for backwards compatibility
+        history = DEMO_PROFILE_HISTORY.get(user_id)
+        
+    if not history:
         raise HTTPException(status_code=404, detail="Profile history not found.")
 
     start = cursor or 0
@@ -3177,10 +3189,24 @@ async def register(user_data: UserCreate) -> Dict[str, Any]:
         )
         
         # Also add seller profile to in-memory seller_profiles for matching
+        # Create a representative item from the first sales history entry if available
+        representative_item = None
+        sales_history = parsed_profile.get("sales_history_summary", [])
+        if sales_history:
+            first_sale = sales_history[0]
+            representative_item = {
+                "item_meta": {
+                    "parsed_item": first_sale.get("title", "Item"),
+                    "category": parsed_profile.get("related_categories_of_interest", ["Other"])[0] if parsed_profile.get("related_categories_of_interest") else "Other",
+                    "tags": []
+                }
+            }
+        
         seller_profiles[user_id] = {
             "user_id": user_id,
             "parsed_profile": parsed_profile,
             "raw_text": user_data.bio,
+            "representative_item": representative_item,
             "created_at": datetime.utcnow().isoformat(),
             "source": "registered_user",
         }
@@ -3265,6 +3291,42 @@ async def login(login_data: LoginRequest) -> Dict[str, Any]:
 @app.get("/api/users/{user_id}/profile")
 async def get_user_profile(user_id: str) -> Dict[str, Any]:
     """Get user profile with seller profile data."""
+    # Check if this is a demo profile first
+    if user_id in seller_profiles:
+        demo_profile = seller_profiles[user_id]
+        parsed_profile = demo_profile.get("parsed_profile", {})
+        
+        # Return demo profile data
+        return {
+            "success": True,
+            "user": {
+                "id": user_id,
+                "name": display_name_from_user_id(user_id),
+                "email": f"{user_id}@demo.gatech.edu",
+                "location": (parsed_profile.get("inferred_location_keywords") or ["Georgia Tech"])[0],
+                "bio": demo_profile.get("raw_text", ""),
+                "verified": True,
+                "trustScore": 85,
+                "rating": 4.7,
+                "pastTrades": len(parsed_profile.get("sales_history_summary", [])),
+                "badges": ["Verified Student", "Top Helper"],
+                "inferredMajor": parsed_profile.get("inferred_major"),
+                "createdAt": demo_profile.get("created_at"),
+                "updatedAt": demo_profile.get("created_at"),
+                "sellerProfile": {
+                    "schema_type": "SELLER_PROFILE",
+                    "user_id": user_id,
+                    "context": parsed_profile.get("context", {}),
+                    "profile_keywords": parsed_profile.get("profile_keywords", []),
+                    "inferred_major": parsed_profile.get("inferred_major"),
+                    "inferred_location_keywords": parsed_profile.get("inferred_location_keywords", []),
+                    "sales_history_summary": parsed_profile.get("sales_history_summary", []),
+                    "overall_dominant_transaction_type": parsed_profile.get("overall_dominant_transaction_type", "sell"),
+                    "related_categories_of_interest": parsed_profile.get("related_categories_of_interest", []),
+                }
+            }
+        }
+    
     try:
         db = get_db()
     except RuntimeError as e:
@@ -3273,8 +3335,16 @@ async def get_user_profile(user_id: str) -> Dict[str, Any]:
             detail="Database connection failed. Please check MongoDB connection."
         )
     
-    # Get user
-    user = await db.users.find_one({"_id": ObjectId(user_id)})
+    # Try to get user from database
+    try:
+        user = await db.users.find_one({"_id": ObjectId(user_id)})
+    except Exception:
+        # If ObjectId conversion fails, user_id is not valid
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="User not found"
+        )
+    
     if not user:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
