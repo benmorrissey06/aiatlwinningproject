@@ -194,7 +194,7 @@ export function NavBar() {
               <span className="text-xs font-semibold uppercase tracking-[0.4em] text-indigo-500/80">
                 Flash
               </span>
-              <span className="text-lg font-bold text-foreground md:text-xl">Request</span>
+              <span className="text-lg font-bold text-foreground md:text-xl">Find</span>
             </div>
           </Link>
 
