@@ -14,7 +14,7 @@ from typing import Any, Dict, Iterable, List, Optional, Set, Tuple
 import httpx
 import joblib
 import numpy as np
-from fastapi import FastAPI, HTTPException, Depends, status
+from fastapi import FastAPI, HTTPException, Depends, status, Request, Body
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from pydantic import BaseModel, Field, EmailStr
@@ -24,7 +24,7 @@ from .feature_encoder import FeatureEncoder
 from .database import connect_db, close_db, get_db
 from .models import (
     UserSchema, UserCreate, UserResponse, SellerProfileSchema,
-    SalesHistorySummary
+    SalesHistorySummary, MessageSchema, MessageThreadSchema
 )
 from .auth import hash_password, verify_password, create_access_token, verify_token
 
@@ -1462,6 +1462,9 @@ class PingMatchesRequest(BaseModel):
 
 flash_requests: Dict[str, Dict[str, Any]] = {}
 seller_profiles: Dict[str, Dict[str, Any]] = {}
+message_threads: Dict[str, Dict[str, Any]] = {}  # threadId -> thread data
+thread_messages: Dict[str, List[Dict[str, Any]]] = {}  # threadId -> list of messages
+user_threads: Dict[str, str] = {}  # userId -> threadId mapping (for current user)
 
 
 async def call_gemini_parser(endpoint: str, payload: Dict[str, Any]) -> Dict[str, Any]:
@@ -1597,12 +1600,64 @@ def pseudo_random(seed_input: str) -> random.Random:
     return random.Random(seed)
 
 
+# Cache for user names to avoid repeated database queries
+_user_name_cache: Dict[str, str] = {}
+
 def display_name_from_user_id(user_id: str) -> str:
+    """
+    Get the actual user name from the database cache or formatted user_id.
+    Note: This is a synchronous function, so it uses a cache that should be
+    populated by async functions that fetch user data.
+    """
     if not user_id:
         return "Unknown Seller"
+    
+    # Check cache first
+    if user_id in _user_name_cache:
+        return _user_name_cache[user_id]
+    
+    # Fallback: format the user_id as a name
     cleaned = user_id.replace("_", " ").replace("-", " ").strip()
     parts = cleaned.split()
-    return " ".join(part.capitalize() for part in parts if part)
+    formatted_name = " ".join(part.capitalize() for part in parts if part)
+    return formatted_name
+
+
+async def fetch_user_name_from_db(user_id: str) -> str:
+    """
+    Async function to fetch user name from database and update cache.
+    Call this before building matches to populate the cache.
+    """
+    if not user_id:
+        return "Unknown Seller"
+    
+    # Check cache first
+    if user_id in _user_name_cache:
+        return _user_name_cache[user_id]
+    
+    try:
+        db = get_db()
+        if db:
+            # Try to find user by ObjectId
+            try:
+                user = await db.users.find_one({"_id": ObjectId(user_id)})
+                if user and user.get("name"):
+                    _user_name_cache[user_id] = user["name"]
+                    return user["name"]
+            except Exception as e:
+                # If ObjectId conversion fails, try finding by string user_id
+                print(f"[WARNING] Could not convert {user_id} to ObjectId: {e}")
+                pass
+    except Exception as e:
+        # Database unavailable or error
+        print(f"[WARNING] Could not fetch user name for {user_id}: {e}")
+    
+    # Fallback: format the user_id as a name
+    cleaned = user_id.replace("_", " ").replace("-", " ").strip()
+    parts = cleaned.split()
+    formatted_name = " ".join(part.capitalize() for part in parts if part)
+    _user_name_cache[user_id] = formatted_name
+    return formatted_name
 
 
 def score_profile_for_ui(profile: Dict[str, Any], request_id: str) -> Dict[str, Any]:
@@ -1704,7 +1759,7 @@ def load_demo_profiles() -> int:
     return inserted
 
 
-def build_match_payload(request_id: str, request_record: Dict[str, Any]) -> Dict[str, Any]:
+async def build_match_payload(request_id: str, request_record: Dict[str, Any]) -> Dict[str, Any]:
     matches: List[Dict[str, Any]] = []
     parsed_request = request_record.get("parsed_request") or {}
     item_meta = parsed_request.setdefault("item_meta", {}) or {}
@@ -1721,6 +1776,35 @@ def build_match_payload(request_id: str, request_record: Dict[str, Any]) -> Dict
     request_tag_tokens: Set[str] = set()
     for tag in item_meta.get("tags") or []:
         request_tag_tokens.update(tokenize(tag))
+
+    # Pre-fetch all user names from database to populate cache
+    user_ids_to_fetch = list(set([profile["user_id"] for profile in seller_profiles.values()]))
+    try:
+        db = get_db()
+        if db:
+            # Fetch all users in parallel
+            fetch_tasks = []
+            valid_user_ids = []
+            for user_id in user_ids_to_fetch:
+                try:
+                    # Try to convert to ObjectId - if it fails, skip this user_id
+                    obj_id = ObjectId(user_id)
+                    fetch_tasks.append(db.users.find_one({"_id": obj_id}))
+                    valid_user_ids.append(user_id)
+                except Exception:
+                    # user_id is not a valid ObjectId format, skip it
+                    pass
+            
+            if fetch_tasks:
+                users = await asyncio.gather(*fetch_tasks, return_exceptions=True)
+                for idx, user in enumerate(users):
+                    if isinstance(user, dict) and user.get("_id") and user.get("name"):
+                        user_id_str = valid_user_ids[idx]
+                        _user_name_cache[user_id_str] = user["name"]
+                        # Also cache by ObjectId string format
+                        _user_name_cache[str(user["_id"])] = user["name"]
+    except Exception as e:
+        print(f"[WARNING] Could not pre-fetch user names: {e}")
 
     for profile in seller_profiles.values():
         probability, activated = encode_and_score(request_record, profile)
@@ -1841,6 +1925,19 @@ async def startup_event() -> None:
     # Connect to MongoDB (non-blocking if it fails)
     try:
         await connect_db()
+        # Pre-populate user name cache from database
+        try:
+            db = get_db()
+            if db:
+                users_cursor = db.users.find({})
+                users = await users_cursor.to_list(length=1000)
+                for user in users:
+                    if user.get("_id") and user.get("name"):
+                        user_id_str = str(user["_id"])
+                        _user_name_cache[user_id_str] = user["name"]
+                print(f"[OK] Loaded {len(_user_name_cache)} user names into cache")
+        except Exception as e:
+            print(f"[WARNING] Could not pre-populate user name cache: {e}")
     except Exception as e:
         print(f"[WARNING] MongoDB connection failed on startup: {e}")
         print("[WARNING] App will continue but user features may not work")
@@ -1881,7 +1978,7 @@ async def create_flash_request(payload: FlashRequestCreate) -> Dict[str, Any]:
         "metadata": payload.metadata or {},
     }
 
-    return build_match_payload(request_id, flash_requests[request_id])
+    return await build_match_payload(request_id, flash_requests[request_id])
 
 
 @app.get("/api/flash-requests/{request_id}")
@@ -1902,7 +1999,7 @@ async def get_flash_request_matches(request_id: str) -> Dict[str, Any]:
     record = flash_requests.get(request_id)
     if not record:
         raise HTTPException(status_code=404, detail="Flash request not found.")
-    return build_match_payload(request_id, record)
+    return await build_match_payload(request_id, record)
 
 
 @app.post("/api/profiles")
@@ -1979,6 +2076,514 @@ async def send_pings(request_id: str, payload: PingMatchesRequest) -> Dict[str, 
         "pinged": len(payload.matchIds),
         "broadcastType": payload.broadcastType,
     }
+
+
+@app.get("/api/messages")
+async def get_messages(request: Request) -> Dict[str, Any]:
+    """
+    Get all message threads for the current user from MongoDB.
+    """
+    try:
+        # Try to get current user from auth token
+        user_id = None
+        try:
+            auth_header = request.headers.get("Authorization")
+            if auth_header and auth_header.startswith("Bearer "):
+                token = auth_header.split(" ")[1]
+                payload = verify_token(token)
+                user_id = payload.get("sub")
+        except:
+            pass
+        
+        # If no auth token, try to get from query param or use default
+        if not user_id:
+            user_id = request.query_params.get("current_user") or "current_user"
+        
+        # Get database connection
+        db = get_db()
+        
+        # Find all threads where current user is a participant (from MongoDB)
+        user_thread_list = []
+        
+        # Query MongoDB for threads where user is participant1 or participant2
+        threads_cursor = db.message_threads.find({
+            "$or": [
+                {"participant1_id": user_id},
+                {"participant2_id": user_id}
+            ]
+        }).sort("updated_at", -1)
+        
+        async for thread_doc in threads_cursor:
+            thread_id = thread_doc.get("thread_id")
+            
+            # Determine the other user's ID
+            if thread_doc.get("participant1_id") == user_id:
+                other_user_id = thread_doc.get("participant2_id")
+            else:
+                other_user_id = thread_doc.get("participant1_id")
+            
+            # Use stored other_user_id if available, otherwise use the one we determined
+            stored_other_user_id = thread_doc.get("other_user_id")
+            if stored_other_user_id:
+                other_user_id = stored_other_user_id
+            
+            if not other_user_id:
+                print(f"[WARNING] Thread {thread_id} has no valid other_user_id, skipping")
+                continue
+            
+            # Get user name from thread document or fetch from database
+            user_name = thread_doc.get("other_user_name", "User")
+            try:
+                other_user = await db.users.find_one({"_id": ObjectId(other_user_id)})
+                if other_user and other_user.get("name"):
+                    user_name = other_user["name"]
+                    # Update thread document with fresh name
+                    await db.message_threads.update_one(
+                        {"thread_id": thread_id},
+                        {"$set": {"other_user_name": user_name, "other_user_id": other_user_id}}
+                    )
+            except Exception as e:
+                print(f"[WARNING] Could not fetch user name for {other_user_id}: {e}")
+            
+            # Get last message from MongoDB
+            last_message_doc = await db.messages.find_one(
+                {"thread_id": thread_id},
+                sort=[("timestamp", -1)]
+            )
+            
+            last_message_text = "No messages"
+            last_message_time = "No messages"
+            if last_message_doc:
+                last_message_text = last_message_doc.get("text", "No messages")
+                last_message_time = last_message_doc.get("timestamp", datetime.utcnow()).isoformat()
+            
+            thread_info = {
+                "id": thread_id,
+                "userId": other_user_id,
+                "userName": user_name,
+                "lastMessage": last_message_text,
+                "lastMessageTime": last_message_time,
+                "unread": thread_doc.get("unread_count", 0),
+                "avatar": "👤",
+            }
+            user_thread_list.append(thread_info)
+            print(f"[OK] Added thread {thread_id} for user {user_id}: other_user_id={other_user_id}, name={user_name}")
+        
+        return {
+            "success": True,
+            "threads": user_thread_list,
+        }
+    except Exception as e:
+        print(f"[WARNING] Error getting messages: {e}")
+        import traceback
+        traceback.print_exc()
+        return {
+            "success": True,
+            "threads": [],
+        }
+
+
+@app.get("/api/dm/{user_id}")
+async def get_dm_thread(user_id: str, request: Request) -> Dict[str, Any]:
+    """
+    Get existing direct message thread with a user from MongoDB.
+    Returns 404 if thread doesn't exist.
+    """
+    try:
+        # Try to get current user from auth token
+        current_user_id = None
+        try:
+            auth_header = request.headers.get("Authorization")
+            if auth_header and auth_header.startswith("Bearer "):
+                token = auth_header.split(" ")[1]
+                payload = verify_token(token)
+                current_user_id = payload.get("sub")
+        except:
+            pass
+        
+        # If no auth token, try to get from query param or use default
+        if not current_user_id:
+            current_user_id = request.query_params.get("current_user") or "current_user"
+        
+        # Get database connection
+        db = get_db()
+        
+        # Look for existing thread between current user and target user in MongoDB
+        thread_doc = await db.message_threads.find_one({
+            "$or": [
+                {"participant1_id": current_user_id, "participant2_id": user_id},
+                {"participant1_id": user_id, "participant2_id": current_user_id}
+            ]
+        })
+        
+        if thread_doc:
+            thread_id = thread_doc.get("thread_id")
+            # Verify that other_user_id matches the requested user_id
+            stored_other_user_id = thread_doc.get("other_user_id")
+            if stored_other_user_id and stored_other_user_id == user_id:
+                print(f"[OK] Found existing thread {thread_id} for user_id {user_id}")
+                return {
+                    "threadId": thread_id,
+                    "userId": user_id,
+                }
+            elif not stored_other_user_id:
+                # Thread exists but other_user_id not set, update it
+                await db.message_threads.update_one(
+                    {"thread_id": thread_id},
+                    {"$set": {"other_user_id": user_id}}
+                )
+                print(f"[OK] Found existing thread {thread_id}, set other_user_id to {user_id}")
+                return {
+                    "threadId": thread_id,
+                    "userId": user_id,
+                }
+        
+        # Thread doesn't exist
+        print(f"[INFO] Thread not found for user_id {user_id}")
+        raise HTTPException(status_code=404, detail="Thread not found")
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"[WARNING] Error getting DM thread: {e}")
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail="Internal server error")
+
+
+@app.post("/api/dm/{user_id}")
+async def create_dm_thread(user_id: str, request: Request) -> Dict[str, Any]:
+    """
+    Create a new direct message thread with a user and save to MongoDB.
+    """
+    try:
+        # Try to get current user from auth token
+        current_user_id = None
+        try:
+            auth_header = request.headers.get("Authorization")
+            if auth_header and auth_header.startswith("Bearer "):
+                token = auth_header.split(" ")[1]
+                payload = verify_token(token)
+                current_user_id = payload.get("sub")
+        except:
+            pass
+        
+        # Parse JSON body if present (might contain current_user_id)
+        try:
+            body = await request.json() if request.headers.get("content-type") == "application/json" else {}
+            if not current_user_id and body.get("currentUserId"):
+                current_user_id = body.get("currentUserId")
+        except:
+            body = {}
+        
+        # If no auth token or body param, try query param or use default
+        if not current_user_id:
+            current_user_id = request.query_params.get("current_user") or "current_user"
+        
+        # Validate that user_id is provided and different from current_user_id
+        if not user_id:
+            raise HTTPException(status_code=400, detail="User ID is required")
+        if user_id == current_user_id:
+            raise HTTPException(status_code=400, detail="Cannot create thread with yourself")
+        
+        # Get database connection
+        db = get_db()
+        
+        # Check if thread already exists in MongoDB
+        # Convert to strings for consistent comparison
+        current_user_id_str = str(current_user_id) if current_user_id else "current_user"
+        user_id_str = str(user_id) if user_id else user_id
+        
+        existing_thread = await db.message_threads.find_one({
+            "$or": [
+                {"participant1_id": current_user_id_str, "participant2_id": user_id_str},
+                {"participant1_id": user_id_str, "participant2_id": current_user_id_str}
+            ]
+        })
+        
+        if existing_thread:
+            thread_id = existing_thread.get("thread_id")
+            print(f"[OK] Thread already exists: {thread_id}")
+            return {
+                "threadId": thread_id,
+                "userId": user_id,
+            }
+        
+        # Fetch user name from database for the target user (user_id)
+        other_user_name = "User"  # Default fallback
+        try:
+            other_user = await db.users.find_one({"_id": ObjectId(user_id)})
+            if other_user and other_user.get("name"):
+                other_user_name = other_user["name"]
+        except Exception as e:
+            print(f"[WARNING] Could not fetch user name for {user_id}: {e}")
+            # Continue with default name
+        
+        # Create new thread and save to MongoDB
+        # Ensure all IDs are strings for consistency
+        thread_id = str(uuid.uuid4())
+        current_user_id_str = str(current_user_id) if current_user_id else "current_user"
+        user_id_str = str(user_id) if user_id else user_id
+        
+        thread_doc = {
+            "thread_id": thread_id,
+            "participant1_id": current_user_id_str,  # Store as string for consistency
+            "participant2_id": user_id_str,  # Store as string for consistency
+            "other_user_id": user_id_str,  # The target user (the seller)
+            "other_user_name": other_user_name,
+            "created_at": datetime.utcnow(),
+            "updated_at": datetime.utcnow(),
+            "unread_count": 0,
+        }
+        
+        await db.message_threads.insert_one(thread_doc)
+        
+        print(f"[OK] Created DM thread {thread_id} in MongoDB between current_user={current_user_id} and other_user={user_id} (name: {other_user_name})")
+        print(f"[OK] Thread data: other_user_id={user_id}, other_user_name={other_user_name}")
+        
+        return {
+            "threadId": thread_id,
+            "userId": user_id,  # Return the target user's ID (the seller)
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"[WARNING] Error creating DM thread: {e}")
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail="Internal server error")
+
+
+@app.get("/api/messages/{thread_id}")
+async def get_thread_messages(thread_id: str, request: Request) -> Dict[str, Any]:
+    """
+    Get all messages for a thread from MongoDB.
+    """
+    try:
+        # Try to get current user from auth token
+        current_user_id = None
+        try:
+            auth_header = request.headers.get("Authorization")
+            if auth_header and auth_header.startswith("Bearer "):
+                token = auth_header.split(" ")[1]
+                payload = verify_token(token)
+                current_user_id = payload.get("sub")
+        except:
+            pass
+        
+        # If no auth token, try to get from query param or use default
+        if not current_user_id:
+            current_user_id = request.query_params.get("current_user") or "current_user"
+        
+        # Get database connection
+        db = get_db()
+        
+        # Load messages from MongoDB
+        messages_cursor = db.messages.find(
+            {"thread_id": thread_id}
+        ).sort("timestamp", 1)  # Sort by timestamp ascending (oldest first)
+        
+        formatted_messages = []
+        async for msg_doc in messages_cursor:
+            sender_id = msg_doc.get("sender_id", "unknown")
+            formatted_messages.append({
+                "id": str(msg_doc.get("_id", "")),
+                "senderId": sender_id,
+                "text": msg_doc.get("text", ""),
+                "timestamp": msg_doc.get("timestamp", datetime.utcnow()).isoformat(),
+                "isOwn": sender_id == current_user_id,
+            })
+        
+        print(f"[OK] Loaded {len(formatted_messages)} messages for thread {thread_id}")
+        
+        return {
+            "success": True,
+            "messages": formatted_messages,
+        }
+    except Exception as e:
+        print(f"[WARNING] Error getting thread messages: {e}")
+        import traceback
+        traceback.print_exc()
+        return {
+            "success": True,
+            "messages": [],
+        }
+
+
+@app.post("/api/messages/{thread_id}")
+async def send_thread_message(
+    thread_id: str, 
+    request: Request,
+    payload: MessageSendRequest = Body(...)
+) -> Dict[str, Any]:
+    """
+    Send a message in a thread and save to MongoDB.
+    """
+    try:
+        text = payload.text
+        sender_id = payload.senderId or "current_user"
+        
+        # Try to get current user from auth token
+        try:
+            auth_header = request.headers.get("Authorization")
+            if auth_header and auth_header.startswith("Bearer "):
+                token = auth_header.split(" ")[1]
+                token_payload = verify_token(token)
+                sender_id = token_payload.get("sub") or sender_id
+        except Exception as auth_error:
+            print(f"[WARNING] Auth token verification failed (using senderId from payload): {auth_error}")
+            pass
+        
+        if not text or not text.strip():
+            raise HTTPException(status_code=400, detail="Message text cannot be empty")
+        
+        print(f"[DEBUG] Sending message to thread {thread_id}, sender_id: {sender_id}, text: {text[:50]}...")
+        
+        # Get database connection
+        db = get_db()
+        if not db:
+            raise HTTPException(status_code=500, detail="Database connection failed")
+        
+        # Verify thread exists
+        thread_doc = await db.message_threads.find_one({"thread_id": thread_id})
+        if not thread_doc:
+            print(f"[ERROR] Thread {thread_id} not found in database")
+            print(f"[DEBUG] Attempting to find thread by participants to recover...")
+            # Try to find thread by participants as a fallback
+            # This handles cases where thread_id might be different but participants match
+            fallback_thread = await db.message_threads.find_one({
+                "$or": [
+                    {"participant1_id": sender_id},
+                    {"participant2_id": sender_id}
+                ]
+            })
+            if fallback_thread:
+                thread_id = fallback_thread.get("thread_id")
+                thread_doc = fallback_thread
+                print(f"[OK] Found fallback thread: {thread_id}")
+            else:
+                # If thread truly doesn't exist, return 404
+                raise HTTPException(status_code=404, detail=f"Thread not found: {thread_id}. Please create a conversation first.")
+        
+        # Determine receiver_id (the other participant)
+        participant1_id = thread_doc.get("participant1_id")
+        participant2_id = thread_doc.get("participant2_id")
+        other_user_id = thread_doc.get("other_user_id")
+        
+        print(f"[DEBUG] Thread participants: participant1_id={participant1_id}, participant2_id={participant2_id}, sender_id={sender_id}, other_user_id={other_user_id}")
+        
+        # Convert to strings for comparison to handle ObjectId vs string mismatches
+        participant1_id_str = str(participant1_id).strip() if participant1_id else ""
+        participant2_id_str = str(participant2_id).strip() if participant2_id else ""
+        sender_id_str = str(sender_id).strip() if sender_id else ""
+        other_user_id_str = str(other_user_id).strip() if other_user_id else ""
+        
+        # Determine receiver: it's the participant who is NOT the sender
+        receiver_id = None
+        
+        # Normalize for comparison (handle case-insensitive and whitespace)
+        sender_normalized = sender_id_str.lower() if sender_id_str else ""
+        p1_normalized = participant1_id_str.lower() if participant1_id_str else ""
+        p2_normalized = participant2_id_str.lower() if participant2_id_str else ""
+        other_normalized = other_user_id_str.lower() if other_user_id_str else ""
+        
+        # Strategy: If sender matches participant1, receiver is participant2 (and vice versa)
+        # If sender matches other_user_id, receiver is the current user (participant1 typically)
+        # If no clear match, use other_user_id as receiver (assuming sender is current user)
+        
+        if sender_normalized == p1_normalized:
+            # Sender is participant1, receiver is participant2
+            receiver_id = participant2_id_str
+        elif sender_normalized == p2_normalized:
+            # Sender is participant2, receiver is participant1
+            receiver_id = participant1_id_str
+        elif other_user_id_str and sender_normalized == other_normalized:
+            # Sender is the other user, receiver should be participant1 (current user)
+            receiver_id = participant1_id_str
+        elif other_user_id_str:
+            # Sender is likely the current user (participant1), receiver is the other user
+            receiver_id = other_user_id_str
+        else:
+            # Fallback: if sender is participant1, receiver is participant2, otherwise participant1
+            if sender_normalized == p1_normalized or (not sender_normalized and p1_normalized):
+                receiver_id = participant2_id_str
+            else:
+                receiver_id = participant1_id_str
+        
+        # Ensure we have a valid receiver
+        if not receiver_id or receiver_id == sender_id_str:
+            # Last resort: use the participant that's not the sender
+            if participant1_id_str and participant1_id_str != sender_id_str:
+                receiver_id = participant1_id_str
+            elif participant2_id_str and participant2_id_str != sender_id_str:
+                receiver_id = participant2_id_str
+            else:
+                receiver_id = other_user_id_str or participant2_id_str or participant1_id_str
+        
+        print(f"[DEBUG] Determined receiver: {receiver_id} (sender: {sender_id_str})")
+        
+        # Validate receiver_id is not empty
+        if not receiver_id or receiver_id.strip() == "":
+            print(f"[ERROR] Could not determine receiver_id for thread {thread_id}")
+            # Use the other participant as receiver
+            if participant1_id_str and participant1_id_str != sender_id_str:
+                receiver_id = participant1_id_str
+            elif participant2_id_str and participant2_id_str != sender_id_str:
+                receiver_id = participant2_id_str
+            else:
+                receiver_id = other_user_id_str or "unknown"
+        
+        # Create message document
+        message_doc = {
+            "thread_id": thread_id,
+            "sender_id": sender_id_str,  # Use string version for consistency
+            "receiver_id": str(receiver_id).strip(),  # Ensure receiver_id is a string
+            "text": text.strip(),
+            "timestamp": datetime.utcnow(),
+            "read": False,
+        }
+        
+        print(f"[DEBUG] Creating message document: thread_id={thread_id}, sender_id={sender_id_str}, receiver_id={receiver_id}, text_length={len(text)}")
+        
+        # Save message to MongoDB
+        try:
+            result = await db.messages.insert_one(message_doc)
+            message_id = str(result.inserted_id)
+            print(f"[OK] Message inserted with ID: {message_id}")
+        except Exception as insert_error:
+            print(f"[ERROR] Failed to insert message: {insert_error}")
+            raise HTTPException(status_code=500, detail=f"Failed to save message: {str(insert_error)}")
+        
+        # Verify the message was actually saved by reading it back
+        saved_message = await db.messages.find_one({"_id": result.inserted_id})
+        if not saved_message:
+            print(f"[WARNING] Message {message_id} was not found immediately after insert!")
+        else:
+            print(f"[OK] Verified message {message_id} was saved to MongoDB")
+        
+        # Update thread's updated_at timestamp
+        await db.message_threads.update_one(
+            {"thread_id": thread_id},
+            {"$set": {"updated_at": datetime.utcnow()}}
+        )
+        
+        print(f"[OK] Saved message {message_id} to MongoDB for thread {thread_id}")
+        print(f"[OK] From: {sender_id_str} -> To: {receiver_id}")
+        print(f"[OK] Message text: {text[:50]}...")  # Log first 50 chars for debugging
+        
+        return {
+            "success": True,
+            "messageId": message_id,
+            "text": text,  # Return the text so frontend can verify
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        error_msg = str(e)
+        print(f"[ERROR] Error sending message: {error_msg}")
+        import traceback
+        traceback.print_exc()
+        # Return more detailed error message for debugging
+        raise HTTPException(status_code=500, detail=f"Internal server error: {error_msg}")
 
 
 @app.get("/api/profiles/{user_id}/history")
@@ -2310,6 +2915,9 @@ async def register(user_data: UserCreate) -> Dict[str, Any]:
     result = await db.users.insert_one(user_doc)
     user_id = str(result.inserted_id)
     
+    # Add user name to cache immediately
+    _user_name_cache[user_id] = user_data.name
+    
     # Process bio with LLM to generate seller profile
     try:
         parsed_profile = await call_gemini_parser(
@@ -2341,6 +2949,15 @@ async def register(user_data: UserCreate) -> Dict[str, Any]:
             {"_id": ObjectId(user_id)},
             {"$set": {"seller_profile_id": profile_id, "updated_at": datetime.utcnow()}}
         )
+        
+        # Also add seller profile to in-memory seller_profiles for matching
+        seller_profiles[user_id] = {
+            "user_id": user_id,
+            "parsed_profile": parsed_profile,
+            "raw_text": user_data.bio,
+            "created_at": datetime.utcnow().isoformat(),
+            "source": "registered_user",
+        }
         
     except Exception as e:
         # If bio processing fails, user is still created but without seller profile
@@ -2431,11 +3048,16 @@ async def get_user_profile(user_id: str) -> Dict[str, Any]:
             {"_id": user["seller_profile_id"]}
         )
     
+    # Get inferred major from seller profile if available
+    inferred_major = None
+    if seller_profile and seller_profile.get("inferred_major"):
+        inferred_major = seller_profile["inferred_major"]
+    
     # Convert ObjectId to string
     user_response = {
         "id": str(user["_id"]),
-        "name": user["name"],
-        "email": user["email"],
+        "name": user.get("name", "User"),  # Use .get() with default to prevent KeyError
+        "email": user.get("email", ""),
         "location": user.get("location", ""),
         "bio": user.get("bio", ""),
         "verified": user.get("verified", False),
@@ -2443,6 +3065,7 @@ async def get_user_profile(user_id: str) -> Dict[str, Any]:
         "rating": user.get("rating", 0.0),
         "pastTrades": user.get("past_trades", 0),
         "badges": user.get("badges", []),
+        "inferredMajor": inferred_major,  # Include inferred major from seller profile
         "createdAt": user.get("created_at").isoformat() if user.get("created_at") else None,
         "updatedAt": user.get("updated_at").isoformat() if user.get("updated_at") else None,
     }
@@ -2503,7 +3126,11 @@ async def get_seller_profile(user_id: str) -> Dict[str, Any]:
 
 class ProcessBioRequest(BaseModel):
     bio: str
-    userId: str
+
+
+class MessageSendRequest(BaseModel):
+    text: str
+    senderId: Optional[str] = None
 
 
 @app.post("/api/seller-profiles/process-bio")

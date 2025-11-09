@@ -83,3 +83,33 @@ class UserResponse(BaseModel):
     badges: List[str]
     created_at: datetime
     updated_at: datetime
+
+
+class MessageSchema(BaseModel):
+    """Message schema for MongoDB."""
+    id: Optional[str] = Field(default=None, alias="_id")
+    thread_id: str
+    sender_id: str  # User ID of the sender
+    receiver_id: str  # User ID of the receiver
+    text: str
+    timestamp: datetime = Field(default_factory=datetime.utcnow)
+    read: bool = False
+    
+    class Config:
+        populate_by_name = True
+
+
+class MessageThreadSchema(BaseModel):
+    """Message thread schema for MongoDB."""
+    id: Optional[str] = Field(default=None, alias="_id")
+    thread_id: str  # Unique thread identifier
+    participant1_id: str  # First participant (current user or user1)
+    participant2_id: str  # Second participant (other user or user2)
+    other_user_id: str  # The other user's ID (for easier lookup)
+    other_user_name: Optional[str] = None  # Cached name of the other user
+    created_at: datetime = Field(default_factory=datetime.utcnow)
+    updated_at: datetime = Field(default_factory=datetime.utcnow)
+    unread_count: int = 0
+    
+    class Config:
+        populate_by_name = True

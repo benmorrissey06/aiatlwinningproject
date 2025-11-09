@@ -351,25 +351,37 @@ export function SmartPingMatchesPage() {
 
   const handleOpenMessage = useCallback(
     async (userId: string, displayName: string) => {
-      if (!userId) return
+      if (!userId) {
+        console.error('[handleOpenMessage] ❌ No userId provided')
+        toast.error('Unable to open messages: No user ID provided')
+        return
+      }
+      
+      console.log(`[handleOpenMessage] 🚀 Opening message with seller userId: ${userId}, displayName: ${displayName}`)
       setMessagingUserId(userId)
+      
       try {
-        const thread = await getOrCreateDM(userId)
-        const threadState = { openThread: thread.threadId, userId: thread.userId }
-        const hasThreadRoute =
-          typeof window !== 'undefined' &&
-          Boolean((window as Window & { __FLASH_HAS_MESSAGES_THREAD_ROUTE__?: boolean }).__FLASH_HAS_MESSAGES_THREAD_ROUTE__)
-
-        if (hasThreadRoute) {
-          navigate(`/messages/${thread.threadId}`, { state: threadState })
-        } else {
-          navigate({ pathname: '/messages', search: `?thread=${encodeURIComponent(thread.threadId)}` }, { state: threadState })
+        // Navigate immediately with userId - let MessagesChatPage handle thread creation/finding
+        // This is more reliable than trying to create thread here
+        const threadState = { 
+          userId: userId,  // The seller's userId - this is what we want to message
+          displayName: displayName 
         }
+        console.log(`[handleOpenMessage] ✅ Navigating to messages with state:`, threadState)
+        
+        // Navigate to messages page - it will handle finding or creating the thread
+        navigate('/messages', { 
+          state: threadState,
+          replace: false
+        })
       } catch (error) {
-        console.error('Failed to open direct message', error)
+        console.error('[handleOpenMessage] ❌ Failed to navigate to messages:', error)
         toast.error(`Unable to open messages with ${displayName}`)
       } finally {
-        setMessagingUserId((current) => (current === userId ? null : current))
+        // Don't clear messagingUserId immediately - let it stay until navigation completes
+        setTimeout(() => {
+          setMessagingUserId((current) => (current === userId ? null : current))
+        }, 1000)
       }
     },
     [navigate],

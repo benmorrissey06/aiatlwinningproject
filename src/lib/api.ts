@@ -55,73 +55,116 @@ export interface Flag {
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:8000'
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
+  // Get access token from localStorage if available
+  const accessToken = localStorage.getItem('accessToken')
+  
+  // Build headers object
+  const headers: Record<string, string> = {
+    'Content-Type': 'application/json',
+  }
+  
+  // Add existing headers from init if any
+  if (init?.headers) {
+    if (init.headers instanceof Headers) {
+      init.headers.forEach((value, key) => {
+        headers[key] = value
+      })
+    } else if (Array.isArray(init.headers)) {
+      init.headers.forEach(([key, value]) => {
+        headers[key] = value
+      })
+    } else {
+      Object.assign(headers, init.headers)
+    }
+  }
+  
+  // Add Authorization header if token is available
+  if (accessToken) {
+    headers['Authorization'] = `Bearer ${accessToken}`
+  }
+  
   const response = await fetch(`${API_BASE_URL}${path}`, {
-    headers: {
-      'Content-Type': 'application/json',
-      ...(init?.headers ?? {}),
-    },
     ...init,
+    headers,
   })
 
   if (!response.ok) {
     let detail: unknown
+    let errorMessage = `API request failed (${response.status} ${response.statusText})`
     try {
-      detail = await response.json()
+      const jsonDetail = await response.json()
+      detail = jsonDetail
+      // Try to extract a meaningful error message
+      if (jsonDetail && typeof jsonDetail === 'object') {
+        if ('detail' in jsonDetail) {
+          const detailValue = jsonDetail.detail
+          // Handle Pydantic validation errors (array of error objects)
+          if (Array.isArray(detailValue) && detailValue.length > 0) {
+            // Extract the first error message
+            const firstError = detailValue[0]
+            if (typeof firstError === 'object' && firstError !== null) {
+              if ('msg' in firstError) {
+                errorMessage = String(firstError.msg)
+                // Add location info if available
+                if ('loc' in firstError && Array.isArray(firstError.loc)) {
+                  errorMessage += ` (${firstError.loc.join(' -> ')})`
+                }
+              } else if ('message' in firstError) {
+                errorMessage = String(firstError.message)
+              } else {
+                errorMessage = JSON.stringify(firstError)
+              }
+            } else {
+              errorMessage = String(firstError)
+            }
+          } else if (typeof detailValue === 'string') {
+            errorMessage = detailValue
+          } else if (typeof detailValue === 'object' && detailValue !== null) {
+            // Try to extract message from nested object
+            if ('message' in detailValue) {
+              errorMessage = String(detailValue.message)
+            } else {
+              errorMessage = JSON.stringify(detailValue)
+            }
+          } else {
+            errorMessage = String(detailValue)
+          }
+        } else if ('message' in jsonDetail) {
+          errorMessage = String(jsonDetail.message)
+        } else if ('error' in jsonDetail) {
+          errorMessage = String(jsonDetail.error)
+        } else {
+          errorMessage = JSON.stringify(jsonDetail)
+        }
+      } else {
+        errorMessage = String(jsonDetail)
+      }
     } catch {
-      detail = await response.text()
+      try {
+        detail = await response.text()
+        errorMessage = String(detail) || errorMessage
+      } catch {
+        errorMessage = `HTTP ${response.status} ${response.statusText}`
+      }
     }
-    throw new Error(
-      `API request failed (${response.status} ${response.statusText}): ${typeof detail === 'string' ? detail : JSON.stringify(detail)}`,
-    )
+    // Create error with proper message
+    const error = new Error(errorMessage)
+    // Attach status code and detail to error for better handling
+    ;(error as any).status = response.status
+    ;(error as any).statusText = response.statusText
+    ;(error as any).detail = detail
+    ;(error as any).response = {
+      status: response.status,
+      statusText: response.statusText,
+      data: detail,
+    }
+    throw error
   }
 
   return response.json() as Promise<T>
 }
 
-// Mock seed data
-const mockUsers: CampusUser[] = [
-  { id: '1', name: 'Alex Chen', major: 'Computer Science', dorm: 'East Campus - Baker House', rating: 4.9, verified: true, trustScore: 95, pastTrades: 15, badges: ['Verified Student', 'Top Helper'] },
-  { id: '2', name: 'Jordan Smith', major: 'Biology', dorm: 'West Campus - Random Hall', rating: 4.8, verified: true, trustScore: 92, pastTrades: 22, badges: ['Verified Student', 'Campus Leader'] },
-  { id: '3', name: 'Taylor Johnson', major: 'Mathematics', dorm: 'North Campus - MacGregor House', rating: 4.7, verified: true, trustScore: 88, pastTrades: 10, badges: ['Verified Student'] },
-  { id: '4', name: 'Sam Williams', major: 'Physics', dorm: 'Central Campus - Next House', rating: 4.6, verified: true, trustScore: 85, pastTrades: 8, badges: ['Verified Student'] },
-  { id: '5', name: 'Morgan Davis', major: 'Engineering', dorm: 'East Campus - Simmons Hall', rating: 4.9, verified: true, trustScore: 93, pastTrades: 18, badges: ['Verified Student', 'Top Helper'] },
-  { id: '6', name: 'Casey Brown', major: 'Chemistry', dorm: 'West Campus - New House', rating: 4.5, verified: false, trustScore: 82, pastTrades: 5, badges: [] },
-  { id: '7', name: 'Riley Wilson', major: 'Economics', dorm: 'South Campus - Burton Conner', rating: 4.8, verified: true, trustScore: 90, pastTrades: 12, badges: ['Verified Student'] },
-  { id: '8', name: 'Avery Martinez', major: 'Psychology', dorm: 'North Campus - Maseeh Hall', rating: 4.7, verified: true, trustScore: 87, pastTrades: 9, badges: ['Verified Student'] },
-  { id: '9', name: 'Quinn Anderson', major: 'Mechanical Engineering', dorm: 'East Campus - McCormick Hall', rating: 4.4, verified: false, trustScore: 78, pastTrades: 3, badges: [] },
-  { id: '10', name: 'Sage Thompson', major: 'Architecture', dorm: 'West Campus - East Campus', rating: 4.9, verified: true, trustScore: 94, pastTrades: 20, badges: ['Verified Student', 'Top Helper'] },
-]
-
-const mockListings: Listing[] = [
-  { id: '1', title: 'Calculus Textbook - 3rd Edition', category: 'Textbooks', price: '$25', photo: '📚', owner: mockUsers[0], lastActive: '2024-01-15T10:30:00Z' },
-  { id: '2', title: 'MacBook Pro Charger', category: 'Electronics', price: '$15', photo: '🔌', owner: mockUsers[1], lastActive: '2024-01-15T09:15:00Z' },
-  { id: '3', title: 'Winter Jacket - Size M', category: 'Clothing', price: '$30', photo: '🧥', owner: mockUsers[2], lastActive: '2024-01-14T16:45:00Z' },
-  { id: '4', title: 'Organic Chemistry Lab Manual', category: 'Textbooks', price: '$20', photo: '📖', owner: mockUsers[3], lastActive: '2024-01-14T14:20:00Z' },
-  { id: '5', title: 'Wireless Mouse', category: 'Electronics', price: '$10', photo: '🖱️', owner: mockUsers[4], lastActive: '2024-01-14T11:00:00Z' },
-  { id: '6', title: 'Running Shoes - Size 9', category: 'Clothing', price: '$35', photo: '👟', owner: mockUsers[5], lastActive: '2024-01-13T18:30:00Z' },
-  { id: '7', title: 'Physics Textbook Bundle', category: 'Textbooks', price: '$40', photo: '📘', owner: mockUsers[6], lastActive: '2024-01-13T15:10:00Z' },
-  { id: '8', title: 'USB-C Hub', category: 'Electronics', price: '$18', photo: '🔗', owner: mockUsers[7], lastActive: '2024-01-12T20:00:00Z' },
-  { id: '9', title: 'Desk Lamp', category: 'Furniture', price: '$12', photo: '💡', owner: mockUsers[8], lastActive: '2024-01-12T13:25:00Z' },
-  { id: '10', title: 'Coffee Maker', category: 'Electronics', price: '$25', photo: '☕', owner: mockUsers[9], lastActive: '2024-01-11T19:45:00Z' },
-  { id: '11', title: 'Linear Algebra Textbook', category: 'Textbooks', price: '$28', photo: '📗', owner: mockUsers[0], lastActive: '2024-01-11T16:20:00Z' },
-  { id: '12', title: 'Backpack - Black', category: 'Clothing', price: '$22', photo: '🎒', owner: mockUsers[1], lastActive: '2024-01-10T21:30:00Z' },
-  { id: '13', title: 'Laptop Stand', category: 'Furniture', price: '$15', photo: '📱', owner: mockUsers[2], lastActive: '2024-01-10T14:15:00Z' },
-  { id: '14', title: 'Statistics Textbook', category: 'Textbooks', price: '$32', photo: '📊', owner: mockUsers[3], lastActive: '2024-01-09T17:50:00Z' },
-  { id: '15', title: 'Phone Charger Cable', category: 'Electronics', price: '$8', photo: '🔋', owner: mockUsers[4], lastActive: '2024-01-09T12:00:00Z' },
-  { id: '16', title: 'Hoodie - Size L', category: 'Clothing', price: '$28', photo: '👕', owner: mockUsers[5], lastActive: '2024-01-08T19:25:00Z' },
-  { id: '17', title: 'Study Desk', category: 'Furniture', price: '$45', photo: '🪑', owner: mockUsers[6], lastActive: '2024-01-08T10:40:00Z' },
-  { id: '18', title: 'Biology Lab Kit', category: 'Textbooks', price: '$35', photo: '🧪', owner: mockUsers[7], lastActive: '2024-01-07T15:55:00Z' },
-  { id: '19', title: 'Headphones', category: 'Electronics', price: '$30', photo: '🎧', owner: mockUsers[8], lastActive: '2024-01-07T11:20:00Z' },
-  { id: '20', title: 'Jeans - Size 32', category: 'Clothing', price: '$24', photo: '👖', owner: mockUsers[9], lastActive: '2024-01-06T18:10:00Z' },
-]
-
-const mockFlags: Flag[] = [
-  { id: '1', reason: 'Inappropriate language', snippet: 'User used offensive language in request', userId: '6', severity: 'medium', createdAt: '2024-01-15T08:00:00Z', status: 'pending' },
-  { id: '2', reason: 'Suspicious behavior', snippet: 'Multiple requests from same user in short time', userId: '9', severity: 'high', createdAt: '2024-01-14T16:30:00Z', status: 'pending' },
-  { id: '3', reason: 'Prohibited item', snippet: 'User attempted to list prohibited item', userId: '6', severity: 'critical', createdAt: '2024-01-14T10:15:00Z', status: 'resolved' },
-  { id: '4', reason: 'Fake listing', snippet: 'Listing appears to be fraudulent', userId: '9', severity: 'high', createdAt: '2024-01-13T14:20:00Z', status: 'pending' },
-  { id: '5', reason: 'Harassment', snippet: 'User reported for harassment', userId: '6', severity: 'critical', createdAt: '2024-01-12T09:45:00Z', status: 'pending' },
-]
+// All mock data removed - using backend API only
 
 type ListingsFilters = {
   search?: string
@@ -130,7 +173,7 @@ type ListingsFilters = {
   verifiedOnly?: boolean
 }
 
-// Mock API functions
+// API functions - all calls go to backend
 export const api = {
   createFlashRequest: async (
     payload: { text: string; metadata?: Record<string, unknown> },
@@ -210,109 +253,157 @@ export const api = {
         listings: response.listings || [],
       }
     } catch (error) {
-      console.error('Error fetching listings from backend, falling back to mock data:', error)
-      // Fallback to mock data if backend is unavailable
+      console.error('Error fetching listings from backend:', error)
+      // Return empty array if backend is unavailable
       return {
-        listings: mockListings.filter((listing) => {
-          if (category && category !== 'All' && listing.category !== category) return false
-          if (verifiedOnly && !listing.owner.verified) return false
-          if (search && !listing.title.toLowerCase().includes(search.toLowerCase())) return false
-          if (priceMax !== undefined) {
-            const numericPrice = Number(listing.price.replace(/[^0-9.]/g, ''))
-            if (!Number.isNaN(numericPrice) && numericPrice > priceMax) return false
-          }
-          return true
-        }),
+        listings: [],
       }
     }
   },
 
   getMessages: async (): Promise<{ success: boolean; threads: any[] }> => {
-    await new Promise((resolve) => setTimeout(resolve, 500))
-    
+    try {
+      // Try to fetch from backend first
+      const response = await request<{ success: boolean; threads: any[] }>('/api/messages')
+      if (response.success && response.threads) {
+        console.log('[api.getMessages] Fetched threads from backend:', response.threads)
+        return response
+      }
+    } catch (error) {
+      console.error('[api.getMessages] Failed to fetch from backend, using empty list:', error)
+    }
+    // Return empty list instead of mock data to avoid confusion
     return {
       success: true,
-      threads: [
-        {
-          id: '1',
-          userId: 'user1',
-          userName: mockUsers[0].name,
-          lastMessage: 'On my way!',
-          lastMessageTime: '2 min ago',
-          unread: 2,
-          avatar: '👤',
-        },
-        {
-          id: '2',
-          userId: 'user2',
-          userName: mockUsers[1].name,
-          lastMessage: 'See you at the library lobby',
-          lastMessageTime: '15 min ago',
-          unread: 0,
-          avatar: '👤',
-        },
-        {
-          id: '3',
-          userId: 'user3',
-          userName: mockUsers[2].name,
-          lastMessage: 'Perfect, thanks!',
-          lastMessageTime: '1 hour ago',
-          unread: 0,
-          avatar: '👤',
-        },
-      ],
+      threads: [],
     }
   },
 
   getThreadMessages: async (threadId: string): Promise<{ success: boolean; messages: any[] }> => {
-    await new Promise((resolve) => setTimeout(resolve, 300))
-    
-    const mockMessages: Record<string, any[]> = {
-      '1': [
-        { id: '1', senderId: 'user1', text: 'Hey! I have the textbook you need.', timestamp: '10:30 AM', isOwn: false },
-        { id: '2', senderId: 'me', text: 'Great! Where can we meet?', timestamp: '10:32 AM', isOwn: true },
-        { id: '3', senderId: 'user1', text: 'Student Center work?', timestamp: '10:33 AM', isOwn: false },
-        { id: '4', senderId: 'me', text: 'Perfect, see you there!', timestamp: '10:34 AM', isOwn: true },
-        { id: '5', senderId: 'user1', text: 'On my way!', timestamp: '10:40 AM', isOwn: false },
-      ],
-      '2': [
-        { id: '1', senderId: 'user2', text: 'I can help with that charger', timestamp: '9:15 AM', isOwn: false },
-        { id: '2', senderId: 'me', text: 'Awesome! When are you available?', timestamp: '9:20 AM', isOwn: true },
-        { id: '3', senderId: 'user2', text: 'See you at the library lobby', timestamp: '9:25 AM', isOwn: false },
-      ],
-      '3': [
-        { id: '1', senderId: 'user3', text: 'Thanks for the jacket!', timestamp: '8:00 AM', isOwn: false },
-        { id: '2', senderId: 'me', text: 'Perfect, thanks!', timestamp: '8:05 AM', isOwn: true },
-      ],
-    }
-    
-    return {
-      success: true,
-      messages: mockMessages[threadId] || [],
+    try {
+      console.log(`[api.getThreadMessages] Fetching messages for threadId: ${threadId}`)
+      const response = await request<{ success: boolean; messages: any[] }>(`/api/messages/${threadId}`)
+      console.log(`[api.getThreadMessages] Received ${response.messages?.length || 0} messages`)
+      
+      // Convert ISO timestamp to readable format and ensure all required fields
+      const messages = (response.messages || []).map(msg => ({
+        id: msg.id || msg._id || Math.random().toString(36),
+        senderId: msg.senderId || msg.sender_id || 'unknown',
+        text: msg.text || '',
+        timestamp: msg.timestamp 
+          ? new Date(msg.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+          : 'Just now',
+        isOwn: msg.isOwn !== undefined ? msg.isOwn : false,
+      }))
+      
+      console.log(`[api.getThreadMessages] Processed ${messages.length} messages`)
+      return {
+        success: true,
+        messages,
+      }
+    } catch (error) {
+      console.error('[api.getThreadMessages] ❌ Error fetching thread messages from backend:', error)
+      // Return empty array if backend is unavailable
+      return {
+        success: false,
+        messages: [],
+      }
     }
   },
 
   sendMessage: async (
      threadId: string,
      text: string,
-   ): Promise<{ success: boolean; messageId: string }> => {
-    void threadId
-    void text
-    await new Promise((resolve) => setTimeout(resolve, 200))
-    return { success: true, messageId: Math.random().toString(36).substr(2, 9) }
-  },
-
-  getProfile: async (userId?: string): Promise<{ success: boolean; user: CampusUser }> => {
-    await new Promise((resolve) => setTimeout(resolve, 300))
-    return {
-      success: true,
-      user: userId ? mockUsers.find(u => u.id === userId) || mockUsers[0] : mockUsers[0],
+   ): Promise<{ success: boolean; messageId: string; text?: string }> => {
+    try {
+      const currentUserId = localStorage.getItem('userId') || 'current_user'
+      console.log(`[api.sendMessage] Sending message to thread ${threadId}: "${text}"`)
+      
+      const response = await request<{ success: boolean; messageId: string; text?: string }>(`/api/messages/${threadId}`, {
+        method: 'POST',
+        body: JSON.stringify({
+          text,
+          senderId: currentUserId,
+        }),
+      })
+      
+      console.log(`[api.sendMessage] ✅ Backend response:`, response)
+      
+      // Ensure response has required fields
+      if (response && (response.success || response.messageId)) {
+        return {
+          success: response.success !== false, // Default to true if not explicitly false
+          messageId: response.messageId || '',
+          text: response.text || text, // Use original text if response doesn't have it
+        }
+      }
+      
+      // If response doesn't have expected structure, but no error was thrown, assume success
+      console.warn('[api.sendMessage] Response structure unexpected, but assuming success:', response)
+      return {
+        success: true,
+        messageId: (response as any).messageId || 'unknown',
+        text: text,
+      }
+    } catch (error) {
+      console.error('[api.sendMessage] ❌ Error sending message to backend:', error)
+      
+      // Check if error is actually a success response that was mis-parsed
+      if (error && typeof error === 'object' && 'status' in error) {
+        const status = (error as any).status
+        // If status is 200-299, the message was actually sent successfully
+        if (status >= 200 && status < 300) {
+          console.log('[api.sendMessage] Error has success status, message was sent successfully')
+          // Try to extract response data from error
+          const detail = (error as any).detail
+          if (detail && typeof detail === 'object' && 'messageId' in detail) {
+            return {
+              success: true,
+              messageId: detail.messageId || '',
+              text: detail.text || text,
+            }
+          }
+        }
+      }
+      
+      // Don't return fake success - throw error so caller can handle it
+      throw error
     }
   },
 
-  updateProfile: async (userId: string, data: Partial<CampusUser>): Promise<{ success: boolean }> => {
-    await new Promise((resolve) => setTimeout(resolve, 500))
-    return { success: true }
+  getProfile: async (userId?: string): Promise<{ success: boolean; user: CampusUser }> => {
+    if (!userId) {
+      throw new Error('UserId is required to fetch profile')
+    }
+    
+    try {
+      const response = await request<{ user: any }>(`/api/users/${userId}/profile`)
+      // Map backend response to CampusUser format
+      const user: CampusUser = {
+        id: response.user.id,
+        name: response.user.name || 'User',
+        major: response.user.major || response.user.inferredMajor || 'Undeclared',
+        dorm: response.user.dorm || response.user.location || 'Not specified',
+        verified: response.user.verified || false,
+        trustScore: response.user.trustScore || 70,
+        rating: response.user.rating || 0,
+        pastTrades: response.user.pastTrades || 0,
+        badges: response.user.badges || [],
+      }
+      return {
+        success: true,
+        user,
+      }
+    } catch (error) {
+      console.error('Error fetching user profile from backend:', error)
+      // Return a default user object on error
+      throw new Error(`Failed to fetch user profile for userId: ${userId}`)
+    }
+  },
+
+  updateProfile: async (_userId: string, _data: Partial<CampusUser>): Promise<{ success: boolean }> => {
+    // TODO: Implement profile update endpoint
+    throw new Error('Profile update not yet implemented')
   },
 
   getSafetyInfo: async (): Promise<{ success: boolean; info: any }> => {
@@ -328,29 +419,39 @@ export const api = {
   },
 
   getFlags: async (): Promise<{ success: boolean; flags: Flag[] }> => {
-    await new Promise((resolve) => setTimeout(resolve, 500))
-    return {
-      success: true,
-      flags: mockFlags,
+    try {
+      const response = await request<{ success: boolean; flags: Flag[] }>('/api/flags')
+      return response
+    } catch (error) {
+      console.error('Error fetching flags from backend:', error)
+      // Return empty array if backend is unavailable
+      return {
+        success: true,
+        flags: [],
+      }
     }
   },
 
   resolveFlag: async (flagId: string, action: 'resolve' | 'dismiss'): Promise<{ success: boolean }> => {
-    await new Promise((resolve) => setTimeout(resolve, 500))
-    const flag = mockFlags.find(f => f.id === flagId)
-    if (flag) {
-      flag.status = action === 'resolve' ? 'resolved' : 'dismissed'
+    try {
+      const response = await request<{ success: boolean }>(`/api/flags/${flagId}`, {
+        method: 'POST',
+        body: JSON.stringify({ action }),
+      })
+      return response
+    } catch (error) {
+      console.error('Error resolving flag:', error)
+      throw new Error(`Failed to ${action} flag: ${flagId}`)
     }
-    return { success: true }
   },
 
   // Legacy aliases for backward compatibility
   getListings: async (filters: any) => api.searchListings(filters),
   pingMatches: async (requestId: string, matchIds: string[], broadcastType?: 'narrow' | 'wide') => 
     api.sendPings(requestId, matchIds, broadcastType),
-  submitRating: async (threadId: string, rating: number, comment: string): Promise<{ success: boolean }> => {
-    await new Promise((resolve) => setTimeout(resolve, 500))
-    return { success: true }
+  submitRating: async (_threadId: string, _rating: number, _comment: string): Promise<{ success: boolean }> => {
+    // TODO: Implement rating submission endpoint
+    throw new Error('Rating submission not yet implemented')
   },
 
   seedProfiles: async (limit = 150) => {
