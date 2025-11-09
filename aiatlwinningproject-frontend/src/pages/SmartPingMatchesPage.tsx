@@ -509,10 +509,17 @@ export function SmartPingMatchesPage() {
           duration: 5000,
         })
         
-        // If request not found, allow user to create a new one
+        // If request not found, redirect to request page or demo
         if (errorMessage.includes('not found') || errorMessage.includes('404')) {
-          // Don't set requestData to null immediately - let user see the error
-          // They can navigate back to create a new request
+          // Try to load demo matches as fallback
+          setTimeout(() => {
+            // Redirect to REQUEST page so user can create a new flash find
+            navigate('/request', { 
+              state: { 
+                message: 'Your previous request expired. Please create a new Flash Find.' 
+              } 
+            })
+          }, 2000)
         }
       } finally {
         setLoading(false)

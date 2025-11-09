@@ -2125,7 +2125,9 @@ async def create_flash_request(payload: FlashRequestCreate) -> Dict[str, Any]:
                 print(f"[OK] Flash request {request_id} verified in memory after building matches")
             return result
         except Exception as e:
+            import traceback
             print(f"[WARNING] Failed to build match payload: {e}")
+            print(f"[DEBUG] Traceback: {traceback.format_exc()}")
             # Verify the request is still stored even if matching failed
             if request_id not in flash_requests:
                 print(f"[ERROR] Flash request {request_id} was lost after matching failure!")
@@ -3196,22 +3198,25 @@ async def register(user_data: UserCreate) -> Dict[str, Any]:
         )
         
         # Also add seller profile to in-memory seller_profiles for matching
-        # Create a representative item from the first sales history entry if available
+        # Create a representative item from profile data
         representative_item = None
-        sales_history = parsed_profile.get("sales_history_summary", [])
-        if sales_history:
-            first_sale = sales_history[0]
+        
+        # Try to create a representative item from related categories or profile keywords
+        categories = parsed_profile.get("related_categories_of_interest", [])
+        keywords = parsed_profile.get("profile_keywords", [])
+        
+        if categories or keywords:
             representative_item = {
                 "item_meta": {
-                    "parsed_item": first_sale.get("title", "Item"),
-                    "category": parsed_profile.get("related_categories_of_interest", ["Other"])[0] if parsed_profile.get("related_categories_of_interest") else "Other",
-                    "tags": []
+                    "parsed_item": categories[0] if categories else (keywords[0] if keywords else "Item"),
+                    "category": categories[0] if categories else "Other",
+                    "tags": keywords[:3] if keywords else []  # Use first 3 keywords as tags
                 }
             }
         
         seller_profiles[user_id] = {
             "user_id": user_id,
-            "parsed_profile": parsed_profile,
+            "parsed_profile": parsed_profile if parsed_profile else {},  # Ensure it's never None
             "raw_text": user_data.bio,
             "representative_item": representative_item,
             "created_at": datetime.utcnow().isoformat(),
