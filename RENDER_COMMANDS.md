@@ -17,13 +17,12 @@ GEMINI_API_KEY = your_gemini_api_key_here
 
 ---
 
-### 2. Backend Service (Web Service - Python)
+### 2. **Backend Service** (Web Service)
 ```
-Root Directory:    aiatlwinningproject-backend  
-Build Command:     pip install -r requirements.txt
-Start Command:     uvicorn app:app --host 0.0.0.0 --port $PORT
-Environment:       Python 3
+Build Command:  pip install -r requirements.txt
+Start Command:  python -m uvicorn app:app --host 0.0.0.0 --port $PORT
 ```
+**Note**: Use `python -m uvicorn` for proper module resolution
 
 **Environment Variables:**
 ```
@@ -77,7 +76,7 @@ Action:       Rewrite
 4. Root Directory: `aiatlwinningproject-backend`
 5. Environment: **Python 3**
 6. Build Command: `pip install -r requirements.txt`
-7. Start Command: `uvicorn app:app --host 0.0.0.0 --port $PORT`
+7. Start Command: `python -m uvicorn app:app --host 0.0.0.0 --port $PORT`
 8. Add Environment Variables:
    - `MONGODB_URI`: Your MongoDB Atlas connection string
    - `JWT_SECRET`: Generate with `openssl rand -hex 32`

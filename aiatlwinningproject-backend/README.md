@@ -31,11 +31,15 @@ Note: When running locally, the `app.py` imports will need to be adjusted:
 2. Connect your repository
 3. Set the root directory to `aiatlwinningproject-backend`
 4. Build Command: `pip install -r requirements.txt`
-5. Start Command: `uvicorn app:app --host 0.0.0.0 --port $PORT`
+5. Start Command: `python -m uvicorn app:app --host 0.0.0.0 --port $PORT`
+   - **Note**: Use `python -m uvicorn` instead of just `uvicorn` to ensure proper module resolution
+   - Alternative if that doesn't work: `cd aiatlwinningproject-backend && uvicorn app:app --host 0.0.0.0 --port $PORT`
 6. Add environment variables:
    - `MONGODB_URI`
    - `JWT_SECRET`
    - `GEMINI_SERVICE_URL`
+   
+**Important**: Make sure the "Root Directory" is set to `aiatlwinningproject-backend` in Render settings.
 
 ## API Endpoints
 

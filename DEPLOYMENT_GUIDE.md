@@ -44,7 +44,7 @@ The application consists of three separate services:
    - **Root Directory**: `aiatlwinningproject-backend`
    - **Environment**: `Python 3`
    - **Build Command**: `pip install -r requirements.txt`
-   - **Start Command**: `uvicorn app:app --host 0.0.0.0 --port $PORT`
+   - **Start Command**: `python -m uvicorn app:app --host 0.0.0.0 --port $PORT`
 5. Add Environment Variables:
    - `MONGODB_URI`: Your MongoDB connection string from MongoDB Atlas
    - `JWT_SECRET`: A random secure string (e.g., `openssl rand -hex 32`)
