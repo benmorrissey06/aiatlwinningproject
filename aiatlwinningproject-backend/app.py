@@ -1671,7 +1671,7 @@ async def fetch_user_name_from_db(user_id: str) -> str:
     
     try:
         db = get_db()
-        if db:
+        if db is not None:
             # Try to find user by ObjectId
             try:
                 user = await db.users.find_one({"_id": ObjectId(user_id)})
@@ -1867,7 +1867,7 @@ async def build_match_payload(request_id: str, request_record: Dict[str, Any]) -
     user_ids_to_fetch = list(set([profile["user_id"] for profile in seller_profiles.values()]))
     try:
         db = get_db()
-        if db:
+        if db is not None:
             # Fetch all users in parallel
             fetch_tasks = []
             valid_user_ids = []
@@ -1893,6 +1893,11 @@ async def build_match_payload(request_id: str, request_record: Dict[str, Any]) -
         print(f"[WARNING] Could not pre-fetch user names: {e}")
 
     for profile in seller_profiles.values():
+        # Add defensive check for parsed_profile
+        if not profile.get("parsed_profile"):
+            print(f"[WARNING] Skipping profile {profile.get('user_id')} - missing parsed_profile")
+            continue
+            
         probability, activated = encode_and_score(request_record, profile)
         rng = pseudo_random(f"{request_id}::{profile['user_id']}")
         distance_minutes = round(rng.uniform(0.2, 3.5), 2)
@@ -2014,7 +2019,7 @@ async def startup_event() -> None:
         # Pre-populate user name cache from database
         try:
             db = get_db()
-            if db:
+            if db is not None:
                 users_cursor = db.users.find({})
                 users = await users_cursor.to_list(length=1000)
                 for user in users:
