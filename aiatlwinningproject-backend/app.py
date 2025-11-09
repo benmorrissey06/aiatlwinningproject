@@ -1681,6 +1681,12 @@ def score_profile_for_ui(profile: Dict[str, Any], request_id: str) -> Dict[str, 
 
 def compute_shared_traits(request: Dict[str, Any], profile: Dict[str, Any], item: Optional[Dict[str, Any]]) -> List[str]:
     traits: List[str] = []
+    # Handle None/empty request gracefully
+    if not request:
+        request = {}
+    if not profile:
+        profile = {}
+    
     request_category = (request.get("item_meta") or {}).get("category")
     item_category = (item or {}).get("item_meta", {}).get("category") if item else None
     seller_major = profile.get("inferred_major")
@@ -1698,9 +1704,15 @@ def compute_shared_traits(request: Dict[str, Any], profile: Dict[str, Any], item
 
 
 def encode_and_score(request_record: Dict[str, Any], profile_record: Dict[str, Any]) -> Tuple[float, List[Tuple[str, float]]]:
+    # Ensure parsed_request exists in request_record
+    parsed_request = request_record.get("parsed_request")
+    if not parsed_request:
+        print(f"[WARNING] encode_and_score: Missing parsed_request in request_record")
+        parsed_request = {}
+    
     feature_row, activated = encoder.encode(
-        request_record["parsed_request"],
-        profile_record["parsed_profile"],
+        parsed_request,
+        profile_record.get("parsed_profile", {}),
         profile_record.get("representative_item"),
     )
     probabilities = model.predict_proba([feature_row])[0]
@@ -1843,7 +1855,7 @@ async def build_match_payload(request_id: str, request_record: Dict[str, Any]) -
         rng = pseudo_random(f"{request_id}::{profile['user_id']}")
         distance_minutes = round(rng.uniform(0.2, 3.5), 2)
         traits = compute_shared_traits(
-            request_record["parsed_request"],
+            parsed_request,  # Use the validated parsed_request variable instead of accessing dict key
             profile["parsed_profile"],
             profile.get("representative_item"),
         )
