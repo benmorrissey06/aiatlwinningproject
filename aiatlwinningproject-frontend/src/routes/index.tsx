@@ -83,7 +83,7 @@ const appRoutes: RouteObject[] = [
             <h1 className="text-3xl font-bold mb-6">Terms of Service</h1>
             <div className="prose dark:prose-invert">
               <p className="text-muted-foreground">
-                By using Flash Request, you agree to our terms of service. 
+                By using Flash Find, you agree to our terms of service. 
                 Please read carefully before using our platform.
               </p>
               <h2 className="text-2xl font-semibold mt-8 mb-4">User Responsibilities</h2>
@@ -103,7 +103,7 @@ const appRoutes: RouteObject[] = [
             <h1 className="text-3xl font-bold mb-6">Prohibited Items</h1>
             <div className="prose dark:prose-invert">
               <p className="text-muted-foreground mb-6">
-                The following items are prohibited from being listed or exchanged on Flash Request:
+                The following items are prohibited from being listed or exchanged on Flash Find:
               </p>
               <ul className="list-disc list-inside space-y-2 text-muted-foreground">
                 <li>Alcohol and tobacco products</li>

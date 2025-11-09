@@ -150,7 +150,7 @@ export default function CreateFlashRequest() {
       })
       
       if (result && result.id) {
-        console.log(`[CreateFlashRequest] ✅ Flash request created successfully with ID: ${result.id}`)
+        console.log(`[CreateFlashRequest] ✅ Flash find created successfully with ID: ${result.id}`)
         console.log(`[CreateFlashRequest] Response data:`, result.data)
         
         // Check if we already have matches in the response (from create endpoint)
@@ -168,7 +168,7 @@ export default function CreateFlashRequest() {
         } else {
           // If no matches in response, navigate normally and let Smart-Ping fetch them
           console.log(`[CreateFlashRequest] ⚠️ Response doesn't include matches, Smart-Ping will fetch them`)
-          toast.success("Flash Request submitted", {
+          toast.success("Flash Find submitted", {
             description: `Request ID: ${result.id}`,
           })
           // Small delay to ensure backend has stored the request
@@ -180,10 +180,10 @@ export default function CreateFlashRequest() {
         throw new Error("Invalid response from server: missing request ID")
       }
     } catch (submissionError: any) {
-      console.error("Flash Request submission error:", submissionError)
+      console.error("Flash Find submission error:", submissionError)
       
       // Extract error message with better handling for network errors
-      let errorMessage = "Failed to submit Flash Request"
+      let errorMessage = "Failed to submit Flash Find"
       if (submissionError instanceof Error) {
         errorMessage = submissionError.message
         // Check for specific error types
@@ -209,7 +209,7 @@ export default function CreateFlashRequest() {
       }
       
       // Show error with helpful message
-      toast.error("Failed to submit Flash Request", {
+      toast.error("Failed to submit Flash Find", {
         description: errorMessage,
         duration: 5000, // Show for 5 seconds
       })
@@ -256,7 +256,7 @@ export default function CreateFlashRequest() {
           <h1 className="mt-4 text-4xl font-extrabold leading-[1.05] tracking-tight md:text-5xl">
             Create {" "}
             <span className="bg-gradient-to-r from-fuchsia-500 via-pink-500 to-rose-500 bg-clip-text text-transparent">
-              Flash Request
+              Flash Find
             </span>
           </h1>
 
@@ -484,7 +484,7 @@ export default function CreateFlashRequest() {
 
       <button
         onClick={resetToFirst}
-        aria-label="Start new flash request"
+        aria-label="Start new flash find"
         className="fixed bottom-6 right-6 z-40 rounded-full p-4 text-white shadow-[0_16px_32px_rgba(244,63,94,0.4)] transition hover:brightness-110 active:translate-y-[1px] focus:outline-none focus:ring-4 focus:ring-rose-500/50 md:p-5"
         style={{
           background:

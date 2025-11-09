@@ -69,7 +69,7 @@ const tabs = [
 ]
 
 const mockActivity = [
-  { id: '1', type: 'request', title: 'Created Flash Request', time: '2 hours ago', icon: Package },
+  { id: '1', type: 'request', title: 'Created Flash Find', time: '2 hours ago', icon: Package },
   { id: '2', type: 'message', title: 'Sent message to Alex Chen', time: '5 hours ago', icon: MessageSquare },
   { id: '3', type: 'completed', title: 'Completed exchange with Jordan Smith', time: '1 day ago', icon: CheckCircle2 },
 ]

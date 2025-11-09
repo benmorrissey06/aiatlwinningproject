@@ -499,7 +499,7 @@ export function SmartPingMatchesPage() {
         if (errorMessage.includes('Cannot connect to backend')) {
           errorMessage = 'Backend server is not running. Please start the backend server on port 8000.'
         } else if (errorMessage.includes('404') || errorMessage.includes('not found')) {
-          errorMessage = `Flash request with ID "${requestId}" not found. It may have expired or been deleted.`
+          errorMessage = `Flash find with ID "${requestId}" not found. It may have expired or been deleted.`
         } else if (errorMessage.includes('Network')) {
           errorMessage = 'Network error: Please check your connection and ensure the backend server is running.'
         }
@@ -762,7 +762,7 @@ export function SmartPingMatchesPage() {
             transition={{ duration: 0.5 }}
             className="rounded-2xl border border-border bg-card p-6 sticky top-4 shadow-md"
           >
-            <h2 className="text-xl xl:text-2xl font-bold mb-4">Your Flash Request</h2>
+            <h2 className="text-xl xl:text-2xl font-bold mb-4">Your Flash Find</h2>
 
             <div className="space-y-4">
               <div>

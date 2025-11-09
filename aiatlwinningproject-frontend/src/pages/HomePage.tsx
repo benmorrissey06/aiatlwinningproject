@@ -94,7 +94,7 @@ export function HomePage() {
 
       <button
         onClick={() => navigate('/request/create')}
-        aria-label="Create Flash Request"
+        aria-label="Create Flash Find"
         className="fixed bottom-6 right-6 z-50 rounded-full p-4 text-white shadow-[0_16px_40px_rgba(244,63,94,0.45)] transition hover:brightness-110 active:translate-y-[1px] focus:outline-none focus:ring-4 focus:ring-rose-500/30 md:p-5"
         style={{
           background:

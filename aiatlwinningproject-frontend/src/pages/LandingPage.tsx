@@ -23,7 +23,7 @@ export function LandingPage() {
           </motion.div>
           
           <h2 className="text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
-            Flash Request
+            Flash Find
           </h2>
           
           <p className="text-xl text-muted-foreground mb-4">
@@ -44,7 +44,7 @@ export function LandingPage() {
           >
             <div className="p-6 rounded-lg border border-border bg-card">
               <Zap className="h-8 w-8 text-primary mb-4 mx-auto" />
-              <h3 className="font-semibold mb-2">Flash Requests</h3>
+              <h3 className="font-semibold mb-2">Flash Finds</h3>
               <p className="text-sm text-muted-foreground">
                 Post your urgent needs instantly and get quick responses
               </p>

@@ -151,10 +151,10 @@ export function FlashRequestWizardPage() {
           source: 'FlashRequestWizard',
         },
       })
-      toast.success('Flash Request created successfully!')
+      toast.success('Flash Find created successfully!')
       navigate(`/smart-ping?requestId=${result.id}`)
     } catch (error) {
-      toast.error('Failed to create Flash Request. Please try again.')
+      toast.error('Failed to create Flash Find. Please try again.')
       console.error(error)
     } finally {
       setIsSubmitting(false)
@@ -405,7 +405,7 @@ export function FlashRequestWizardPage() {
             <div className="space-y-6 p-6 md:p-8">
               <div>
                 <h1 className="text-3xl font-semibold tracking-[-0.01em] text-foreground md:text-4xl">
-                  Create Flash Request
+                  Create Flash Find
                 </h1>
                 <div className="mt-3 h-px bg-gradient-to-r from-transparent via-black/10 to-transparent dark:via-white/10" />
               </div>

@@ -70,7 +70,7 @@ export function ListingsSearchPage() {
     if (listing.title) params.append('item', listing.title)
     if (listing.category) params.append('category', listing.category)
     navigate(`/request/create?${params.toString()}`)
-    toast.success('Creating flash request', {
+    toast.success('Creating flash find', {
       description: 'Fill out the form to post your request',
     })
   }

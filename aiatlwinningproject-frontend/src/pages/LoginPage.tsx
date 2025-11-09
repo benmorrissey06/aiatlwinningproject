@@ -132,8 +132,8 @@ export function LoginPage() {
             </h1>
             <p className="text-muted-foreground">
               {isLogin
-                ? 'Sign in to continue to Flash Request'
-                : 'Join Flash Request and start trading'}
+                ? 'Sign in to continue to Flash Find'
+                : 'Join Flash Find and start trading'}
             </p>
           </div>
 
