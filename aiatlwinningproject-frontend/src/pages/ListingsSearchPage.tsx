@@ -33,7 +33,6 @@ export function ListingsSearchPage() {
       const result = await api.searchListings({
         search: searchQuery,
         category: category !== 'All' ? category : undefined,
-        distance: distance !== 'All' ? distance : undefined,
         priceMax: priceMax ? Number(priceMax) : undefined,
         verifiedOnly,
       })

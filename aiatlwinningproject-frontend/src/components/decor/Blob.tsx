@@ -2,7 +2,7 @@ import type { HTMLAttributes } from 'react'
 import { motion, useReducedMotion } from 'framer-motion'
 import { cn } from '@/lib/utils'
 
-interface BlobProps extends HTMLAttributes<HTMLDivElement> {
+interface BlobProps extends Omit<HTMLAttributes<HTMLDivElement>, 'onAnimationStart' | 'onAnimationEnd' | 'onAnimationIteration'> {
   colorClassName?: string
   size?: number
 }

@@ -55,6 +55,7 @@ interface UserData {
   rating: number
   pastTrades: number
   badges: string[]
+  avatar?: string
   sellerProfile?: SellerProfile
 }
 

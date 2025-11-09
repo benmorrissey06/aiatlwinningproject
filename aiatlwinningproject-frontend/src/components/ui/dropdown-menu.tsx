@@ -13,7 +13,6 @@ const DropdownMenu = ({ children }: { children: React.ReactNode }) => {
 
   React.useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      const target = event.target as Node
       if (open && !(event.target as Element).closest('[data-dropdown]')) {
         setOpen(false)
       }
