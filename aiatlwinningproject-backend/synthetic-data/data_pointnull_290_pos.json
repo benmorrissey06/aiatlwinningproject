@@ -1,0 +1,131 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "small table",
+      "category": "furniture",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need a small table for my dorm room by this weekend."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_401",
+    "context": {
+      "original_text": "Selling off my old dorm furniture and decor. Moving out end of semester!"
+    },
+    "profile_keywords": [
+      "dorm furniture",
+      "home decor",
+      "moving sale",
+      "used items",
+      "college essentials"
+    ],
+    "inferred_major": "Architecture",
+    "inferred_location_keywords": [
+      "campus housing",
+      "dorms",
+      "student apartments"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "furniture",
+        "item_examples": [
+          "bedside table",
+          "desk lamp",
+          "small bookshelf"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini fridge",
+          "storage bins"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "furniture",
+      "dorm_essentials",
+      "home_goods",
+      "organization"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "IKEA LACK side table",
+      "category": "furniture",
+      "tags": [
+        "side table",
+        "dorm furniture",
+        "IKEA",
+        "white"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "18x18x18 inches",
+        "color": "white",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "particleboard",
+        "brand": "IKEA"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "decluttering dorm room",
+      "original_text": "Small white IKEA LACK side table, perfect for dorms. Good condition."
+    },
+    "location": {
+      "text_input": "near campus dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

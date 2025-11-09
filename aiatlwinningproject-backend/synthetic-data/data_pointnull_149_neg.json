@@ -1,0 +1,142 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "power bank",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "Anyone have a power bank? Need it for my phone."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_jane_smith",
+    "context": {
+      "original_text": "I sell handmade jewelry and some vintage clothes. Also, sometimes lend out my dorm sewing machine."
+    },
+    "profile_keywords": [
+      "jewelry",
+      "vintage clothes",
+      "handmade",
+      "fashion",
+      "crafts",
+      "dorm essentials",
+      "sewing"
+    ],
+    "inferred_major": "Art History",
+    "inferred_location_keywords": [
+      "art building",
+      "campus dorms",
+      "student market"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "vintage jacket",
+          "scarf"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "accessories",
+        "item_examples": [
+          "earrings",
+          "necklace"
+        ],
+        "total_items_sold": 20,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "sewing machine"
+        ],
+        "total_items_sold": 1,
+        "avg_price_per_item": null,
+        "dominant_transaction_type_in_category": "lend"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "craft_supplies",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Handmade Beaded Necklace",
+      "category": "accessories",
+      "tags": [
+        "beaded",
+        "handmade",
+        "jewelry",
+        "fashion"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "adjustable",
+        "color": "multi-color",
+        "condition_requested": [
+          "new",
+          "like-new"
+        ]
+      },
+      "secondary": {
+        "material": "glass beads, string",
+        "brand": "Jane's Crafts"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 20.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "selling off extra inventory",
+      "original_text": "Handmade beaded necklace, great gift idea!"
+    },
+    "location": {
+      "text_input": "campus market stall",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

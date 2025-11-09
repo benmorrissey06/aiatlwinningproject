@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "art supplies",
+      "category": "art_supplies",
+      "tags": [
+        "brushes",
+        "paint"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 10
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "Need some art supplies for a project, like brushes or paint, cheap."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_tech_007",
+    "context": {
+      "original_text": "I'm a computer science student selling my old gaming gear and electronics to fund new upgrades. Good deals!"
+    },
+    "profile_keywords": [
+      "gaming",
+      "electronics",
+      "tech",
+      "computer science",
+      "peripherals"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering building",
+      "dorm E"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C charger",
+          "portable speaker",
+          "HDMI cable"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 28.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "gaming mouse",
+          "controller",
+          "headset"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "accessories",
+      "computer_hardware"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wireless Gaming Headset",
+      "category": "gaming",
+      "tags": [
+        "audio",
+        "microphone",
+        "wireless",
+        "PC",
+        "console"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "adjustable",
+        "color": "black",
+        "condition_requested": [
+          "used - good",
+          "fully functional"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, memory foam",
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 55.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": null
+    },
+    "location": {
+      "text_input": "engineering building main lobby",
+      "device_gps": {
+        "lat": 34.0725,
+        "lng": -118.4411
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

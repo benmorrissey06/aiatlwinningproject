@@ -1,0 +1,136 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "calculator",
+      "category": "school_supplies",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need a calculator for my exam next week."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_fashionista_789",
+    "context": {
+      "original_text": "Selling unique vintage clothing, mostly dresses, skirts, and accessories. Clearing out my closet before I move!"
+    },
+    "profile_keywords": [
+      "vintage",
+      "clothing",
+      "fashion",
+      "accessories",
+      "dresses",
+      "skirts",
+      "thrifted"
+    ],
+    "inferred_major": "Fashion Design",
+    "inferred_location_keywords": [
+      "campus",
+      "dorm",
+      "fashion district"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "vintage denim jacket",
+          "floral midi dress",
+          "graphic t-shirt"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "accessories",
+        "item_examples": [
+          "scarf",
+          "sunglasses",
+          "small handbag"
+        ],
+        "total_items_sold": 10,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "vintage",
+      "fashion"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Vintage Floral Midi Dress",
+      "category": "apparel",
+      "tags": [
+        "vintage",
+        "floral",
+        "midi",
+        "dress",
+        "summer"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "navy blue with floral print",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "rayon",
+        "brand": "Unbranded (vintage)"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "clearing out closet space",
+      "original_text": "Beautiful vintage floral midi dress, size M. Perfect for summer! Rayon material, in good used condition."
+    },
+    "location": {
+      "text_input": "Campus Dorm Lobby",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

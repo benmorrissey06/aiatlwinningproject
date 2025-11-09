@@ -1,0 +1,126 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "stapler",
+      "category": "school_supplies",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need a stapler by tomorrow night, nothing fancy just a basic one."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_fashionista_789",
+    "context": {
+      "original_text": "Always selling off my latest fashion finds or vintage clothes. Love helping people find their style!"
+    },
+    "profile_keywords": [
+      "fashion",
+      "vintage_clothing",
+      "trendy_apparel",
+      "accessories",
+      "style"
+    ],
+    "inferred_major": "Fashion Design",
+    "inferred_location_keywords": [
+      "campus_boutique",
+      "dorm_closet_clearance"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "graphic tees",
+          "vintage denim",
+          "sweaters"
+        ],
+        "total_items_sold": 38,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "accessories",
+        "item_examples": [
+          "scarves",
+          "jewelry"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 20.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "fashion"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "vintage denim jacket",
+      "category": "apparel",
+      "tags": [
+        "retro",
+        "outerwear",
+        "casual"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "Medium",
+        "color": "light_wash_blue",
+        "condition_requested": [
+          "gently_used",
+          "vintage"
+        ]
+      },
+      "secondary": {
+        "material": "denim",
+        "brand": "Levis"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 65.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "clearing out closet",
+      "original_text": "Selling a classic vintage Levis denim jacket, light wash, M. Still in great shape, perfect for fall."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

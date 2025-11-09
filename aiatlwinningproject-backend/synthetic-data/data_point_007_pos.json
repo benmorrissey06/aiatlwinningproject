@@ -1,0 +1,141 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "compact mini-fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "compact",
+        "dorm",
+        "appliances",
+        "fridge"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "metal/plastic",
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 100
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Starting freshman year, need to equip my dorm with essentials quickly.",
+      "original_text": "Need a compact mini-fridge for my dorm, good or very good condition. Can pay up to $100. Urgently needed!"
+    },
+    "location": {
+      "text_input": "on-campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "sophia_seniordormer_4th_year",
+    "context": {
+      "original_text": "Senior moving out, selling off dorm essentials and furniture. Looking to clear out space quickly!"
+    },
+    "profile_keywords": [
+      "dorm upgrades",
+      "moving out sale",
+      "home goods",
+      "college essentials",
+      "appliances"
+    ],
+    "inferred_major": "Marketing",
+    "inferred_location_keywords": [
+      "campus housing",
+      "off-campus apartment"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "desk lamp",
+          "small fan",
+          "bedside table",
+          "microwave",
+          "mini-fridge"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 55.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "furniture",
+        "item_examples": [
+          "ikea chair",
+          "storage ottoman",
+          "small bookshelf"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 70.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "small_appliances",
+      "home_decor"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Insignia compact mini-fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "compact",
+        "dorm",
+        "appliances",
+        "fridge",
+        "black",
+        "insignia"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "metal/plastic",
+        "brand": "Insignia"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 85
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Upgrading to a larger fridge, selling old one that's still in great shape.",
+      "original_text": "Selling my reliable Insignia compact mini-fridge for $85. It's in good condition, perfect for any dorm room. Moving out soon!"
+    },
+    "location": {
+      "text_input": "campus west dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

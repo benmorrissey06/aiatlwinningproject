@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wacom Intuos S Drawing Tablet",
+      "category": "school_supplies",
+      "tags": [
+        "drawing",
+        "tablet",
+        "digital art",
+        "art supplies"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "small",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Wacom"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need for upcoming digital art class.",
+      "original_text": "Looking for a Wacom Intuos S drawing tablet, black, in good to very good condition. Max $50. Need it soon for my digital art class."
+    },
+    "location": {
+      "text_input": "campus",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "user_art_007",
+    "context": {
+      "original_text": "I'm a senior Digital Arts major selling my old art supplies, tech gadgets, and anything I don't need after graduation."
+    },
+    "profile_keywords": [
+      "digital art",
+      "graphic design",
+      "art supplies",
+      "tech",
+      "electronics",
+      "used items"
+    ],
+    "inferred_major": "Digital Arts",
+    "inferred_location_keywords": [
+      "fine arts building",
+      "campus dorms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "sketchbook set",
+          "Procreate brushes pack",
+          "stylus pens"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 25,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "old iPad mini",
+          "bluetooth mouse",
+          "external hard drive"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 80,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "gaming_accessories",
+      "small_electronics"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wacom Intuos S Drawing Tablet",
+      "category": "school_supplies",
+      "tags": [
+        "drawing",
+        "tablet",
+        "digital art",
+        "art supplies",
+        "gently used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "small",
+        "color": "black",
+        "condition_requested": [
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Wacom"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 120
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Selling my Wacom Intuos S, barely used, very good condition. Comes with original box and stylus."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

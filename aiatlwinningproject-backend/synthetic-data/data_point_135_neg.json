@@ -1,0 +1,126 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Canon EF 50mm f/1.8 STM Lens",
+      "category": "electronics",
+      "tags": [
+        "camera lens",
+        "photography",
+        "canon",
+        "prime lens"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "50mm",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, metal",
+        "brand": "Canon"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 100
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need for a student film project due next month.",
+      "original_text": "Seeking a Canon EF 50mm f/1.8 STM lens in good or very good condition. My budget is $100 max. Really need it soon for my film project!"
+    },
+    "location": {
+      "text_input": "Film Department building",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "user_filmgearfanatic",
+    "context": {
+      "original_text": "I'm a senior in Digital Media, selling off some of my camera gear and old electronics. Member of the campus Photography Club."
+    },
+    "profile_keywords": [
+      "photography",
+      "camera gear",
+      "lenses",
+      "digital media",
+      "electronics"
+    ],
+    "inferred_major": "Digital Media",
+    "inferred_location_keywords": [
+      "Art Building",
+      "media lab",
+      "photography studio"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "Nikon D3500",
+          "Sigma 35mm f/1.4 (Nikon mount)",
+          "Tripod"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 280,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Nikon AF-S NIKKOR 50mm f/1.8G Lens",
+      "category": "electronics",
+      "tags": [
+        "camera lens",
+        "photography",
+        "nikon",
+        "prime lens"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "50mm",
+        "color": "black",
+        "condition_requested": [
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, metal",
+        "brand": "Nikon"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 85
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Selling my Nikon AF-S NIKKOR 50mm f/1.8G lens. Very good condition, hardly used. Asking $85."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

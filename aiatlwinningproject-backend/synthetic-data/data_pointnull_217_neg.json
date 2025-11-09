@@ -1,0 +1,125 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "book",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a book asap for my class."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_gamer_001",
+    "context": {
+      "original_text": "I'm a gamer selling off my old gear and some tech stuff. Always upgrading!"
+    },
+    "profile_keywords": [
+      "gamer",
+      "electronics",
+      "tech",
+      "gaming gear",
+      "computer science"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "engineering building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming mouse",
+          "mechanical keyboard",
+          "HDMI cable"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 controller",
+          "Xbox game disc"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 20.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Gaming Mouse",
+      "category": "electronics",
+      "tags": [
+        "RGB",
+        "wired",
+        "high DPI",
+        "ergonomic"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "black",
+        "condition_requested": [
+          "used - very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Razer"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 28.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Razer DeathAdder Essential Gaming Mouse, gently used, perfect for FPS games."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

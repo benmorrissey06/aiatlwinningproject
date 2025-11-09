@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Professional watercolor paint set",
+      "category": "art_supplies",
+      "tags": [
+        "watercolor",
+        "paint",
+        "art",
+        "set",
+        "professional"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "various",
+        "condition_requested": [
+          "new",
+          "like-new"
+        ]
+      },
+      "secondary": {
+        "material": "pigment based",
+        "brand": "Winsor & Newton"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need for advanced painting class project",
+      "original_text": "Looking for a professional Winsor & Newton watercolor paint set, new or like-new condition. Can spend up to $30. Urgent for my art project!"
+    },
+    "location": {
+      "text_input": "Art Department Building",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "user_artlover22",
+    "context": {
+      "original_text": "Selling off some art supplies and old textbooks from my studio."
+    },
+    "profile_keywords": [
+      "art supplies",
+      "painting",
+      "sketching",
+      "design",
+      "creative"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "Art Studio",
+      "Campus Bookstore"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "sketchbook",
+          "acrylic paints",
+          "paint brushes",
+          "easel"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Art History Vol. 1",
+          "Drawing Fundamentals"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Winsor & Newton Professional Watercolor Set",
+      "category": "art_supplies",
+      "tags": [
+        "watercolor",
+        "paint",
+        "art",
+        "set",
+        "professional"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "various",
+        "condition_requested": [
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "pigment based",
+        "brand": "Winsor & Newton"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling old art supplies",
+      "original_text": "Used Winsor & Newton professional watercolor set, still good quality but not new. Asking $45."
+    },
+    "location": {
+      "text_input": "Art Department Building",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

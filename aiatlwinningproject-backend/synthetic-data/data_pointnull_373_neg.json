@@ -1,0 +1,137 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Psychology textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "Need a textbook for psych 101."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_art_major_22",
+    "context": {
+      "original_text": "Art student selling extra supplies, handmade dorm decor, and stationery."
+    },
+    "profile_keywords": [
+      "art supplies",
+      "dorm decor",
+      "stationery",
+      "handmade",
+      "creative"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "campus art studio",
+      "dorm room",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "acrylic paints",
+          "sketchbooks"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "fairy lights",
+          "small tapestry"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 12.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "stationery",
+        "item_examples": [
+          "fancy pens",
+          "notebooks"
+        ],
+        "total_items_sold": 20,
+        "avg_price_per_item": 7.5,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "dorm_essentials",
+      "stationery"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Professional Watercolor Paint Set (36 colors)",
+      "category": "art_supplies",
+      "tags": [
+        "watercolor",
+        "paints",
+        "art",
+        "set"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "multi-color",
+        "condition_requested": [
+          "new",
+          "like_new"
+        ]
+      },
+      "secondary": {
+        "material": "pigment, plastic case",
+        "brand": "Winsor & Newton"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Bought extra set, don't need it",
+      "original_text": "Selling a brand new Winsor & Newton Professional Watercolor Set, 36 colors. Great for art majors!"
+    },
+    "location": {
+      "text_input": "Near Art Building",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

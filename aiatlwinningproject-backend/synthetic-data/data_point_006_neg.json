@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Adobe Photoshop CC License",
+      "category": "electronics",
+      "tags": [
+        "graphic design",
+        "software",
+        "photo editing",
+        "creative cloud"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "new",
+          "like-new"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Adobe"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Needed for upcoming design course project.",
+      "original_text": "Looking for an Adobe Photoshop CC license, must be new or very good condition. My budget is tight, around $50 max. Need it fast for my design class."
+    },
+    "location": {
+      "text_input": "campus library",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "art_major_seller_123",
+    "context": {
+      "original_text": "I often sell my old art supplies and digital tools after upgrading. Helps fund new gear!"
+    },
+    "profile_keywords": [
+      "digital art",
+      "graphic design",
+      "software",
+      "electronics",
+      "drawing tablets",
+      "photography"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art building",
+      "studio"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "Wacom Intuos tablet",
+          "Adobe Creative Suite license",
+          "digital camera lens"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 180,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "Copic markers set",
+          "sketchbooks",
+          "easel"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 35,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "software licenses",
+      "design tools",
+      "photography equipment"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Adobe Photoshop CS6 Perpetual License",
+      "category": "electronics",
+      "tags": [
+        "graphic design",
+        "software",
+        "photo editing",
+        "creative suite"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Adobe"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 200
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to CC, no longer need this old license.",
+      "original_text": "Selling my Adobe Photoshop CS6 perpetual license. It's in good working condition. Price is firm at $200."
+    },
+    "location": {
+      "text_input": "dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

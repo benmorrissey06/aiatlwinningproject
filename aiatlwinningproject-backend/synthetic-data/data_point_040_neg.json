@@ -1,0 +1,145 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "NVIDIA RTX 3080 Graphics Card",
+      "category": "electronics",
+      "tags": [
+        "graphics card",
+        "GPU",
+        "NVIDIA",
+        "RTX 3080",
+        "machine learning"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "metal, plastic",
+        "brand": "NVIDIA"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 500
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Needed for a machine learning project due next month.",
+      "original_text": "I really need an NVIDIA RTX 3080 for my AI project, must be new or nearly new condition. Can spend up to $500."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_trader_max",
+    "context": {
+      "original_text": "I'm a computer engineering student, always tinkering with PCs and selling off my old components or accessories after upgrades. Focus on gaming hardware."
+    },
+    "profile_keywords": [
+      "computer components",
+      "gaming gear",
+      "PC hardware",
+      "graphics cards",
+      "monitors",
+      "peripherals",
+      "tech enthusiast",
+      "upgrades"
+    ],
+    "inferred_major": "Computer Engineering",
+    "inferred_location_keywords": [
+      "engineering building",
+      "campus tech labs"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming monitor",
+          "mechanical keyboard",
+          "RTX 2070 GPU",
+          "gaming mouse",
+          "CPU cooler"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 250,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS5 controller",
+          "game discs",
+          "gaming headset"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 40,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "computer_accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "NVIDIA RTX 3080 Graphics Card",
+      "category": "electronics",
+      "tags": [
+        "graphics card",
+        "GPU",
+        "NVIDIA",
+        "RTX 3080",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "metal, plastic",
+        "brand": "NVIDIA"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 450
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded my system, no longer need this GPU.",
+      "original_text": "Selling my NVIDIA RTX 3080, used but in good condition. Asking $450. Perfect for gaming or demanding tasks."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

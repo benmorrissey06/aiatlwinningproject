@@ -1,0 +1,131 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "biology textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "i need an old biology textbook for cheap"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_gamerGirl",
+    "context": {
+      "original_text": "I sell gently used gaming accessories and dorm room tech."
+    },
+    "profile_keywords": [
+      "gaming accessories",
+      "webcam",
+      "headset",
+      "keyboard",
+      "smart devices"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "library",
+      "engineering building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming headset",
+          "mechanical keyboard",
+          "USB-C hub"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "Nintendo Switch controller",
+          "gaming mousepad"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 20.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "gaming headset",
+      "category": "electronics",
+      "tags": [
+        "audio",
+        "microphone",
+        "console compatible"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "one size",
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "upgraded",
+      "original_text": "HyperX Cloud Stinger Core Gaming Headset for sale, gently used."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

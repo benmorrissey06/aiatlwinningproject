@@ -1,0 +1,140 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "The Great Gatsby textbook, Scribner edition",
+      "category": "textbooks",
+      "tags": [
+        "literature",
+        "english",
+        "novel",
+        "fiction"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good",
+          "new"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Scribner"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Required for ENGL 201 this semester.",
+      "original_text": "I need a copy of 'The Great Gatsby', preferably the Scribner paperback. It has to be in good or better condition, and I can't spend more than $25."
+    },
+    "location": {
+      "text_input": "campus library",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "lit_lover_sophie",
+    "context": {
+      "original_text": "Avid reader, always buying and selling used books. Majoring in English Lit, love anything from classics to contemporary fiction."
+    },
+    "profile_keywords": [
+      "literature",
+      "novels",
+      "english major",
+      "bookworm",
+      "used books",
+      "campus library"
+    ],
+    "inferred_major": "English Literature",
+    "inferred_location_keywords": [
+      "dorm",
+      "library",
+      "humanities building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Pride and Prejudice",
+          "1984",
+          "The Odyssey"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 22.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "apparel",
+        "item_examples": [
+          "graphic tees",
+          "sweaters"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "books",
+      "fiction",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "The Great Gatsby paperback (Scribner)",
+      "category": "textbooks",
+      "tags": [
+        "literature",
+        "english",
+        "novel",
+        "fiction"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Scribner"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling old textbooks.",
+      "original_text": "Selling my old copy of The Great Gatsby. It's got some highlights and a creased cover, but fully readable."
+    },
+    "location": {
+      "text_input": "my dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

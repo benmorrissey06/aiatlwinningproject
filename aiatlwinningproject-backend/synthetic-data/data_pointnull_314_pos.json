@@ -1,0 +1,131 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a C-type charger ASAP."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_savvy_student_22",
+    "context": {
+      "original_text": "I often sell my old electronics and gaming gear. Always have spare chargers and cables."
+    },
+    "profile_keywords": [
+      "electronics",
+      "cables",
+      "chargers",
+      "gaming accessories",
+      "computer components"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "library",
+      "CS building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C hub",
+          "gaming mouse",
+          "HDMI cable",
+          "various phone chargers"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 game",
+          "controller"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "dorm_essentials",
+      "accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C Fast Charger (20W)",
+      "category": "electronics",
+      "tags": [
+        "fast charging",
+        "phone",
+        "tablet"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "white",
+        "condition_requested": [
+          "new",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": "Selling a spare, unopened charger.",
+      "original_text": "Anker Nano 20W USB-C PD Fast Charger, new in box, white. Perfect for phones and tablets."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

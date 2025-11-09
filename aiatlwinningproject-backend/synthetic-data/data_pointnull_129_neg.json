@@ -1,0 +1,143 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "physics textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need a physics textbook for my 201 class, asap."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "kate_vintage_finds",
+    "context": {
+      "original_text": "Selling unique vintage clothes and accessories. Love finding a good deal for statement pieces and dorm decor!"
+    },
+    "profile_keywords": [
+      "vintage fashion",
+      "accessories",
+      "jewelry",
+      "dorm decor",
+      "sustainable clothing",
+      "fashion finds"
+    ],
+    "inferred_major": "Fashion Merchandising",
+    "inferred_location_keywords": [
+      "south dorms",
+      "campus center shops",
+      "thrift stores"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "vintage denim jacket",
+          "graphic tee",
+          "silk scarf",
+          "retro dress"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "accessories",
+        "item_examples": [
+          "silver necklace",
+          "sunglasses",
+          "earrings"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "tapestry",
+          "string lights"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 10.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "home_decor",
+      "beauty",
+      "fashion"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Vintage Levi's Denim Jacket",
+      "category": "apparel",
+      "tags": [
+        "vintage",
+        "denim",
+        "jacket",
+        "outerwear"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "light wash blue",
+        "condition_requested": [
+          "worn",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "denim",
+        "brand": "Levi's"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": "Clearing out closet",
+      "original_text": "Selling my vintage Levi's denim jacket, size M. Classic light wash, perfect for layering. Great condition for its age!"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

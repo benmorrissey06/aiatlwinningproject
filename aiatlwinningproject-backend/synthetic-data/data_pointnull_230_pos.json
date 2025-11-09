@@ -1,0 +1,137 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "laptop charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a cheap charger for my laptop. ASAP."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_guy_22",
+    "context": {
+      "original_text": "I often have spare tech accessories and electronics, especially chargers and cables. Selling things I don't need anymore to make some extra cash."
+    },
+    "profile_keywords": [
+      "electronics",
+      "chargers",
+      "cables",
+      "adapters",
+      "tech repair",
+      "computer science",
+      "gaming accessories"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm room 405",
+      "campus center"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cable",
+          "USB-C adapter",
+          "gaming mouse",
+          "old laptop charger"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 controller",
+          "Switch case"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "dorm_essentials",
+      "accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Universal Laptop Charger (USB-C)",
+      "category": "electronics",
+      "tags": [
+        "USB-C",
+        "charger",
+        "laptop",
+        "power adapter",
+        "65W"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "used - good",
+          "working"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, metal",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "spare charger from old laptop, no longer needed",
+      "original_text": "Anker USB-C 65W laptop charger, black, good condition. Works with most modern laptops. Selling for $15, can meet anywhere on campus today."
+    },
+    "location": {
+      "text_input": "dorm room 405",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

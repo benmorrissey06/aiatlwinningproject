@@ -1,0 +1,142 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "phone charger",
+      "category": null,
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a phone charger asap."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_fashionista_205",
+    "context": {
+      "original_text": "Selling my gently used fashion items, dorm decor, and art supplies! Check out my closet clean-out!"
+    },
+    "profile_keywords": [
+      "vintage clothing",
+      "dorm decor",
+      "accessories",
+      "art supplies",
+      "fashion student",
+      "upcycling"
+    ],
+    "inferred_major": "Fashion Design",
+    "inferred_location_keywords": [
+      "fashion building",
+      "campus market",
+      "art studio"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "vintage denim jacket",
+          "graphic tee",
+          "silk scarf"
+        ],
+        "total_items_sold": 30,
+        "avg_price_per_item": 22.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "throw pillow",
+          "fairy lights",
+          "mini tapestry"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 15.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "paint brushes set",
+          "sketchbook",
+          "acrylic paints"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 10.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "dorm_essentials",
+      "art_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Vintage Graphic Tee",
+      "category": "apparel",
+      "tags": [
+        "vintage",
+        "graphic",
+        "t-shirt",
+        "cotton",
+        "casual"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "off-white",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "cotton",
+        "brand": "No Brand"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "closet clean-out",
+      "original_text": "Super soft vintage graphic tee, off-white, size M. Great condition, worn a few times."
+    },
+    "location": {
+      "text_input": "campus market stall",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

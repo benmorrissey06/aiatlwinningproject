@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "calculus textbook",
+      "category": "textbooks",
+      "tags": null
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "need a good calc book asap"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamergeek_98",
+    "context": {
+      "original_text": "I mostly sell gaming peripherals and electronics. Need to clear out space for new gear."
+    },
+    "profile_keywords": [
+      "gaming",
+      "electronics",
+      "peripherals",
+      "tech",
+      "console",
+      "headsets",
+      "chargers"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "campus",
+      "engineering_building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "gaming mouse",
+          "controller",
+          "webcam"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C hub",
+          "portable charger"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 20.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "computer_accessories",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wireless Gaming Headset",
+      "category": "gaming",
+      "tags": [
+        "headset",
+        "audio",
+        "wireless",
+        "gaming",
+        "PC",
+        "console"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "adjustable",
+        "color": "black",
+        "condition_requested": [
+          "like_new",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, foam",
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "upgrading to new model",
+      "original_text": "Selling my HyperX Cloud II Wireless headset, barely used. Works great for PC and PlayStation."
+    },
+    "location": {
+      "text_input": "campus dorm room, near computer lab",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

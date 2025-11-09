@@ -1,0 +1,118 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C charger",
+      "category": null,
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "looking for a USB-C charger, gotta have it by tonight."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_electrotech_23",
+    "context": {
+      "original_text": "I sell used electronics, chargers, cables, and small gadgets. Always have a good stock of popular items."
+    },
+    "profile_keywords": [
+      "electronics",
+      "chargers",
+      "cables",
+      "gadgets",
+      "tech"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm_south",
+      "library_north"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cable",
+          "USB-C adapter",
+          "portable fan",
+          "power bank"
+        ],
+        "total_items_sold": 25,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "accessories",
+      "tech_gadgets",
+      "computer_peripherals"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Anker USB-C Fast Charger",
+      "category": "electronics",
+      "tags": [
+        "fast_charging",
+        "type_c",
+        "power_delivery",
+        "30w"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "white",
+        "condition_requested": [
+          "used_excellent"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Selling extra charger I no longer need",
+      "original_text": "Anker USB-C 30W Fast Charger, like new, $15. Can meet on campus tonight."
+    },
+    "location": {
+      "text_input": "on campus",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

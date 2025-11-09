@@ -1,0 +1,140 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Modern white desk lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "desk lamp",
+        "dorm",
+        "lighting",
+        "modern"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "white",
+        "condition_requested": [
+          "good",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "metal",
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Moving into dorm next week, need lighting for desk.",
+      "original_text": "Looking for a modern white desk lamp in good condition for my new dorm room. Max $25 please, need it pretty soon!"
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "arc_student_123",
+    "context": {
+      "original_text": "Senior Architecture student selling off dorm essentials and apartment furniture. Everything is well-maintained and stylish!"
+    },
+    "profile_keywords": [
+      "dorm furniture",
+      "home decor",
+      "moving out sale",
+      "design student",
+      "lighting",
+      "modern aesthetic"
+    ],
+    "inferred_major": "Architecture",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "off-campus apartment"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini fridge",
+          "desk fan",
+          "bookshelf",
+          "desk lamp",
+          "fairy lights"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 35,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "furniture",
+        "item_examples": [
+          "accent chair",
+          "small coffee table"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 70,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "furniture",
+      "electronics",
+      "home_goods"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Compact White LED Desk Lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "desk lamp",
+        "LED",
+        "white",
+        "lighting",
+        "dorm"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "white",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "metal",
+        "brand": "IKEA"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 20
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "No longer needed after moving off-campus.",
+      "original_text": "Selling my compact white LED desk lamp. Perfect for a dorm or small apartment. Works great. Asking $20."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

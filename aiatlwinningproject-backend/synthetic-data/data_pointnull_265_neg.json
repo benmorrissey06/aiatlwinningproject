@@ -1,0 +1,130 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "pen",
+      "category": "school_supplies",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "for class",
+      "original_text": "Need a pen for class asap, any color is fine."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_tech_student_007",
+    "context": {
+      "original_text": "Selling off my gaming peripherals and some old tech! CS major looking to clear space."
+    },
+    "profile_keywords": [
+      "gamer",
+      "tech enthusiast",
+      "electronics",
+      "peripherals",
+      "used gear"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "CS building",
+      "gaming lounge",
+      "dorm"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming mouse",
+          "mechanical keyboard",
+          "VR headset"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 55.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 games",
+          "Nintendo Switch accessories"
+        ],
+        "total_items_sold": 4,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "tech_accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Razer DeathAdder V2 Gaming Mouse",
+      "category": "electronics",
+      "tags": [
+        "gaming",
+        "wired",
+        "peripheral",
+        "ergonomic"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "large",
+        "color": "black",
+        "condition_requested": [
+          "used - good",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Razer"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35.0
+    },
+    "context": {
+      "urgency": "null",
+      "reason": "upgraded to wireless",
+      "original_text": "Selling my Razer DeathAdder V2 gaming mouse. Used for about a year, excellent condition."
+    },
+    "location": {
+      "text_input": "Seller's dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

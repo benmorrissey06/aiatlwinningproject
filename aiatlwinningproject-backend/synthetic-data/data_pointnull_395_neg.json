@@ -1,0 +1,132 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "calculus textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "for Math 201",
+      "original_text": "Need a calc book ASAP for Math 201"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_artsy_22",
+    "context": {
+      "original_text": "I sell art supplies, dorm decor, and occasionally small furniture. Always buying unique craft items!"
+    },
+    "profile_keywords": [
+      "art supplies",
+      "dorm decor",
+      "crafts",
+      "paintings",
+      "easels",
+      "canvas",
+      "handmade"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art studio",
+      "dorms",
+      "campus events"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "acrylic paint set",
+          "sketchbook",
+          "brushes"
+        ],
+        "total_items_sold": 45,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini desk lamp",
+          "throw pillow"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "dorm_essentials",
+      "home_decor",
+      "crafts"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Acrylic Paint Set",
+      "category": "art_supplies",
+      "tags": [
+        "paints",
+        "art",
+        "crafts",
+        "drawing",
+        "painting"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium (24x12ml tubes)",
+        "color": "multi-color",
+        "condition_requested": [
+          "new",
+          "like-new"
+        ]
+      },
+      "secondary": {
+        "material": "acrylic",
+        "brand": "Liquitex Basics"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "selling extra supplies",
+      "original_text": "Brand new Liquitex Basics acrylic paint set, 24 vibrant colors, 12ml tubes. Perfect for beginners or students!"
+    },
+    "location": {
+      "text_input": "on-campus dorm pickup",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

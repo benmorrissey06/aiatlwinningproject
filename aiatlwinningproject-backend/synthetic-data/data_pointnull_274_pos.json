@@ -1,0 +1,130 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Psychology textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": null,
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need an Intro to Psych textbook. ASAP."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "user_psych_scholar_42",
+    "context": {
+      "original_text": "Psychology major selling textbooks and academic materials. Also some dorm decor."
+    },
+    "profile_keywords": [
+      "psychology",
+      "textbooks",
+      "study guides",
+      "academic",
+      "dorm decor",
+      "used books"
+    ],
+    "inferred_major": "Psychology",
+    "inferred_location_keywords": [
+      "campus library",
+      "psych department",
+      "dorm D"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Abnormal Psych textbook",
+          "Statistics for Social Sciences workbook"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini fridge",
+          "desk lamp"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "academic_supplies",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Introduction to Psychology Textbook (15th Ed.)",
+      "category": "textbooks",
+      "tags": [
+        "psychology",
+        "intro",
+        "textbook",
+        "college",
+        "used",
+        "pearson"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "8.5x11 inches",
+        "color": "multi-color cover",
+        "condition_requested": [
+          "used - good",
+          "highlighted"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": "finished course",
+      "original_text": "Selling my 'Introduction to Psychology' 15th edition textbook. Used for PSYC 101. Good condition, some highlighting on key pages. Pearson publication."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

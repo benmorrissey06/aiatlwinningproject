@@ -1,0 +1,133 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "laptop charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": 15.0
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a cheap charger for my laptop asap"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_tech_101",
+    "context": {
+      "original_text": "I sell various tech accessories, cables, and small gadgets. Always happy to help out a fellow student!"
+    },
+    "profile_keywords": [
+      "tech",
+      "electronics",
+      "cables",
+      "charging",
+      "power",
+      "accessories",
+      "gadgets"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm tech hub",
+      "library charging stations"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C cables",
+          "HDMI adapters",
+          "portable power banks",
+          "old phone chargers"
+        ],
+        "total_items_sold": 38,
+        "avg_price_per_item": 16.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "desk lamp",
+          "mini fan"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 22.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "dorm_essentials",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Universal USB-C Laptop Charger",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "usb-c",
+        "laptop",
+        "power adapter"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 12.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "upgraded my own charger",
+      "original_text": "Selling an Anker 60W USB-C universal laptop charger. Works perfectly, only used a few times. Great for most modern laptops."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

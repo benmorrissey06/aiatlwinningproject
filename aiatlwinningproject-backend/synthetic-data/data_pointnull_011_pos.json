@@ -1,0 +1,128 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "portable fan",
+      "category": null,
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a small fan for my dorm room, like, today if possible."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "student_seller_789",
+    "context": {
+      "original_text": "I often sell gently used dorm items, small electronics, and general campus necessities. Always looking to help fellow students!"
+    },
+    "profile_keywords": [
+      "dorm essentials",
+      "small electronics",
+      "campus necessities",
+      "used items",
+      "convenient sales",
+      "quick transactions"
+    ],
+    "inferred_major": "Engineering",
+    "inferred_location_keywords": [
+      "dorm A",
+      "campus center"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "desk lamp",
+          "mini fan",
+          "storage bins"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB cables",
+          "power banks",
+          "headphones"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 10.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "electronics",
+      "home_goods"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "compact USB desk fan",
+      "category": "dorm_essentials",
+      "tags": [
+        "quiet",
+        "usb-powered",
+        "compact",
+        "white"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "white",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "GenericTech"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "Upgraded to a ceiling fan, no longer needed.",
+      "original_text": "Selling a compact, quiet USB desk fan, perfect for dorms. Barely used, works great. Available for pickup today!"
+    },
+    "location": {
+      "text_input": "dorm building A lobby",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

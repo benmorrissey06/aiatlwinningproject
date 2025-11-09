@@ -1,0 +1,147 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Sakura Pigma Micron Pen Set (0.2mm, Black)",
+      "category": "art_supplies",
+      "tags": [
+        "ink pen",
+        "drawing",
+        "micron",
+        "fine line",
+        "illustration"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "unused"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Sakura"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 20
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Starting a new art project and need fresh pens for consistent lines.",
+      "original_text": "Looking for a NEW set of Sakura Pigma Micron pens, specifically the black ones with a 0.2mm tip. Hoping to pay around $20 for a fresh pack."
+    },
+    "location": {
+      "text_input": "campus library",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "art_major_22",
+    "context": {
+      "original_text": "I'm an art major always selling off my extra supplies or older equipment. I focus on drawing and painting supplies, often getting new sets and selling the ones I don't use anymore."
+    },
+    "profile_keywords": [
+      "art supplies",
+      "drawing materials",
+      "artist",
+      "fine arts student",
+      "painting",
+      "illustration",
+      "markers",
+      "pens"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art studio",
+      "design building",
+      "dorms near fine arts"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "sketchbooks",
+          "acrylic paints",
+          "easel",
+          "charcoal set",
+          "various pens and markers"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 25.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Art History 101",
+          "Drawing Fundamentals"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "crafts",
+      "books",
+      "design tools"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Sakura Pigma Micron Pen Set (0.2mm, Black)",
+      "category": "art_supplies",
+      "tags": [
+        "ink pen",
+        "drawing",
+        "micron",
+        "fine line",
+        "used",
+        "good condition"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Sakura"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 10
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "No longer needed, moving to digital art.",
+      "original_text": "Used set of Sakura Pigma Micron pens (0.2mm black). Still work perfectly, but they are opened and some are partially used. Price reflects condition."
+    },
+    "location": {
+      "text_input": "dorm room A402",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

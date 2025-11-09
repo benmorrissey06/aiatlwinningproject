@@ -1,0 +1,124 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "iPhone charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 20
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need a phone charger soon for iPhone. Maybe $15-20."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_electronics_007",
+    "context": {
+      "original_text": "I'm a tech enthusiast selling various electronics and accessories. Especially good with Apple products. Fast and reliable transactions on campus."
+    },
+    "profile_keywords": [
+      "electronics",
+      "tech",
+      "accessories",
+      "Apple products",
+      "phone chargers",
+      "cables",
+      "dorm essentials",
+      "campus meetups"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "campus",
+      "library",
+      "engineering building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "iPhone charger",
+          "USB-C cable",
+          "Bluetooth speaker",
+          "power bank"
+        ],
+        "total_items_sold": 38,
+        "avg_price_per_item": 18.75,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "tech accessories",
+      "gaming",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "iPhone fast charger",
+      "category": "electronics",
+      "tags": [
+        "USB-C",
+        "20W",
+        "Apple compatible",
+        "fast charging"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "white",
+        "condition_requested": [
+          "new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Apple"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Genuine Apple 20W USB-C Fast Charger for iPhone 12/13/14/15, Brand New."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

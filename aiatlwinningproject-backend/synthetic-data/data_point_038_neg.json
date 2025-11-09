@@ -1,0 +1,127 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "A People's History of the United States Textbook",
+      "category": "textbooks",
+      "tags": [
+        "history",
+        "textbook",
+        "social science"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Harper Perennial"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "required for History 201",
+      "original_text": "Need 'A People's History of the United States' by Howard Zinn. Must be in good or very good condition, willing to pay up to $30. For my History 201 class."
+    },
+    "location": {
+      "text_input": "campus bookstore pickup",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "sarah_e_lit23",
+    "context": {
+      "original_text": "Avid reader and former English major selling off old books and course materials. Always looking to clear space!"
+    },
+    "profile_keywords": [
+      "books",
+      "textbooks",
+      "literature",
+      "humanities",
+      "academic"
+    ],
+    "inferred_major": "English Literature",
+    "inferred_location_keywords": [
+      "library",
+      "campus dorms",
+      "student union"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Pride and Prejudice (annotated)",
+          "The Great Gatsby",
+          "An Introduction to Literary Theory"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 22.5,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "fiction",
+      "study_aids",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "A People's History of the United States by Howard Zinn",
+      "category": "textbooks",
+      "tags": [
+        "history",
+        "textbook",
+        "social science",
+        "Zinn"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Harper Perennial"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 20
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "clearing out old inventory",
+      "original_text": "Selling 'A People's History of the United States' by Howard Zinn. It's a bit worn, fair condition. Listing at $20."
+    },
+    "location": {
+      "text_input": "seller's dorm, available for pickup",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

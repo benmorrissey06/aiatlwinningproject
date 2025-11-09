@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "LED Desk Lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "desk lamp",
+        "LED",
+        "energy efficient",
+        "lighting"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "small",
+        "color": "white",
+        "condition_requested": [
+          "good",
+          "new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "IKEA"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Setting up my new dorm room, need proper lighting for studying.",
+      "original_text": "Looking for a small, white LED desk lamp for my dorm. Must be in good or new condition. Can spend up to $35."
+    },
+    "location": {
+      "text_input": "on-campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "sophie_marie_23",
+    "context": {
+      "original_text": "Sophie just moved out of her dorm and is clearing out items. She's a good seller of dorm essentials and some electronics."
+    },
+    "profile_keywords": [
+      "dorm move-out",
+      "dorm essentials",
+      "electronics",
+      "used items",
+      "college student"
+    ],
+    "inferred_major": "Business",
+    "inferred_location_keywords": [
+      "dorm rooms",
+      "campus",
+      "off-campus apartment"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini-fridge",
+          "microwave",
+          "bedside caddy",
+          "storage bins"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 55,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "charging cables",
+          "Bluetooth speaker"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 20,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "small_appliances",
+      "home_decor"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Halogen Floor Lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "floor lamp",
+        "halogen",
+        "old lamp",
+        "living room lamp"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "large",
+        "color": "black",
+        "condition_requested": [
+          "poor"
+        ]
+      },
+      "secondary": {
+        "material": "metal",
+        "brand": "Generic"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null,
+      "price": 50
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Clearing out old dorm items.",
+      "original_text": "Large, old halogen floor lamp in poor condition. Selling for $50."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

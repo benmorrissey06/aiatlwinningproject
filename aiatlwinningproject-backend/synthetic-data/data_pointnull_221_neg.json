@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "history textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy",
+        "borrow"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "For upcoming exam",
+      "original_text": "Need a book for my history class, fast."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_A3F7",
+    "context": {
+      "original_text": "I'm a local artist selling my supplies and dorm decor! Also have some old electronics."
+    },
+    "profile_keywords": [
+      "artist",
+      "dorm decor",
+      "electronics",
+      "creative"
+    ],
+    "inferred_major": "Art History",
+    "inferred_location_keywords": [
+      "campus art studio",
+      "dorm",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "paint brushes",
+          "sketchbooks"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 12.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "LED strip lights",
+          "small shelf"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "old phone charger",
+          "mini fan"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 8.0,
+        "dominant_transaction_type_in_category": "mixed"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "dorm_essentials",
+      "electronics",
+      "crafts"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Set of Acrylic Paints (12 colors)",
+      "category": "art_supplies",
+      "tags": [
+        "art",
+        "paint",
+        "acrylic",
+        "new"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium set",
+        "color": "multi-color",
+        "condition_requested": [
+          "new"
+        ]
+      },
+      "secondary": {
+        "material": "acrylic pigment",
+        "brand": "Winsor & Newton"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Selling unused art supplies after switching mediums.",
+      "original_text": "Unopened Winsor & Newton acrylic paint set, 12 colors. Perfect for beginners or art students. $25."
+    },
+    "location": {
+      "text_input": "Art Department studio",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

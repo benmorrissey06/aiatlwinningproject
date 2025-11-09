@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Introduction to Literary Theory by Smith",
+      "category": "textbooks",
+      "tags": [
+        "literary theory",
+        "english",
+        "textbook",
+        "critical theory"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "new",
+          "like-new"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Prentice Hall"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need for upcoming class, must be in excellent condition",
+      "original_text": "I need the 'Introduction to Literary Theory' textbook by Smith, 3rd edition. Must be new or like new, I can pay up to $30. Starting class next week, so urgent!"
+    },
+    "location": {
+      "text_input": "on campus",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "sarah_e_lit",
+    "context": {
+      "original_text": "English major selling off old course materials, textbooks, and some art supplies. Mostly sell, sometimes lend."
+    },
+    "profile_keywords": [
+      "English",
+      "literature",
+      "textbooks",
+      "critical theory",
+      "used books",
+      "art supplies"
+    ],
+    "inferred_major": "English Literature",
+    "inferred_location_keywords": [
+      "library",
+      "dorm",
+      "humanities building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Old English Anthology",
+          "Critical Theory Reader",
+          "Literary Analysis Guide"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "watercolor set",
+          "sketchbook A4"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "academic_books",
+      "writing_supplies",
+      "stationery"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Introduction to Literary Theory by Smith, 3rd Ed.",
+      "category": "textbooks",
+      "tags": [
+        "literary theory",
+        "english",
+        "textbook",
+        "used",
+        "critical theory"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Prentice Hall"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 55
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Finished class, no longer needed",
+      "original_text": "Selling my copy of 'Introduction to Literary Theory'. It's used, has some highlighting on about 20 pages, covers show wear. Fair condition overall."
+    },
+    "location": {
+      "text_input": "dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

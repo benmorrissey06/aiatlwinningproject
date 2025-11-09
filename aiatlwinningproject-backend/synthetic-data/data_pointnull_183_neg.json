@@ -1,0 +1,132 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "MacBook Pro charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "need a charger for my macbook pro soon"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_art_123",
+    "context": {
+      "original_text": "I sell various art supplies, handmade crafts, and dorm decor items. Always looking to get rid of my excess paints and canvases."
+    },
+    "profile_keywords": [
+      "artist",
+      "crafting",
+      "fine arts",
+      "dorm decor",
+      "creative",
+      "handmade"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art studio",
+      "campus gallery",
+      "dorm room"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "acrylic paint set",
+          "sketchbook",
+          "canvas pack"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 12.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "tapestry",
+          "fairy lights"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 8.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "crafts",
+      "dorm_decor",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Acrylic Paint Set (24 colors)",
+      "category": "art_supplies",
+      "tags": [
+        "paint",
+        "art",
+        "crafts",
+        "artist supplies"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium tubes",
+        "color": "multi-color",
+        "condition_requested": [
+          "new",
+          "like_new"
+        ]
+      },
+      "secondary": {
+        "material": "acrylic paint",
+        "brand": "Liquitex"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "selling extra supplies",
+      "original_text": "Selling a nearly full set of 24 Liquitex acrylic paints. Only used a few colors once. Great for art majors!"
+    },
+    "location": {
+      "text_input": "Fine Arts Building",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

@@ -1,0 +1,164 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wacom Intuos Pro Medium Drawing Tablet",
+      "category": "electronics",
+      "tags": [
+        "drawing tablet",
+        "wacom",
+        "intuos pro",
+        "medium",
+        "digital art",
+        "engineering",
+        "graphics tablet"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Wacom"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 200.0
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "For a demanding CAD project",
+      "original_text": "Need a Wacom Intuos Pro Medium drawing tablet for my engineering project. Must be new or like new, no more than $200. I need it urgently!"
+    },
+    "location": {
+      "text_input": "campus library",
+      "device_gps": {
+        "lat": 34.0689,
+        "lng": -118.4452
+      }
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "art_tech_guru_987",
+    "context": {
+      "original_text": "I'm an Art & Design student always upgrading my tech. I sell my used but well-maintained drawing tablets, digital cameras, and other design tools. Also into gaming gear."
+    },
+    "profile_keywords": [
+      "digital art tools",
+      "drawing tablets",
+      "graphics cards",
+      "design software",
+      "tech accessories",
+      "art supplies",
+      "electronics",
+      "used tech",
+      "gaming peripherals"
+    ],
+    "inferred_major": "Art & Design",
+    "inferred_location_keywords": [
+      "art building",
+      "design studio",
+      "tech lab"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "iPad Pro 11-inch",
+          "Apple Pencil 2nd Gen",
+          "Logitech G Pro X Superlight Mouse"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 350.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "sketchbooks",
+          "copic markers set",
+          "acrylic paint tubes",
+          "used Wacom tablet"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "gaming keyboard",
+          "VR headset (used)"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 200.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "photography",
+      "computer accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wacom Intuos Pro Medium Drawing Tablet",
+      "category": "electronics",
+      "tags": [
+        "drawing tablet",
+        "wacom",
+        "intuos pro",
+        "medium",
+        "digital art",
+        "used",
+        "art tools"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Wacom"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 180.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a newer model",
+      "original_text": "Selling my well-loved Wacom Intuos Pro Medium tablet. Works perfectly, but has some cosmetic wear. Selling for $180."
+    },
+    "location": {
+      "text_input": "seller's dorm",
+      "device_gps": {
+        "lat": 34.075,
+        "lng": -118.441
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

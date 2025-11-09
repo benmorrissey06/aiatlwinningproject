@@ -1,0 +1,47 @@
+# Render.yaml - Infrastructure as Code for AIATL Project
+# This file can be used to deploy all services at once on Render
+
+services:
+  # Gemini AI Parsing Service
+  - type: web
+    name: aiatlwinningproject-gemini
+    env: node
+    rootDir: aiatlwinningproject-gemini
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    plan: free
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false  # Manual entry required
+
+  # Backend API Service
+  - type: web
+    name: aiatlwinningproject-backend
+    env: python
+    rootDir: aiatlwinningproject-backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app:app --host 0.0.0.0 --port $PORT
+    plan: free
+    envVars:
+      - key: MONGODB_URI
+        sync: false  # Manual entry required
+      - key: JWT_SECRET
+        generateValue: true  # Auto-generate secure secret
+      - key: GEMINI_SERVICE_URL
+        value: https://aiatlwinningproject-gemini.onrender.com
+
+  # Frontend Static Site
+  - type: web
+    name: aiatlwinningproject-frontend
+    env: static
+    rootDir: aiatlwinningproject-frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    plan: free
+    envVars:
+      - key: VITE_API_BASE_URL
+        value: https://aiatlwinningproject-backend.onrender.com
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

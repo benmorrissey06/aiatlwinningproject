@@ -1,0 +1,132 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "oil paint",
+      "category": "art_supplies",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "looking for some art supplies, specifically oil paint, cheap pls"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "user_tech_007",
+    "context": {
+      "original_text": "Selling my old tech gadgets, textbooks, and occasionally some gaming accessories. Love anything related to computers!"
+    },
+    "profile_keywords": [
+      "electronics",
+      "gaming",
+      "tech",
+      "textbooks",
+      "computer science",
+      "gadgets"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "Dorm C",
+      "Engineering Building",
+      "Library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming headset",
+          "USB-C adapter",
+          "laptop stand"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 35,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus I Textbook",
+          "Intro to Python Workbook"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 60,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "textbooks",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Professional Oil Paint Set",
+      "category": "art_supplies",
+      "tags": [
+        "professional",
+        "artist",
+        "oils",
+        "high-quality"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "large",
+        "color": "multi-color set",
+        "condition_requested": [
+          "new",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "oil paint, wooden box",
+        "brand": "Winsor & Newton"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 90
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a larger set, selling my old one.",
+      "original_text": "Selling a professional Winsor & Newton oil paint set, barely used. Great for serious art students. Asking $90."
+    },
+    "location": {
+      "text_input": "Fine Arts building locker",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

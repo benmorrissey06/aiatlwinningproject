@@ -1,0 +1,136 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "mini-fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "refrigerator",
+        "compact fridge",
+        "dorm appliance"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80.0
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need for new dorm room, current one broke.",
+      "original_text": "Urgent! Looking for a compact mini-fridge for my dorm. Must be in good or very good condition, ideally for under $80. My old one just died!"
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_bio_123",
+    "context": {
+      "original_text": "Just graduated Biology, selling off all my dorm stuff. Got a lot of appliances and furniture that are still in great shape. Need to clear out before I move out of town."
+    },
+    "profile_keywords": [
+      "dorm essentials",
+      "appliances",
+      "moving out",
+      "campus living",
+      "biology student"
+    ],
+    "inferred_major": "Biology",
+    "inferred_location_keywords": [
+      "campus housing",
+      "dorm B",
+      "north campus"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini-fridge",
+          "microwave",
+          "desk lamp",
+          "air purifier"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "furniture",
+        "item_examples": [
+          "chair",
+          "small desk"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 30.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "furniture"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "mini-fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "refrigerator",
+        "compact fridge",
+        "dorm appliance",
+        "Haier"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "metal/plastic",
+        "brand": "Haier"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 75.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Clearing out dorm room post-graduation.",
+      "original_text": "Selling my compact Haier mini-fridge, good condition, perfect for dorms. Moving out after graduation."
+    },
+    "location": {
+      "text_input": "on-campus housing",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

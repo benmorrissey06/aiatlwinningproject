@@ -1,0 +1,130 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": null,
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a USB-C charger. ASAP."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_techie_203",
+    "context": {
+      "original_text": "I often have spare tech accessories and electronics. Clearing out my old gadgets before I move dorms. Also have some old textbooks."
+    },
+    "profile_keywords": [
+      "electronics",
+      "tech",
+      "accessories",
+      "chargers",
+      "cables",
+      "textbooks",
+      "dorm cleanup"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "campus center"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cable",
+          "lightning charger",
+          "power bank",
+          "headphones"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "CS 101 Textbook",
+          "Calculus Workbook"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "tech_accessories",
+      "textbooks"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Anker USB-C Fast Charger (60W)",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "USB-C",
+        "fast charging",
+        "Anker",
+        "power adapter"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "used - like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 20.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "selling unused item",
+      "original_text": "Selling my Anker 60W USB-C charger. Used only a few times, excellent condition. Great for fast charging your laptop or phone."
+    },
+    "location": {
+      "text_input": "campus dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

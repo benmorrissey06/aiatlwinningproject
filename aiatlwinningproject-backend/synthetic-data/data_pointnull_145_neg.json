@@ -1,0 +1,116 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "calculus textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a calc book asap"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "ProGamerDeals",
+    "context": {
+      "original_text": "I sell used gaming gear and sometimes cool tech gadgets, mainly peripherals and accessories."
+    },
+    "profile_keywords": [
+      "gaming",
+      "peripherals",
+      "tech",
+      "electronics",
+      "used games"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "student union",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "gaming headset",
+          "wireless mouse",
+          "game controller"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 55.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Logitech G PRO X LIGHTSPEED Wireless Gaming Headset",
+      "category": "gaming",
+      "tags": [
+        "audio",
+        "peripheral",
+        "wireless"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "one size",
+        "color": "black",
+        "condition_requested": [
+          "used - very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, faux leather",
+        "brand": "Logitech"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 70.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a new model, no longer need this one.",
+      "original_text": "Selling my Logitech G PRO X LIGHTSPEED Wireless Gaming Headset. Excellent condition, barely used. Comes with all original accessories."
+    },
+    "location": {
+      "text_input": "On campus pickup",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

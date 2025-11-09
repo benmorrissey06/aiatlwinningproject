@@ -1,0 +1,135 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Algorithms Unlocked textbook",
+      "category": "textbooks",
+      "tags": [
+        "algorithms",
+        "computer science",
+        "cormen",
+        "MIT Press"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "excellent",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "MIT Press"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need for upcoming CS class",
+      "original_text": "Looking for 'Algorithms Unlocked' by Cormen, must be in excellent or very good condition, hoping to spend under $30."
+    },
+    "location": {
+      "text_input": "Campus bookstore area",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "cs_scholar_42",
+    "context": {
+      "original_text": "I'm a CS major selling my old textbooks and some electronics."
+    },
+    "profile_keywords": [
+      "computer science",
+      "textbooks",
+      "programming",
+      "electronics",
+      "academic"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "Engineering building",
+      "Library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Discrete Math textbook",
+          "Python Programming Guide",
+          "Calculus I textbook"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 40,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "Used USB Hub",
+          "External SSD"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 25,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "coding accessories",
+      "calculators"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Algorithms Unlocked by Thomas H. Cormen",
+      "category": "textbooks",
+      "tags": [
+        "algorithms",
+        "computer science",
+        "cormen",
+        "MIT Press"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "MIT Press"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25
+    },
+    "context": {
+      "urgency": "unknown",
+      "reason": null,
+      "original_text": "Selling my old Algorithms Unlocked book. It's pretty worn with some highlighting but all pages are intact. Price negotiable."
+    },
+    "location": {
+      "text_input": "Campus dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

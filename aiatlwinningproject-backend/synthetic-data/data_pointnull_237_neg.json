@@ -1,0 +1,130 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "desk lamp",
+      "category": "dorm_essentials",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 10
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "Need a small desk lamp for my dorm, maybe around $10."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_fashionista_789",
+    "context": {
+      "original_text": "Selling clothes and accessories. Love vintage finds and upcycling!"
+    },
+    "profile_keywords": [
+      "fashion",
+      "vintage",
+      "accessories",
+      "clothing",
+      "student designer"
+    ],
+    "inferred_major": "Fashion Design",
+    "inferred_location_keywords": [
+      "downtown boutiques",
+      "vintage shops"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "graphic tees",
+          "vintage jeans",
+          "sundresses"
+        ],
+        "total_items_sold": 28,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "accessories",
+        "item_examples": [
+          "handmade earrings",
+          "scarves"
+        ],
+        "total_items_sold": 10,
+        "avg_price_per_item": 8.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "jewelry",
+      "crafts"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "vintage graphic t-shirt",
+      "category": "apparel",
+      "tags": [
+        "vintage",
+        "graphic",
+        "tee",
+        "cotton"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "faded white",
+        "condition_requested": [
+          "used",
+          "good condition"
+        ]
+      },
+      "secondary": {
+        "material": "cotton",
+        "brand": "various vintage"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "clearing out closet",
+      "original_text": "Selling a cool vintage graphic tee, faded white, size M. Good condition."
+    },
+    "location": {
+      "text_input": "dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

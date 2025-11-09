@@ -1,0 +1,132 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Psychology textbook",
+      "category": "textbooks",
+      "tags": [
+        "PSY201",
+        "textbook"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need that psych textbook for PSY201 ASAP. I'll buy it."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "student_psych_major_98",
+    "context": {
+      "original_text": "Selling old psych textbooks and study guides from my classes. Happy to lend smaller items too. Located near the Psych department."
+    },
+    "profile_keywords": [
+      "psychology",
+      "textbooks",
+      "study guides",
+      "campus deals"
+    ],
+    "inferred_major": "Psychology",
+    "inferred_location_keywords": [
+      "Psychology building",
+      "campus library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Abnormal Psychology 9th Ed.",
+          "Introduction to Psychology 13th Ed."
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 42.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "highlighters",
+          "notebooks"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 5.0,
+        "dominant_transaction_type_in_category": "mixed"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "school_supplies",
+      "study_aids"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Introduction to Psychology (PSY201) - 13th Edition",
+      "category": "textbooks",
+      "tags": [
+        "psychology",
+        "textbook",
+        "PSY201",
+        "intro",
+        "used",
+        "Pearson"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard textbook",
+        "color": "blue/white",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 38.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "finished course",
+      "original_text": "Selling my Intro to Psych textbook (PSY201). Used but in good condition, no major highlights. Pearson 13th Ed. Available for pickup near the library."
+    },
+    "location": {
+      "text_input": "near campus library",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

@@ -1,0 +1,142 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Logitech G502 Hero Gaming Mouse",
+      "category": "gaming",
+      "tags": [
+        "peripheral",
+        "mouse",
+        "computer",
+        "gaming"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Logitech"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 40.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need a reliable mouse for gaming and coding setup.",
+      "original_text": "Looking for a good condition Logitech gaming mouse, preferably a G502 or similar. Can spend up to $40. Need it for my new setup."
+    },
+    "location": {
+      "text_input": "dorm near engineering building",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_tech_23",
+    "context": {
+      "original_text": "I'm a CompSci student selling off my old tech gear and some gaming peripherals I don't use anymore. Also some textbooks."
+    },
+    "profile_keywords": [
+      "gamer",
+      "tech enthusiast",
+      "computer science",
+      "electronics",
+      "peripherals",
+      "used tech",
+      "gaming setup"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering dorms",
+      "campus north"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "gaming keyboard",
+          "headset",
+          "controller",
+          "webcam",
+          "gaming mouse"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "monitor",
+          "external hard drive",
+          "USB hub"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 70.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "computer_accessories",
+      "software",
+      "textbooks"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Logitech G502 Hero High Performance Gaming Mouse",
+      "category": "gaming",
+      "tags": [
+        "peripheral",
+        "mouse",
+        "gaming",
+        "Logitech"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Logitech"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a newer model, this one is still in great shape.",
+      "original_text": "Selling my Logitech G502 Hero mouse. Used for a year, works perfectly, minor cosmetic wear. Asking $35."
+    },
+    "location": {
+      "text_input": "engineering building lobby",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

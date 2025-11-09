@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C Laptop Charger",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "laptop",
+        "usb-c",
+        "fast charging",
+        "power adapter"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Anker, Apple, Samsung"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Lost my charger, need one urgently for classes and studying in the library.",
+      "original_text": "I really need a new or like-new USB-C laptop charger, ideally black. I'm willing to pay up to $35. Lost mine, super urgent!"
+    },
+    "location": {
+      "text_input": "on-campus dorms or engineering building",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_savvy_sophomore",
+    "context": {
+      "original_text": "Always upgrading my tech, selling old but functional electronics and accessories."
+    },
+    "profile_keywords": [
+      "electronics",
+      "cables",
+      "adapters",
+      "gadgets",
+      "tech repair"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering building",
+      "computer labs"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cable",
+          "various phone chargers",
+          "old gaming headphones",
+          "USB hub"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 28,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "old Xbox controller"
+        ],
+        "total_items_sold": 1,
+        "avg_price_per_item": 20,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Dell Latitude Barrel Plug Charger",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "laptop",
+        "dell",
+        "barrel plug",
+        "power adapter"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Dell"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 20
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling old charger after upgrading laptop.",
+      "original_text": "Selling a used Dell Latitude charger with a barrel plug. Works fine, just upgraded my laptop. Asking $20."
+    },
+    "location": {
+      "text_input": "dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

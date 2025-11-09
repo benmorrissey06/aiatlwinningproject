@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Watercolor paint set",
+      "category": "art_supplies",
+      "tags": [
+        "watercolor",
+        "paint",
+        "art",
+        "new"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "new",
+          "like-new"
+        ]
+      },
+      "secondary": {
+        "material": "pigment",
+        "brand": "Winsor & Newton"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Starting a new painting class, need fresh supplies.",
+      "original_text": "Looking for a new or like-new watercolor paint set, maybe Winsor & Newton, for under $35. Need it for my new art class."
+    },
+    "location": {
+      "text_input": "campus arts building",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "artful_grad",
+    "context": {
+      "original_text": "Selling off some of my art supplies and textbooks now that I've graduated. Mostly gently used art materials."
+    },
+    "profile_keywords": [
+      "art student",
+      "artist",
+      "fine arts",
+      "supplies",
+      "creative"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art studio",
+      "campus gallery",
+      "dorms north"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "paint brushes",
+          "sketchbooks",
+          "easel",
+          "acrylics"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 22.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Art History 101",
+          "Drawing Fundamentals"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 48.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "textbooks",
+      "crafts",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Winsor & Newton Cotman Watercolor Set",
+      "category": "art_supplies",
+      "tags": [
+        "watercolor",
+        "paint",
+        "art",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "assorted",
+        "condition_requested": [
+          "used - fair"
+        ]
+      },
+      "secondary": {
+        "material": "pigment, plastic case",
+        "brand": "Winsor & Newton"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Selling a well-loved Winsor & Newton Cotman watercolor set. Some colors are more used than others but still good for practice! Perfect for a beginner who doesn't mind used items."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

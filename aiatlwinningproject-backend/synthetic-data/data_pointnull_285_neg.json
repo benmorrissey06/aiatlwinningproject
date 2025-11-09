@@ -1,0 +1,137 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "laptop charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a charger for my laptop tonight."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "art_major_sophie_987",
+    "context": {
+      "original_text": "I sell art supplies, sketchbooks, and occasionally hand-made jewelry. Love to help fellow art students!"
+    },
+    "profile_keywords": [
+      "art supplies",
+      "painting",
+      "drawing",
+      "crafts",
+      "jewelry",
+      "fine arts",
+      "student artwork",
+      "creative projects"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art studio",
+      "campus gallery",
+      "dorm",
+      "craft fair"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "watercolor set",
+          "sketchbook",
+          "canvas (small)",
+          "brush set"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "crafts",
+        "item_examples": [
+          "beading kit",
+          "polymer clay",
+          "handmade earrings"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 12.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "crafts",
+      "decor",
+      "hobbies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Acrylic Paint Set",
+      "category": "art_supplies",
+      "tags": [
+        "painting",
+        "student",
+        "starter kit"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "multi-color",
+        "condition_requested": [
+          "new",
+          "like-new"
+        ]
+      },
+      "secondary": {
+        "material": "acrylic paint",
+        "brand": "Liquitex"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling extra art supplies",
+      "original_text": "Liquitex acrylic paint set - new, never opened. Great for beginners."
+    },
+    "location": {
+      "text_input": "Art Department Studio",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

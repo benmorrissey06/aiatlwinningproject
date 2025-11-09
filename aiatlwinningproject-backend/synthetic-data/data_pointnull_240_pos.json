@@ -1,0 +1,126 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C cable",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "need a good USB-C cable ASAP"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_tech_123",
+    "context": {
+      "original_text": "Selling various electronics and dorm essentials. Often have cables and adapters."
+    },
+    "profile_keywords": [
+      "electronics",
+      "tech",
+      "cables",
+      "adapters",
+      "dorm essentials"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "Engineering Hall",
+      "West Campus Dorms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cables",
+          "USB-C chargers",
+          "power banks"
+        ],
+        "total_items_sold": 25,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "desk lamps",
+          "mini fridges"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Anker USB-C to USB-C Braided Charging Cable",
+      "category": "electronics",
+      "tags": [
+        "USB-C",
+        "charging",
+        "cable",
+        "Anker",
+        "fast charge"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "6ft",
+        "color": "Space Gray",
+        "condition_requested": [
+          "used_like_new"
+        ]
+      },
+      "secondary": {
+        "material": "Nylon Braided",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 12.0
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "Upgraded to a longer cable, don't need this one anymore.",
+      "original_text": "Selling a durable Anker 6ft USB-C cable, like new. Perfect for charging phones/laptops fast."
+    },
+    "location": {
+      "text_input": "West Campus Dorm B",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

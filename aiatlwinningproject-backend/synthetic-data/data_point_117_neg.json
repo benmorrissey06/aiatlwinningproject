@@ -1,0 +1,147 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "TI-84 Plus CE Graphing Calculator",
+      "category": "electronics",
+      "tags": [
+        "calculator",
+        "graphing",
+        "math",
+        "engineering"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "new",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Texas Instruments"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Required for calculus class starting next week.",
+      "original_text": "Need a TI-84 Plus CE graphing calculator ASAP for my calc class. Prefer new or excellent condition, willing to pay up to $80."
+    },
+    "location": {
+      "text_input": "campus bookstore area",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "art_student_sketchpad",
+    "context": {
+      "original_text": "I'm an Art major often selling old art supplies, dorm decorations, and sometimes used gadgets I find."
+    },
+    "profile_keywords": [
+      "art supplies",
+      "dorm decor",
+      "electronics",
+      "used items",
+      "college essentials"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art building",
+      "dorms south"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "sketchbook",
+          "watercolor set",
+          "easel"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 25.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini lamp",
+          "throw pillow",
+          "wall tapestry"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 18.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "old headphones",
+          "portable speaker"
+        ],
+        "total_items_sold": 2,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "books",
+      "gadgets"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "TI-84 Plus CE Graphing Calculator",
+      "category": "electronics",
+      "tags": [
+        "calculator",
+        "graphing",
+        "math",
+        "engineering"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Texas Instruments"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 65
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling an old calculator from high school.",
+      "original_text": "Selling a TI-84 Plus CE calculator. It's used and has some scratches, but works fine. Asking $65."
+    },
+    "location": {
+      "text_input": "campus",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

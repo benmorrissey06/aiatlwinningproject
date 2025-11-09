@@ -1,0 +1,141 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Nintendo Switch Lite console",
+      "category": "gaming",
+      "tags": [
+        "nintendo",
+        "switch",
+        "lite",
+        "console",
+        "portable"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "like-new",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Nintendo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 160
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Gift for a friend",
+      "original_text": "Looking for a Nintendo Switch Lite in like-new or excellent condition for under $160. Needs to be a good gift!"
+    },
+    "location": {
+      "text_input": "campus quad",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_eng_2025",
+    "context": {
+      "original_text": "I'm a Computer Engineering major always selling off my old tech and gaming gear. Check out my stuff!"
+    },
+    "profile_keywords": [
+      "tech enthusiast",
+      "gamer",
+      "sells electronics",
+      "engineering student",
+      "video games"
+    ],
+    "inferred_major": "Computer Engineering",
+    "inferred_location_keywords": [
+      "engineering building",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "Xbox controller",
+          "PS4 games",
+          "Gaming headset"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "Bluetooth speaker",
+          "used laptop charger",
+          "old smartphone"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 30.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "accessories",
+      "computer parts"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Nintendo Switch Lite console",
+      "category": "gaming",
+      "tags": [
+        "nintendo",
+        "switch",
+        "lite",
+        "console",
+        "portable",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "turquoise",
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Nintendo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 100
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Selling old console",
+      "original_text": "Selling my used Nintendo Switch Lite, fair condition, screen has some minor scratches. Works perfectly."
+    },
+    "location": {
+      "text_input": "dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

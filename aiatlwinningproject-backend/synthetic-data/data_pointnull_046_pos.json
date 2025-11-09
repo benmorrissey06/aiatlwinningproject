@@ -1,0 +1,122 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a textbook for intro to psych asap"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "prof_reader_42",
+    "context": {
+      "original_text": "Selling old textbooks, mostly psychology and sociology. Good condition, fair prices."
+    },
+    "profile_keywords": [
+      "textbooks",
+      "academic",
+      "study aids",
+      "psychology books",
+      "used books",
+      "student",
+      "psychology major"
+    ],
+    "inferred_major": "Psychology",
+    "inferred_location_keywords": [
+      "campus library",
+      "psychology department",
+      "student union"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Intro to Psychology Textbook",
+          "Sociology Reader",
+          "Research Methods Handbook"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "school_supplies",
+      "reading",
+      "study_aids"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Introduction to Psychology Textbook",
+      "category": "textbooks",
+      "tags": [
+        "psychology",
+        "introductory",
+        "college",
+        "science",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard textbook",
+        "color": "blue",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 40.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": "Selling after class completion",
+      "original_text": "Introduction to Psychology Textbook, 14th Ed. Good condition, slight highlighting. Asking $40."
+    },
+    "location": {
+      "text_input": "campus bookstore",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

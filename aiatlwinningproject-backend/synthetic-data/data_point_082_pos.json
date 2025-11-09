@@ -1,0 +1,137 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "sketchbook",
+      "category": "art_supplies",
+      "tags": [
+        "drawing",
+        "sketching",
+        "notebook"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "gently used"
+        ]
+      },
+      "secondary": {
+        "material": "paper",
+        "brand": "any"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need for upcoming art class project.",
+      "original_text": "Looking for a medium-sized black sketchbook, new or gently used, for my drawing class. Hoping to spend under $15."
+    },
+    "location": {
+      "text_input": "campus",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "art_student_123",
+    "context": {
+      "original_text": "I'm an art student always decluttering my supplies. Specializing in drawing and painting tools."
+    },
+    "profile_keywords": [
+      "art supplies",
+      "sketching",
+      "drawing",
+      "painting",
+      "creative",
+      "artist"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "studio building",
+      "art dept",
+      "dorm B"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "sketchbooks",
+          "charcoal sets",
+          "acrylic paints",
+          "various brushes"
+        ],
+        "total_items_sold": 28,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Art History I",
+          "Drawing Fundamentals"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "craft_supplies",
+      "small_furniture"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Moleskine Classic Sketchbook",
+      "category": "art_supplies",
+      "tags": [
+        "drawing",
+        "sketching",
+        "journal",
+        "blank pages"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "new"
+        ]
+      },
+      "secondary": {
+        "material": "paper",
+        "brand": "Moleskine"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 12
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "New Moleskine sketchbook, never used. Perfect for art projects."
+    },
+    "location": {
+      "text_input": "dorm B",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

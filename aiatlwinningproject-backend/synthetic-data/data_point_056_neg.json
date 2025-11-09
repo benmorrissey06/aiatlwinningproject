@@ -1,0 +1,136 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "academic textbook for chemistry",
+      "category": "textbooks",
+      "tags": [
+        "chemistry",
+        "organic chemistry",
+        "textbook",
+        "new edition"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Required for a new organic chemistry course starting next week.",
+      "original_text": "Need 'Organic Chemistry by Paula Yurkanis Bruice, 9th edition' in new or like-new condition. Can pay up to $50. ASAP."
+    },
+    "location": {
+      "text_input": "campus bookstore area",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "chem_whiz_2024",
+    "context": {
+      "original_text": "I often sell my textbooks after courses are over. Mainly science and math. Looking for good homes for my books!"
+    },
+    "profile_keywords": [
+      "textbooks",
+      "science books",
+      "chemistry",
+      "math",
+      "study guides"
+    ],
+    "inferred_major": "Chemistry",
+    "inferred_location_keywords": [
+      "science building",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "physics textbook",
+          "calculus textbook",
+          "biology lab manual"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 75,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "scientific calculator",
+          "notebooks"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 20,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "school_supplies",
+      "electronics"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Organic Chemistry by Paula Yurkanis Bruice, 9th edition",
+      "category": "textbooks",
+      "tags": [
+        "chemistry",
+        "organic chemistry",
+        "textbook",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling my used textbook after finishing the course.",
+      "original_text": "Selling 'Organic Chemistry by Paula Yurkanis Bruice, 9th edition'. Used, fair condition with some highlighting. Asking $45."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

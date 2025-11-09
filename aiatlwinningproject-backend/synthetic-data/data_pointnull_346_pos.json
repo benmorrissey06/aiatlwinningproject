@@ -1,0 +1,132 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "usb-c charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "need a usb c charger for my laptop ASAP"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_gear_guy",
+    "context": {
+      "original_text": "I often upgrade my tech, so I sell a lot of used electronics, cables, and small gadgets. Always fair prices!"
+    },
+    "profile_keywords": [
+      "electronics",
+      "cables",
+      "chargers",
+      "tech accessories",
+      "gaming gear",
+      "usb-c",
+      "adapters"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering building",
+      "library",
+      "campus center"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cables",
+          "USB-C hubs",
+          "charging bricks",
+          "bluetooth headphones"
+        ],
+        "total_items_sold": 35,
+        "avg_price_per_item": 28.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "controller grips",
+          "old game discs"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 12.5,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C Laptop Charger (65W)",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "usb-c",
+        "laptop",
+        "power adapter",
+        "tech"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "lightly used",
+          "good condition"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Upgraded my laptop, old charger is spare.",
+      "original_text": "Selling a lightly used Anker 65W USB-C laptop charger. Works perfectly, great for travel or as a spare."
+    },
+    "location": {
+      "text_input": "near Computer Science dept.",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

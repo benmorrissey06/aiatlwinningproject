@@ -1,0 +1,150 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Levi's Sherpa-lined Denim Jacket",
+      "category": "apparel",
+      "tags": [
+        "denim",
+        "jacket",
+        "sherpa",
+        "winter",
+        "outerwear",
+        "trendy"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "blue",
+        "condition_requested": [
+          "new"
+        ]
+      },
+      "secondary": {
+        "material": "denim, sherpa lining",
+        "brand": "Levi's"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 70
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need a brand new Levi's Sherpa jacket for a campus event next week, must be in perfect condition.",
+      "original_text": "Looking for a NEW Levi's Sherpa jacket, size M, classic blue denim. Max $70. Must be new!"
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": {
+        "lat": 34.0689,
+        "lng": -118.4452
+      }
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_textile_art_789",
+    "context": {
+      "original_text": "I often sell pre-loved fashion items, sometimes art supplies from my projects. All items are well-maintained. Passionate about sustainable fashion and textile design."
+    },
+    "profile_keywords": [
+      "fashion",
+      "textile design",
+      "clothing",
+      "vintage",
+      "sustainable",
+      "art supplies",
+      "upcycling"
+    ],
+    "inferred_major": "Textile Design",
+    "inferred_location_keywords": [
+      "art building",
+      "design studio",
+      "dorms south"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "vintage leather jacket",
+          "designer jeans",
+          "silk scarf",
+          "hoodie"
+        ],
+        "total_items_sold": 25,
+        "avg_price_per_item": 45,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "fabric dyes",
+          "specialty threads",
+          "sketchbooks"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 15,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "accessories",
+      "crafts",
+      "home_decor"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Levi's Sherpa-lined Denim Jacket",
+      "category": "apparel",
+      "tags": [
+        "denim",
+        "jacket",
+        "sherpa",
+        "winter",
+        "outerwear",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "blue",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "denim, sherpa lining",
+        "brand": "Levi's"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 55
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling my gently used Levi's Sherpa jacket, in good condition.",
+      "original_text": "Selling a gently used Levi's Sherpa jacket, size M, classic blue denim. Asking $55."
+    },
+    "location": {
+      "text_input": "seller's dorm",
+      "device_gps": {
+        "lat": 34.0689,
+        "lng": -118.4452
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

@@ -1,0 +1,129 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "calculator",
+      "category": null,
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "need a calculator asap for math class"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_fashionista_1122",
+    "context": {
+      "original_text": "Selling trendy apparel and accessories. Love sustainable fashion!"
+    },
+    "profile_keywords": [
+      "apparel",
+      "fashion",
+      "accessories",
+      "clothing",
+      "vintage",
+      "sustainable"
+    ],
+    "inferred_major": "Fashion Design",
+    "inferred_location_keywords": [
+      "campus",
+      "dorm",
+      "student union"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "crop top",
+          "denim shorts",
+          "vintage jacket"
+        ],
+        "total_items_sold": 68,
+        "avg_price_per_item": 22.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "accessories",
+        "item_examples": [
+          "sunglasses",
+          "small handbag"
+        ],
+        "total_items_sold": 25,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "fashion"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "denim jacket",
+      "category": "apparel",
+      "tags": [
+        "vintage",
+        "oversized",
+        "blue"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "L",
+        "color": "light blue",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "denim",
+        "brand": "Levi's"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "closet cleanout",
+      "original_text": "Selling my vintage Levi's denim jacket. Good condition, oversized fit, size L."
+    },
+    "location": {
+      "text_input": "seller's dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

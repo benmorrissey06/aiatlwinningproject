@@ -1,0 +1,149 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "compact mini-fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "fridge",
+        "dorm",
+        "appliance",
+        "small"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 100
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Moving into my dorm next week and need a fridge right away.",
+      "original_text": "Looking for a compact mini-fridge for my dorm. Needs to be in good or very good condition. My budget is around $100. Urgent for next week!"
+    },
+    "location": {
+      "text_input": "on-campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "sophia_mktg24",
+    "context": {
+      "original_text": "I'm a senior marketing major trying to clear out my apartment before graduation. Selling a lot of my old dorm stuff and some textbooks. Also have a passion for sustainable fashion."
+    },
+    "profile_keywords": [
+      "dorm essentials",
+      "mini-fridge",
+      "used appliances",
+      "textbooks",
+      "marketing student",
+      "sustainable fashion"
+    ],
+    "inferred_major": "Marketing",
+    "inferred_location_keywords": [
+      "off-campus apartment",
+      "storage unit"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "desk lamp",
+          "storage bins",
+          "microwave",
+          "mini-fridge"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 55.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Marketing 101",
+          "Economics Principles"
+        ],
+        "total_items_sold": 4,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "apparel",
+        "item_examples": [
+          "vintage jacket",
+          "designer jeans"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 75.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "small_appliances",
+      "furniture",
+      "home_goods"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "compact mini-fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "fridge",
+        "dorm",
+        "appliance",
+        "cooling",
+        "compact"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "metal_plastic",
+        "brand": "Insignia"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 85
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Upgraded to a larger kitchen fridge, no longer need this one for my room.",
+      "original_text": "Selling my reliable Insignia compact mini-fridge. Perfect working condition, gently used for two years in my dorm. Asking $85."
+    },
+    "location": {
+      "text_input": "off-campus apartment",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

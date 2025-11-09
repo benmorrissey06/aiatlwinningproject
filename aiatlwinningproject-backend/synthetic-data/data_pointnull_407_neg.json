@@ -1,0 +1,128 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "charging cable",
+      "category": null,
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "need a charging cable for my laptop, cheap and fast"
+    },
+    "location": {
+      "text_input": "dorm room",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_007",
+    "context": {
+      "original_text": "History major selling old textbooks and vintage apparel. I'm also looking to lend out some of my old literature books."
+    },
+    "profile_keywords": [
+      "textbooks",
+      "history",
+      "vintage",
+      "apparel",
+      "literature",
+      "books"
+    ],
+    "inferred_major": "History",
+    "inferred_location_keywords": [
+      "campus bookstore",
+      "dorm common room"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "World History Vol. 1",
+          "Intro to Philosophy"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "apparel",
+        "item_examples": [
+          "vintage band tee",
+          "denim jacket"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "apparel",
+      "books",
+      "vintage_items"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Vintage Graphic Tee (Medium)",
+      "category": "apparel",
+      "tags": [
+        "vintage",
+        "band tee",
+        "shirt"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "black",
+        "condition_requested": [
+          "used_good"
+        ]
+      },
+      "secondary": {
+        "material": "cotton",
+        "brand": "Fruit of the Loom (vintage)"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 28.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "clearing out closet",
+      "original_text": "Selling a cool vintage band t-shirt, fits like a medium. Good condition."
+    },
+    "location": {
+      "text_input": "my dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

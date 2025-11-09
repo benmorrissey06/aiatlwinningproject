@@ -1,0 +1,126 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "poster",
+      "category": "dorm_essentials",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Looking for a cool poster, something for my dorm wall, asap."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_gear_guru",
+    "context": {
+      "original_text": "Selling off my gaming console accessories, a few PC parts, and some old Computer Science textbooks. All great condition!"
+    },
+    "profile_keywords": [
+      "gaming",
+      "electronics",
+      "computer science",
+      "tech",
+      "used goods"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering dorms",
+      "library west"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS5 controller",
+          "gaming mouse",
+          "Nintendo Switch game"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 45,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Data Structures textbook",
+          "Discrete Math for CS"
+        ],
+        "total_items_sold": 4,
+        "avg_price_per_item": 70,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "textbooks",
+      "computer_accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Gaming Mouse",
+      "category": "gaming",
+      "tags": [
+        "peripheral",
+        "pc gaming",
+        "usb"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "used - like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Logitech"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Logitech G502 Hero Gaming Mouse, excellent condition, selling for $35."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

@@ -1,0 +1,133 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "desk lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "lighting",
+        "study_lamp"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "white",
+        "condition_requested": [
+          "new",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "metal",
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Moving into dorm, need light for desk",
+      "original_text": "Need a white metal desk lamp, new or good condition, max $25. Just moved into my dorm and need light for studying!"
+    },
+    "location": {
+      "text_input": "on campus",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "dorm_deco_diva",
+    "context": {
+      "original_text": "I'm an upperclassman majoring in Interior Design, decluttering my dorm essentials before graduation. I've sold a lot of home goods and small furniture."
+    },
+    "profile_keywords": [
+      "dorm decor",
+      "home goods",
+      "lighting",
+      "study supplies",
+      "moving out"
+    ],
+    "inferred_major": "Interior Design",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "residence halls"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini-fridge",
+          "desk chair",
+          "storage bins",
+          "floor lamp"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 38.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "furniture",
+        "item_examples": [
+          "small shelf",
+          "bedside table"
+        ],
+        "total_items_sold": 4,
+        "avg_price_per_item": 55.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "furniture",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "IKEA LED Desk Lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "lighting",
+        "LED",
+        "study"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "white",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "metal",
+        "brand": "IKEA"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Selling my white IKEA LED metal desk lamp. Excellent condition, perfect for any dorm desk!"
+    },
+    "location": {
+      "text_input": "campus dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

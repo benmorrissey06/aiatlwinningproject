@@ -1,0 +1,140 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Razer DeathAdder Elite Gaming Mouse",
+      "category": "electronics",
+      "tags": [
+        "gaming",
+        "mouse",
+        "peripheral",
+        "pc_gaming",
+        "wired"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Razer"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Upgrade gaming setup",
+      "original_text": "Need a new or excellent condition Razer DeathAdder Elite gaming mouse, can pay up to $50. Black preferred."
+    },
+    "location": {
+      "text_input": "near campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_greg_2024",
+    "context": {
+      "original_text": "Selling off some old gaming gear and PC parts. Computer Science major, usually available evenings."
+    },
+    "profile_keywords": [
+      "gaming hardware",
+      "PC components",
+      "tech accessories",
+      "computer science student",
+      "peripherals"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "library",
+      "engineering building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming keyboard",
+          "webcam",
+          "external hard drive"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 60,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS5 controller",
+          "Nintendo Switch games",
+          "headset"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 45,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "computer parts",
+      "peripherals",
+      "gaming consoles",
+      "monitors"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Razer DeathAdder Elite Gaming Mouse",
+      "category": "electronics",
+      "tags": [
+        "gaming",
+        "mouse",
+        "peripheral",
+        "pc_gaming",
+        "used",
+        "wired"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "black",
+        "condition": "fair"
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Razer"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price": 25
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "No longer needed",
+      "original_text": "Used Razer DeathAdder Elite mouse for sale. Fair condition, fully functional but has some cosmetic wear from use. Works great for gaming."
+    },
+    "location": {
+      "text_input": "my dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

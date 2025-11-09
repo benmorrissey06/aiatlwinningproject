@@ -1,0 +1,141 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Sewing Machine",
+      "category": "electronics",
+      "tags": [
+        "sewing",
+        "craft",
+        "beginner",
+        "portable"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "white",
+        "condition_requested": [
+          "brand new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, metal",
+        "brand": "Brother"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 150
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "For fashion design class project.",
+      "original_text": "Need a new, compact Brother sewing machine for my fashion design class, max $150. Urgent!"
+    },
+    "location": {
+      "text_input": "campus dorm",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_fashionista_789",
+    "context": {
+      "original_text": "I'm a fashion design student always selling art, craft supplies, and sometimes old electronics I've upgraded from."
+    },
+    "profile_keywords": [
+      "art",
+      "design",
+      "crafts",
+      "textiles",
+      "diy",
+      "sewing",
+      "fashion",
+      "student"
+    ],
+    "inferred_major": "Fashion Design",
+    "inferred_location_keywords": [
+      "design studio",
+      "dorms",
+      "campus art building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "sketchbooks",
+          "fabric scraps",
+          "craft tools"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "old tablet",
+          "used lamp",
+          "vintage camera"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 65.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textiles",
+      "crafting_tools",
+      "small_appliances",
+      "fashion_accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Sewing Machine",
+      "category": "electronics",
+      "tags": [
+        "sewing",
+        "craft",
+        "beginner",
+        "portable"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "white",
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, metal",
+        "brand": "Brother"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 90
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Selling after upgrading to a professional model.",
+      "original_text": "Selling my used Brother CS6000i sewing machine. Works fine, but has some cosmetic wear. $90."
+    },
+    "location": {
+      "text_input": "campus dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

@@ -1,0 +1,134 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "biology textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "Need a bio textbook for class."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_art_gal_789",
+    "context": {
+      "original_text": "I'm an art student selling extra supplies and dorm decor. Always looking for new projects!"
+    },
+    "profile_keywords": [
+      "art supplies",
+      "painting",
+      "sketching",
+      "crafts",
+      "dorm decor",
+      "creative"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art studio",
+      "campus gallery",
+      "dorm room"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "watercolor set",
+          "sketchpad",
+          "easel"
+        ],
+        "total_items_sold": 25,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "string lights",
+          "small tapestry"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 12.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "dorm_essentials",
+      "stationery"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Acrylic Paint Set - 24 Colors",
+      "category": "art_supplies",
+      "tags": [
+        "new",
+        "professional_grade",
+        "gift_item",
+        "price_45_dollars"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "multi-color",
+        "condition_requested": [
+          "new",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "acrylic paint",
+        "brand": "Winsor & Newton"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Winsor & Newton Acrylic Paint Set, 24 new colors, great for any artist."
+    },
+    "location": {
+      "text_input": "Seller's Dorm Room",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

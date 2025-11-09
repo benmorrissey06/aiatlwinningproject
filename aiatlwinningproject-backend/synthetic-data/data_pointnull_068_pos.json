@@ -1,0 +1,132 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "iPhone charger",
+      "category": null,
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "mine broke",
+      "original_text": "Need an iPhone charger ASAP, mine just broke. Can pick up quick."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_012",
+    "context": {
+      "original_text": "I often have extra tech accessories and dorm stuff from upgrading or moving. Selling used items to make some extra cash."
+    },
+    "profile_keywords": [
+      "electronics",
+      "tech accessories",
+      "phone accessories",
+      "dorm essentials",
+      "student",
+      "used items"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "campus center"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "iPhone charger",
+          "USB-C cable",
+          "Bluetooth headphones",
+          "power bank"
+        ],
+        "total_items_sold": 28,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini fridge",
+          "desk lamp",
+          "storage bins"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 35,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "dorm_essentials",
+      "accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Apple Lightning to USB Cable (1 meter)",
+      "category": "electronics",
+      "tags": [
+        "iphone",
+        "charger",
+        "lightning",
+        "apple"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "1 meter",
+        "color": "white",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "TPE",
+        "brand": "Apple"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "low",
+      "reason": null,
+      "original_text": "Selling a gently used official Apple Lightning to USB cable. 1 meter, white. Works perfectly."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

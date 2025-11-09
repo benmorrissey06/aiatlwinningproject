@@ -1,0 +1,129 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "pen",
+      "category": "school_supplies",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 5
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "Need a cheap pen for class tomorrow"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_gear_gal",
+    "context": {
+      "original_text": "Selling off my old tech and some dorm decor. I'm an engineering student, always upgrading my electronics."
+    },
+    "profile_keywords": [
+      "electronics",
+      "tech",
+      "dorm_essentials",
+      "engineering_student",
+      "gadgets"
+    ],
+    "inferred_major": "Electrical Engineering",
+    "inferred_location_keywords": [
+      "engineering_building",
+      "north_campus_dorm",
+      "library_west"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "wireless earbuds",
+          "portable charger",
+          "USB-C hub"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini fridge",
+          "desk lamp"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 50.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "dorm_essentials",
+      "small_appliances"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wireless Gaming Headset",
+      "category": "electronics",
+      "tags": [
+        "gaming",
+        "audio",
+        "wireless"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "one_size",
+        "color": "black",
+        "condition_requested": [
+          "used - like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 70
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a newer model, this one is still excellent.",
+      "original_text": "Selling my HyperX Cloud II Wireless Gaming Headset. Used sparingly, great condition, comes with all original accessories."
+    },
+    "location": {
+      "text_input": "north campus dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

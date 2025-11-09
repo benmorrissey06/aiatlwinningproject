@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Spider-Man 2 PS5 game",
+      "category": "gaming",
+      "tags": [
+        "PS5",
+        "action",
+        "adventure",
+        "game",
+        "spiderman"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Insomniac Games"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "My old disc got scratched, need a replacement for gaming with friends.",
+      "original_text": "Looking for a Marvel's Spider-Man 2 game for PS5, preferably new or like new. Willing to pay up to $50."
+    },
+    "location": {
+      "text_input": "on campus",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "GamerGeek22",
+    "context": {
+      "original_text": "I'm a huge PS5 gamer and always upgrading my collection. Selling my used games and accessories to fund new ones. Computer Science major."
+    },
+    "profile_keywords": [
+      "PS5 gamer",
+      "tech enthusiast",
+      "video games",
+      "collectibles",
+      "gaming hardware"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "campus center",
+      "engineering building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "God of War Ragnar\u00f6k (PS5)",
+          "Elden Ring (PS5)",
+          "DualSense controller"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 40,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming headset",
+          "portable charger"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 30,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "collectibles"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Marvel's Spider-Man 2 PS5 Game",
+      "category": "gaming",
+      "tags": [
+        "PS5",
+        "action",
+        "adventure",
+        "game",
+        "spiderman",
+        "physical disc"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Insomniac Games"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Selling my Marvel's Spider-Man 2 for PS5. Played once, complete in box, like new condition."
+    },
+    "location": {
+      "text_input": "campus dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

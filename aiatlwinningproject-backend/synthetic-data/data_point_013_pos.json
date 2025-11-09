@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "gaming headset",
+      "category": "gaming",
+      "tags": [
+        "headset",
+        "audio",
+        "gaming",
+        "microphone"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 40
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need for online gaming with friends",
+      "original_text": "Looking for a good condition used gaming headset, preferably HyperX, black. Max $40. Need it for gaming with friends."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_dave_123",
+    "context": {
+      "original_text": "I'm a CompSci major who sells my old tech and gaming stuff when I upgrade."
+    },
+    "profile_keywords": [
+      "gamer",
+      "tech enthusiast",
+      "gaming peripherals",
+      "computer science",
+      "upgrades"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "engineering building",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "gaming mouse",
+          "mechanical keyboard",
+          "webcam"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "old laptop charger",
+          "USB hub"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 20.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "computer_accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "HyperX Cloud Stinger Core Gaming Headset",
+      "category": "gaming",
+      "tags": [
+        "headset",
+        "audio",
+        "gaming",
+        "hyperx",
+        "microphone"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling old gaming gear after upgrade",
+      "original_text": "HyperX Cloud Stinger Core Headset, good condition, black, $35. Works great, just upgraded my setup."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Nintendo Switch Pro Controller",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "switch",
+        "nintendo"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Nintendo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need a second controller for multiplayer games",
+      "original_text": "Looking for a Nintendo Switch Pro Controller, good condition, under $50 please."
+    },
+    "location": {
+      "text_input": "on campus",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "game_stack_drew",
+    "context": {
+      "original_text": "Selling off my extra gaming gear and some old textbooks."
+    },
+    "profile_keywords": [
+      "gaming",
+      "switch accessories",
+      "electronics",
+      "textbooks",
+      "computer science student",
+      "gamer"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm A",
+      "library north"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "Joy-Con set",
+          "Switch Lite console",
+          "Pokemon game"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cable",
+          "USB-C hub"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "textbooks"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Nintendo Switch Pro Controller",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "switch",
+        "nintendo",
+        "pro",
+        "wireless"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "ABS plastic",
+        "brand": "Nintendo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy",
+        "borrow"
+      ],
+      "price_max": 38
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling spare controller",
+      "original_text": "Selling my barely used Nintendo Switch Pro Controller, excellent condition."
+    },
+    "location": {
+      "text_input": "my dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

@@ -1,0 +1,134 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "study guide",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy",
+        "borrow"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need a study guide for bio 101 soon."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_alice_art",
+    "context": {
+      "original_text": "Selling off my excess art supplies and a few handmade crafts after switching majors. Mostly paints, brushes, and sketchbooks."
+    },
+    "profile_keywords": [
+      "art supplies",
+      "painting",
+      "drawing",
+      "crafts",
+      "artist",
+      "brushes",
+      "canvases",
+      "sketchbooks"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "studio",
+      "art building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "watercolor set",
+          "sketchbook",
+          "canvas pack",
+          "acrylic paint"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 22.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "small desk lamp",
+          "picture frames"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 10.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "crafts",
+      "school_supplies_art_focused",
+      "dorm_decor"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "sketchbook",
+      "category": "art_supplies",
+      "tags": [
+        "drawing",
+        "artist",
+        "paper",
+        "journal"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "9x12 inches",
+        "color": "black",
+        "condition_requested": [
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "paper",
+        "brand": "Canson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "selling extra",
+      "original_text": "Canson XL Series Mix Media Pad, 9x12 inches, 60 sheets, like new condition."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

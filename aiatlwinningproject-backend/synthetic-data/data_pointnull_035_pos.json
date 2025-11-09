@@ -1,0 +1,130 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "t-shirt",
+      "category": "apparel",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "white",
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "looking for a white t-shirt, not too expensive, for this weekend."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_id_87654",
+    "context": {
+      "original_text": "I'm a fashion student clearing out my closet. Mostly gently used brand-name apparel and some accessories. Love selling things quickly on campus!"
+    },
+    "profile_keywords": [
+      "apparel",
+      "clothing",
+      "fashion",
+      "gently used",
+      "accessories",
+      "dorm essentials"
+    ],
+    "inferred_major": "Fashion Design",
+    "inferred_location_keywords": [
+      "campus",
+      "dorm",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "hoodies",
+          "jeans",
+          "t-shirts",
+          "dresses"
+        ],
+        "total_items_sold": 25,
+        "avg_price_per_item": 12.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "accessories",
+        "item_examples": [
+          "scarves",
+          "belts"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 8.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Uniqlo Supima Cotton Crew Neck T-Shirt",
+      "category": "apparel",
+      "tags": [
+        "casual",
+        "basic",
+        "cotton"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "white",
+        "condition_requested": [
+          "used - like new"
+        ]
+      },
+      "secondary": {
+        "material": "100% Supima Cotton",
+        "brand": "Uniqlo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 8.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "decluttering",
+      "original_text": "Uniqlo white Supima cotton t-shirt, men's size M, worn once, perfect condition."
+    },
+    "location": {
+      "text_input": "Seller's dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

@@ -1,0 +1,134 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "notebook",
+      "category": "school_supplies",
+      "tags": [
+        "writing",
+        "notes"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": null,
+      "price_max": null
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "Need a notebook for class, just a basic one."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_goddess_22",
+    "context": {
+      "original_text": "Selling extra gaming gear and some old tech. CS major."
+    },
+    "profile_keywords": [
+      "gaming",
+      "consoles",
+      "peripherals",
+      "tech",
+      "computer science",
+      "electronics"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorms",
+      "campus common areas",
+      "CS building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming mouse",
+          "mechanical keyboard",
+          "webcam"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS5 controller",
+          "Nintendo Switch game",
+          "gaming headset"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "peripherals"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wireless Gaming Headset",
+      "category": "gaming",
+      "tags": [
+        "audio",
+        "multiplayer",
+        "microphone"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "adjustable",
+        "color": "black",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, foam",
+        "brand": "Razer"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 75.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "upgraded to new model",
+      "original_text": "Selling my Razer Nari Ultimate wireless gaming headset. Still works great, minor wear."
+    },
+    "location": {
+      "text_input": "my dorm",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

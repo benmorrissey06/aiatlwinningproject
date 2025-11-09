@@ -1,0 +1,135 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Winsor & Newton professional acrylic paint set",
+      "category": "art_supplies",
+      "tags": [
+        "artist_grade",
+        "professional",
+        "project"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "assorted",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "acrylic",
+        "brand": "Winsor & Newton"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 40.0
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need for art history project due next week.",
+      "original_text": "Looking for a new or like-new Winsor & Newton professional acrylic paint set for my art project. Can pay up to $40 and need it by next week!"
+    },
+    "location": {
+      "text_input": "near Fine Arts building",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "user_artsy_seller_456",
+    "context": {
+      "original_text": "I'm an Art History major always selling art supplies I don't use anymore or find good deals on. Mostly paints, brushes, canvases."
+    },
+    "profile_keywords": [
+      "art supplies",
+      "art history",
+      "paintings",
+      "brushes",
+      "canvases",
+      "student artist"
+    ],
+    "inferred_major": "Art History",
+    "inferred_location_keywords": [
+      "fine arts building",
+      "studio"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "watercolor set",
+          "sketchbook",
+          "easel",
+          "acrylic brushes"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "art history textbook",
+          "philosophy reader"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "craft_supplies",
+      "books",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Winsor & Newton professional acrylic paint set",
+      "category": "art_supplies",
+      "tags": [
+        "artist_grade",
+        "professional"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "assorted",
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "acrylic",
+        "brand": "Winsor & Newton"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": "Used for personal projects, no longer needed.",
+      "original_text": "Selling a used Winsor & Newton professional acrylic paint set. Some tubes are half-used, but still plenty left. Fair condition. $30."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

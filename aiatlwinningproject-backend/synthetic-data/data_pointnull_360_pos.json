@@ -1,0 +1,133 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "fan",
+      "category": "dorm_essentials",
+      "tags": [
+        "cooling"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "small",
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy",
+        "borrow"
+      ],
+      "price_max": 15
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "for my dorm room",
+      "original_text": "Need a small fan, cheap, for my dorm room, by tomorrow."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "jane_doe_22",
+    "context": "I'm always decluttering my dorm! Selling electronics and textbooks. Quick meetups on campus.",
+    "profile_keywords": [
+      "dorm",
+      "electronics",
+      "textbooks",
+      "student",
+      "good deals",
+      "fast delivery"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "engineering building",
+      "student union"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "mini fan",
+          "USB charger",
+          "portable speaker",
+          "headphones"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 20,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus I",
+          "Intro to CS",
+          "Physics for Engineers"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 40,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "dorm_essentials",
+      "textbooks",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "mini desk fan",
+      "category": "electronics",
+      "tags": [
+        "cooling",
+        "dorm",
+        "portable"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "small",
+        "color": "white",
+        "condition_requested": [
+          "used_good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Opolar"
+      }
+    },
+    "transaction": {
+      "type_preferred": "sell",
+      "type_acceptable": [
+        "sell"
+      ],
+      "price_max": 12
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Mini portable desk fan, white, barely used. Perfect for a dorm room. Asking $12."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

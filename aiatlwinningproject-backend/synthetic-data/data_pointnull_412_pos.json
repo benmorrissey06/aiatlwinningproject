@@ -1,0 +1,134 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "laptop charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a charger for my laptop ASAP."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_savvy_student_2023",
+    "context": {
+      "original_text": "I'm an engineering student, always upgrading my tech. Selling old chargers, cables, and minor electronics. Love good deals!"
+    },
+    "profile_keywords": [
+      "electronics",
+      "tech",
+      "cables",
+      "chargers",
+      "engineering",
+      "used items",
+      "laptop accessories"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "engineering building",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cable",
+          "USB-C adapter",
+          "Dell laptop charger"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 22.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "graphing calculator",
+          "engineering ruler"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "computing",
+      "accessories",
+      "hardware"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Dell Latitude E-series Charger",
+      "category": "electronics",
+      "tags": [
+        "laptop accessory",
+        "power adapter",
+        "Dell",
+        "charger"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Dell"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Upgraded my laptop, no longer need this charger.",
+      "original_text": "Selling a gently used Dell Latitude charger. Works perfectly, minor cosmetic scuffs. Asking $25."
+    },
+    "location": {
+      "text_input": "on-campus dorm, near engineering quad",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

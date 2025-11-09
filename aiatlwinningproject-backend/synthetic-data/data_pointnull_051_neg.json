@@ -1,0 +1,129 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "jacket",
+      "category": null,
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need a cheap jacket for tomorrow."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "usr_fashionforward_007",
+    "context": {
+      "original_text": "I sell high-quality, pre-loved fashion items, especially designer outerwear and accessories. Love fashion!"
+    },
+    "profile_keywords": [
+      "fashion",
+      "designer clothes",
+      "outerwear",
+      "accessories",
+      "style",
+      "luxury"
+    ],
+    "inferred_major": "Fashion Design",
+    "inferred_location_keywords": [
+      "campus boutique",
+      "fashion district"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "designer winter coat",
+          "leather jacket",
+          "silk scarf"
+        ],
+        "total_items_sold": 38,
+        "avg_price_per_item": 120,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "accessories",
+        "item_examples": [
+          "sunglasses",
+          "handbags"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 60,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "fashion"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Designer Winter Parka",
+      "category": "apparel",
+      "tags": [
+        "winter",
+        "warm",
+        "designer",
+        "outerwear",
+        "parka"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "Black",
+        "condition_requested": [
+          "excellent",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "down-filled, waterproof nylon",
+        "brand": "LuxuryOuterwearCo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 280
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "selling surplus inventory",
+      "original_text": "Luxury Outerwear Co. Winter Parka, size M, black, excellent condition. Perfect for cold winters!"
+    },
+    "location": {
+      "text_input": "Seller's Dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

@@ -1,0 +1,137 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "art history textbook",
+      "category": "textbooks",
+      "tags": [
+        "history",
+        "art"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need an art history textbook for cheap this week."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_gamer_007",
+    "context": {
+      "original_text": "Selling used gaming gear and electronics on campus."
+    },
+    "profile_keywords": [
+      "gamer",
+      "electronics",
+      "tech",
+      "peripherals",
+      "computer science"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "library",
+      "campus"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "gaming mouse",
+          "mechanical keyboard",
+          "headset"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 45,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "charging cable",
+          "USB hub",
+          "portable speaker"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 15,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "computer_parts"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Razer BlackWidow mechanical gaming keyboard",
+      "category": "gaming",
+      "tags": [
+        "keyboard",
+        "gaming",
+        "peripherals",
+        "mechanical"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "full-size",
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, metal",
+        "brand": "Razer"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 75
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "upgrading setup",
+      "original_text": "Razer BlackWidow V3 mechanical gaming keyboard, used in good condition. RGB lighting, green switches. No box."
+    },
+    "location": {
+      "text_input": "campus dorm, near engineering building",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

@@ -1,0 +1,130 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "gaming headphones",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "Need some gaming headphones for my new setup."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_greg",
+    "context": {
+      "original_text": "I often sell used gaming gear and tech accessories. Always looking for fair prices and quick exchanges."
+    },
+    "profile_keywords": [
+      "gaming",
+      "electronics",
+      "tech accessories",
+      "headsets",
+      "peripherals",
+      "used gear",
+      "computer parts"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "campus center"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "Gaming mouse",
+          "Mechanical Keyboard",
+          "Webcam"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 55.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 Controller",
+          "Switch Games"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 30.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "audio equipment"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "HyperX Cloud Stinger Core Gaming Headset",
+      "category": "electronics",
+      "tags": [
+        "gaming",
+        "headset",
+        "audio",
+        "microphone"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "one size",
+        "color": "black",
+        "condition_requested": [
+          "gently used"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, foam",
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling due to upgrade",
+      "original_text": "Selling my HyperX Cloud Stinger Core Gaming Headset. Works perfectly, only used for a few months before upgrading."
+    },
+    "location": {
+      "text_input": "On-campus pickup",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

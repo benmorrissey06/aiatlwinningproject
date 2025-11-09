@@ -1,0 +1,135 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "mini-fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "compact",
+        "small_appliances",
+        "refrigerator",
+        "dorm_room"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": null,
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "metal/plastic",
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need for new dorm room",
+      "original_text": "Looking for a working compact mini-fridge for my dorm. Doesn't have to be new, but good condition is a must. Hoping to spend max $80."
+    },
+    "location": {
+      "text_input": "campus",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "emily_j_123",
+    "context": {
+      "original_text": "Graduating soon, clearing out all my dorm room essentials and old electronics. Have a few small appliances."
+    },
+    "profile_keywords": [
+      "dorm_essentials",
+      "electronics",
+      "small_appliances",
+      "moving_out",
+      "graduating_student"
+    ],
+    "inferred_major": "Biology",
+    "inferred_location_keywords": [
+      "North Campus Dorms",
+      "Science Building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "microwave",
+          "desk lamp",
+          "fan"
+        ],
+        "total_items_sold": 6,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "bluetooth speaker",
+          "old phone charger"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "electronics",
+      "furniture"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "mini-fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "compact",
+        "small_appliances",
+        "refrigerator"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "metal/plastic",
+        "brand": "Insignia"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 65
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling before moving",
+      "original_text": "Insignia compact mini-fridge, black, perfect working condition. Used for 2 years, well maintained. Selling for $65."
+    },
+    "location": {
+      "text_input": "North Campus Dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

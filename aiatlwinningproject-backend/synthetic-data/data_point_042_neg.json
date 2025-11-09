@@ -1,0 +1,141 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Introduction to Literary Criticism textbook",
+      "category": "textbooks",
+      "tags": [
+        "literary criticism",
+        "english",
+        "textbook",
+        "used",
+        "college"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Required for upcoming English Lit 301 class",
+      "original_text": "Need 'Introduction to Literary Criticism' textbook ASAP. Must be in good or very good condition, max $30. For English Lit 301."
+    },
+    "location": {
+      "text_input": "campus library",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "eng_lit_grad_01",
+    "context": {
+      "original_text": "English Literature major selling used textbooks, notes, and some dorm decor. Mostly paperbacks."
+    },
+    "profile_keywords": [
+      "english major",
+      "textbooks",
+      "bookworm",
+      "campus seller",
+      "used books",
+      "literature"
+    ],
+    "inferred_major": "English Literature",
+    "inferred_location_keywords": [
+      "humanities building",
+      "campus bookstore"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Shakespeare Anthology",
+          "Modern Novel Analysis"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "Desk lamp",
+          "Miniature fan"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "literature",
+      "school_supplies",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Introduction to Literary Criticism textbook",
+      "category": "textbooks",
+      "tags": [
+        "literary criticism",
+        "english",
+        "textbook",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Finished the course",
+      "original_text": "Selling my 'Introduction to Literary Criticism' textbook. It's in fair condition, some highlighting inside. Asking $25."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

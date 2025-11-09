@@ -1,0 +1,132 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "charging cable",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "white",
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "need a white charger tonight for my iPhone"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "user_electronic_guru",
+    "context": {
+      "original_text": "I often have spare electronics and accessories. Love tech, always upgrading."
+    },
+    "profile_keywords": [
+      "electronics",
+      "cables",
+      "accessories",
+      "tech gear",
+      "phone chargers"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm: east hall",
+      "campus center"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C hub",
+          "HDMI cable",
+          "phone charger",
+          "bluetooth earbuds"
+        ],
+        "total_items_sold": 38,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "controller",
+          "game disc"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "lightning charging cable",
+      "category": "electronics",
+      "tags": [
+        "apple compatible",
+        "fast charging",
+        "phone accessory"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "3 ft",
+        "color": "white",
+        "condition_requested": [
+          "gently used",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "nylon braided",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 12.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "spare cable",
+      "original_text": "Anker 3ft Lightning Cable - White, braided, perfect condition"
+    },
+    "location": {
+      "text_input": "East Hall Dorm Room 302",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

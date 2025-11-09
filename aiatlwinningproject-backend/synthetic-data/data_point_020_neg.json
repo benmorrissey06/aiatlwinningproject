@@ -1,0 +1,137 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wacom Intuos drawing tablet",
+      "category": "electronics",
+      "tags": [
+        "drawing",
+        "digital art",
+        "tablet",
+        "graphics"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Wacom"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 100
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need for digital art class project",
+      "original_text": "Looking for a new or excellent condition Wacom Intuos drawing tablet for my digital art class. Max $100 please, medium size preferred."
+    },
+    "location": {
+      "text_input": "campus library",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "designer_diana_789",
+    "context": {
+      "original_text": "I'm a graphic design major selling off some old tech and art supplies. Mostly gently used electronics and art tools."
+    },
+    "profile_keywords": [
+      "digital artist",
+      "graphic design",
+      "illustration",
+      "tech enthusiast",
+      "art supplies",
+      "electronics"
+    ],
+    "inferred_major": "Graphic Design",
+    "inferred_location_keywords": [
+      "arts building",
+      "design studio"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "drawing tablet",
+          "monitor",
+          "digital stylus",
+          "portable speaker"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 150,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "sketchbooks",
+          "copic markers",
+          "easel"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 25,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "photography"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Huion H610PRO V2 Drawing Tablet",
+      "category": "electronics",
+      "tags": [
+        "drawing",
+        "digital art",
+        "tablet"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Huion"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 65
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Upgraded to a new tablet",
+      "original_text": "Selling my old Huion H610PRO V2 tablet. Still works great, but has some visible scratches and wear from regular use. Good for beginners or as a backup. Asking $65."
+    },
+    "location": {
+      "text_input": "campus dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

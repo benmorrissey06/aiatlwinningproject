@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Gardner's Art Through the Ages, Vol. 1",
+      "category": "textbooks",
+      "tags": [
+        "art history",
+        "textbook",
+        "gardner's",
+        "volume 1",
+        "survey course"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Cengage"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Required for Art History 201 project, prefer good condition for long-term use.",
+      "original_text": "Looking for 'Gardner's Art Through the Ages, Vol. 1'. Need it new or like new, ideally for under $35. Important for my Art History class."
+    },
+    "location": {
+      "text_input": "campus library",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "history_bookworm_101",
+    "context": {
+      "original_text": "I'm a History major selling off old textbooks and some dorm furniture. Always happy to lend a hand with study materials!"
+    },
+    "profile_keywords": [
+      "history",
+      "textbooks",
+      "academic books",
+      "dorm furniture",
+      "used books"
+    ],
+    "inferred_major": "History",
+    "inferred_location_keywords": [
+      "history building",
+      "east dorms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Ancient Civilizations Textbook",
+          "Philosophy Reader",
+          "Art History: A Concise Overview"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 42.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "furniture",
+        "item_examples": [
+          "Desk Lamp",
+          "Small Bookshelf"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "history",
+      "art history",
+      "literature",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Gardner's Art Through the Ages, Vol. 1",
+      "category": "textbooks",
+      "tags": [
+        "art history",
+        "textbook",
+        "gardner's",
+        "volume 1",
+        "used book"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition": "fair"
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Cengage"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price": 25
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "No longer need for class, clearing out shelf space.",
+      "original_text": "Selling my copy of Gardner's Art Through the Ages, Vol. 1. It's definitely used, some highlighting and notes on a few pages, but all pages are intact. Asking $25."
+    },
+    "location": {
+      "text_input": "history building",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

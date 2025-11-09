@@ -1,0 +1,128 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 20
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a textbook ASAP for my history class, nothing too expensive."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_gamer_007",
+    "context": {
+      "original_text": "Selling my old gaming gear and some cool graphic tees. CS major, always on campus."
+    },
+    "profile_keywords": [
+      "gaming",
+      "electronics",
+      "apparel",
+      "CS major",
+      "campus life"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "library",
+      "campus center"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming mouse",
+          "headset",
+          "keyboard"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 45,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "apparel",
+        "item_examples": [
+          "graphic t-shirt",
+          "hoodie"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 25,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "apparel"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Gaming Headset (Logitech G Pro X)",
+      "category": "electronics",
+      "tags": [
+        "audio",
+        "gaming",
+        "peripheral"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "one size",
+        "color": "black",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, fabric",
+        "brand": "Logitech"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 60
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to new model",
+      "original_text": "Selling my Logitech G Pro X headset, still works great for gaming."
+    },
+    "location": {
+      "text_input": "My dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

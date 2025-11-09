@@ -1,0 +1,134 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "MacBook Pro charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "macbook pro charger asap"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_tech_001",
+    "context": {
+      "original_text": "I'm a CS major always upgrading my tech, so I often have extra cables, adapters, and sometimes even a monitor. Also selling old textbooks."
+    },
+    "profile_keywords": [
+      "electronics",
+      "tech",
+      "cables",
+      "adapters",
+      "computer science",
+      "textbooks",
+      "apple"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering hall",
+      "dorm B",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C hub",
+          "HDMI cable",
+          "MacBook Air charger",
+          "external hard drive"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus I textbook",
+          "Python programming guide"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 60.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "textbooks",
+      "gaming",
+      "school_supplies",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Apple 87W USB-C Power Adapter for MacBook Pro",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "macbook pro",
+        "usb-c",
+        "apple",
+        "power adapter"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "white",
+        "condition_requested": [
+          "excellent",
+          "used-good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Apple"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "upgraded to new laptop",
+      "original_text": "Selling my authentic Apple 87W USB-C Power Adapter. Used but in excellent condition, works perfectly with MacBook Pro models. Got a new laptop, don't need this charger anymore."
+    },
+    "location": {
+      "text_input": "near engineering building",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

@@ -1,0 +1,133 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "t-shirt",
+      "category": "apparel",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "white",
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "for frat party",
+      "original_text": "Need a white t-shirt for frat party. ASAP."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_007",
+    "context": {
+      "original_text": "I often sell gently used clothing and sometimes offer a discount for bulk buys or party prep. Mostly sell from my dorm in North Campus."
+    },
+    "profile_keywords": [
+      "fashion",
+      "party outfits",
+      "casual wear",
+      "dorm essentials",
+      "apparel",
+      "clothing",
+      "quick delivery"
+    ],
+    "inferred_major": "Fashion Design",
+    "inferred_location_keywords": [
+      "North Campus",
+      "dorm"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "t-shirts",
+          "hoodies",
+          "jeans",
+          "dresses"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "accessories",
+        "item_examples": [
+          "hats",
+          "scarves"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 10,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Hanes ComfortSoft White T-Shirt",
+      "category": "apparel",
+      "tags": [
+        "casual",
+        "basic",
+        "cotton",
+        "party",
+        "unisex"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "white",
+        "condition_requested": [
+          "like_new"
+        ]
+      },
+      "secondary": {
+        "material": "100% Cotton",
+        "brand": "Hanes"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 8
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "Clearance from personal collection",
+      "original_text": "Selling a gently used Hanes ComfortSoft white t-shirt, perfect for parties or everyday wear. Size M. Can meet on campus today."
+    },
+    "location": {
+      "text_input": "North Campus Dorms",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

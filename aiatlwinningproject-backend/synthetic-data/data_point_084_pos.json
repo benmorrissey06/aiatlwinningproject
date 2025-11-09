@@ -1,0 +1,137 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Nintendo Switch Pro Controller",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "switch",
+        "nintendo",
+        "pro"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Nintendo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 55
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need a second controller for multiplayer games with friends.",
+      "original_text": "Looking for a black Nintendo Switch Pro Controller, preferably in good or very good condition. Max price around $55."
+    },
+    "location": {
+      "text_input": "on campus",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_gal_23",
+    "context": {
+      "original_text": "CompSci major, loves gaming, always upgrading my tech. Selling off old controllers and games."
+    },
+    "profile_keywords": [
+      "gaming",
+      "tech accessories",
+      "video games",
+      "controllers",
+      "electronics"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "campus pickup",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS5 controller",
+          "Nintendo Switch Lite",
+          "Zelda game"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 50,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "Bluetooth speaker",
+          "gaming headset"
+        ],
+        "total_items_sold": 4,
+        "avg_price_per_item": 30,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Nintendo Switch Pro Controller",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "switch",
+        "nintendo",
+        "pro",
+        "accessory"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "durable plastic",
+        "brand": "Nintendo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 48
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling because I upgraded to a custom controller.",
+      "original_text": "Selling my black Nintendo Switch Pro Controller. It's in very good condition, barely used. Looking for $48."
+    },
+    "location": {
+      "text_input": "campus dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

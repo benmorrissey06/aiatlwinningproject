@@ -1,0 +1,142 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Liquitex acrylic paint set",
+      "category": "art_supplies",
+      "tags": [
+        "paint",
+        "acrylic",
+        "art",
+        "set",
+        "liquitex"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "assorted",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "acrylic",
+        "brand": "Liquitex"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Starting new painting class next week.",
+      "original_text": "Looking for a Liquitex acrylic paint set, new or like new, for under $30. Need it for a class starting soon!"
+    },
+    "location": {
+      "text_input": "campus arts building",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "creative_campus_artist_77",
+    "context": {
+      "original_text": "Fine Arts major, always rotating through art supplies and looking to sell previous semester's materials. Also sells some cool handmade prints."
+    },
+    "profile_keywords": [
+      "artist",
+      "painter",
+      "fine arts major",
+      "art supplies",
+      "creative"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art studio",
+      "campus apartment",
+      "north campus dorms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "oil paints",
+          "sketchbooks",
+          "canvases",
+          "easel",
+          "paint brushes"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 28,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "art history book",
+          "photography guide"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 40,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "crafts",
+      "books",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Liquitex Basics Acrylic Paint Set (24 tubes)",
+      "category": "art_supplies",
+      "tags": [
+        "paint",
+        "acrylic",
+        "art",
+        "set",
+        "liquitex",
+        "basics"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "assorted",
+        "condition_requested": [
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "acrylic",
+        "brand": "Liquitex"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Selling a 24-tube Liquitex Basics acrylic paint set, barely used, like new condition."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

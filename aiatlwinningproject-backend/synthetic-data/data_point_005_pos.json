@@ -1,0 +1,136 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Introduction to Literary Theory textbook",
+      "category": "textbooks",
+      "tags": [
+        "literary theory",
+        "english",
+        "textbook",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 40
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Required for English 301, starting next week.",
+      "original_text": "Need 'Introduction to Literary Theory' textbook for ENGL 301. Looking for a good condition paperback, preferably under $40. Can meet on campus."
+    },
+    "location": {
+      "text_input": "campus",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "lit_lover_22",
+    "context": {
+      "original_text": "Selling old textbooks and course materials. Majoring in English Lit."
+    },
+    "profile_keywords": [
+      "english literature",
+      "textbooks",
+      "humanities",
+      "academic",
+      "used books"
+    ],
+    "inferred_major": "English Literature",
+    "inferred_location_keywords": [
+      "campus library",
+      "humanities building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Literary Criticism Anthology",
+          "Shakespearean Tragedies",
+          "Modern Poetry Reader"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 35,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "notebooks",
+          "pens"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 5,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "school_supplies",
+      "art_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Introduction to Literary Theory by Terry Eagleton (3rd Edition)",
+      "category": "textbooks",
+      "tags": [
+        "literary theory",
+        "english",
+        "textbook",
+        "used",
+        "pearson"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Selling my 'Introduction to Literary Theory' textbook, 3rd edition. Good condition."
+    },
+    "location": {
+      "text_input": "campus",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

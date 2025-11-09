@@ -1,0 +1,141 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "TI-84 Plus CE Graphing Calculator",
+      "category": "electronics",
+      "tags": [
+        "calculator",
+        "graphing",
+        "TI-84",
+        "engineering",
+        "math"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Texas Instruments"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 120
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need for calculus class starting next week.",
+      "original_text": "Urgently need a new TI-84 Plus CE graphing calculator, preferably black. Willing to pay up to $120 for a brand new one."
+    },
+    "location": {
+      "text_input": "campus bookstore area",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "eng_gadget_seller_88",
+    "context": {
+      "original_text": "I'm an Electrical Engineering student who often upgrades my tech. Selling my old but perfectly functional electronics, especially calculators, study gadgets, and sometimes dorm appliances. Love helping other students find affordable tech."
+    },
+    "profile_keywords": [
+      "electrical engineering",
+      "electronics",
+      "calculators",
+      "study gadgets",
+      "tech",
+      "dorm appliances",
+      "used tech"
+    ],
+    "inferred_major": "Electrical Engineering",
+    "inferred_location_keywords": [
+      "engineering building",
+      "dorm room",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "TI-84 Plus CE",
+          "USB-C Hub",
+          "portable charger"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 65,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "technical drawing kit",
+          "scientific calculator"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 30,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "school_supplies",
+      "gaming"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "TI-84 Plus CE Graphing Calculator",
+      "category": "electronics",
+      "tags": [
+        "calculator",
+        "graphing",
+        "TI-84",
+        "engineering",
+        "math",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Texas Instruments"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a newer model and no longer need this one.",
+      "original_text": "Selling my trusty TI-84 Plus CE calculator. It's in good condition, slight wear but fully functional. Great for engineering students. Asking $80."
+    },
+    "location": {
+      "text_input": "Engineering dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

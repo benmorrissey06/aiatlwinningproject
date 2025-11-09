@@ -1,0 +1,131 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "storage bin",
+      "category": "dorm_essentials",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a storage bin asap for my dorm."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "dorm_declutter_23",
+    "context": {
+      "original_text": "I'm clearing out my dorm before moving. Lots of practical items, furniture, storage solutions for sale!"
+    },
+    "profile_keywords": [
+      "dorm move-out",
+      "storage",
+      "furniture",
+      "practical items",
+      "organization",
+      "used items"
+    ],
+    "inferred_major": "Business",
+    "inferred_location_keywords": [
+      "dorm",
+      "on-campus",
+      "move-out"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "storage bin",
+          "desk lamp",
+          "mini fridge"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 18.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "furniture",
+        "item_examples": [
+          "small bookshelf",
+          "desk chair"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "home_goods",
+      "furniture",
+      "school_supplies",
+      "organization"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "plastic storage bin",
+      "category": "dorm_essentials",
+      "tags": [
+        "storage",
+        "dorm",
+        "organization",
+        "plastic",
+        "clear"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium (15L)",
+        "color": "clear",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Sterilite"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 12.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "clearing dorm for move-out",
+      "original_text": "Clear Sterilite plastic storage bin, medium size, perfect for dorm organization. Used one semester, in good condition."
+    },
+    "location": {
+      "text_input": "on-campus dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

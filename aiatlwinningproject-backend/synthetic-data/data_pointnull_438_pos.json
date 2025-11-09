@@ -1,0 +1,136 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "fine tip markers",
+      "category": "school_supplies",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need some fine tip markers for class by tomorrow."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_XYZ789",
+    "context": {
+      "original_text": "Art student selling extra supplies and dorm decor. Open to lending sometimes too, especially drawing tools."
+    },
+    "profile_keywords": [
+      "art supplies",
+      "school supplies",
+      "drawing tools",
+      "dorm decor",
+      "creative projects",
+      "stationery"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art studio",
+      "dorm room",
+      "campus bookstore area"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "sketchbook",
+          "watercolor set",
+          "brush pen set"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 12.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "notebooks",
+          "erasers",
+          "gel pens"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 6.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "school_supplies",
+      "dorm_essentials",
+      "creative_hobbies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Sakura Pigma Micron Pen Set",
+      "category": "art_supplies",
+      "tags": [
+        "fine tip",
+        "drawing",
+        "inking",
+        "archival",
+        "black ink",
+        "pen set"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "assorted 005-08",
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "like-new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, pigment ink",
+        "brand": "Sakura Pigma Micron"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "unused gift, extra set",
+      "original_text": "Selling a brand new set of Sakura Pigma Micron fine tip pens (6-pack, black). Perfect for art, journaling, or detailed notes."
+    },
+    "location": {
+      "text_input": "my dorm, close to the art building",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

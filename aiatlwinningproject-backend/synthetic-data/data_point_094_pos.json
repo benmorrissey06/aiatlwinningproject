@@ -1,0 +1,146 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C to HDMI Adapter",
+      "category": "electronics",
+      "tags": [
+        "adapter",
+        "display",
+        "monitor",
+        "laptop accessory"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "aluminum",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25.0
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need for a presentation tomorrow, my old adapter broke.",
+      "original_text": "Looking for a black USB-C to HDMI adapter, preferably Anker or similar quality, new or like new. Max $25. Need it urgently for a presentation tomorrow!"
+    },
+    "location": {
+      "text_input": "campus library",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.4443
+      }
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_savvy_tina",
+    "context": {
+      "original_text": "I often upgrade my tech and sell my old gadgets. Also have some art supplies I don't use anymore from a past hobby."
+    },
+    "profile_keywords": [
+      "electronics",
+      "gadgets",
+      "tech",
+      "cables",
+      "peripherals",
+      "computer science",
+      "art supplies"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering building",
+      "dorm D",
+      "university apartments"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "webcam",
+          "wireless mouse",
+          "HDMI cable",
+          "USB-C charger"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 30.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "sketchbook",
+          "paintbrushes"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 12.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Anker USB-C to HDMI Adapter",
+      "category": "electronics",
+      "tags": [
+        "adapter",
+        "display",
+        "monitor",
+        "video converter",
+        "Anker"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "aluminum",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 20.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a dock, no longer need individual adapter.",
+      "original_text": "Selling my Anker USB-C to HDMI adapter, like new condition, only used a few times. Works perfectly. Retails for $30, asking $20."
+    },
+    "location": {
+      "text_input": "dorm D",
+      "device_gps": {
+        "lat": 34.071,
+        "lng": -118.441
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

@@ -1,0 +1,124 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "laptop charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "need a charger for my laptop asap"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_gear_gal_99",
+    "context": {
+      "original_text": "I often have spare tech accessories and electronics from upgrading or old projects. Happy to help out classmates who need something fast."
+    },
+    "profile_keywords": [
+      "electronics",
+      "tech accessories",
+      "chargers",
+      "cables",
+      "gadgets",
+      "computer science"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C Hub",
+          "HDMI cable",
+          "MacBook charger",
+          "Bluetooth earbuds"
+        ],
+        "total_items_sold": 38,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "computer_accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C Laptop Charger",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "laptop",
+        "USB-C",
+        "power adapter",
+        "60W"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "white",
+        "condition_requested": [
+          "used_good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25.0
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "Upgraded my laptop, old charger is still perfectly functional.",
+      "original_text": "Selling an Anker 60W USB-C Power Delivery charger. Perfect for MacBook, Dell XPS, or other USB-C laptops. Only used for a few months, in great condition. Can meet up on campus ASAP."
+    },
+    "location": {
+      "text_input": "campus center",
+      "device_gps": {
+        "lat": 40.7128,
+        "lng": -74.006
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

@@ -1,0 +1,135 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Calculus: Early Transcendentals Textbook",
+      "category": "textbooks",
+      "tags": [
+        "calculus",
+        "math",
+        "9th edition",
+        "Stewart"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good",
+          "excellent",
+          "new"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Stewart"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Required for current semester's math course.",
+      "original_text": "Need 'Calculus: Early Transcendentals, 9th Edition' by Stewart for my class. Looking for a good or better condition, ideally under $50. Let me know!"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "math_whiz_sophie",
+    "context": {
+      "original_text": "I'm a math major always selling old textbooks and helping out with study materials. Love solving problems!"
+    },
+    "profile_keywords": [
+      "textbooks",
+      "calculus",
+      "math",
+      "study guides",
+      "used books",
+      "STEM"
+    ],
+    "inferred_major": "Mathematics",
+    "inferred_location_keywords": [],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Linear Algebra textbook",
+          "Discrete Math study guide",
+          "Physics I workbook"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 45,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "Graphing Calculator",
+          "Notebooks"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 30,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "school_supplies",
+      "stationery",
+      "electronics"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Calculus: Early Transcendentals Textbook",
+      "category": "textbooks",
+      "tags": [
+        "calculus",
+        "math",
+        "8th edition",
+        "Stewart"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Stewart"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 40
+    },
+    "context": {
+      "urgency": "low",
+      "reason": null,
+      "original_text": "Selling 'Calculus: Early Transcendentals, 8th Edition' by Stewart. Good condition, minor highlighting. Asking $40."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

@@ -1,0 +1,134 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "small fan",
+      "category": "dorm_essentials",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "for my room",
+      "original_text": "small fan for my room, maybe $15?"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "user_xyz789",
+    "context": {
+      "original_text": "I'm clearing out my dorm before moving off-campus. Lots of gently used dorm essentials and small appliances. Selling mostly."
+    },
+    "profile_keywords": [
+      "dorm essentials",
+      "small appliances",
+      "home goods",
+      "electronics",
+      "moving sale"
+    ],
+    "inferred_major": "Business",
+    "inferred_location_keywords": [
+      "dorm A",
+      "campus north"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini fridge",
+          "desk lamp",
+          "box fan",
+          "electric kettle"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "monitor",
+          "HDMI cable"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 60,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "electronics",
+      "small_furniture",
+      "home_goods"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Holmes HBF2010A-BM Box Fan",
+      "category": "dorm_essentials",
+      "tags": [
+        "box fan",
+        "personal fan",
+        "cooling",
+        "dorm"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "white",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Holmes"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 12
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "clearing out dorm",
+      "original_text": "Selling a gently used Holmes compact box fan. Perfect for a dorm room!"
+    },
+    "location": {
+      "text_input": "Dorm A, Room 305",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.45
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

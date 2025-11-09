@@ -1,0 +1,142 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "MacBook Pro charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "Mine just died.",
+      "original_text": "Urgent! Need a charger for my MacBook Pro. Mine just died."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_789_dorm_diva",
+    "context": {
+      "original_text": "Selling off dorm stuff and clothes before graduation. Everything must go!"
+    },
+    "profile_keywords": [
+      "clothing",
+      "dorm",
+      "clearance",
+      "fashion",
+      "accessories",
+      "home_decor"
+    ],
+    "inferred_major": "Marketing",
+    "inferred_location_keywords": [
+      "on-campus",
+      "dorm_residence",
+      "residence_hall"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "hoodies",
+          "jeans",
+          "dresses"
+        ],
+        "total_items_sold": 30,
+        "avg_price_per_item": 20,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini-fridge",
+          "bedside lamp",
+          "storage bins"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 45,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "accessories",
+        "item_examples": [
+          "scarves",
+          "jewelry",
+          "backpacks"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 10,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "dorm_essentials",
+      "accessories",
+      "home_decor"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Floral Pattern Summer Dress",
+      "category": "apparel",
+      "tags": [
+        "dress",
+        "summer",
+        "floral",
+        "casual"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "S",
+        "color": "blue",
+        "condition_requested": [
+          "used",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "rayon",
+        "brand": "Forever 21"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Clearing out closet",
+      "original_text": "Cute blue floral summer dress, size S, worn once, $15. Perfect for campus walks."
+    },
+    "location": {
+      "text_input": "dorm lobby pickup",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

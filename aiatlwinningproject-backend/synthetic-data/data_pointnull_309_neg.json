@@ -1,0 +1,128 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "t-shirt",
+      "category": null,
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "white",
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 10
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "white t-shirt for $10 today"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_tech_guru_123",
+    "context": {
+      "original_text": "CS major, selling my old gaming gear and textbooks."
+    },
+    "profile_keywords": [
+      "tech enthusiast",
+      "gaming gear",
+      "computer parts",
+      "textbooks (CS)",
+      "coding supplies"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering building",
+      "dorm tech lab"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cable",
+          "gaming mouse",
+          "keyboard cleaner"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 25,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Discrete Math book",
+          "Algorithms textbook"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 40,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "textbooks",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Gaming Headset",
+      "category": "electronics",
+      "tags": [
+        "audio",
+        "gaming",
+        "headphones"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "adjustable",
+        "color": "black",
+        "condition_requested": [
+          "used - very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, pleather",
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "selling old gear",
+      "original_text": "HyperX Cloud Stinger Core Gaming Headset, good condition, clear sound."
+    },
+    "location": {
+      "text_input": "my dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

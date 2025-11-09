@@ -1,0 +1,120 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a USB-C charger ASAP. My laptop is dead."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "techwiz_sophie",
+    "context": {
+      "original_text": "I'm a CS major who often has spare electronics or cables. Happy to help out anyone in a tech pinch."
+    },
+    "profile_keywords": [
+      "electronics",
+      "tech",
+      "cables",
+      "charging",
+      "computer science",
+      "laptops"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering building",
+      "dorm"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cable",
+          "USB-C adapter",
+          "power bank",
+          "laptop charger"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 17.5,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "computer_accessories",
+      "gaming",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C Laptop Charger (60W)",
+      "category": "electronics",
+      "tags": [
+        "charging",
+        "laptop",
+        "USB-C",
+        "power adapter"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Selling a spare charger that came with a new laptop.",
+      "original_text": "Anker 60W USB-C charger, perfect for laptops. Barely used, like new condition. Asking $25."
+    },
+    "location": {
+      "text_input": "On campus, near Engineering Hall",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

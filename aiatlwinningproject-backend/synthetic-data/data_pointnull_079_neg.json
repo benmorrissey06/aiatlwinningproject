@@ -1,0 +1,131 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 20
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "I need a textbook for my bio class ASAP, can't spend more than $20."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_007",
+    "context": {
+      "original_text": "I often sell my old athletic gear and some fitness equipment after a season. Mostly good condition stuff, looking for quick sales."
+    },
+    "profile_keywords": [
+      "athletic gear",
+      "running shoes",
+      "sports equipment",
+      "fitness"
+    ],
+    "inferred_major": "Kinesiology",
+    "inferred_location_keywords": [
+      "gym",
+      "track",
+      "dorm"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "running shorts",
+          "track jacket",
+          "athletic tops"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 25,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "sporting_goods",
+        "item_examples": [
+          "resistance bands",
+          "yoga mat",
+          "small weights"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 18,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "sporting_goods",
+      "fitness"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "running shoes",
+      "category": "apparel",
+      "tags": [
+        "athletic",
+        "footwear",
+        "jogging"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "Men's 10.5",
+        "color": "black",
+        "condition_requested": [
+          "used_good"
+        ]
+      },
+      "secondary": {
+        "material": "mesh, rubber",
+        "brand": "Nike"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 55
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "selling old gear",
+      "original_text": "Nike running shoes, men's 10.5, black. Only worn for a few runs, good condition. $55."
+    },
+    "location": {
+      "text_input": "near campus gym",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

@@ -1,0 +1,135 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "yoga mat",
+      "category": null,
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy",
+        "borrow"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "for my class tomorrow",
+      "original_text": "Need a yoga mat for my class tomorrow morning. Any color is fine."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "health_and_wellness_guru",
+    "context": {
+      "original_text": "I'm a Kinesiology student and always have extra workout gear, often selling or lending items after I upgrade or no longer need them."
+    },
+    "profile_keywords": [
+      "fitness",
+      "yoga",
+      "kinesiology",
+      "workout_gear",
+      "health",
+      "sports",
+      "wellness",
+      "dorm_essentials"
+    ],
+    "inferred_major": "Kinesiology",
+    "inferred_location_keywords": [
+      "gym_area",
+      "rec_center",
+      "south_campus"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "workout shorts",
+          "athletic tops"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "yoga mat",
+          "resistance bands",
+          "small dumbbells"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 20.0,
+        "dominant_transaction_type_in_category": "mixed"
+      }
+    ],
+    "overall_dominant_transaction_type": "mixed",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "apparel",
+      "sports_equipment",
+      "health_and_wellness"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Standard Yoga Mat",
+      "category": "dorm_essentials",
+      "tags": [
+        "yoga",
+        "mat",
+        "fitness",
+        "workout"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard (68x24 inches)",
+        "color": "purple",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "PVC foam",
+        "brand": "Gaiam"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy",
+        "borrow"
+      ],
+      "price_max": 18.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "bought a new one",
+      "original_text": "Selling my purple Gaiam yoga mat. Good condition, just bought a thicker one. Can meet on campus."
+    },
+    "location": {
+      "text_input": "Rec Center Entrance",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

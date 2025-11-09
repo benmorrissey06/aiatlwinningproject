@@ -1,0 +1,137 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "game controller",
+      "category": "gaming",
+      "tags": [
+        "controller"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "Need a controller for my console ASAP."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_fashionista_789",
+    "context": {
+      "original_text": "I'm a fashion design student selling pre-loved clothes and accessories."
+    },
+    "profile_keywords": [
+      "fashion",
+      "vintage finds",
+      "sustainable",
+      "apparel resale",
+      "accessories",
+      "clothing",
+      "designer"
+    ],
+    "inferred_major": "Fashion Design",
+    "inferred_location_keywords": [
+      "dorms",
+      "design studio"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "vintage denim jacket",
+          "graphic t-shirt",
+          "knitted scarf"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "accessories",
+        "item_examples": [
+          "earrings",
+          "sunglasses"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "jewelry",
+      "textiles"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "vintage band t-shirt",
+      "category": "apparel",
+      "tags": [
+        "band tee",
+        "graphic tee",
+        "vintage",
+        "cotton"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "cotton",
+        "brand": "Fruit of the Loom (vintage)"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "selling declutter",
+      "original_text": "Selling a vintage black band t-shirt, size M. Good condition."
+    },
+    "location": {
+      "text_input": "campus dorm, Building C",
+      "device_gps": {
+        "lat": 34.0689,
+        "lng": -118.4452
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

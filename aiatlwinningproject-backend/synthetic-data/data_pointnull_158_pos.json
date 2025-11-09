@@ -1,0 +1,134 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "calculus textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "looking for a calc textbook, need it pretty soon"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "math_whiz_789",
+    "context": {
+      "original_text": "Selling off all my old STEM textbooks and notes from my courses. Mostly math and physics. Prefer cash or Venmo."
+    },
+    "profile_keywords": [
+      "textbooks",
+      "math",
+      "calculus",
+      "STEM",
+      "physics",
+      "notes",
+      "used books"
+    ],
+    "inferred_major": "Mathematics",
+    "inferred_location_keywords": [
+      "dorm",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus II Textbook",
+          "Linear Algebra Textbook",
+          "Physics I Lab Manual"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 55.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "Graphing Calculator",
+          "Notebooks"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 20.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "school_supplies",
+      "electronics"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Calculus: Early Transcendentals, 8th Ed.",
+      "category": "textbooks",
+      "tags": [
+        "calculus",
+        "math",
+        "textbook",
+        "STEM",
+        "university",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Cengage Learning"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "finished course",
+      "original_text": "Selling my Calculus textbook, 8th edition. Used it for Calc I & II. Good condition, some highlighting on key concepts."
+    },
+    "location": {
+      "text_input": "campus dorm",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

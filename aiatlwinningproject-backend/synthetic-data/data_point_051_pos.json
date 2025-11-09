@@ -1,0 +1,137 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Nintendo Switch Pro Controller",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "switch",
+        "nintendo",
+        "wireless"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Nintendo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Looking for a second controller for multiplayer games with roommates.",
+      "original_text": "Need a Nintendo Switch Pro Controller, not new but good condition, willing to pay up to $50."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_gal_23",
+    "context": {
+      "original_text": "I'm a senior who's upgraded a lot of my gaming gear over the years. Selling older but still great condition stuff."
+    },
+    "profile_keywords": [
+      "gamer",
+      "tech enthusiast",
+      "used games",
+      "controllers",
+      "accessories"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorms north",
+      "engineering building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "Xbox One controller",
+          "PS4 games",
+          "Gaming headset"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 35,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "old monitor",
+          "keyboard"
+        ],
+        "total_items_sold": 2,
+        "avg_price_per_item": 70,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Nintendo Switch Pro Controller",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "switch",
+        "nintendo",
+        "wireless",
+        "gaming"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "black",
+        "condition_requested": [
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Nintendo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "sell",
+      "type_acceptable": [
+        "sell"
+      ],
+      "price_max": 45
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a new controller, no longer need this one.",
+      "original_text": "Selling my gently used Nintendo Switch Pro Controller."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

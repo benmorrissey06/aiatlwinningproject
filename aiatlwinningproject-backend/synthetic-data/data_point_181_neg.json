@@ -1,0 +1,144 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Professional watercolor paint set",
+      "category": "art_supplies",
+      "tags": [
+        "watercolor",
+        "paint",
+        "set",
+        "artist",
+        "new",
+        "quality"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "multi-color",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "pigment",
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "For an art class project starting next week that requires high-quality pigments.",
+      "original_text": "I need a new, professional-grade watercolor paint set for my art class, preferably under $35. Something like new would also be acceptable."
+    },
+    "location": {
+      "text_input": "Campus Art Building",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "art_major_sophia_88",
+    "context": {
+      "original_text": "Fine Arts major, I often sell my excess art supplies or materials I no longer need. Sometimes I find good deals on used textbooks too."
+    },
+    "profile_keywords": [
+      "art supplies",
+      "painting",
+      "drawing",
+      "fine arts",
+      "used materials",
+      "textbooks",
+      "crafts"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "Art Building",
+      "Campus Studio"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "oil paints",
+          "sketchbooks",
+          "brushes",
+          "charcoal sets",
+          "pastels",
+          "acrylics"
+        ],
+        "total_items_sold": 35,
+        "avg_price_per_item": 22.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Art History 101",
+          "Drawing Fundamentals"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "textbooks",
+      "crafts"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Used student watercolor paint set",
+      "category": "art_supplies",
+      "tags": [
+        "watercolor",
+        "paint",
+        "set",
+        "student",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "multi-color",
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "pigment",
+        "brand": "Prang"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 12
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Clearing out old art supplies, no longer needed for classes.",
+      "original_text": "Selling my old student-grade watercolor paint set. It's definitely used, some pans are half-empty, but still good for practice. Asking $12."
+    },
+    "location": {
+      "text_input": "My dorm room near South Campus",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "textbook",
+      "category": "textbooks",
+      "tags": null
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy",
+        "borrow"
+      ],
+      "price_max": 25
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need 'Calculus Early Transcendentals' for MATH 101, gotta be kinda cheap. Can pick up tomorrow."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "math_scholar_22",
+    "context": {
+      "original_text": "Selling old textbooks from my general ed and major courses. Mostly STEM books. Also some dorm decor and art supplies."
+    },
+    "profile_keywords": [
+      "textbooks",
+      "STEM",
+      "math",
+      "science",
+      "dorm decor",
+      "art supplies",
+      "used books"
+    ],
+    "inferred_major": "Applied Mathematics",
+    "inferred_location_keywords": [
+      "Math Building",
+      "North Campus Dorms",
+      "Library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus Early Transcendentals",
+          "Linear Algebra",
+          "Intro to Python"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 35,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini lamp",
+          "storage bins"
+        ],
+        "total_items_sold": 4,
+        "avg_price_per_item": 12,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "school_supplies",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Calculus Early Transcendentals, 9th Ed.",
+      "category": "textbooks",
+      "tags": [
+        "calculus",
+        "math",
+        "textbook",
+        "MATH 101",
+        "STEM",
+        "9th edition"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard textbook",
+        "color": "blue/white",
+        "condition_requested": [
+          "used - good",
+          "highlighted"
+        ]
+      },
+      "secondary": {
+        "material": "paper",
+        "brand": "Cengage"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 20
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Finished the course, no longer need",
+      "original_text": "Selling my Calculus Early Transcendentals 9th Ed. Good condition, some highlighting on first few chapters. Perfect for MATH 101."
+    },
+    "location": {
+      "text_input": "Pick up at North Campus Dorms",
+      "device_gps": {
+        "lat": 34.0731,
+        "lng": -118.4435
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Prismacolor Premier 150-count colored pencil set",
+      "category": "art_supplies",
+      "tags": [
+        "drawing",
+        "coloring",
+        "artist grade",
+        "prismacolor"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "multi-color",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "wax-based",
+        "brand": "Prismacolor"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Required for advanced drawing class project",
+      "original_text": "Urgently need a Prismacolor Premier 150-count colored pencil set for my drawing class, must be new or like new, can pay up to $80."
+    },
+    "location": {
+      "text_input": "campus library",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "user_art_007",
+    "context": {
+      "original_text": "I'm an art student clearing out some supplies. I mostly sell art materials and design books."
+    },
+    "profile_keywords": [
+      "artist",
+      "fine arts",
+      "drawing",
+      "painting",
+      "illustration",
+      "art supplies",
+      "design"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art studio",
+      "campus north dorms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "sketchbooks",
+          "gouache paint set",
+          "ink pens"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Art History 101",
+          "Design Principles"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 50.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "textbooks",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Prismacolor Premier 150 Count Colored Pencil Set",
+      "category": "art_supplies",
+      "tags": [
+        "drawing",
+        "coloring",
+        "professional pencils",
+        "prismacolor"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "multi-color",
+        "condition_requested": [
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "wax-based",
+        "brand": "Prismacolor"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 75
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Bought for a class, barely used",
+      "original_text": "Selling my Prismacolor Premier 150-count set, used only a few times, like new condition. Asking $75."
+    },
+    "location": {
+      "text_input": "campus north dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

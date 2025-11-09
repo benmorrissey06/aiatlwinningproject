@@ -1,0 +1,137 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "gaming monitor",
+      "category": "electronics",
+      "tags": [
+        "monitor",
+        "gaming",
+        "high refresh rate",
+        "144hz"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "24-27 inch",
+        "color": "black",
+        "condition_requested": [
+          "excellent",
+          "new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 180
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need for competitive gaming and coding setup.",
+      "original_text": "Looking for a 24-27 inch gaming monitor, preferably 144Hz or higher, in excellent or new condition. Max budget is $180. Black color preferred."
+    },
+    "location": {
+      "text_input": "campus dorm",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_guy_2023",
+    "context": {
+      "original_text": "CompSci student selling off old tech, gaming gear, and some textbooks. Always upgrading!"
+    },
+    "profile_keywords": [
+      "gaming",
+      "electronics",
+      "tech",
+      "computer parts",
+      "video games",
+      "peripherals"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "mechanical keyboard",
+          "gaming mouse",
+          "webcam"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 65,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 games",
+          "Xbox controller"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 30,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "computer_accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Dell 24 inch office monitor",
+      "category": "electronics",
+      "tags": [
+        "monitor",
+        "office",
+        "dell",
+        "60hz"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "24 inch",
+        "color": "black",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Dell"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 220
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling an old office monitor after upgrading.",
+      "original_text": "Dell 24 inch monitor, 60Hz. Good condition, some minor scratches on stand. Works perfectly. Asking $220."
+    },
+    "location": {
+      "text_input": "my apartment",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

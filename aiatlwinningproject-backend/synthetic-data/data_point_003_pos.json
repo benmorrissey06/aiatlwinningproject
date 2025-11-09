@@ -1,0 +1,141 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "wireless gaming mouse",
+      "category": "gaming",
+      "tags": [
+        "gaming",
+        "mouse",
+        "wireless",
+        "esports"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Logitech"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 40
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "need for upcoming esports club tournament",
+      "original_text": "Urgent! Looking for a wireless gaming mouse, medium size, black, in good or excellent condition. Prefer Logitech if possible. Max $40. Need it for the esports club tournament next week!"
+    },
+    "location": {
+      "text_input": "campus esports lounge",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_guru_42",
+    "context": {
+      "original_text": "CompSci student and avid gamer. Selling off some of my old tech and gaming peripherals after upgrading. Always fair prices!"
+    },
+    "profile_keywords": [
+      "gamer",
+      "tech",
+      "gaming peripherals",
+      "esports",
+      "computer science",
+      "electronics",
+      "mouse",
+      "keyboard"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorms",
+      "compsci building",
+      "esports arena"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "gaming headset",
+          "mechanical keyboard",
+          "mousepad"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 65,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "portable charger",
+          "USB-C hub"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 30,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "computer accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Logitech G Pro Wireless Gaming Mouse",
+      "category": "gaming",
+      "tags": [
+        "gaming",
+        "mouse",
+        "wireless",
+        "logitech",
+        "esports",
+        "pro"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Logitech"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "upgraded to new model, no longer need this one",
+      "original_text": "Selling my Logitech G Pro Wireless Gaming Mouse. Used for about a year, excellent condition, no cosmetic damage. Works perfectly. Comes with charging cable and dongle. Firm price."
+    },
+    "location": {
+      "text_input": "seller's dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

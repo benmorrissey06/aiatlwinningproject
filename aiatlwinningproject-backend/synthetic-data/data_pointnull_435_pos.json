@@ -1,0 +1,136 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "PS4 controller",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "playstation",
+        "gaming"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a PS4 controller, ASAP!"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_GAMER_789",
+    "context": {
+      "original_text": "I often sell my old gaming gear and tech accessories. Always upgrading!"
+    },
+    "profile_keywords": [
+      "gaming",
+      "electronics",
+      "tech accessories",
+      "playstation",
+      "controllers"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "tech lab"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 game",
+          "Headset",
+          "Xbox controller"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cable",
+          "USB hub"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 12.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "gadgets"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Sony DualShock 4 Wireless Controller",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "playstation",
+        "PS4",
+        "gaming",
+        "wireless"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "black",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Sony"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "upgraded to PS5, no longer need",
+      "original_text": "Selling a gently used black PS4 DualShock 4 controller. Works perfectly, minor wear."
+    },
+    "location": {
+      "text_input": "My dorm, room 205",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.4418
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

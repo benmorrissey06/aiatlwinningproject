@@ -1,0 +1,141 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "acrylic paint set",
+      "category": "art_supplies",
+      "tags": [
+        "paint",
+        "acrylic",
+        "set",
+        "cool-toned",
+        "fine art"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "cool-toned palette",
+        "condition_requested": [
+          "new",
+          "like-new"
+        ]
+      },
+      "secondary": {
+        "material": "acrylic",
+        "brand": "Liquitex"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Starting a new painting project that specifically requires cool colors for a landscape.",
+      "original_text": "Need a set of cool-toned acrylic paints for an art project, like new condition is fine, maybe up to $35."
+    },
+    "location": {
+      "text_input": "campus art studio",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "user_artlover_789",
+    "context": {
+      "original_text": "I'm an Art History major always selling my old art supplies or books. Passionate about painting and drawing!"
+    },
+    "profile_keywords": [
+      "art supplies",
+      "painting",
+      "drawing",
+      "art history",
+      "used textbooks",
+      "creative"
+    ],
+    "inferred_major": "Art History",
+    "inferred_location_keywords": [
+      "art studio",
+      "humanities building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "canvas set",
+          "oil paints",
+          "sketchbooks",
+          "brushes",
+          "watercolor set"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Art History textbook",
+          "philosophy reader"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "textbooks",
+      "craft_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "acrylic paint set",
+      "category": "art_supplies",
+      "tags": [
+        "paint",
+        "acrylic",
+        "set",
+        "warm-toned",
+        "crafts"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "warm-toned palette",
+        "condition_requested": [
+          "like-new"
+        ]
+      },
+      "secondary": {
+        "material": "acrylic",
+        "brand": "Winsor & Newton"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 28
+    },
+    "context": {
+      "urgency": "not applicable",
+      "reason": "seller selling existing item",
+      "original_text": "Selling my nearly new set of warm-toned acrylic paints, barely used. Great for abstract art or crafts!"
+    },
+    "location": {
+      "text_input": "Dorm 3B",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

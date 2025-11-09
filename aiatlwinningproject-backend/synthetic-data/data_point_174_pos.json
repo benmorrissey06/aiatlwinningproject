@@ -1,0 +1,141 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "compact mini-fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "fridge",
+        "dorm",
+        "appliance",
+        "compact"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 100
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Moving into dorm soon, need essentials",
+      "original_text": "Looking for a compact mini-fridge for my dorm room. Needs to be in good condition and ideally under $100. Moving in next week!"
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_sophia_24",
+    "context": {
+      "original_text": "Senior clearing out dorm and apartment. Selling useful items for new students before I move out."
+    },
+    "profile_keywords": [
+      "dorm",
+      "moving out",
+      "appliances",
+      "electronics",
+      "clearance",
+      "student essentials"
+    ],
+    "inferred_major": "Business Administration",
+    "inferred_location_keywords": [
+      "campus housing",
+      "off-campus apt"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini-fridge",
+          "desk lamp",
+          "microwave",
+          "storage bins"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 60,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "bluetooth speaker",
+          "laptop stand",
+          "charger set"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 35,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "furniture",
+      "electronics"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Danby Compact Mini Fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "fridge",
+        "mini-fridge",
+        "dorm",
+        "appliance",
+        "Danby",
+        "compact"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "metal",
+        "brand": "Danby"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 85
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling before moving out",
+      "original_text": "Selling my Danby compact mini-fridge. Used for 2 years, in good condition. Perfect for a dorm room. Asking $85."
+    },
+    "location": {
+      "text_input": "campus housing",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Noise-canceling over-ear headphones (Bose QC45 or similar)",
+      "category": "electronics",
+      "tags": [
+        "headphones",
+        "noise-canceling",
+        "wireless",
+        "over-ear"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "like-new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, leatherette",
+        "brand": "Bose"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 180
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need high-quality headphones for focused study in a noisy dorm. Prefer new or very gently used.",
+      "original_text": "Looking for Bose QC 45 headphones, black, new or like-new condition, under $180. Essential for quiet study."
+    },
+    "location": {
+      "text_input": "main campus library",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_trader_007",
+    "context": {
+      "original_text": "Avid tech user, always upgrading. Selling my old electronics to make space and some cash."
+    },
+    "profile_keywords": [
+      "electronics",
+      "gadgets",
+      "audio gear",
+      "used tech seller",
+      "computer science"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering dorms",
+      "tech labs"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming mouse",
+          "Bluetooth speaker",
+          "used monitor",
+          "old laptop charger"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 75,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 controller",
+          "used Xbox game"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 30,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "computing",
+      "accessories",
+      "audio equipment"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Bose QuietComfort 45 Headphones",
+      "category": "electronics",
+      "tags": [
+        "headphones",
+        "noise-canceling",
+        "wireless",
+        "over-ear",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "fair",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, leatherette",
+        "brand": "Bose"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 120
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Selling my Bose QC 45 headphones. They work great but have some cosmetic wear on the earcups and headband. Comes with original case."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

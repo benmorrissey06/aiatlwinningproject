@@ -1,0 +1,151 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "graphics tablet",
+      "category": "electronics",
+      "tags": [
+        "drawing",
+        "digital art",
+        "Wacom",
+        "art school"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Wacom"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 150
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need for digital art class project, mine broke.",
+      "original_text": "Looking for a used graphics tablet, something like a Wacom Intuos, medium size, in good or very good condition for under $150. Urgent for my digital art class!"
+    },
+    "location": {
+      "text_input": "campus library",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "art_tech_pro",
+    "context": {
+      "original_text": "I'm a Fine Arts major specializing in digital media. Always upgrading my gear, so I often sell older tech or art supplies. Pretty good with electronics and art tools."
+    },
+    "profile_keywords": [
+      "digital artist",
+      "graphic designer",
+      "tech enthusiast",
+      "art supplies",
+      "electronics",
+      "fine arts"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art building",
+      "studio"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "drawing tablet",
+          "monitor",
+          "stylus",
+          "keyboard"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 135.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "paint set",
+          "easel",
+          "sketchbook",
+          "brushes"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "controller",
+          "headset"
+        ],
+        "total_items_sold": 2,
+        "avg_price_per_item": 55.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "art_supplies",
+      "gaming",
+      "textbooks"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wacom Intuos Medium graphics tablet",
+      "category": "electronics",
+      "tags": [
+        "drawing",
+        "digital art",
+        "Wacom",
+        "tablet"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Wacom"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 120
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a Pro model, don't need this one anymore.",
+      "original_text": "Selling my Wacom Intuos tablet, medium size. Only used for a semester, in very good condition with original pen and cable."
+    },
+    "location": {
+      "text_input": "my dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

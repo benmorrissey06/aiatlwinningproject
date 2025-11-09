@@ -1,0 +1,144 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "HyperX Cloud Alpha Wireless Gaming Headset",
+      "category": "gaming",
+      "tags": [
+        "wireless",
+        "headset",
+        "gaming",
+        "audio"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "like-new"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 70
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "My old headset broke right before a major online tournament, need a replacement ASAP.",
+      "original_text": "Looking for a HyperX Cloud Alpha Wireless Gaming Headset, must be new or like-new condition. Can spend up to $70. Urgent, need it for a tourney!"
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_student_789",
+    "context": {
+      "original_text": "CompSci student selling off old gaming gear and general electronics. I buy and sell a lot, mostly tech stuff and peripherals."
+    },
+    "profile_keywords": [
+      "gamer",
+      "electronics enthusiast",
+      "tech",
+      "sell peripherals",
+      "computer science",
+      "dorm pickup"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "campus",
+      "dorm",
+      "engineering building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "Xbox controller",
+          "gaming mouse",
+          "webcam"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 45,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "old laptop charger",
+          "USB hubs",
+          "HDMI cables"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 15,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "peripherals",
+      "accessories",
+      "audio equipment"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "HyperX Cloud Alpha Wireless Gaming Headset",
+      "category": "gaming",
+      "tags": [
+        "wireless",
+        "headset",
+        "gaming",
+        "audio"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 85
+    },
+    "context": {
+      "urgency": null,
+      "reason": "Selling because I upgraded to a different brand. Still works perfectly, just some minor cosmetic wear.",
+      "original_text": "Selling my HyperX Cloud Alpha Wireless headset. Used for a year, works great. Some slight wear on earcups. Asking $85."
+    },
+    "location": {
+      "text_input": "seller's dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

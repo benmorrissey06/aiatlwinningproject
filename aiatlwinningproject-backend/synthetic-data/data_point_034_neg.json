@@ -1,0 +1,151 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "TI-84 Plus CE Graphing Calculator",
+      "category": "electronics",
+      "tags": [
+        "calculator",
+        "graphing",
+        "TI-84",
+        "math",
+        "statistics"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Texas Instruments"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80.0
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need for calculus class starting next week.",
+      "original_text": "Looking for a new or like-new TI-84 Plus CE calculator for my calc class. Can pay up to $80."
+    },
+    "location": {
+      "text_input": "on campus",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "user_tech_savvy_202",
+    "context": {
+      "original_text": "STEM major selling old electronics and school supplies."
+    },
+    "profile_keywords": [
+      "electronics",
+      "calculators",
+      "textbooks",
+      "school supplies",
+      "STEM",
+      "math",
+      "engineering"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering building",
+      "dorm A"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "old laptop charger",
+          "bluetooth speaker",
+          "used graphing calculator (TI-83)"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus I textbook",
+          "Physics lab manual"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 30.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "scientific calculator",
+          "binders",
+          "backpack"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "coding equipment",
+      "gaming accessories",
+      "office supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "TI-84 Plus CE Graphing Calculator",
+      "category": "electronics",
+      "tags": [
+        "calculator",
+        "graphing",
+        "TI-84",
+        "math",
+        "statistics"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "used - acceptable"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Texas Instruments"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 55.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Selling my old TI-84 Plus CE calculator. It's used but still works great. Some scuffs."
+    },
+    "location": {
+      "text_input": "dorm A",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

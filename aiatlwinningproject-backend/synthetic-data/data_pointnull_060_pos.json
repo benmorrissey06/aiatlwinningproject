@@ -1,0 +1,134 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C charger",
+      "category": "electronics",
+      "tags": null
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a USB-C charger tonight for my laptop."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_gear_guru",
+    "context": {
+      "original_text": "I often have spare tech accessories, cables, and adapters. Happy to help out other students!"
+    },
+    "profile_keywords": [
+      "electronics",
+      "chargers",
+      "cables",
+      "adapters",
+      "gadgets",
+      "tech support"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm: East Hall",
+      "library: Main",
+      "campus store"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cable",
+          "USB-C adapter",
+          "power bank",
+          "earbuds"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 14.99,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "scientific calculator",
+          "graph paper"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 7.5,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C fast charging cable with wall adapter",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "USB-C",
+        "fast charge",
+        "laptop charger"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "6ft",
+        "color": "black",
+        "condition_requested": [
+          "used - very good"
+        ]
+      },
+      "secondary": {
+        "material": "braided nylon",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling extra",
+      "original_text": "Anker 6ft USB-C to USB-C cable with 60W wall adapter. Gently used, works perfectly for laptops and phones."
+    },
+    "location": {
+      "text_input": "East Hall dorm room",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

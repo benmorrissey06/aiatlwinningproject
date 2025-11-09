@@ -1,0 +1,144 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Acrylic paint set (basic colors)",
+      "category": "art_supplies",
+      "tags": [
+        "acrylic",
+        "paint",
+        "set",
+        "art"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "assorted primary",
+        "condition_requested": [
+          "new",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "any"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25.0
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Needed for intro art class project next week.",
+      "original_text": "Looking for a basic acrylic paint set, preferably new or good condition. Need it for my art class project, max $25. ASAP!"
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "art_studio_seller_88",
+    "context": {
+      "original_text": "Art student selling used and new art supplies! I often have extra paints, brushes, and canvases from my projects or class requirements."
+    },
+    "profile_keywords": [
+      "art supplies",
+      "painting",
+      "drawing",
+      "student art projects",
+      "crafts"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art building",
+      "studio",
+      "dorm"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "watercolor palette",
+          "sketchbook",
+          "canvas",
+          "oil pastels"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "notebooks",
+          "pens",
+          "calculators"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 7.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "craft_supplies",
+      "textbooks",
+      "stationery"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Student Grade Acrylic Paint Set (12 colors)",
+      "category": "art_supplies",
+      "tags": [
+        "acrylic",
+        "paint",
+        "set",
+        "student",
+        "art",
+        "good condition"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "12 assorted",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "acrylic",
+        "brand": "CraftPro"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 20.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling extra supplies",
+      "original_text": "Selling my extra CraftPro 12-color acrylic paint set. Only used a few colors once for swatches, still in very good condition. Perfect for beginners!"
+    },
+    "location": {
+      "text_input": "My dorm, near the art building",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

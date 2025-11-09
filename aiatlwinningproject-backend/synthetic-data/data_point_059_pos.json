@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "used graphics tablet",
+      "category": "electronics",
+      "tags": [
+        "digital art",
+        "drawing",
+        "Wacom",
+        "tablet"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Wacom"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 150
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "starting digital art class",
+      "original_text": "Looking for a used Wacom or similar graphics tablet for my digital art class. Medium size preferred, good to very good condition, under $150."
+    },
+    "location": {
+      "text_input": "campus arts building",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_digitalart_003",
+    "context": {
+      "original_text": "Digital Arts major, I often upgrade my tech for projects. Selling off older drawing tablets, monitors, or software licenses. Also have some extra art supplies."
+    },
+    "profile_keywords": [
+      "digital art",
+      "design",
+      "tech",
+      "drawing",
+      "Wacom",
+      "Adobe creative suite"
+    ],
+    "inferred_major": "Digital Arts & Media",
+    "inferred_location_keywords": [
+      "art studios",
+      "library media lab"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "drawing tablet",
+          "stylus pens",
+          "external monitor"
+        ],
+        "total_items_sold": 9,
+        "avg_price_per_item": 125,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "sketchbooks",
+          "brushes"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 15,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "textbooks",
+      "gaming"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wacom Intuos Pro Medium Graphics Tablet",
+      "category": "electronics",
+      "tags": [
+        "drawing tablet",
+        "digital art",
+        "Wacom",
+        "stylus",
+        "pen"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Wacom"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 110
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "upgrading to new model",
+      "original_text": "Selling my Wacom Intuos Pro Medium graphics tablet. Used for one semester, still in good condition. Comes with original pen and cable. Asking $110."
+    },
+    "location": {
+      "text_input": "dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

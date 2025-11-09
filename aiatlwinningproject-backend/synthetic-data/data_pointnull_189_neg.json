@@ -1,0 +1,133 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "book",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a book by tonight for a class, any condition is fine."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_gear_guy_7",
+    "context": {
+      "original_text": "I mostly sell used electronics like chargers, headphones, and gaming accessories. Always cleaning out my tech drawer."
+    },
+    "profile_keywords": [
+      "electronics",
+      "chargers",
+      "headphones",
+      "gaming accessories",
+      "tech",
+      "gadgets"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "CS building",
+      "dorm room tech",
+      "library basement"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C charger",
+          "gaming headphones",
+          "portable battery pack"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "Nintendo Switch game",
+          "PS4 controller"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C to USB-C cable",
+      "category": "electronics",
+      "tags": [
+        "charging",
+        "data transfer",
+        "USB-C",
+        "cable",
+        "tech"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "6ft",
+        "color": "black",
+        "condition_requested": [
+          "used - excellent"
+        ]
+      },
+      "secondary": {
+        "material": "braided nylon",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 12.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling extra charging cable I don't use anymore.",
+      "original_text": "Anker 6ft braided USB-C to USB-C cable, like new."
+    },
+    "location": {
+      "text_input": "Dorm 5 common area",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.45
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

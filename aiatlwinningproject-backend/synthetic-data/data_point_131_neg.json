@@ -1,0 +1,135 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wacom Intuos drawing tablet",
+      "category": "electronics",
+      "tags": [
+        "art_supplies",
+        "digital_art"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "like new",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Wacom"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 100
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need for Digital Art class project",
+      "original_text": "Looking for a Wacom Intuos drawing tablet, medium size, like-new condition, for under $100 for my art class. Black preferred."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "art_supplies_central",
+    "context": {
+      "original_text": "Art major selling gently used art supplies, tech gadgets, and dorm essentials."
+    },
+    "profile_keywords": [
+      "art",
+      "drawing",
+      "tech",
+      "electronics",
+      "digital art",
+      "illustration"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "Art Building",
+      "campus"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "sketchbooks",
+          "paint sets",
+          "easel"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 25,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "drawing tablet",
+          "headphones",
+          "portable speaker"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 60,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "photography",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wacom Intuos drawing tablet",
+      "category": "electronics",
+      "tags": [
+        "art_supplies",
+        "digital_art"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Wacom"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 70
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "No longer needed, upgraded",
+      "original_text": "Selling my old Wacom Intuos tablet. Still works great but has some noticeable scratches and minor wear from use. Good for beginners."
+    },
+    "location": {
+      "text_input": "dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

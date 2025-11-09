@@ -1,0 +1,122 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "power bank",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need a power bank tonight for my phone."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_gear_guy_7",
+    "context": {
+      "original_text": "I often sell my old tech gadgets and phone accessories. Mostly used, but in good condition."
+    },
+    "profile_keywords": [
+      "electronics",
+      "gadgets",
+      "phone accessories",
+      "chargers",
+      "tech"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm pickup",
+      "library drop-off"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C Hub",
+          "portable charger",
+          "wireless earbuds"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 35.5,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "computer_accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Anker PowerCore Slim 10000 Portable Charger",
+      "category": "electronics",
+      "tags": [
+        "power bank",
+        "phone accessory",
+        "charging",
+        "portable"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "slim",
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "selling old gear",
+      "original_text": "Selling my Anker PowerCore Slim 10000. Used, but works great. Black, sleek design."
+    },
+    "location": {
+      "text_input": "My dorm room, Building A",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

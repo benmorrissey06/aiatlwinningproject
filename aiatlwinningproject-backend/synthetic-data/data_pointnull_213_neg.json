@@ -1,0 +1,140 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "jacket",
+      "category": "apparel",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "Need a cheap jacket for chilly dorms."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_XYZ789",
+    "context": {
+      "original_text": "I often sell my old electronics, sometimes textbooks, and I'm a big gamer. Looking to clear out some space!"
+    },
+    "profile_keywords": [
+      "electronics",
+      "gaming",
+      "tech",
+      "textbooks",
+      "computer science",
+      "gadgets"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering hall",
+      "tech lab",
+      "dorm B"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "charging cable (USB-C)",
+          "gaming mouse",
+          "Bluetooth earbuds"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus I Textbook",
+          "Intro to Python Programming"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 55.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 game",
+          "Nintendo Switch controller"
+        ],
+        "total_items_sold": 10,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "textbooks",
+      "accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "gaming headset",
+      "category": "gaming",
+      "tags": [
+        "audio",
+        "peripheral",
+        "microphone"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "over-ear",
+        "color": "black",
+        "condition_requested": [
+          "used-good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, synthetic leather",
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "upgraded to new model",
+      "original_text": "Selling my HyperX Cloud Stinger Core gaming headset. Only used for a semester, in great condition. Comes with original box."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

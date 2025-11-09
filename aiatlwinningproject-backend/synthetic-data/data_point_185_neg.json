@@ -1,0 +1,145 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Used Painting Easel",
+      "category": "art_supplies",
+      "tags": [
+        "easel",
+        "painting",
+        "art",
+        "tripod easel",
+        "wood"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "adjustable",
+        "color": "brown",
+        "condition_requested": [
+          "good",
+          "very good",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "wood",
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 40
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Starting a new painting class next week and need an easel.",
+      "original_text": "Need a used painting easel for an art class. Must be in good to very good condition, preferably wood. Max $40."
+    },
+    "location": {
+      "text_input": "Art Department Studio",
+      "device_gps": {
+        "lat": 34.071,
+        "lng": -118.441
+      }
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "creative_crafter_123",
+    "context": {
+      "original_text": "Art major, always selling old supplies or tools to make space for new projects! Love painting and sculpting."
+    },
+    "profile_keywords": [
+      "art supplies",
+      "crafts",
+      "painting",
+      "sculpting",
+      "studio equipment",
+      "fine arts"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art studio",
+      "dorms near campus green"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "set of paint brushes",
+          "clay sculpting tools",
+          "drawing tablet"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "furniture",
+        "item_examples": [
+          "desk lamp",
+          "small chair"
+        ],
+        "total_items_sold": 2,
+        "avg_price_per_item": 20.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "textbooks"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wooden Painting Easel",
+      "category": "art_supplies",
+      "tags": [
+        "easel",
+        "painting",
+        "art",
+        "studio easel"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "large",
+        "color": "dark wood",
+        "condition_requested": [
+          "fair",
+          "worn"
+        ]
+      },
+      "secondary": {
+        "material": "pine wood",
+        "brand": "StudioPro"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "No longer needed for advanced projects, taking up space.",
+      "original_text": "Selling a large wooden studio easel. It's been well-used, has some paint splatters and scratches, but fully functional. Great for a student on a budget."
+    },
+    "location": {
+      "text_input": "dorms near campus green",
+      "device_gps": {
+        "lat": 34.0705,
+        "lng": -118.4405
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

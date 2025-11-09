@@ -1,0 +1,133 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Xbox Series X Controller",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "wireless",
+        "gaming"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Microsoft"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need a replacement for my old controller before a gaming tournament.",
+      "original_text": "Looking for an Xbox Series X controller, black, in new or like new condition. Can pay up to $50. ASAP!"
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_guy_22",
+    "context": {
+      "original_text": "I often sell my old gaming gear and sometimes textbooks after the semester."
+    },
+    "profile_keywords": [
+      "gamer",
+      "tech",
+      "electronics",
+      "used gear"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "gaming headset",
+          "PS4 games",
+          "retro console"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 40,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "old laptop charger",
+          "USB hub"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 20,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "textbooks"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Nintendo Switch Pro Controller",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "wireless",
+        "gaming"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Nintendo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling my spare controller.",
+      "original_text": "Selling a gently used Nintendo Switch Pro Controller."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "MacBook charger",
+      "category": null,
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [
+        "buy",
+        "borrow"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a charger for my MacBook ASAP."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_789",
+    "context": {
+      "original_text": "I sell used Apple electronics and accessories. Always good condition, fair prices, quick pick-ups."
+    },
+    "profile_keywords": [
+      "electronics",
+      "Apple products",
+      "chargers",
+      "accessories",
+      "MacBook accessories",
+      "power adapters"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorms near engineering building",
+      "campus library",
+      "student union"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "iPhone 12 charger",
+          "MacBook Air M1 charger",
+          "Apple Watch strap",
+          "USB-C hub"
+        ],
+        "total_items_sold": 28,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "Desk lamp",
+          "Small fan"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Apple 67W USB-C Power Adapter for MacBook Pro",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "macbook",
+        "power adapter",
+        "apple",
+        "usb-c",
+        "laptop accessory"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "white",
+        "condition_requested": [
+          "used",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Apple"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Upgraded to newer MacBook model, this charger is no longer needed.",
+      "original_text": "Selling my official Apple 67W USB-C charger. Works perfectly, barely used. For MacBook Pro/Air models. Asking $45."
+    },
+    "location": {
+      "text_input": "My dorm, near main campus library, flexible pickup.",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

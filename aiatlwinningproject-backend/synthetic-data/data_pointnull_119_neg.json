@@ -1,0 +1,145 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "i need a cheap textbook for bio 101 for my class"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_greg_001",
+    "context": {
+      "original_text": "Selling off my gaming collection, controllers, old consoles, and accessories. Also some old CS textbooks."
+    },
+    "profile_keywords": [
+      "gaming",
+      "electronics",
+      "consoles",
+      "accessories",
+      "computer science",
+      "textbooks"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "CS building",
+      "gaming lounge"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS5 Controller",
+          "Nintendo Switch game",
+          "Gaming Headset"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cable",
+          "USB-C hub"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 20.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Data Structures & Algorithms",
+          "Operating Systems Principles"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 70.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "computer science",
+      "textbooks",
+      "tech"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Computer Networks: A Top-Down Approach",
+      "category": "textbooks",
+      "tags": [
+        "computer science",
+        "networking",
+        "hardcover",
+        "engineering"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "large",
+        "color": "blue",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "paper",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 75.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "finished course",
+      "original_text": "Selling Computer Networks textbook, 7th edition, good condition."
+    },
+    "location": {
+      "text_input": "CS Building, Room 205",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

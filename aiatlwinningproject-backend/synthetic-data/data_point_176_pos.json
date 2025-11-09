@@ -1,0 +1,135 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "desk lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "lighting",
+        "study",
+        "room decor"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "metal",
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need a lamp for my dorm desk.",
+      "original_text": "Looking for a desk lamp, preferably black, in good or excellent condition for my dorm. Can't spend more than $18."
+    },
+    "location": {
+      "text_input": "campus housing",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "dorm_deco_queen_23",
+    "context": {
+      "original_text": "Selling my dorm furniture and decor because I'm graduating. All in good shape!"
+    },
+    "profile_keywords": [
+      "dorm essentials",
+      "home decor",
+      "moving sale",
+      "college apartment"
+    ],
+    "inferred_major": "Interior Design",
+    "inferred_location_keywords": [
+      "campus housing",
+      "off-campus apt"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini fridge",
+          "desk lamp",
+          "storage bins",
+          "bedside table"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "small_furniture",
+        "item_examples": [
+          "study chair",
+          "small shelf"
+        ],
+        "total_items_sold": 6,
+        "avg_price_per_item": 55.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "lighting",
+      "home_goods",
+      "organization"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "LED Desk Lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "lighting",
+        "study",
+        "LED",
+        "adjustable"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "metal_plastic",
+        "brand": "IKEA"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Moving out sale, need to clear space.",
+      "original_text": "Selling a black IKEA LED desk lamp. Good condition, adjustable brightness. Perfect for studying. Asking $15."
+    },
+    "location": {
+      "text_input": "campus housing",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

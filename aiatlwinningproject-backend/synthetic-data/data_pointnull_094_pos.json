@@ -1,0 +1,133 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "MacBook charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a charger for my MacBook ASAP."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_techie_789",
+    "context": {
+      "original_text": "I often sell my old tech gadgets and accessories, especially Apple products. I'm a CS major."
+    },
+    "profile_keywords": [
+      "tech",
+      "electronics",
+      "Apple",
+      "computer science",
+      "accessories",
+      "chargers"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm room C-wing",
+      "CS building",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "iPhone charger",
+          "MacBook Pro case",
+          "external hard drive",
+          "USB-C adapter"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus textbook",
+          "Python programming book"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 60.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "tech accessories",
+      "computer components"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Apple MacBook Pro Charger (USB-C 60W)",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "macbook",
+        "apple",
+        "usb-c",
+        "power adapter"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "white",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Apple"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "selling extra",
+      "original_text": "Selling my extra Apple MacBook Pro USB-C 60W charger. Lightly used, works perfectly."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

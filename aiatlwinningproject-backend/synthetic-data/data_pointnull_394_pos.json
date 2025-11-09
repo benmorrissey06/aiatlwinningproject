@@ -1,0 +1,134 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "lamp",
+      "category": "dorm_essentials",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a lamp for my dorm. ASAP!"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "dorm_deco_queen_42",
+    "context": {
+      "original_text": "I sell all kinds of dorm essentials and decorative items. Helping out new students furnish their rooms stylishly and affordably. Also have some old textbooks."
+    },
+    "profile_keywords": [
+      "dorm essentials",
+      "dorm decor",
+      "small furniture",
+      "lighting",
+      "textbooks",
+      "student helper"
+    ],
+    "inferred_major": "Interior Design",
+    "inferred_location_keywords": [
+      "dorm_hall_B",
+      "campus_market",
+      "art_building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "desk lamp",
+          "fairy lights",
+          "mini storage cart",
+          "small rug"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Art History I",
+          "Design Principles 101"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "furniture",
+      "lighting",
+      "home_decor",
+      "textbooks"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "LED Desk Lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "desk lamp",
+        "LED",
+        "adjustable",
+        "modern"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "white",
+        "condition_requested": [
+          "excellent",
+          "used_gently"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "TaoTronics"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "upgraded_to_new_lighting",
+      "original_text": "Selling a gently used white LED desk lamp, perfect for dorm desks. Adjustable brightness and color temperature. Works perfectly."
+    },
+    "location": {
+      "text_input": "Dorm Hall B",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C to HDMI adapter",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a USB-C to HDMI adapter for my dorm setup. ASAP."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_guru_23",
+    "context": {
+      "original_text": "I'm a CS major selling all kinds of tech accessories, cables, and some gaming gear. Always looking to help out fellow students with fair prices!"
+    },
+    "profile_keywords": [
+      "electronics",
+      "cables",
+      "adapters",
+      "gaming accessories",
+      "dorm tech",
+      "student deals",
+      "computer science"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorms",
+      "engineering building",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cables",
+          "USB hubs",
+          "chargers",
+          "monitor stands",
+          "webcams"
+        ],
+        "total_items_sold": 28,
+        "avg_price_per_item": 22.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "gaming mouse",
+          "keyboard",
+          "console games"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "peripherals",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C to HDMI Adapter",
+      "category": "electronics",
+      "tags": [
+        "video adapter",
+        "display",
+        "laptop accessory",
+        "monitor",
+        "4K"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "like-new"
+        ]
+      },
+      "secondary": {
+        "material": "braided nylon",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25.0
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "Selling unused adapter after upgrading setup.",
+      "original_text": "Anker USB-C to HDMI Adapter, supports 4K@60Hz. Perfect for connecting your laptop (MacBook Pro/Air, iPad Pro, Dell XPS, Surface) to an external display. Like new, barely used."
+    },
+    "location": {
+      "text_input": "Dorm 304",
+      "device_gps": {
+        "lat": 34.0689,
+        "lng": -118.4452
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

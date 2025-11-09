@@ -1,0 +1,143 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Compact LED Desk Lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "lamp",
+        "desk",
+        "led",
+        "lighting",
+        "study"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need a new desk lamp for my dorm room, old one broke.",
+      "original_text": "Looking for a compact LED desk lamp, black preferably, good condition, budget around $25 max. Mine just died!"
+    },
+    "location": {
+      "text_input": "on-campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "artGrad2024",
+    "context": {
+      "original_text": "Graduating Art major clearing out dorm. Lots of practical and aesthetic items, especially lighting and small electronics."
+    },
+    "profile_keywords": [
+      "art supplies",
+      "dorm decor",
+      "electronics",
+      "lighting",
+      "organization",
+      "design"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "campus apartment",
+      "off-campus housing"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini fan",
+          "storage bins",
+          "desk organizer",
+          "fairy lights"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 18.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "bluetooth speaker",
+          "power strip",
+          "webcam"
+        ],
+        "total_items_sold": 6,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "electronics",
+      "home_decor",
+      "art_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Compact LED Desk Lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "lamp",
+        "desk",
+        "led",
+        "lighting",
+        "black",
+        "dimmable"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "ABS plastic",
+        "brand": "TaoTronics"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 20
+    },
+    "context": {
+      "urgency": null,
+      "reason": "Selling because I upgraded my setup, no longer need this reliable lamp.",
+      "original_text": "Selling my trusty compact LED desk lamp. Perfect for dorms. Black, good condition, works great! Dimmable too."
+    },
+    "location": {
+      "text_input": "campus apartment, near library",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

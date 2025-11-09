@@ -1,0 +1,136 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Introduction to Psychology Textbook, 12th Edition",
+      "category": "textbooks",
+      "tags": [
+        "psychology",
+        "textbook",
+        "intro",
+        "science"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Starting Intro to Psych class next week, need it ASAP.",
+      "original_text": "Looking for 'Introduction to Psychology' textbook, 12th edition. Must be in good or like-new condition. Willing to pay up to $35. Urgently needed!"
+    },
+    "location": {
+      "text_input": "campus bookstore or central campus",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "psych_grad_student",
+    "context": {
+      "original_text": "Selling old textbooks from my undergrad, some psych research books, and a few small dorm items I no longer need."
+    },
+    "profile_keywords": [
+      "psychology",
+      "textbooks",
+      "academic",
+      "study materials",
+      "dorm items"
+    ],
+    "inferred_major": "Psychology",
+    "inferred_location_keywords": [
+      "psychology building",
+      "library",
+      "grad student lounge"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Social Psychology: A Core Reader",
+          "Research Methods in Psych",
+          "Cognitive Neuroscience"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 32.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini desk lamp",
+          "storage bins"
+        ],
+        "total_items_sold": 4,
+        "avg_price_per_item": 12.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "school_supplies",
+      "reading books"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Introduction to Psychology Textbook, 12th Edition",
+      "category": "textbooks",
+      "tags": [
+        "psychology",
+        "textbook",
+        "intro",
+        "science"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25
+    },
+    "context": {
+      "urgency": null,
+      "reason": "Selling my used textbook from a previous semester.",
+      "original_text": "Intro to Psych 12th Ed. Fair condition, lots of highlighting and some wear on the cover. $25."
+    },
+    "location": {
+      "text_input": "on-campus dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

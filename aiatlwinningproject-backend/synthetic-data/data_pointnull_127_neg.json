@@ -1,0 +1,130 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "phone charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a cheap phone charger ASAP"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_B002",
+    "context": {
+      "original_text": "Selling my old textbooks, some dorm stuff, and study guides. History and English mostly."
+    },
+    "profile_keywords": [
+      "textbooks",
+      "study guides",
+      "dorm decor",
+      "used furniture",
+      "english lit",
+      "history"
+    ],
+    "inferred_major": "English Literature",
+    "inferred_location_keywords": [
+      "campus library",
+      "student union",
+      "dorm building A"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus I Textbook",
+          "Intro to Lit Reader"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "Desk lamp",
+          "Small bookshelf"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 20.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "home_goods",
+      "furniture",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Penguin Classic Novel",
+      "category": "textbooks",
+      "tags": [
+        "fiction",
+        "literature",
+        "classic"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "paperback",
+        "color": "white",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "paper",
+        "brand": "Penguin Classics"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 8.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Penguin Classic novel - good condition"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

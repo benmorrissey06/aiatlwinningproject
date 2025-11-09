@@ -1,0 +1,118 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "MacBook charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "need a macbook charger asap"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_XYZ789",
+    "context": {
+      "original_text": "Selling various electronics and cables. Have a few Apple accessories from my old laptop."
+    },
+    "profile_keywords": [
+      "electronics",
+      "chargers",
+      "cables",
+      "Apple products",
+      "tech accessories"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering dorms",
+      "library west"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C hub",
+          "Apple Lightning cable",
+          "Portable speaker"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 30.5,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "computer accessories",
+      "gaming"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Apple MacBook Pro 61W USB-C Power Adapter",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "power adapter",
+        "macbook",
+        "usb-c",
+        "apple"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "white",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Apple"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "selling old electronics",
+      "original_text": "Selling my spare Apple MacBook Pro 61W USB-C Power Adapter. Good condition, works perfectly."
+    },
+    "location": {
+      "text_input": "Dorm 302",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

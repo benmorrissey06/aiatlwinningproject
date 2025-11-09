@@ -1,0 +1,140 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Copic Sketch Markers - Earth Tones Set",
+      "category": "art_supplies",
+      "tags": [
+        "markers",
+        "copic",
+        "sketch",
+        "earth tones"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "earth tones",
+        "condition_requested": [
+          "new",
+          "like-new"
+        ]
+      },
+      "secondary": {
+        "material": "alcohol-based ink",
+        "brand": "Copic"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 60.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Starting a new illustration project, need fresh markers for consistent blending.",
+      "original_text": "Looking for a set of Copic Sketch markers, specifically earth tones, new or like-new condition. Max $60. Urgency is medium."
+    },
+    "location": {
+      "text_input": "Near Art Building",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "art_supplies_seller_A7",
+    "context": {
+      "original_text": "I'm an art major always selling off my old supplies or new ones I don't need."
+    },
+    "profile_keywords": [
+      "art supplies",
+      "drawing",
+      "painting",
+      "illustration",
+      "markers",
+      "canvases"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "Art Building",
+      "Studio Labs"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "watercolor set",
+          "sketchbooks",
+          "acrylic paints",
+          "ink pens"
+        ],
+        "total_items_sold": 25,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Art History 101",
+          "Figure Drawing Guide"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 50.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "craft_supplies",
+      "books",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Used Copic Sketch Markers - Earth Tones Set (partial)",
+      "category": "art_supplies",
+      "tags": [
+        "markers",
+        "copic",
+        "sketch",
+        "earth tones",
+        "used",
+        "dried out"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "earth tones",
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "alcohol-based ink",
+        "brand": "Copic"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 40.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling a used set, some markers might be dry.",
+      "original_text": "Used Copic Sketch markers, earth tones. Some colors might be low on ink or dry. Condition fair. Asking $40."
+    },
+    "location": {
+      "text_input": "Art Studio storage",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

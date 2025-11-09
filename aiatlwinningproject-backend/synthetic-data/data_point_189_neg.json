@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "MacBook Air M1 (2020)",
+      "category": "electronics",
+      "tags": [
+        "laptop",
+        "apple",
+        "m1",
+        "computer",
+        "productivity"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "13-inch",
+        "color": "space gray",
+        "condition_requested": [
+          "new",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "aluminum",
+        "brand": "Apple"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 700
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need a reliable laptop for engineering projects, current one is failing.",
+      "original_text": "Looking for a 13-inch MacBook Air M1, space gray, in new or excellent condition. My budget is around $700. Urgent for my engineering classes!"
+    },
+    "location": {
+      "text_input": "campus dorm",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "techjunkie_2024",
+    "context": {
+      "original_text": "I frequently upgrade my tech and sell my old devices. Mostly electronics and some gaming gear. CompSci major."
+    },
+    "profile_keywords": [
+      "electronics",
+      "laptops",
+      "apple products",
+      "gaming",
+      "compsci"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "engineering building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "iPad Pro",
+          "Gaming Headset",
+          "Apple Watch"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 450,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "Nintendo Switch",
+          "PS4 Controller"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 180,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "MacBook Air M1 (2020)",
+      "category": "electronics",
+      "tags": [
+        "laptop",
+        "apple",
+        "m1",
+        "computer",
+        "student"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "13-inch",
+        "color": "space gray",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "aluminum",
+        "brand": "Apple"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 850
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a new model.",
+      "original_text": "Selling my 13-inch MacBook Air M1, space gray. It's in good condition, slight wear on the corners. Selling for $850."
+    },
+    "location": {
+      "text_input": "Seller's Dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

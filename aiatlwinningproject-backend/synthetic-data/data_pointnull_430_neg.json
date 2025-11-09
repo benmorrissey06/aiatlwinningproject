@@ -1,0 +1,128 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "shirt",
+      "category": null,
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "red",
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "for a party tonight",
+      "original_text": "Need a red shirt ASAP for a party tonight."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_gamer_007",
+    "context": {
+      "original_text": "Gamer selling used electronics, accessories, and occasional dorm tech. Always fair prices!"
+    },
+    "profile_keywords": [
+      "electronics",
+      "gaming",
+      "tech",
+      "accessories",
+      "dorm",
+      "used"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorms",
+      "campus center"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming mouse",
+          "HDMI cable",
+          "webcam"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 controller",
+          "headset"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "computer_accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "mechanical keyboard",
+      "category": "electronics",
+      "tags": [
+        "gaming",
+        "peripherals",
+        "keyboard"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "full-size",
+        "color": "black",
+        "condition_requested": [
+          "used_good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Razer"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 60.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Selling my used Razer BlackWidow mechanical keyboard. Good condition."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

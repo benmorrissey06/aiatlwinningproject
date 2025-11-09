@@ -1,0 +1,129 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "lamp",
+      "category": "dorm_essentials",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "dorm room",
+      "original_text": "Need a cheap lamp for my dorm, asap."
+    },
+    "location": {
+      "text_input": "my dorm",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "decor_digger_sophie",
+    "context": {
+      "original_text": "Selling off my old dorm decor and finding new pieces. I love organizing and making spaces cozy!"
+    },
+    "profile_keywords": [
+      "dorm decor",
+      "lighting",
+      "organization",
+      "small furniture",
+      "home goods",
+      "electronics"
+    ],
+    "inferred_major": "Business",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "student housing"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "desk lamp",
+          "storage bins",
+          "string lights"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 17.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "charging station",
+          "portable fan"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "electronics",
+      "furniture"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "LED Desk Lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "lighting",
+        "adjustable",
+        "study",
+        "white"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "white",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "TaoTronics"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 12
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "White adjustable LED desk lamp, perfect for studying in a dorm. Works great, minor wear."
+    },
+    "location": {
+      "text_input": "campus dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

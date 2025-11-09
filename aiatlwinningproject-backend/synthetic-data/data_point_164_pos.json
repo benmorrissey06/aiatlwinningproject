@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "mid-century modern desk lamp",
+      "category": "furniture",
+      "tags": [
+        "desk lamp",
+        "mid-century",
+        "modern",
+        "lighting"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "brass",
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "metal",
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "decorating new dorm room",
+      "original_text": "Looking for a cool mid-century modern desk lamp for my dorm. Needs to be in good condition, brass preferred, and under $45."
+    },
+    "location": {
+      "text_input": "on-campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "student_design_maven_77",
+    "context": {
+      "original_text": "I'm always redecorating my space and often sell previous decor items or unique finds. Love helping others style their dorms, especially with vintage vibes."
+    },
+    "profile_keywords": [
+      "interior design",
+      "vintage finds",
+      "home decor",
+      "dorm styling",
+      "lamps",
+      "furniture"
+    ],
+    "inferred_major": "Architecture",
+    "inferred_location_keywords": [
+      "campus apartments",
+      "north dorms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "furniture",
+        "item_examples": [
+          "vintage stool",
+          "floor lamp",
+          "small side table"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 60.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "throw pillows",
+          "tapestry",
+          "decorative mirror"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "home_decor",
+      "lighting",
+      "small_appliances"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Mid-century brass desk lamp",
+      "category": "furniture",
+      "tags": [
+        "desk lamp",
+        "mid-century",
+        "brass",
+        "lighting"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "brass",
+        "condition_requested": [
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "metal",
+        "brand": "Target Home"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "clearing out old decor",
+      "original_text": "Selling my brass mid-century desk lamp, excellent condition, minimal use. Perfect for a dorm room or study desk."
+    },
+    "location": {
+      "text_input": "north dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

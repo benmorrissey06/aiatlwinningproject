@@ -1,0 +1,146 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "mechanical keyboard",
+      "category": "gaming",
+      "tags": [
+        "keyboard",
+        "mechanical",
+        "rgb"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Razer"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 70.0
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need for competitive gaming setup",
+      "original_text": "I'm looking for a new or like-new Razer mechanical keyboard, black color, for my gaming setup. Can spend up to $70."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_artist_33",
+    "context": {
+      "original_text": "Student selling art supplies, some tech gadgets, and old dorm essentials."
+    },
+    "profile_keywords": [
+      "artist",
+      "gamer",
+      "tech",
+      "student",
+      "illustrator"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art studio",
+      "dorms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "copic markers",
+          "sketchbooks",
+          "easel"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "webcam",
+          "gaming mouse",
+          "old headphones"
+        ],
+        "total_items_sold": 4,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini fan",
+          "desk lamp"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "collectables"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "mechanical keyboard",
+      "category": "gaming",
+      "tags": [
+        "keyboard",
+        "mechanical",
+        "rgb",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Razer"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 55.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a new keyboard, selling old one.",
+      "original_text": "Selling a used Razer mechanical keyboard, in good condition with minor wear. Works perfectly."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

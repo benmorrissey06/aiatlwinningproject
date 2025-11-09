@@ -1,0 +1,150 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Introduction to Literary Criticism Textbook (5th Edition)",
+      "category": "textbooks",
+      "tags": [
+        "literary criticism",
+        "english",
+        "textbook",
+        "5th edition",
+        "ENG201"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Longman"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need for ENG201 class next semester",
+      "original_text": "Looking for 'Introduction to Literary Criticism', 5th edition, in good or very good condition for my ENG201 class. Can pay up to $25."
+    },
+    "location": {
+      "text_input": "campus central area",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "sarah_litlover_001",
+    "context": {
+      "original_text": "I'm an English major and I frequently sell my old textbooks, some art supplies, and other dorm essentials I no longer need."
+    },
+    "profile_keywords": [
+      "English Literature",
+      "textbooks",
+      "literary theory",
+      "dorm essentials",
+      "art supplies",
+      "used books"
+    ],
+    "inferred_major": "English Literature",
+    "inferred_location_keywords": [
+      "humanities building",
+      "library cafe",
+      "dorm D-wing"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Pride and Prejudice - Annotated Edition",
+          "Literary Theory: An Introduction",
+          "The Great Gatsby Study Guide"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 38.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "Sketchbook Moleskine",
+          "Charcoal Drawing Set"
+        ],
+        "total_items_sold": 6,
+        "avg_price_per_item": 16.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "Mini Desk Lamp",
+          "Portable Fan"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 12.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "school_supplies",
+      "reading books",
+      "art_supplies",
+      "electronics"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Introduction to Literary Criticism Textbook (5th Edition)",
+      "category": "textbooks",
+      "tags": [
+        "literary criticism",
+        "english",
+        "textbook",
+        "5th edition"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Longman"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 70.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling old course material from a past semester",
+      "original_text": "Selling my 'Introduction to Literary Criticism' 5th edition, very good condition, barely used. Price is $70."
+    },
+    "location": {
+      "text_input": "seller's dorm building",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

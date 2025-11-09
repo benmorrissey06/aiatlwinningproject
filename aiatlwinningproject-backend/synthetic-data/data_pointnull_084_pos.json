@@ -1,0 +1,133 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "fan",
+      "category": null,
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "hey I need a small fan for my dorm room by Friday."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_dorm_tech_007",
+    "context": {
+      "original_text": "I'm a sophomore selling electronics and dorm essentials. Always have good deals!"
+    },
+    "profile_keywords": [
+      "electronics",
+      "dorm essentials",
+      "small appliances",
+      "used items",
+      "college student",
+      "good deals"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm common areas",
+      "campus bookstore",
+      "engineering building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "bluetooth speaker",
+          "charging cables",
+          "desk lamp",
+          "mini fan"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 20.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini fridge",
+          "bedside caddy",
+          "small fan"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "dorm_essentials",
+      "small appliances"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB desk fan",
+      "category": "electronics",
+      "tags": [
+        "personal fan",
+        "mini fan",
+        "dorm item",
+        "cooling",
+        "quiet"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "white",
+        "condition_requested": [
+          "used - like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Opolar"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": "selling because I upgraded to a larger one",
+      "original_text": "Selling my compact USB desk fan, perfect for dorms! Barely used, super quiet."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

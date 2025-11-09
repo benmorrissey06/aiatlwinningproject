@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Mario Kart 8 Deluxe for Nintendo Switch",
+      "category": "gaming",
+      "tags": [
+        "Nintendo Switch",
+        "Mario Kart",
+        "game",
+        "multiplayer"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Nintendo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Looking for a fun game to play with roommates this weekend.",
+      "original_text": "Anyone selling Mario Kart 8 Deluxe for Nintendo Switch? Looking for a good condition one, ideally under $35. Wanna play with roommates."
+    },
+    "location": {
+      "text_input": "on campus",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_student_789",
+    "context": {
+      "original_text": "I'm a senior who loves gaming and occasionally sells off old games or consoles I'm not using anymore. Also sell some textbooks."
+    },
+    "profile_keywords": [
+      "gaming",
+      "Nintendo Switch",
+      "video games",
+      "tech",
+      "used games"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm E",
+      "student union",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "Zelda: Breath of the Wild (Switch)",
+          "PS4 Controller",
+          "Animal Crossing: New Horizons (Switch)"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 40,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus II Textbook",
+          "Intro to Python"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 60,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "collectibles",
+      "textbooks"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Mario Kart 8 Deluxe",
+      "category": "gaming",
+      "tags": [
+        "Nintendo Switch",
+        "Mario Kart",
+        "game",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Nintendo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling old game.",
+      "original_text": "Selling my copy of Mario Kart 8 Deluxe for Nintendo Switch, in good condition, barely played. $30."
+    },
+    "location": {
+      "text_input": "dorm E",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

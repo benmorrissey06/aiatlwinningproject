@@ -1,0 +1,129 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "iPhone charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "need an iphone charger, kinda cheap"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_enthusiast_22",
+    "context": {
+      "original_text": "I mostly sell used tech, chargers, cables, and some textbooks. Always have extra electronics."
+    },
+    "profile_keywords": [
+      "electronics",
+      "chargers",
+      "cables",
+      "phone accessories",
+      "tech gadgets",
+      "textbooks"
+    ],
+    "inferred_major": "Electrical Engineering",
+    "inferred_location_keywords": [
+      "dorm",
+      "engineering building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "iPhone lightning cable",
+          "USB-C adapter",
+          "portable charger"
+        ],
+        "total_items_sold": 35,
+        "avg_price_per_item": 12.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus I textbook",
+          "Python programming guide"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "dorm_essentials",
+      "textbooks"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Used Apple Lightning to USB-A Charging Cable (1m)",
+      "category": "electronics",
+      "tags": [
+        "iPhone",
+        "charging",
+        "lightning",
+        "cable",
+        "Apple"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "1m",
+        "color": "white",
+        "condition_requested": [
+          "used_good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic/rubber",
+        "brand": "Apple"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 8.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "clearing out old tech",
+      "original_text": "Selling a gently used Apple Lightning cable, 1 meter. Works perfectly. Only $8."
+    },
+    "location": {
+      "text_input": "Near university dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

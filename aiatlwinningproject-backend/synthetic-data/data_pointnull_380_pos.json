@@ -1,0 +1,131 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "desk lamp",
+      "category": null,
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "need a desk lamp asap for my dorm"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "dormGuru88",
+    "context": {
+      "original_text": "I'm clearing out my dorm before moving off-campus. Selling lots of essentials and some electronics."
+    },
+    "profile_keywords": [
+      "dorm cleanout",
+      "moving out",
+      "home goods",
+      "electronics",
+      "study supplies"
+    ],
+    "inferred_major": "marketing",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "on-campus residence"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini-fridge",
+          "desk lamp",
+          "storage bins",
+          "bedside table"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "bluetooth speaker",
+          "charging cables"
+        ],
+        "total_items_sold": 4,
+        "avg_price_per_item": 20,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "home_goods",
+      "electronics",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "LED Desk Lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "lighting",
+        "study",
+        "LED",
+        "adjustable brightness",
+        "flexible arm",
+        "USB charging"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "excellent",
+          "gently used"
+        ]
+      },
+      "secondary": {
+        "material": "ABS plastic and aluminum alloy",
+        "brand": "TaoTronics"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling due to moving out, no longer needed.",
+      "original_text": "TaoTronics LED Desk Lamp - Black, adjustable, USB port. Excellent condition."
+    },
+    "location": {
+      "text_input": "Campus Dorms, Building C",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

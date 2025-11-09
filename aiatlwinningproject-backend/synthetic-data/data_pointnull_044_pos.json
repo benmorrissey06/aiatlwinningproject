@@ -1,0 +1,129 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "desk lamp",
+      "category": "dorm_essentials",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a cheap desk lamp asap."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "dorm_senior_seller",
+    "context": {
+      "original_text": "Senior getting rid of all my dorm stuff - lamps, storage, textbooks, small furniture. Pick up near campus."
+    },
+    "profile_keywords": [
+      "dorm essentials",
+      "senior",
+      "moving out",
+      "lamps",
+      "storage",
+      "textbooks",
+      "small furniture"
+    ],
+    "inferred_major": "Marketing",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "main quad"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "desk lamp",
+          "storage bins",
+          "bedside table"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 22.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "marketing textbook",
+          "management textbook"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "furniture",
+      "textbooks"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "LED Desk Lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "adjustable",
+        "study",
+        "modern"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "TaoTronics"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": "graduating sale",
+      "original_text": "Selling a good condition TaoTronics LED desk lamp. Black, adjustable, perfect for dorms. Asking $18. Pickup from North Hall."
+    },
+    "location": {
+      "text_input": "North Hall Dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

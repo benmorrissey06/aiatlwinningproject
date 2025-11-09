@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "used psychology textbook",
+      "category": "textbooks",
+      "tags": [
+        "psychology",
+        "textbook",
+        "introductory",
+        "PSYC 101"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 40
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Starting Intro to Psychology next week, need the textbook ASAP.",
+      "original_text": "URGENT! Need 'Psychology: A Concise Introduction' by Richard Griggs, 5th Edition. Must be in good or very good condition, willing to pay up to $40. My class starts next Monday!"
+    },
+    "location": {
+      "text_input": "campus library",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "psych_grad_seller",
+    "context": {
+      "original_text": "Psychology grad student clearing out old textbooks and study materials. Selling mostly textbooks and some research books. Prefer campus meetups."
+    },
+    "profile_keywords": [
+      "psychology",
+      "textbooks",
+      "study materials",
+      "academic",
+      "used books"
+    ],
+    "inferred_major": "Psychology",
+    "inferred_location_keywords": [
+      "campus",
+      "library",
+      "student union"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Intro to Sociology textbook",
+          "Cognitive Psychology Reader",
+          "Research Methods in Psych"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 35,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "notebooks",
+          "pens",
+          "binders"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 8,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "academic_books",
+      "study_aids"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Psychology: A Concise Introduction",
+      "category": "textbooks",
+      "tags": [
+        "psychology",
+        "textbook",
+        "5th edition",
+        "Griggs"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Clearing out old books.",
+      "original_text": "Selling Psychology: A Concise Introduction, 5th edition. It's a bit worn, some highlighting and notes, but fully readable. Fair condition."
+    },
+    "location": {
+      "text_input": "dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

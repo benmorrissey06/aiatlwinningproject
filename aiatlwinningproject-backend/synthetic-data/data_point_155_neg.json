@@ -1,0 +1,141 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Professional watercolor paint set",
+      "category": "art_supplies",
+      "tags": [
+        "watercolor",
+        "paint",
+        "art",
+        "set",
+        "professional"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "multi-color",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Winsor & Newton"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Starting a new advanced painting class and need high-quality supplies.",
+      "original_text": "Looking for a new or like-new professional watercolor paint set, preferably Winsor & Newton or similar. Max $50."
+    },
+    "location": {
+      "text_input": "campus art studio",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "artful_avery",
+    "context": {
+      "original_text": "Fine Arts major selling gently used art supplies, textbooks, and some dorm decor. Passionate about sustainability!"
+    },
+    "profile_keywords": [
+      "artist",
+      "painting",
+      "illustration",
+      "art supplies",
+      "crafts",
+      "fine arts",
+      "drawing"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art building",
+      "dorms south"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "acrylic paints",
+          "sketchbooks",
+          "brushes",
+          "drawing pencils"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 25,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "art history textbook",
+          "literature reader"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 40,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "crafts",
+      "books",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Used Watercolor Paint Set",
+      "category": "art_supplies",
+      "tags": [
+        "watercolor",
+        "paint",
+        "art",
+        "set",
+        "student grade"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "small",
+        "color": "multi-color",
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Reeves"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Selling a used Reeves watercolor set. Pans are partially used, some mixing areas stained. Fair condition, good for practice."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

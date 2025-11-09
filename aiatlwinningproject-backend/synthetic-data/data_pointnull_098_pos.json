@@ -1,0 +1,125 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "t-shirt",
+      "category": null,
+      "tags": null
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "white",
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": null,
+      "price_max": 10
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "need a white t-shirt for $10 by Friday"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_apparel_fanatic",
+    "context": {
+      "original_text": "Selling unused clothes, accessories, and some textbooks. Always have good deals!"
+    },
+    "profile_keywords": [
+      "apparel",
+      "fashion",
+      "accessories",
+      "clothing"
+    ],
+    "inferred_major": "Fashion Design",
+    "inferred_location_keywords": [
+      "campus store",
+      "dorm A"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "hoodies",
+          "jeans",
+          "t-shirts",
+          "dresses"
+        ],
+        "total_items_sold": 45,
+        "avg_price_per_item": 25,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "accessories",
+        "item_examples": [
+          "hats",
+          "scarves"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 15,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Hanes ComfortSoft White T-Shirt",
+      "category": "apparel",
+      "tags": [
+        "basic",
+        "cotton",
+        "casual"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "white",
+        "condition_requested": [
+          "new"
+        ]
+      },
+      "secondary": {
+        "material": "100% Cotton",
+        "brand": "Hanes"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 8
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Hanes ComfortSoft White T-Shirt - Size M, New, $8"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

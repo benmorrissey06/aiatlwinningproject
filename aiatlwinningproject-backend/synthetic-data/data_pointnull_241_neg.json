@@ -1,0 +1,126 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "textbook",
+      "category": "textbooks",
+      "tags": null
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": null,
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "for an English class",
+      "original_text": "urgent need for a textbook, something for an English class"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_gear_guru",
+    "context": {
+      "original_text": "I sell gaming accessories, console games, and occasionally other electronics."
+    },
+    "profile_keywords": [
+      "gaming accessories",
+      "console games",
+      "electronics",
+      "peripherals"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "library west",
+      "campus center"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS5 controller",
+          "Nintendo Switch game"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 45,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cable",
+          "USB-C adapter"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 15,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "tech"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "gaming headset",
+      "category": "electronics",
+      "tags": [
+        "gaming",
+        "audio",
+        "wireless",
+        "headset"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "on-ear",
+        "color": "black",
+        "condition_requested": [
+          "like new",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, synthetic leather",
+        "brand": "Razer"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Razer Barracuda X Wireless Gaming Headset - Like New Condition"
+    },
+    "location": {
+      "text_input": "my dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

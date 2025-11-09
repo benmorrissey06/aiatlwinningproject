@@ -1,0 +1,133 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "textbook",
+      "category": "textbooks",
+      "tags": null
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": null,
+      "price_max": null
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "Need a textbook for my english class next week, cheap."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_geek_789",
+    "context": {
+      "original_text": "I'm always swapping gaming gear and electronics! Mostly lend out my spare controllers or old cables."
+    },
+    "profile_keywords": [
+      "gaming",
+      "electronics",
+      "tech",
+      "lending",
+      "video games"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm_north",
+      "gaming_lounge",
+      "computer_lab"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS5 controller",
+          "Nintendo Switch dock",
+          "Xbox headset"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "lend"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C charger",
+          "HDMI cable",
+          "portable power bank"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 10.0,
+        "dominant_transaction_type_in_category": "lend"
+      }
+    ],
+    "overall_dominant_transaction_type": "lend",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "accessories",
+      "dorm_essentials",
+      "tech"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "PS4 Controller",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "playstation",
+        "wireless"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Sony"
+      }
+    },
+    "transaction": {
+      "type_preferred": "lend",
+      "type_acceptable": [
+        "lend"
+      ],
+      "price_max": 20.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Selling off extra gaming gear",
+      "original_text": "Selling a used black PS4 controller, works great. Can lend too."
+    },
+    "location": {
+      "text_input": "North Campus Dorms",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

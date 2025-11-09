@@ -1,0 +1,136 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "mini-fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "appliance",
+        "cooling",
+        "compact",
+        "dorm"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Insignia"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Moving into new dorm and need to store snacks/drinks",
+      "original_text": "Hey, looking for a cheap mini-fridge for my dorm. Needs to be in good shape and hopefully black or silver. Max $80. Moving in next week!"
+    },
+    "location": {
+      "text_input": "near campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "dorm_mover_out_789",
+    "context": {
+      "original_text": "Selling off dorm essentials before I graduate and move off-campus for good. Have a lot of useful stuff!"
+    },
+    "profile_keywords": [
+      "dorm",
+      "moving out",
+      "graduation",
+      "appliances",
+      "electronics",
+      "home_goods"
+    ],
+    "inferred_major": "Business",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "off-campus apartment"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini-fridge",
+          "microwave",
+          "desk lamp"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 45,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "bluetooth speaker",
+          "charger"
+        ],
+        "total_items_sold": 2,
+        "avg_price_per_item": 30,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "furniture",
+      "textbooks"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Compact Mini-Fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "appliance",
+        "cooling",
+        "dorm",
+        "black"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "metal/plastic",
+        "brand": "Insignia"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 65
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Upgraded to a larger fridge, no longer need this one",
+      "original_text": "Selling my compact Insignia mini-fridge. Used for 2 years, still works great. Perfect for dorms. Black, asking $65. Minor cosmetic scratches."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

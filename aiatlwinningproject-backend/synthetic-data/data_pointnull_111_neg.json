@@ -1,0 +1,131 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "blender",
+      "category": "dorm_essentials",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need a good blender for smoothies by Friday."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "textbook_tim_456",
+    "context": {
+      "original_text": "I mainly sell my old textbooks and some general school supplies. Trying to clear out space!"
+    },
+    "profile_keywords": [
+      "textbooks",
+      "calculus",
+      "history books",
+      "school supplies",
+      "used books",
+      "stationary"
+    ],
+    "inferred_major": "History",
+    "inferred_location_keywords": [
+      "university library",
+      "campus bookstore",
+      "humanities building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus II Textbook",
+          "World History Vol. 1",
+          "Introduction to Philosophy"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 42.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "notebooks",
+          "pens",
+          "binders"
+        ],
+        "total_items_sold": 10,
+        "avg_price_per_item": 7.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "school_supplies",
+      "literature"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "World History Textbook Vol. 2",
+      "category": "textbooks",
+      "tags": [
+        "history",
+        "college",
+        "humanities"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "red",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "paper",
+        "brand": "McGraw-Hill"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 55.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "finished course",
+      "original_text": "Selling my World History Vol. 2 textbook. Good condition, some highlighting."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

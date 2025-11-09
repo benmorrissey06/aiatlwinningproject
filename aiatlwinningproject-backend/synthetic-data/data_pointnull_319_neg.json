@@ -1,0 +1,140 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "bluetooth headphones",
+      "category": "electronics",
+      "tags": null
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": null,
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need bluetooth headphones ASAP! Must have them today."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "user_S003_artlover",
+    "context": {
+      "original_text": "Selling old textbooks, art supplies, and some dorm decor. Moving out after graduation!"
+    },
+    "profile_keywords": [
+      "textbooks",
+      "art",
+      "dorm decor",
+      "moving sale",
+      "graduation"
+    ],
+    "inferred_major": "Art History",
+    "inferred_location_keywords": [
+      "art building",
+      "campus bookstore",
+      "dorms south"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Sociology 101",
+          "Art History Reader Vol. 2"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "Acrylic Paint Set",
+          "Sketch Pad (100 pages)"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "Mini Fridge",
+          "Desk Lamp"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "art_supplies",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Acrylic Paint Set (Large)",
+      "category": "art_supplies",
+      "tags": [
+        "paint",
+        "art",
+        "new-condition",
+        "crafts"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "large set",
+        "color": "multi-color",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "acrylic",
+        "brand": "Liquitex Basics"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "selling because I'm moving out after graduation and won't need it",
+      "original_text": "Selling my large acrylic paint set, barely used, great for any art student. Retails for $60."
+    },
+    "location": {
+      "text_input": "South Campus dorms",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.45
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

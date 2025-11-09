@@ -1,0 +1,152 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wacom Intuos Pro Drawing Tablet",
+      "category": "electronics",
+      "tags": [
+        "drawing",
+        "tablet",
+        "digital art",
+        "wacom"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Wacom"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 250
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need for digital illustration course",
+      "original_text": "Looking for a Wacom Intuos Pro drawing tablet, medium size, preferably new or like new condition. My budget is around $250."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "creative_crafter_22",
+    "context": {
+      "original_text": "Fine Arts major always selling old art supplies or unique tech items I've upgraded from. Love finding new homes for my gear!"
+    },
+    "profile_keywords": [
+      "artist",
+      "digital art",
+      "crafts",
+      "fine arts",
+      "tech enthusiast",
+      "used gear",
+      "upcycling"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art studio",
+      "design lab"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "used drawing tablet",
+          "old monitor",
+          "portable speaker"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 120,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "watercolor set",
+          "sketchbooks",
+          "easel"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 40,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "desk lamp",
+          "mini fan"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 25,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "art_supplies",
+      "gaming",
+      "books"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wacom Intuos Pro Medium Drawing Tablet",
+      "category": "electronics",
+      "tags": [
+        "drawing",
+        "tablet",
+        "digital art",
+        "wacom",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Wacom"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 150
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Selling a used Wacom Intuos Pro Medium tablet. Good condition, some cosmetic scratches, fully functional. Comes with pen and cable. Asking $150."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

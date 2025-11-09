@@ -1,0 +1,149 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "graphing calculator",
+      "category": "school_supplies",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a graphing calculator urgently for my math class."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "mathWhiz_7",
+    "context": {
+      "original_text": "I'm a senior math major clearing out my old academic supplies and electronics, trying to make some extra cash before graduating."
+    },
+    "profile_keywords": [
+      "math major",
+      "STEM supplies",
+      "used electronics",
+      "calculus textbooks",
+      "tutoring",
+      "campus sales",
+      "academic tools"
+    ],
+    "inferred_major": "Mathematics",
+    "inferred_location_keywords": [
+      "campus",
+      "library",
+      "math building",
+      "dorm room"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "TI-84 calculator",
+          "USB-C hub",
+          "portable charger",
+          "scientific calculator"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus II Textbook",
+          "Linear Algebra Textbook",
+          "Differential Equations Text"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 30.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "notebooks",
+          "binders",
+          "art pencils"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 8.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "textbooks",
+      "school_supplies",
+      "gaming"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "TI-84 Plus CE Graphing Calculator",
+      "category": "electronics",
+      "tags": [
+        "graphing",
+        "math",
+        "calculator",
+        "texas instruments",
+        "calculus"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Texas Instruments"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 55.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "no longer needed for course",
+      "original_text": "Selling my TI-84 Plus CE, black, good condition. Used it for Calculus and Linear Algebra, works perfectly. Comes with charging cable."
+    },
+    "location": {
+      "text_input": "campus dorm room 3B",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.4446
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

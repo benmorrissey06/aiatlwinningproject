@@ -1,0 +1,145 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "calculator",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy",
+        "borrow"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "exam",
+      "original_text": "Need a basic calculator ASAP for my exam!"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_eng_calc_1701",
+    "context": {
+      "original_text": "Engineering student clearing out old electronics, textbooks, and some art supplies from my dorm. Looking to sell or lend items to other students."
+    },
+    "profile_keywords": [
+      "engineering",
+      "electronics",
+      "school supplies",
+      "textbooks",
+      "calculators",
+      "art supplies"
+    ],
+    "inferred_major": "Engineering",
+    "inferred_location_keywords": [
+      "engineering building",
+      "campus dorms",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "TI-84 Plus calculator",
+          "Arduino kit",
+          "USB-C hub"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus I textbook",
+          "Physics II lab manual"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 75.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "drawing compass set",
+          "graph paper pads"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 12.0,
+        "dominant_transaction_type_in_category": "mixed"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "school_supplies",
+      "textbooks",
+      "gaming",
+      "art_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "TI-84 Plus Graphing Calculator",
+      "category": "electronics",
+      "tags": [
+        "graphing",
+        "scientific",
+        "math",
+        "exam-approved",
+        "Texas Instruments"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "black",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Texas Instruments"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy",
+        "borrow"
+      ],
+      "price_max": 45.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "upgraded to TI-Inspire",
+      "original_text": "Selling my reliable TI-84 Plus Graphing Calculator. Perfect working condition, minor cosmetic wear. Comes with original cover. Great for calculus, algebra, and stats."
+    },
+    "location": {
+      "text_input": "engineering building",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

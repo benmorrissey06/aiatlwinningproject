@@ -1,0 +1,136 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "mini projector",
+      "category": "electronics",
+      "tags": [
+        "projector",
+        "portable",
+        "dorm",
+        "movies"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "for dorm movie nights",
+      "original_text": "Looking for a portable mini projector for dorm movie nights, in good to very good condition. Max $80 please."
+    },
+    "location": {
+      "text_input": "campus dorm area",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "dorm_tech_hub",
+    "context": {
+      "original_text": "I often sell my old tech and dorm upgrades. Love a good deal!"
+    },
+    "profile_keywords": [
+      "electronics",
+      "gadgets",
+      "dorm essentials",
+      "portable devices"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "east campus"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "bluetooth speaker",
+          "gaming mouse",
+          "portable hard drive"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 55,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "desk lamp",
+          "mini fan",
+          "extension cord"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 20,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "home_audio_visual"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Pico Portable LED Projector",
+      "category": "electronics",
+      "tags": [
+        "projector",
+        "portable",
+        "LED",
+        "HDMI",
+        "mini"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "PicoTech"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 75
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "upgrading to a larger screen",
+      "original_text": "Selling my Pico Portable LED Projector, barely used. Perfect for dorm rooms, very good condition. Comes with power adapter."
+    },
+    "location": {
+      "text_input": "East Campus Dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

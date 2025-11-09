@@ -1,0 +1,135 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "textbook",
+      "category": "textbooks",
+      "tags": [
+        "calculus"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy",
+        "borrow"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "urgent study",
+      "original_text": "Need a textbook asap for calc 201."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "art_supplies_pro",
+    "context": {
+      "original_text": "I sell used art supplies, dorm decor, and occasionally handmade jewelry. Love helping other artists!"
+    },
+    "profile_keywords": [
+      "art supplies",
+      "dorm decor",
+      "handmade jewelry",
+      "creative",
+      "artist"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "studio",
+      "art building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "acrylic paint set",
+          "sketchbook",
+          "brushes",
+          "canvas"
+        ],
+        "total_items_sold": 25,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "throw pillow",
+          "fairy lights"
+        ],
+        "total_items_sold": 10,
+        "avg_price_per_item": 10.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "dorm_essentials",
+      "jewelry"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "colored pencils set",
+      "category": "art_supplies",
+      "tags": [
+        "drawing",
+        "artist",
+        "fine art",
+        "faber-castell"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "24-count",
+        "color": "multi-color",
+        "condition_requested": [
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "wood, pigment",
+        "brand": "Faber-Castell"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "clearing out supplies",
+      "original_text": "Barely used set of Faber-Castell Polychromos colored pencils. Great for art students!"
+    },
+    "location": {
+      "text_input": "art studio building",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

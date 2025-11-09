@@ -1,0 +1,129 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "charging cable",
+      "category": null,
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "need a charger for my phone now"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_savvy_student_456",
+    "context": {
+      "original_text": "I sell various tech accessories, chargers, and small electronics. Always have spare cables!"
+    },
+    "profile_keywords": [
+      "electronics",
+      "tech accessories",
+      "cables",
+      "chargers",
+      "gadgets"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "campus",
+      "engineering building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C cable",
+          "lightning charger",
+          "power bank"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 12.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "accessories",
+        "item_examples": [
+          "phone case",
+          "earbuds"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 8.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "phone_accessories",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C Charging Cable",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "phone",
+        "android",
+        "fast charge"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "6ft",
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "used - like new"
+        ]
+      },
+      "secondary": {
+        "material": "braided nylon",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 10.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Have an extra from a bundle purchase.",
+      "original_text": "Selling a brand new 6ft Anker USB-C charging cable. Fast charging compatible."
+    },
+    "location": {
+      "text_input": "My dorm, near engineering building",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

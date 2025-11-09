@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Moby Dick by Herman Melville (Norton Critical Edition)",
+      "category": "textbooks",
+      "tags": [
+        "classic literature",
+        "english lit",
+        "fiction",
+        "whale"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "new",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Norton"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Required for ENGL 301 - American Novel",
+      "original_text": "Looking for Moby Dick, Norton Critical Edition. Must be new or very good condition, willing to pay up to $30. Need it for my American Novel class."
+    },
+    "location": {
+      "text_input": "campus bookstore",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "sarah_e_lit_grad",
+    "context": {
+      "original_text": "Graduating English Lit major selling off old course materials and dorm stuff."
+    },
+    "profile_keywords": [
+      "english literature",
+      "textbooks",
+      "academic",
+      "used books",
+      "dorm clear-out"
+    ],
+    "inferred_major": "English Literature",
+    "inferred_location_keywords": [
+      "humanities building",
+      "library",
+      "dormitory"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Literary Theory: An Introduction",
+          "Pride and Prejudice (Penguin Classics)",
+          "Shakespeare's Complete Works"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "desk lamp",
+          "mini-fridge"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "literature",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Moby Dick by Herman Melville (Norton Critical Edition)",
+      "category": "textbooks",
+      "tags": [
+        "classic literature",
+        "english lit",
+        "fiction",
+        "whale",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Norton"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25
+    },
+    "context": {
+      "urgency": null,
+      "reason": "Selling for English class",
+      "original_text": "Selling used Moby Dick, Norton Critical Edition. Fair condition, some highlighting on pages. Asking $25."
+    },
+    "location": {
+      "text_input": "campus dormitory",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

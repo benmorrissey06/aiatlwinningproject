@@ -1,0 +1,140 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "MacBook Pro (USB-C) Charger",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "macbook",
+        "usb-c",
+        "power adapter"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "white",
+        "condition_requested": [
+          "new",
+          "like_new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Apple"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Lost my original charger, need one for classes immediately.",
+      "original_text": "Need a new/like-new Apple USB-C charger for my MacBook Pro. Max $50, ASAP!"
+    },
+    "location": {
+      "text_input": "on campus",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "techie_trevor_98",
+    "context": {
+      "original_text": "Selling old tech, textbooks, and some dorm stuff. Always looking to declutter before moving."
+    },
+    "profile_keywords": [
+      "electronics",
+      "tech",
+      "gadgets",
+      "textbooks",
+      "dorm items",
+      "computer science"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "engineering building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "external hard drive",
+          "HDMI cable",
+          "old phone",
+          "gaming mouse",
+          "laptop charger"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus III textbook",
+          "Data Structures book"
+        ],
+        "total_items_sold": 4,
+        "avg_price_per_item": 70.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Apple 61W USB-C Power Adapter (MacBook Pro Charger)",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "macbook",
+        "usb-c",
+        "power adapter",
+        "apple"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "white",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Apple"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded laptop, no longer need this charger.",
+      "original_text": "Selling my used Apple USB-C 61W charger. Works great, some cosmetic wear. $30 OBO."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

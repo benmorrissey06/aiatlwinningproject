@@ -1,0 +1,123 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "pillow",
+      "category": "dorm_essentials",
+      "tags": null
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": null,
+      "price_max": 15
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "Need a new pillow for my dorm, maybe around $15, sometime this week."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "dorm_pro_seller_22",
+    "context": {
+      "original_text": "I often upgrade my dorm setup. Selling gently used essentials and decor."
+    },
+    "profile_keywords": [
+      "dorm",
+      "essentials",
+      "decor",
+      "home goods",
+      "gently used",
+      "bedding"
+    ],
+    "inferred_major": "Interior Design",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "residence halls"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "bedside lamp",
+          "throw pillow",
+          "mini fridge",
+          "desk organizer"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "home_goods",
+      "small_furniture",
+      "decor"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Comfort Memory Foam Pillow",
+      "category": "dorm_essentials",
+      "tags": [
+        "memory foam",
+        "sleeping",
+        "bedding",
+        "hypoallergenic"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "white",
+        "condition_requested": [
+          "like new",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "memory foam",
+        "brand": "SleepWell"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 12.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a different pillow for personal preference.",
+      "original_text": "Like new SleepWell memory foam pillow, standard size. Perfect for dorm beds, very comfortable."
+    },
+    "location": {
+      "text_input": "On-campus dorm, North Hall",
+      "device_gps": {
+        "lat": 34.0725,
+        "lng": -118.4455
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

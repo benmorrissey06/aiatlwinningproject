@@ -1,0 +1,145 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Art History: Renaissance to Modern (6th Edition)",
+      "category": "textbooks",
+      "tags": [
+        "art history",
+        "renaissance",
+        "modern art",
+        "textbook",
+        "6th edition",
+        "required reading"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "new",
+          "like-new"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Prentice Hall"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Required for Art History 201, class starts next week. Must be the current (6th) edition.",
+      "original_text": "Looking for the 6th edition of 'Art History: Renaissance to Modern' textbook. Must be new or like-new, max $50. Need it fast for class next week."
+    },
+    "location": {
+      "text_input": "campus bookstore area",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "art_major_sells_books_123",
+    "context": {
+      "original_text": "Art student selling off old textbooks and art supplies. Mostly good condition, reasonable prices."
+    },
+    "profile_keywords": [
+      "art student",
+      "art history",
+      "used textbooks",
+      "art supplies",
+      "painting",
+      "drawing",
+      "academic books"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art building",
+      "dorms south campus",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Ancient Art History 3rd Ed",
+          "Drawing Fundamentals 101",
+          "Photography Basics"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "sketchbooks",
+          "acrylic paint sets",
+          "easel"
+        ],
+        "total_items_sold": 20,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "art_supplies",
+      "art",
+      "academic books"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Art History: Renaissance to Modern (5th Edition)",
+      "category": "textbooks",
+      "tags": [
+        "art history",
+        "renaissance",
+        "modern art",
+        "textbook",
+        "5th edition",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Prentice Hall"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "No longer needed after taking Art History 201 last year, this is the previous edition.",
+      "original_text": "Selling my 'Art History: Renaissance to Modern' 5th edition textbook. It's in fair condition with some highlighting. Asking $30."
+    },
+    "location": {
+      "text_input": "dorms south building",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

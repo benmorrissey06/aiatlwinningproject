@@ -1,0 +1,135 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "desk lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "lamp",
+        "desk"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a small lamp for my desk. Can pick up ASAP."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "dorm_clearance_guru",
+    "context": {
+      "original_text": "Selling off extra dorm supplies and small electronics. Moving out soon, so everything must go! Flexible on pickup times."
+    },
+    "profile_keywords": [
+      "dorm",
+      "electronics",
+      "furniture",
+      "college_life",
+      "good_deals"
+    ],
+    "inferred_major": "General Studies",
+    "inferred_location_keywords": [
+      "campus_dorm_east",
+      "library_pickup"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini fridge",
+          "desk fan",
+          "storage bins",
+          "desk lamp"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 22.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cable",
+          "power strip",
+          "bluetooth speaker"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "electronics",
+      "small_furniture",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "LED desk lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "lamp",
+        "desk",
+        "LED",
+        "lighting"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "white",
+        "condition_requested": [
+          "excellent",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "TaoTronics"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Modern LED Desk Lamp - White, compact, adjustable brightness. Great for dorms!"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

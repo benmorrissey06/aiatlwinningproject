@@ -1,0 +1,144 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "history textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need a book asap for history 101, under $15."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_XYZ987",
+    "context": {
+      "original_text": "I'm a graphic design student selling my used art supplies, small electronics, and some gaming gear. I prefer selling over lending."
+    },
+    "profile_keywords": [
+      "graphic design",
+      "art",
+      "electronics",
+      "gaming",
+      "student",
+      "used items"
+    ],
+    "inferred_major": "Graphic Design",
+    "inferred_location_keywords": [
+      "north campus",
+      "art building",
+      "dorms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "watercolor set",
+          "sketchbook",
+          "easel"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB hub",
+          "webcam",
+          "portable charger"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "controller skins",
+          "gaming mousepad"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 12.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "electronics",
+      "gaming"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "large wooden art easel",
+      "category": "art_supplies",
+      "tags": [
+        "drawing",
+        "painting",
+        "studio",
+        "furniture"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "large",
+        "color": "natural wood",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "beech wood",
+        "brand": "Mont Marte"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "inherited an extra one",
+      "original_text": "Large wooden easel, used but in great condition. Perfect for art students. Selling because I have too many."
+    },
+    "location": {
+      "text_input": "my dorm, building C",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

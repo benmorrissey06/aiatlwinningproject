@@ -1,0 +1,132 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "calculus textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "Need a calculus book for MAT101 soon."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_math_whiz_300",
+    "context": {
+      "original_text": "Selling old textbooks and study guides from my math major. Also have some art supplies occasionally."
+    },
+    "profile_keywords": [
+      "math",
+      "calculus",
+      "textbooks",
+      "STEM",
+      "used books",
+      "study guides"
+    ],
+    "inferred_major": "Mathematics",
+    "inferred_location_keywords": [
+      "campus library",
+      "math department",
+      "dorms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Linear Algebra textbook",
+          "Discrete Math study guide",
+          "Abstract Algebra book"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "scientific calculator",
+          "graph paper"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 12.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "school_supplies",
+      "STEM_materials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Calculus Early Transcendentals Textbook",
+      "category": "textbooks",
+      "tags": [
+        "calculus",
+        "math",
+        "STEM",
+        "MAT101",
+        "university",
+        "Stewart"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard textbook",
+        "color": "blue",
+        "condition_requested": [
+          "good",
+          "used",
+          "minimal highlights"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Finished course, no longer need",
+      "original_text": "Selling 'Calculus: Early Transcendentals' by Stewart, 9th edition. Great condition, minimal highlights. Used for MAT101 course."
+    },
+    "location": {
+      "text_input": "campus dorm, building C",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

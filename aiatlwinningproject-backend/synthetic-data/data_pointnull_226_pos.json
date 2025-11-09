@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "MacBook charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy",
+        "borrow"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a MacBook charger ASAP. Mine broke."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_tutor_22",
+    "context": {
+      "original_text": "I often have spare tech accessories, especially Apple chargers and adapters, from old upgrades. Also sell old textbooks sometimes. Happy to help out!"
+    },
+    "profile_keywords": [
+      "electronics",
+      "apple",
+      "macbook",
+      "charger",
+      "tech_accessories",
+      "cables",
+      "textbooks",
+      "used_good"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "campus_center",
+      "CS_building",
+      "dorm_B"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "iPhone lightning cable",
+          "MacBook Air charger",
+          "USB-C adapter"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus I textbook",
+          "Python programming guide"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "tech_accessories",
+      "textbooks"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Apple 45W MagSafe 2 Power Adapter",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "macbook_air",
+        "apple",
+        "power_adapter",
+        "laptop_accessory"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "white",
+        "condition_requested": [
+          "used_good",
+          "functional"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Apple"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Selling after upgrading my MacBook Air to a newer model with USB-C.",
+      "original_text": "Selling a genuine Apple 45W MagSafe 2 charger. Compatible with MacBook Air (Mid 2012 - 2017 models). Works perfectly, some light scuffs on the plastic."
+    },
+    "location": {
+      "text_input": "Campus Center info desk",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

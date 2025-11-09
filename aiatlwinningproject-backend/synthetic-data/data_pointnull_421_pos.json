@@ -1,0 +1,135 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "phone charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a phone charger asap."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_guru_23",
+    "context": {
+      "original_text": "I often have spare tech accessories, especially chargers and cables. Selling off extras."
+    },
+    "profile_keywords": [
+      "electronics",
+      "phone accessories",
+      "cables",
+      "charging",
+      "tech repair",
+      "dorm tech",
+      "student essentials"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "engineering building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C cables",
+          "portable chargers",
+          "HDMI adapters",
+          "power banks"
+        ],
+        "total_items_sold": 28,
+        "avg_price_per_item": 17.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "Nintendo Switch games",
+          "controller grips"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "dorm_essentials",
+      "computer_science_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C Fast Charger with Cable",
+      "category": "electronics",
+      "tags": [
+        "USB-C",
+        "fast charging",
+        "phone charger",
+        "adapter",
+        "cable",
+        "Android charger",
+        "iPhone 15 charger"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "white",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Selling a spare charger I no longer need after upgrading phones.",
+      "original_text": "Anker 20W USB-C fast charger with a 6ft cable, barely used, excellent condition. Perfect for any USB-C phone, like new iPhones or Androids."
+    },
+    "location": {
+      "text_input": "My dorm room, near campus rec center",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

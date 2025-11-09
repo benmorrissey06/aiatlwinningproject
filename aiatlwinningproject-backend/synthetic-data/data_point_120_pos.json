@@ -1,0 +1,140 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "HyperX Cloud II Gaming Headset",
+      "category": "gaming",
+      "tags": [
+        "headset",
+        "gaming",
+        "audio",
+        "mic"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "red/black",
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 60
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need a reliable headset for online multiplayer games.",
+      "original_text": "Looking for a HyperX Cloud II gaming headset, good to very good condition, red/black preferred. Willing to pay up to $60."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_guru_42",
+    "context": {
+      "original_text": "Computer Science student, often sells gaming peripherals and used tech. Upgrading my setup regularly."
+    },
+    "profile_keywords": [
+      "gaming",
+      "electronics",
+      "peripherals",
+      "computer science",
+      "tech",
+      "audio gear",
+      "used electronics"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorms",
+      "campus tech lab"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "gaming mouse",
+          "mechanical keyboard",
+          "webcam"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 45,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB hub",
+          "HDMI cable",
+          "monitor stand"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 15,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "accessories",
+      "computer parts"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "HyperX Cloud II Gaming Headset",
+      "category": "gaming",
+      "tags": [
+        "headset",
+        "gaming",
+        "audio",
+        "mic",
+        "hyperx"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "red/black",
+        "condition_requested": [
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "aluminum, memory foam",
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 55
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a wireless gaming headset, no longer need this one.",
+      "original_text": "Selling my HyperX Cloud II headset. It's in very good condition, barely used for a year. Comes with all original accessories."
+    },
+    "location": {
+      "text_input": "seller's dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

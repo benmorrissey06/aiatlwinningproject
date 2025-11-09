@@ -1,0 +1,137 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Desk Lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "lighting",
+        "study",
+        "dorm decor"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "metal",
+        "brand": "generic"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Just moved into dorm, need for studying.",
+      "original_text": "Looking for a functional black desk lamp for my dorm room, in good condition. Can pay up to $25. Need it soon!"
+    },
+    "location": {
+      "text_input": "On-campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_id_87654",
+    "context": {
+      "original_text": "Fourth-year student selling off dorm essentials and a few small furniture pieces before graduation. Mostly electronics and home goods. Used to live in Maple Hall."
+    },
+    "profile_keywords": [
+      "dorm cleanup",
+      "moving sale",
+      "electronics",
+      "home goods",
+      "Maple Hall"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "campus",
+      "Maple Hall"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini-fridge",
+          "desk fan",
+          "power strip",
+          "study lamp"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 35.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "webcam",
+          "speakers",
+          "monitor stand"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 28.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "furniture",
+      "school_supplies",
+      "electronics"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Adjustable LED Desk Lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "lighting",
+        "study",
+        "LED",
+        "flexible"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "metal_plastic_mix",
+        "brand": "TaoTronics"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Decluttering before moving out.",
+      "original_text": "Selling a reliable black LED desk lamp, adjustable arm. Perfect for dorms or study. Good condition."
+    },
+    "location": {
+      "text_input": "Maple Hall",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

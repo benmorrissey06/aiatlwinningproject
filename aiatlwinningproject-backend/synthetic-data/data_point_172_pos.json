@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "compact mini fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "fridge",
+        "mini",
+        "dorm",
+        "appliance"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Danby"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 75
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Moving into new dorm, need to store snacks and drinks.",
+      "original_text": "Need a compact mini fridge for my dorm. Black, good used condition is fine, up to $75. ASAP!"
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "dorm_mover_out_sophia",
+    "context": {
+      "original_text": "Graduating student clearing out my dorm. Selling off all my appliances and furniture."
+    },
+    "profile_keywords": [
+      "dorm",
+      "essentials",
+      "appliances",
+      "moving out",
+      "graduating"
+    ],
+    "inferred_major": "Environmental Science",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "student housing"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini fridge",
+          "microwave",
+          "desk lamp",
+          "fan"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 55.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "furniture",
+        "item_examples": [
+          "chair",
+          "small desk"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 30.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "furniture"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Danby Compact Dorm Fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "fridge",
+        "mini",
+        "compact",
+        "dorm",
+        "appliance",
+        "Danby"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "metal, plastic",
+        "brand": "Danby"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 65
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling item",
+      "original_text": "Selling my gently used Danby compact mini fridge, perfect for a dorm room."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

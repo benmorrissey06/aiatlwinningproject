@@ -1,0 +1,126 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "paint",
+      "category": "art_supplies",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "just need some paint for a class project, nothing too fancy"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_gear_gal_789",
+    "context": {
+      "original_text": "I mostly sell used gaming accessories, electronics, and small dorm items. I'm a business major."
+    },
+    "profile_keywords": [
+      "gaming",
+      "electronics",
+      "peripherals",
+      "dorm_essentials",
+      "business"
+    ],
+    "inferred_major": "Business",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "library",
+      "student union"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "gaming headset",
+          "wireless mouse",
+          "console controller"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C cable",
+          "portable charger"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 18.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "gaming headset",
+      "category": "gaming",
+      "tags": [
+        "audio",
+        "microphone",
+        "peripheral"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "over-ear",
+        "color": "black",
+        "condition_requested": [
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, memory foam",
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Selling my HyperX Cloud Stinger Gaming Headset. Used only a few times, excellent condition."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

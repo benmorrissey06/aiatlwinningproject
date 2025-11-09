@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Principles of Graphic Design 3rd Ed.",
+      "category": "textbooks",
+      "tags": [
+        "graphic design",
+        "textbook",
+        "art",
+        "design"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need for next week's class",
+      "original_text": "Urgently looking for 'Principles of Graphic Design, 3rd Edition' in good or like-new condition, max $30 for my class next week."
+    },
+    "location": {
+      "text_input": "on campus",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "user_art_hist_001",
+    "context": {
+      "original_text": "Student selling old textbooks, art supplies, and some dorm decor. Majoring in Art History."
+    },
+    "profile_keywords": [
+      "art history",
+      "textbooks",
+      "art supplies",
+      "dorm decor",
+      "creative",
+      "design student"
+    ],
+    "inferred_major": "Art History",
+    "inferred_location_keywords": [
+      "campus bookstore",
+      "art building",
+      "dorms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Art History Vol 1",
+          "Introduction to Philosophy",
+          "Digital Photography Basics"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 25,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "watercolor set",
+          "sketchbook",
+          "charcoal pencils"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 15,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "school_supplies",
+      "books",
+      "art_books"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Principles of Graphic Design 3rd Ed.",
+      "category": "textbooks",
+      "tags": [
+        "graphic design",
+        "textbook",
+        "art",
+        "design"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Clearing out old books",
+      "original_text": "Selling 'Principles of Graphic Design, 3rd Edition'. It's a bit worn, fair condition, but all pages intact. Asking $25."
+    },
+    "location": {
+      "text_input": "my dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

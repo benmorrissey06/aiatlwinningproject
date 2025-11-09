@@ -1,0 +1,142 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "canvas",
+      "category": "art_supplies",
+      "tags": [
+        "painting",
+        "drawing"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "Need it for a project due tomorrow",
+      "original_text": "Need some canvas, like, now. Small or medium size ok."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_7890",
+    "context": {
+      "original_text": "I often sell my old electronics and some dorm room essentials after I upgrade. I'm also looking to declutter my apartment before moving out."
+    },
+    "profile_keywords": [
+      "electronics",
+      "dorm essentials",
+      "tech gadgets",
+      "video games",
+      "kitchenware"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "campus dorm",
+      "library study area"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "charging cable",
+          "portable speaker",
+          "old monitor"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini fridge",
+          "desk lamp",
+          "storage bins"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 controller",
+          "old game disc"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 20.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "dorm_essentials",
+      "gaming"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Bluetooth Speaker",
+      "category": "electronics",
+      "tags": [
+        "audio",
+        "portable",
+        "music"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, metal",
+        "brand": "JBL"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a new model",
+      "original_text": "Selling my gently used JBL Flip 5. Great sound, no issues. Comes with charging cable."
+    },
+    "location": {
+      "text_input": "Campus Dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

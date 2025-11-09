@@ -1,0 +1,148 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "compact mini-fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "fridge",
+        "dorm",
+        "compact",
+        "small appliance"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "metal/plastic",
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "moving into dorm next week, need to store food and drinks",
+      "original_text": "Looking for a compact mini-fridge for my dorm, ideally black and in good or very good condition. Can spend up to $80. Need it pretty soon!"
+    },
+    "location": {
+      "text_input": "on-campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "dorm_mover_out_sophomore",
+    "context": {
+      "original_text": "Upperclassman selling off all my dorm essentials and small furniture before moving into an off-campus apartment next semester. Everything must go!"
+    },
+    "profile_keywords": [
+      "dorm essentials",
+      "small appliances",
+      "furniture",
+      "moving out",
+      "campus life"
+    ],
+    "inferred_major": "Marketing",
+    "inferred_location_keywords": [
+      "campus housing",
+      "off-campus apartment"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini-fridge",
+          "microwave",
+          "desk lamp"
+        ],
+        "total_items_sold": 4,
+        "avg_price_per_item": 75,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "furniture",
+        "item_examples": [
+          "small shelf",
+          "bedside table"
+        ],
+        "total_items_sold": 2,
+        "avg_price_per_item": 30,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "power strip",
+          "extension cord"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 15,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "home_goods",
+      "appliances",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Igloo 3.2 Cu. Ft. Mini Fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "mini fridge",
+        "compact",
+        "black",
+        "dorm",
+        "small appliance",
+        "Igloo"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "metal/plastic",
+        "brand": "Igloo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 70
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "moving out, need to clear space",
+      "original_text": "Selling my black Igloo compact mini-fridge, 3.2 cu. ft. Perfect for a dorm room! In very good, clean condition. Only $70."
+    },
+    "location": {
+      "text_input": "south campus dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

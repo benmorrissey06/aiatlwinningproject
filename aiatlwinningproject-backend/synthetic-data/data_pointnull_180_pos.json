@@ -1,0 +1,133 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "gaming headset",
+      "category": "gaming",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Looking for a decent headset for my Xbox, need it today if possible."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_guru_42",
+    "context": {
+      "original_text": "Selling gaming gear and tech accessories. Always looking for new gadgets!"
+    },
+    "profile_keywords": [
+      "gaming",
+      "electronics",
+      "peripherals",
+      "tech accessories",
+      "headsets",
+      "Xbox",
+      "Playstation"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "tech building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "Xbox One controller",
+          "HyperX Cloud Stinger headset",
+          "FIFA 24"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C cables",
+          "power banks",
+          "HDMI adapters"
+        ],
+        "total_items_sold": 10,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "collectibles"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "gaming headset",
+      "category": "gaming",
+      "tags": [
+        "Xbox compatible",
+        "noise cancelling",
+        "over-ear"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "one size",
+        "color": "black",
+        "condition_requested": [
+          "gently used"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "upgraded",
+      "original_text": "Selling my HyperX Cloud Stinger headset, great condition, works with Xbox/PC. Asking $45."
+    },
+    "location": {
+      "text_input": "near library",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

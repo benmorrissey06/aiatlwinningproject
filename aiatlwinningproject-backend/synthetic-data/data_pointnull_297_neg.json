@@ -1,0 +1,129 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "art paint",
+      "category": "art_supplies",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "blue",
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": 10
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need some art paint, preferably blue, within a day. Don't want to spend more than $10."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_7890",
+    "context": {
+      "original_text": "I sell gently used electronics, old textbooks, and occasionally offer tutoring in programming. Always looking to get rid of old tech."
+    },
+    "profile_keywords": [
+      "electronics",
+      "textbooks",
+      "programming",
+      "gaming gear",
+      "computer science"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering hall",
+      "CS dept",
+      "dorm room 3b"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming mouse",
+          "USB-C hub",
+          "old laptop charger"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 35,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus 3rd Ed.",
+          "Data Structures & Algorithms"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 55,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "textbooks",
+      "gaming",
+      "computer_accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Graphic Design Tablet",
+      "category": "electronics",
+      "tags": [
+        "drawing",
+        "digital art",
+        "design",
+        "wacom"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Wacom"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 150
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "upgrading to new model",
+      "original_text": "Selling a Wacom Intuos graphic tablet, used for a year but in perfect condition. Great for digital art or design students."
+    },
+    "location": {
+      "text_input": "campus dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

@@ -1,0 +1,137 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C to HDMI Adapter",
+      "category": "electronics",
+      "tags": [
+        "adapter",
+        "usb-c",
+        "hdmi",
+        "monitor",
+        "display"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need to connect my laptop to an external monitor for studying tonight.",
+      "original_text": "Looking for a new or like-new USB-C to HDMI adapter, max $25. Need it by tonight!"
+    },
+    "location": {
+      "text_input": "campus library",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "electro_wizard_7",
+    "context": {
+      "original_text": "I often sell unused electronics and accessories from my tech projects."
+    },
+    "profile_keywords": [
+      "electronics",
+      "cables",
+      "adapters",
+      "peripherals",
+      "gadgets",
+      "audio-visual"
+    ],
+    "inferred_major": "Electrical Engineering",
+    "inferred_location_keywords": [
+      "engineering building",
+      "dorm R1"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C hubs",
+          "Ethernet cables",
+          "old chargers",
+          "display adapters"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 35.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "controller cables",
+          "headset adapters"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "computer_accessories",
+      "home_theater"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C to HDMI Adapter",
+      "category": "electronics",
+      "tags": [
+        "adapter",
+        "usb-c",
+        "hdmi",
+        "video",
+        "converter"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "space gray",
+        "condition": "good"
+      },
+      "secondary": {
+        "material": "aluminum",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price": 20
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Selling a reliable Anker USB-C to HDMI adapter. Used for a semester, still works perfectly."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

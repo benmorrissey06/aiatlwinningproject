@@ -1,0 +1,133 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "yoga mat",
+      "category": null,
+      "tags": null
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": null,
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need a yoga mat for my class tomorrow morning"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_YogiBear",
+    "context": {
+      "original_text": "I often sell gently used fitness gear and dorm essentials. Big into wellness."
+    },
+    "profile_keywords": [
+      "fitness",
+      "yoga",
+      "wellness",
+      "dorm essentials",
+      "activewear"
+    ],
+    "inferred_major": "Kinesiology",
+    "inferred_location_keywords": [
+      "campus gym",
+      "wellness center",
+      "dorm hall B"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "fitness",
+        "item_examples": [
+          "resistance bands",
+          "yoga blocks",
+          "athletic shorts"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 15,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini fridge",
+          "desk lamp"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 30,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "fitness",
+      "dorm_essentials",
+      "sports_equipment",
+      "wellness"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Gaiam Premium Yoga Mat",
+      "category": "fitness",
+      "tags": [
+        "yoga",
+        "mat",
+        "fitness",
+        "exercise",
+        "wellness"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "68x24 inches",
+        "color": "Purple",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "PVC",
+        "brand": "Gaiam"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18
+    },
+    "context": {
+      "urgency": null,
+      "reason": "Selling after upgrading to a different mat.",
+      "original_text": "Gaiam Premium Yoga Mat, gently used, great for beginners or everyday practice. Comes with carrying strap."
+    },
+    "location": {
+      "text_input": "My dorm, near campus gym",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

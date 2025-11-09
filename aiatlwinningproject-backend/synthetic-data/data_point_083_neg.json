@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Organic Chemistry by Wade, 9th Edition",
+      "category": "textbooks",
+      "tags": [
+        "chemistry",
+        "organic",
+        "textbook",
+        "wade",
+        "required"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "like new",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 40
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Starting CHEM201 soon, need the textbook in good shape for the course.",
+      "original_text": "Need Organic Chemistry 9th Ed. by Wade for Chem 201. Must be 'like new' or 'excellent' condition, willing to pay up to $40."
+    },
+    "location": {
+      "text_input": "campus library",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "chem_prodigy_2024",
+    "context": {
+      "original_text": "Upper-year Chemistry student, sells old textbooks and lab equipment."
+    },
+    "profile_keywords": [
+      "chemistry",
+      "textbooks",
+      "science",
+      "lab equipment",
+      "study materials"
+    ],
+    "inferred_major": "Chemistry",
+    "inferred_location_keywords": [
+      "chemistry building",
+      "science labs",
+      "dorm building A"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Physical Chemistry by Atkins",
+          "Calculus Early Transcendentals",
+          "Biology Campbell"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 35,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "lab goggles",
+          "scientific calculator"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 15,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "school_supplies",
+      "study_materials",
+      "electronics"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Organic Chemistry by Wade, 9th Edition",
+      "category": "textbooks",
+      "tags": [
+        "chemistry",
+        "organic",
+        "textbook",
+        "wade"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Finished the course, no longer need it. Selling it cheap due to wear.",
+      "original_text": "Selling Organic Chemistry 9th Ed. by Wade. It's in fair condition, lots of highlighting, some dog-ears, and wear on the cover. Asking $25."
+    },
+    "location": {
+      "text_input": "dorm room C205",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

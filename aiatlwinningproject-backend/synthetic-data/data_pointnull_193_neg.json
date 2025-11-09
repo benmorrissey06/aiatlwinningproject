@@ -1,0 +1,132 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "phone charger",
+      "category": "electronics",
+      "tags": [
+        "USB-C"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a cheap phone charger, USB-C, by tonight."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_apparel_001",
+    "context": {
+      "original_text": "I mostly sell gently used clothes, handmade jewelry, and unique accessories. Trying to clear out my closet and make some extra cash!"
+    },
+    "profile_keywords": [
+      "fashion",
+      "sustainable",
+      "clothing",
+      "jewelry",
+      "accessories",
+      "second-hand",
+      "handmade"
+    ],
+    "inferred_major": "Fashion Design",
+    "inferred_location_keywords": [
+      "dorm_hall_A",
+      "student_center_east"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "graphic t-shirt",
+          "distressed jeans"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "accessories",
+        "item_examples": [
+          "handmade earrings",
+          "vintage belt"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 12.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "fashion",
+      "jewelry"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "handmade polymer clay earrings",
+      "category": "accessories",
+      "tags": [
+        "jewelry",
+        "boho",
+        "unique",
+        "artisanal"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "small",
+        "color": "terracotta",
+        "condition_requested": [
+          "new"
+        ]
+      },
+      "secondary": {
+        "material": "polymer clay",
+        "brand": "Local Artisan"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "clearing out inventory",
+      "original_text": "Selling these super cute, never-worn handmade terracotta polymer clay earrings. Perfect for a unique gift!"
+    },
+    "location": {
+      "text_input": "campus post office",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

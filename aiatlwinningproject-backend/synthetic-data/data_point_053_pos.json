@@ -1,0 +1,137 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "desk lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "lighting",
+        "study",
+        "dorm"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Moving into dorm, need light for studying",
+      "original_text": "I'm looking for a functional desk lamp for my dorm room, something in good or very good condition. My budget is up to $25. Need it fairly soon for move-in."
+    },
+    "location": {
+      "text_input": "on-campus pickup",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "dorm_seller_soph_007",
+    "context": {
+      "original_text": "Selling off some dorm items now that I'm off-campus. All items are well-maintained and ready for a new home!"
+    },
+    "profile_keywords": [
+      "dorm essentials",
+      "lighting",
+      "study supplies",
+      "freshman move-in",
+      "on-campus pickup"
+    ],
+    "inferred_major": "Marketing",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "university apartments"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini-fridge",
+          "desk lamp",
+          "bedside fan"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 30.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "bluetooth speaker"
+        ],
+        "total_items_sold": 1,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "school_supplies",
+      "small_appliances",
+      "electronics"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "LED Desk Lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "lighting",
+        "study",
+        "LED",
+        "adjustable"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "TaoTronics"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 20
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a smart lamp, no longer need this one",
+      "original_text": "Selling my reliable TaoTronics LED desk lamp. Perfect for a dorm or study space, it's in very good condition with multiple brightness settings. Works perfectly."
+    },
+    "location": {
+      "text_input": "on-campus dorm pickup",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

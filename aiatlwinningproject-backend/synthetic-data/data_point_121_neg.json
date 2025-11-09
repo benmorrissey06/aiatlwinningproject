@@ -1,0 +1,142 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Navy Blue Blazer",
+      "category": "apparel",
+      "tags": [
+        "blazer",
+        "formal",
+        "interview",
+        "navy",
+        "size medium"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "Navy Blue",
+        "condition_requested": [
+          "new",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "interview",
+      "original_text": "I urgently need a navy blue blazer, size medium, for an important interview next week. Must be in new or excellent condition. Willing to pay up to $50."
+    },
+    "location": {
+      "text_input": "on campus",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "fashion_forward_sophie_22",
+    "context": {
+      "original_text": "I'm a fashion design major clearing out my closet. Selling gently used clothing and accessories, mostly designer finds. Open to negotiating."
+    },
+    "profile_keywords": [
+      "fashion",
+      "apparel",
+      "clothing resale",
+      "designer brands",
+      "styling",
+      "dorm cleanout"
+    ],
+    "inferred_major": "Fashion Design",
+    "inferred_location_keywords": [
+      "dorm",
+      "campus",
+      "student union"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "dresses",
+          "jackets",
+          "blazers",
+          "tops"
+        ],
+        "total_items_sold": 45,
+        "avg_price_per_item": 45,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "accessories",
+        "item_examples": [
+          "handbags",
+          "jewelry",
+          "scarves"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 25,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "fashion magazines",
+      "textile art"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Zara Navy Blue Blazer (Women's)",
+      "category": "apparel",
+      "tags": [
+        "blazer",
+        "formal",
+        "navy",
+        "womens",
+        "size medium",
+        "pre-owned"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "Navy Blue",
+        "condition": "good"
+      },
+      "secondary": {
+        "material": "Polyester Blend",
+        "brand": "Zara"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price": 38
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "clearing closet",
+      "original_text": "Selling my Zara navy blue blazer, women's size M. Only worn a few times, but has minor pilling on sleeves and a small scuff on one button (rated 'good' condition). Priced to sell quickly for $38."
+    },
+    "location": {
+      "text_input": "dorm room - pickup available",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

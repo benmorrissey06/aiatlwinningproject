@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "phone charger",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "phone",
+        "iphone"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a cheap phone charger tonight, like for an iPhone."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_tech_guru_98",
+    "context": {
+      "original_text": "I sell gently used electronics and tech accessories. Always have spare chargers and cables."
+    },
+    "profile_keywords": [
+      "electronics",
+      "chargers",
+      "cables",
+      "tech accessories",
+      "apple products",
+      "gadgets"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "engineering building",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C hub",
+          "HDMI cable",
+          "iPhone charger",
+          "bluetooth earbuds"
+        ],
+        "total_items_sold": 28,
+        "avg_price_per_item": 18,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "Nintendo Switch controller"
+        ],
+        "total_items_sold": 2,
+        "avg_price_per_item": 40,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Lightning to USB-A cable",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "cable",
+        "iphone",
+        "apple",
+        "fast charge"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "3 ft",
+        "color": "white",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "TPE",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 12
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Selling unused cable after upgrading phone",
+      "original_text": "Anker Lightning cable, 3ft, white, in original packaging. Great for iPhone charging."
+    },
+    "location": {
+      "text_input": "Seller's dorm room",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

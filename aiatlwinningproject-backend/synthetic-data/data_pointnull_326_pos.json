@@ -1,0 +1,133 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "laptop charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need a charger for my laptop, kinda urgent."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_tech_geek_001",
+    "context": {
+      "original_text": "I sell various tech accessories and dorm essentials. Always have extra chargers and cables."
+    },
+    "profile_keywords": [
+      "electronics",
+      "tech accessories",
+      "chargers",
+      "cables",
+      "dorm essentials",
+      "gadgets",
+      "USB-C",
+      "power supplies"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering building",
+      "dorm room D"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C Hub",
+          "HDMI Cable 6ft",
+          "65W Laptop Charger",
+          "Wireless Earbuds"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "Mini Fridge",
+          "Desk Lamp"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "school_supplies",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Universal USB-C Laptop Charger (65W)",
+      "category": "electronics",
+      "tags": [
+        "USB-C",
+        "charger",
+        "laptop",
+        "power adapter",
+        "65W",
+        "universal"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "used - like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 28.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "selling extra charger",
+      "original_text": "Selling a barely used Anker 65W USB-C laptop charger. Works with most USB-C laptops."
+    },
+    "location": {
+      "text_input": "My dorm, near main campus",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

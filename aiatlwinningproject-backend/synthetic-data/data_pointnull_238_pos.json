@@ -1,0 +1,131 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Bluetooth speaker",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy",
+        "borrow"
+      ],
+      "price_max": 20.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "Need a black bluetooth speaker for like $20. Nothing fancy."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_tech_007",
+    "context": {
+      "original_text": "I'm always upgrading my gadgets. Selling off older, perfectly functional electronics at good prices. Mostly speakers, headphones, chargers."
+    },
+    "profile_keywords": [
+      "tech enthusiast",
+      "electronics reseller",
+      "audiophile",
+      "dorm room tech"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering dorm",
+      "student union"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "Bluetooth Headphones",
+          "Portable Charger",
+          "Smart Speaker",
+          "Gaming Mouse"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 Controller",
+          "Switch Games"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 30.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "audio equipment",
+      "computer accessories",
+      "gaming"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "JBL Clip 3 Portable Bluetooth Speaker",
+      "category": "electronics",
+      "tags": [
+        "bluetooth speaker",
+        "portable audio",
+        "clip-on",
+        "outdoor"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "rubberized plastic",
+        "brand": "JBL"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "upgraded to larger speaker",
+      "original_text": "Selling a used JBL Clip 3 in black. Works perfectly, great for travel. Upgraded to a larger unit."
+    },
+    "location": {
+      "text_input": "my dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

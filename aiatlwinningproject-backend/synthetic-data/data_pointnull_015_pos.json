@@ -1,0 +1,134 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a C-type charger ASAP"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_gear_gal_98",
+    "context": {
+      "original_text": "Selling off my old tech gadgets and accessories, especially phone chargers and cables. I'm a CS major, so I always have spare electronics."
+    },
+    "profile_keywords": [
+      "electronics",
+      "tech accessories",
+      "phone chargers",
+      "CS major",
+      "cables",
+      "used gadgets"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering_building",
+      "dorm_east_wing"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cable",
+          "USB-C charger",
+          "wireless mouse"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 18.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "controller charger",
+          "gaming headset"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "accessories",
+      "computing",
+      "phone_accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Anker USB-C 30W Fast Charger",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "USB-C",
+        "fast charging",
+        "phone accessory",
+        "laptop charger"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 20
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "upgrading",
+      "original_text": "Selling my Anker 30W USB-C Fast Charger. Barely used, like new condition. Perfect for charging phones and smaller laptops quickly."
+    },
+    "location": {
+      "text_input": "On campus, near Library",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

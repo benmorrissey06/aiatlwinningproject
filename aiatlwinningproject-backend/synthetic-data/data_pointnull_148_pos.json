@@ -1,0 +1,136 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "coffee maker",
+      "category": "dorm_essentials",
+      "tags": [
+        "coffee"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "Need a coffee maker for my dorm room"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "dorm_life_hacker_789",
+    "context": {
+      "original_text": "Selling unused dorm essentials, kitchen gadgets, and small furniture. Always decluttering!"
+    },
+    "profile_keywords": [
+      "dorm essentials",
+      "kitchenware",
+      "small appliances",
+      "home goods",
+      "decluttering",
+      "college living"
+    ],
+    "inferred_major": "Marketing",
+    "inferred_location_keywords": [
+      "campus housing",
+      "off-campus apartment",
+      "residence hall"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini fridge",
+          "desk lamp",
+          "blender",
+          "coffee maker"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 35.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "furniture",
+        "item_examples": [
+          "bedside table",
+          "small bookshelf"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 50.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "furniture",
+      "kitchenware"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Keurig K-Mini Single Serve Coffee Maker",
+      "category": "dorm_essentials",
+      "tags": [
+        "coffee",
+        "single serve",
+        "keurig",
+        "kitchen appliance"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Keurig"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 60
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "unused gift",
+      "original_text": "Selling a practically new Keurig K-Mini, perfect for a dorm!"
+    },
+    "location": {
+      "text_input": "near dorm building A",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

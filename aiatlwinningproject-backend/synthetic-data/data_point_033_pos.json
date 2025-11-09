@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Xbox One Wireless Controller",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "xbox",
+        "wireless",
+        "black"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Microsoft"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 40.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need a second controller for co-op games.",
+      "original_text": "Looking for a black Xbox One wireless controller in good to very good condition, ideally for under $40. Need it for some co-op gaming sessions."
+    },
+    "location": {
+      "text_input": "on-campus",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gaming_guru_88",
+    "context": {
+      "original_text": "I'm a senior CS major, selling off some of my old tech and gaming gear before I graduate. Everything is well-maintained!"
+    },
+    "profile_keywords": [
+      "gaming",
+      "electronics",
+      "console",
+      "accessories",
+      "tech",
+      "computer science"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "library",
+      "CS building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "Nintendo Switch Pro Controller",
+          "PS4 games",
+          "Gaming Headset",
+          "Xbox 360 Controller"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "old laptop charger",
+          "smartwatch"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 30.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Xbox One Wireless Controller",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "xbox",
+        "wireless",
+        "black",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Microsoft"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling unused item.",
+      "original_text": "Selling my gently used black Xbox One wireless controller. Works perfectly, minor cosmetic wear. Asking $35."
+    },
+    "location": {
+      "text_input": "on-campus",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

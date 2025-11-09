@@ -1,0 +1,135 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Noise-cancelling headphones",
+      "category": "electronics",
+      "tags": [
+        "audio",
+        "study",
+        "wireless"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Sony"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 100
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need for studying in noisy dorm",
+      "original_text": "Looking for Sony noise-cancelling headphones, black preferred, good condition, max $100. Need them for studying in the dorm."
+    },
+    "location": {
+      "text_input": "campus library",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_student_42",
+    "context": {
+      "original_text": "I'm always upgrading my tech, so I sell my old but perfectly functional gear to other students. Especially audio equipment and peripherals."
+    },
+    "profile_keywords": [
+      "electronics",
+      "audio gear",
+      "gadgets",
+      "tech upgrades",
+      "gaming accessories"
+    ],
+    "inferred_major": "Computer Engineering",
+    "inferred_location_keywords": [
+      "engineering building",
+      "library study rooms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "Gaming mouse",
+          "Wireless earbuds",
+          "Old laptop",
+          "Headphones"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 75.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 controller",
+          "Switch games"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Sony WH-CH710N Noise-Cancelling Headphones",
+      "category": "electronics",
+      "tags": [
+        "audio",
+        "wireless",
+        "noise cancelling"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, synthetic leather",
+        "brand": "Sony"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 85
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Selling my gently used Sony WH-CH710N headphones, great for studying. No issues."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

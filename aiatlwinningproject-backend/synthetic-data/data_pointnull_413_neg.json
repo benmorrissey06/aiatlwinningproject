@@ -1,0 +1,135 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "history textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Looking for a book for my history class, kinda urgent."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_ABC123",
+    "context": {
+      "original_text": "I mostly sell gently used clothes, accessories, and sometimes custom art pieces. Trying to clear out my closet and art supplies."
+    },
+    "profile_keywords": [
+      "apparel",
+      "fashion",
+      "accessories",
+      "art",
+      "handmade",
+      "used clothes"
+    ],
+    "inferred_major": "Fashion Design",
+    "inferred_location_keywords": [
+      "design studio",
+      "campus fashion dept",
+      "dorm Zeta"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "vintage denim jacket",
+          "designer scarf",
+          "graphic t-shirt"
+        ],
+        "total_items_sold": 25,
+        "avg_price_per_item": 30.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "watercolor set",
+          "sketch pad",
+          "fabric paint"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 18.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "art_supplies",
+      "crafts"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Set of Fabric Paints (6 colors)",
+      "category": "art_supplies",
+      "tags": [
+        "crafts",
+        "fabric",
+        "paint",
+        "new"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "small tubes",
+        "color": "assorted primary",
+        "condition_requested": [
+          "new"
+        ]
+      },
+      "secondary": {
+        "material": "acrylic",
+        "brand": "Tulip"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "decluttering",
+      "original_text": "Selling a brand new set of Tulip fabric paints. Never used, perfect for customizing clothes or bags. Got too many for a project."
+    },
+    "location": {
+      "text_input": "On campus, near dorms",
+      "device_gps": {
+        "lat": 34.06,
+        "lng": -118.45
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

@@ -1,0 +1,129 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "desk lamp",
+      "category": "dorm_essentials",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a lamp for my desk. ASAP."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "dorm_furnisher_22",
+    "context": {
+      "original_text": "I'm clearing out my dorm before graduation! Selling a bunch of useful dorm stuff, some electronics, and old textbooks."
+    },
+    "profile_keywords": [
+      "dorm essentials",
+      "electronics",
+      "used textbooks",
+      "graduation sale",
+      "lighting"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "student union pickup"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "desk lamp",
+          "mini fridge",
+          "storage bins"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cable",
+          "power bank"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 10.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "electronics",
+      "textbooks"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Adjustable LED Desk Lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "LED",
+        "adjustable",
+        "lighting",
+        "study"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "excellent",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, metal",
+        "brand": "TaoTronics"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "clearing out dorm before graduation",
+      "original_text": "Selling my black adjustable LED desk lamp. Perfect condition, great for studying. Clearing out dorm."
+    },
+    "location": {
+      "text_input": "on-campus dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

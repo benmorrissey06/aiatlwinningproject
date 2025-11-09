@@ -1,0 +1,134 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "mini-fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "mini-fridge",
+        "dorm",
+        "refrigerator"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "like new",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 70
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "moving into dorm soon",
+      "original_text": "Need a mini-fridge for my dorm, must be in good or like new condition. Can spend up to $70."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "user_dorm_seller_23",
+    "context": {
+      "original_text": "Selling off dorm items before moving out. Good prices!"
+    },
+    "profile_keywords": [
+      "dorm essentials",
+      "moving out",
+      "furniture",
+      "small appliances",
+      "electronics"
+    ],
+    "inferred_major": "Business Administration",
+    "inferred_location_keywords": [
+      "campus housing",
+      "off-campus apartment"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "microwave",
+          "desk lamp",
+          "small fan"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 45,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "furniture",
+        "item_examples": [
+          "bookshelf",
+          "chair"
+        ],
+        "total_items_sold": 2,
+        "avg_price_per_item": 80,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "appliances",
+      "home goods"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "mini-fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "mini-fridge",
+        "dorm",
+        "refrigerator",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "white",
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "plastic/metal",
+        "brand": "Igloo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Used Igloo mini-fridge, compact size, white. Works but has some dents and scratches. Asking $50."
+    },
+    "location": {
+      "text_input": "off-campus apartment",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

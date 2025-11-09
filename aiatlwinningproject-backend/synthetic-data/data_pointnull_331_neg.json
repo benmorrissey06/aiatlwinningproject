@@ -1,0 +1,137 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "gaming headset",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need a headset for my Switch fast for tonight's gaming session."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_academic_anna",
+    "context": {
+      "original_text": "Selling my old textbooks and some school supplies. Also have a few dorm decor items I'm trying to get rid of before moving out. Mostly academic stuff."
+    },
+    "profile_keywords": [
+      "textbooks",
+      "school supplies",
+      "dorm decor",
+      "used books",
+      "academic",
+      "study"
+    ],
+    "inferred_major": "English Literature",
+    "inferred_location_keywords": [
+      "campus library",
+      "English department",
+      "dorm D"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Literary Theory Textbook",
+          "Shakespeare Anthology"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "Graphing Calculator",
+          "Notebooks (unused)"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "Small Desk Fan",
+          "Pillow"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 8.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "school_supplies",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "College Algebra Textbook",
+      "category": "textbooks",
+      "tags": [
+        "math",
+        "used",
+        "study"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": null,
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "paper",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "finished course",
+      "original_text": "Selling my College Algebra textbook, good condition, some highlighting but all pages intact. Required for Math 101."
+    },
+    "location": {
+      "text_input": "dorm lobby",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

@@ -1,0 +1,123 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "t-shirt",
+      "category": "apparel",
+      "tags": [
+        "clothing",
+        "top"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "white",
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "need a white t-shirt for less than 15 asap"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_apparel_expert_789",
+    "context": {
+      "original_text": "I sell gently used clothes, especially t-shirts and hoodies. Always open to good offers from fellow students!"
+    },
+    "profile_keywords": [
+      "fashion",
+      "clothing",
+      "apparel",
+      "t-shirts",
+      "hoodies",
+      "gently used",
+      "student deals"
+    ],
+    "inferred_major": "Fashion Design",
+    "inferred_location_keywords": [
+      "dorm_residence_hall_D",
+      "campus_center"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "graphic tee",
+          "hoodie",
+          "denim jacket"
+        ],
+        "total_items_sold": 25,
+        "avg_price_per_item": 12.5,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "t-shirt",
+      "category": "apparel",
+      "tags": [
+        "clothing",
+        "top",
+        "basic"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "white",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "cotton",
+        "brand": "Hanes"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 10
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling my extra white tee, barely worn.",
+      "original_text": "Hanes white cotton tee, size M, good condition. Selling for $10."
+    },
+    "location": {
+      "text_input": "my dorm room D123",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

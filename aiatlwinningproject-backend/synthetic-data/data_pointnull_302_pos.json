@@ -1,0 +1,133 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "PS4 controller",
+      "category": null,
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "blue",
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "need a PS4 controller, blue preferred, can pick up later today"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_gal_23",
+    "context": {
+      "original_text": "I'm a gamer selling off old gear, especially PlayStation and Nintendo accessories. Also have some old textbooks."
+    },
+    "profile_keywords": [
+      "gamer",
+      "playstation",
+      "nintendo",
+      "gaming accessories",
+      "electronics",
+      "textbooks",
+      "accessories"
+    ],
+    "inferred_major": "Digital Media",
+    "inferred_location_keywords": [
+      "dorm B",
+      "gaming lounge",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 controller",
+          "Switch games",
+          "Xbox headset"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 38.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cable",
+          "charging dock",
+          "USB hub"
+        ],
+        "total_items_sold": 10,
+        "avg_price_per_item": 16.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "textbooks"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Sony DualShock 4 Wireless Controller",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "wireless",
+        "sony",
+        "playstation 4",
+        "gaming accessory"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "midnight blue",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Sony"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "upgraded console",
+      "original_text": "Selling my barely used Midnight Blue PS4 controller. Works perfectly. Upgraded to PS5, so no longer need."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

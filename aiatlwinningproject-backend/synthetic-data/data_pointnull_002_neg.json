@@ -1,0 +1,144 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "PS5 controller",
+      "category": "gaming",
+      "tags": [
+        "gaming",
+        "party"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "white",
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": null,
+      "price_max": 40
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a PS5 controller, white if possible, asap for a friend's party tonight. Max $40."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "eco_friendly_student_304",
+    "context": {
+      "original_text": "I sell gently used school supplies and dorm essentials, often lend out textbooks. Trying to be sustainable!"
+    },
+    "profile_keywords": [
+      "sustainable",
+      "reusable",
+      "dorm essentials",
+      "textbooks",
+      "study aids",
+      "eco-friendly"
+    ],
+    "inferred_major": "Environmental Science",
+    "inferred_location_keywords": [
+      "campus bookstore",
+      "recycling center",
+      "science building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "reusable water bottle",
+          "notebooks",
+          "pens"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 7.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "biology textbook",
+          "environmental science notes"
+        ],
+        "total_items_sold": 6,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "lend"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "desk lamp",
+          "mini fan",
+          "laundry bag"
+        ],
+        "total_items_sold": 4,
+        "avg_price_per_item": 18.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "school_supplies",
+      "textbooks",
+      "dorm_essentials",
+      "stationery",
+      "kitchenware"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "reusable coffee mug",
+      "category": "dorm_essentials",
+      "tags": [
+        "eco-friendly",
+        "travel mug",
+        "sustainable"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "teal",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "stainless steel",
+        "brand": "HydroFlask"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "bought a new one, this one's still great",
+      "original_text": "Selling my teal HydroFlask coffee mug, great condition!"
+    },
+    "location": {
+      "text_input": "on campus, near science building",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

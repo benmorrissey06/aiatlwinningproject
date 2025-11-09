@@ -1,0 +1,130 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "graphic calculator",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Hey, need a graphic calc."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_abc123",
+    "context": {
+      "original_text": "I often sell electronics and school supplies, especially helpful for STEM students. Clearing out old gadgets."
+    },
+    "profile_keywords": [
+      "electronics",
+      "calculators",
+      "STEM",
+      "school supplies",
+      "used tech",
+      "gadgets"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering building",
+      "tech lab",
+      "dorm E"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "TI-84 Plus CE",
+          "USB-C Hub",
+          "Gaming Mouse"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "Graph Paper",
+          "Scientific Calculator"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 10.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "school_supplies",
+      "gaming"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "TI-84 Plus CE Graphing Calculator",
+      "category": "electronics",
+      "tags": [
+        "graphing",
+        "math",
+        "STEM",
+        "calculator",
+        "texas instruments"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Texas Instruments"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 65.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": "Selling my old calculator after graduating",
+      "original_text": "Used TI-84 Plus CE, black. Works perfectly, great condition for all your calculus and stats courses. Comes with charging cable."
+    },
+    "location": {
+      "text_input": "engineering library",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

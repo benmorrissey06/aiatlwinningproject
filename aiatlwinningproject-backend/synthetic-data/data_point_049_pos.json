@@ -1,0 +1,137 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "compact refrigerator",
+      "category": "dorm_essentials",
+      "tags": [
+        "mini-fridge",
+        "dorm",
+        "appliance",
+        "small fridge"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 85.0
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Moving into dorm next week, need to store snacks.",
+      "original_text": "Looking for a small, compact refrigerator for my dorm room. Needs to be in good or very good condition, ideally under $85. ASAP!"
+    },
+    "location": {
+      "text_input": "on-campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "senior_grad_24_sell_out",
+    "context": {
+      "original_text": "Graduating soon! Selling off all my dorm room items and some electronics. Everything in good working order."
+    },
+    "profile_keywords": [
+      "graduating",
+      "clearing dorm",
+      "selling everything",
+      "dorm essentials",
+      "electronics",
+      "furniture"
+    ],
+    "inferred_major": "Mechanical Engineering",
+    "inferred_location_keywords": [
+      "dorm",
+      "on-campus"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini-fridge",
+          "microwave",
+          "desk lamp"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 75.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "bluetooth speaker",
+          "charger"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 30.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "electronics",
+      "furniture"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Igloo 3.2 Cu. Ft. Mini Refrigerator",
+      "category": "dorm_essentials",
+      "tags": [
+        "mini-fridge",
+        "compact fridge",
+        "dorm appliance",
+        "Igloo"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "3.2 cu. ft.",
+        "color": "black",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "metal, plastic",
+        "brand": "Igloo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 70.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Clearing out dorm for graduation.",
+      "original_text": "Selling my reliable Igloo mini-fridge. Perfect for dorms, works great, just some minor cosmetic wear. Ready for pickup."
+    },
+    "location": {
+      "text_input": "University Dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

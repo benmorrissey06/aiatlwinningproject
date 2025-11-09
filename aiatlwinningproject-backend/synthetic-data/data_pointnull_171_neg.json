@@ -1,0 +1,144 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "art supplies",
+      "category": "art_supplies",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy",
+        "borrow"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "project due tomorrow",
+      "original_text": "Need some art supplies quickly for a project due tomorrow"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_gamer_tech_123",
+    "context": {
+      "original_text": "Gamer looking to offload old gear and buy new stuff. Also sells old textbooks for a quick buck."
+    },
+    "profile_keywords": [
+      "gamer",
+      "electronics",
+      "tech",
+      "used games",
+      "textbooks"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm_tech_hub",
+      "gaming_lounge",
+      "library_study_zone"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming headset",
+          "wireless mouse",
+          "USB-C hub"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 45,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 game",
+          "Nintendo Switch controller",
+          "Steam gift card"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 30,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus III textbook",
+          "Introduction to Python"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 60,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "textbooks"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Gaming Headset",
+      "category": "electronics",
+      "tags": [
+        "audio",
+        "peripherals",
+        "gaming"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "adjustable",
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, faux leather",
+        "brand": "Razer"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 55
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "upgrading setup",
+      "original_text": "Selling my Razer Kraken X headset, good condition, upgrading to a new one."
+    },
+    "location": {
+      "text_input": "dorm room B12",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

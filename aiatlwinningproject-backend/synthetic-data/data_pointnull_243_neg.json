@@ -1,0 +1,128 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "hoodie",
+      "category": "apparel",
+      "tags": null
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium|large",
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a hoodie for the cold snap tonight. Medium or Large."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_electronics_gaming_789",
+    "context": {
+      "original_text": "I sell mostly used electronics like headphones, speakers, and gaming accessories. Also some dorm room gadgets."
+    },
+    "profile_keywords": [
+      "electronics",
+      "gaming",
+      "tech",
+      "audio",
+      "dorm gadgets"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering building",
+      "tech dorms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming headset",
+          "portable speaker",
+          "power bank"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 30.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "controller",
+          "mousepad"
+        ],
+        "total_items_sold": 10,
+        "avg_price_per_item": 20.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "JBL Flip 5 Bluetooth Speaker",
+      "category": "electronics",
+      "tags": [
+        "portable",
+        "audio",
+        "wireless",
+        "waterproof"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "used - very good"
+        ]
+      },
+      "secondary": {
+        "material": "fabric, rubber",
+        "brand": "JBL"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 65.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": null
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

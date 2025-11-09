@@ -1,0 +1,131 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Introduction to Psychology textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 20.0
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need 'Intro to Psych' textbook by Friday. Cheap!"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_gadget_seller_88",
+    "context": {
+      "original_text": "Selling all my old tech gear and some gaming stuff. CS major looking to clear out my dorm before summer!"
+    },
+    "profile_keywords": [
+      "electronics",
+      "gaming",
+      "computer science",
+      "gadgets",
+      "accessories",
+      "peripherals"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "campus dorm",
+      "library pickup"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "webcam",
+          "external hard drive",
+          "USB-C hub"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 controller",
+          "gaming headset",
+          "mousepad"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "computer_accessories",
+      "peripherals"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wireless Gaming Mouse",
+      "category": "electronics",
+      "tags": [
+        "gaming",
+        "peripheral",
+        "wireless"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "black",
+        "condition_requested": [
+          "excellent",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Logitech G"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 40.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "upgraded",
+      "original_text": "Selling my Logitech G Pro Wireless mouse, barely used. Works perfectly. Upgraded to a new model."
+    },
+    "location": {
+      "text_input": "on campus pickup",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

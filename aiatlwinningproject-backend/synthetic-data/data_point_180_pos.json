@@ -1,0 +1,135 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Elden Ring for PlayStation 5",
+      "category": "gaming",
+      "tags": [
+        "PS5",
+        "RPG",
+        "fantasy",
+        "game"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "FromSoftware"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 40
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Looking for a copy of Elden Ring for PS5 to play during break.",
+      "original_text": "Anyone selling Elden Ring for PS5? Prefer good or very good condition, max $40."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_gal_23",
+    "context": {
+      "original_text": "Gamer, athlete, always trading games and gear."
+    },
+    "profile_keywords": [
+      "video games",
+      "PlayStation",
+      "RPG",
+      "collectibles",
+      "student athlete"
+    ],
+    "inferred_major": "Sports Science",
+    "inferred_location_keywords": [
+      "Dorm E",
+      "gymnasium"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 controller",
+          "God of War Ragnarok (PS5)",
+          "Gaming headset"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 35,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "apparel",
+        "item_examples": [
+          "university hoodie",
+          "athletic shorts"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 20,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "collectibles"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Elden Ring (PS5)",
+      "category": "gaming",
+      "tags": [
+        "PS5",
+        "RPG",
+        "fantasy",
+        "game"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "FromSoftware"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Elden Ring PS5 - Very Good Condition - $35, played once."
+    },
+    "location": {
+      "text_input": "Dorm E",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

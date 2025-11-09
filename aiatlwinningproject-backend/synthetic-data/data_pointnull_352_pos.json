@@ -1,0 +1,136 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "PS4 controller",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "PS4"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a PS4 controller ASAP, maybe like $20-30."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_A1B2C3D4E5F6",
+    "context": {
+      "original_text": "I'm a gamer selling off old gear, especially PlayStation stuff. Love tech and accessories."
+    },
+    "profile_keywords": [
+      "gamer",
+      "PlayStation",
+      "tech",
+      "electronics",
+      "used gear",
+      "accessories"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "campus central",
+      "gaming room"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 controller",
+          "Xbox game",
+          "gaming headset"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 25,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cable",
+          "charger",
+          "old phone"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 18,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Sony DualShock 4 PS4 Controller",
+      "category": "gaming",
+      "tags": [
+        "PS4",
+        "controller",
+        "gaming",
+        "Sony",
+        "DualShock"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Sony"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 28
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Used black Sony DualShock 4 PS4 controller, good condition, works great. Selling for $28."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

@@ -1,0 +1,132 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "MacBook charger",
+      "category": "electronics",
+      "tags": null
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a Mac charger fast tonight"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_techie_22",
+    "context": {
+      "original_text": "I often upgrade my tech so I sell my older but still functional electronics, some dorm gear, and occasionally help friends sell stuff too."
+    },
+    "profile_keywords": [
+      "electronics",
+      "tech",
+      "dorm essentials",
+      "gadgets",
+      "accessories"
+    ],
+    "inferred_major": "Computer Engineering",
+    "inferred_location_keywords": [
+      "engineering hall",
+      "tech commons",
+      "north dorms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C hub",
+          "HDMI cable",
+          "wireless mouse",
+          "old laptop charger"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 30,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "desk lamp",
+          "mini fan"
+        ],
+        "total_items_sold": 4,
+        "avg_price_per_item": 15,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Apple 61W USB-C Power Adapter for MacBook Pro/Air",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "macbook",
+        "apple",
+        "usb-c",
+        "power adapter",
+        "laptop"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "white",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Apple"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 40
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": null
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

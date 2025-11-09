@@ -1,0 +1,136 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Introduction to Psychology textbook",
+      "category": "textbooks",
+      "tags": null
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "looking for 'Intro to Psychology' textbook, urgent!"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "student_seller_007",
+    "context": {
+      "original_text": "Selling old textbooks and course materials. Also some dorm decor."
+    },
+    "profile_keywords": [
+      "textbooks",
+      "psychology",
+      "dorm essentials",
+      "study materials",
+      "academic supplies"
+    ],
+    "inferred_major": "Psychology",
+    "inferred_location_keywords": [
+      "campus library",
+      "student union",
+      "psychology department"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus Textbook",
+          "Psychology 101 Textbook",
+          "Sociology Reader"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 35,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "Desk lamp",
+          "Mini-fridge"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 20,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "school_supplies",
+      "dorm_essentials",
+      "academic"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Introduction to Psychology (10th Edition) Textbook",
+      "category": "textbooks",
+      "tags": [
+        "psychology",
+        "introductory",
+        "college",
+        "textbook",
+        "10th edition",
+        "pearson"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard textbook",
+        "color": "blue",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "finished course, no longer needed",
+      "original_text": "Selling my 'Intro to Psychology' 10th edition textbook, good condition."
+    },
+    "location": {
+      "text_input": "dorm room",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

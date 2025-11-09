@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "mixed media sketchbook",
+      "category": "art_supplies",
+      "tags": [
+        "sketching",
+        "drawing",
+        "mixed media"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": null,
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "mixed media paper",
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need for upcoming drawing fundamentals class",
+      "original_text": "Looking for a new or like-new medium size mixed media sketchbook for my drawing class. Can pay up to $18."
+    },
+    "location": {
+      "text_input": "near Art Building",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "art_major_2025",
+    "context": {
+      "original_text": "Art History major with a passion for drawing. Always have extra supplies from projects, happy to sell them to fellow students."
+    },
+    "profile_keywords": [
+      "art supplies",
+      "sketching",
+      "drawing",
+      "painting",
+      "illustration",
+      "art history",
+      "fine arts"
+    ],
+    "inferred_major": "Art History",
+    "inferred_location_keywords": [
+      "Art Building",
+      "Studio Labs",
+      "Gallery Walk"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "sketchbooks",
+          "watercolor sets",
+          "charcoal pencils",
+          "acrylic paints"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 12.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Art History 101",
+          "Introduction to Drawing"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "textbooks",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Canson XL Mix Media Pad",
+      "category": "art_supplies",
+      "tags": [
+        "sketchbook",
+        "drawing",
+        "mixed media"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "9x12 inches",
+        "color": "white pages",
+        "condition_requested": [
+          "new"
+        ]
+      },
+      "secondary": {
+        "material": "mixed media paper",
+        "brand": "Canson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "New Canson XL Mix Media Pad, 9x12, 60 sheets, 98lb. Great for all kinds of dry and wet media. Selling for $15, pickup near Art Building."
+    },
+    "location": {
+      "text_input": "Art Building",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

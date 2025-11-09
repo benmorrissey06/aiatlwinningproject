@@ -1,0 +1,142 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Desk Fan",
+      "category": "dorm_essentials",
+      "tags": [
+        "fan",
+        "quiet",
+        "small",
+        "cooling",
+        "personal"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "small",
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Dorm room gets hot, need a personal fan",
+      "original_text": "Looking for a small, quiet desk fan for my dorm room. Needs to be in good or very good condition, willing to pay up to $25."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "user_bio123_seller",
+    "context": {
+      "original_text": "Biology major trying to declutter before moving off campus. Selling various dorm essentials and some older tech."
+    },
+    "profile_keywords": [
+      "Biology",
+      "dorm_essentials",
+      "electronics",
+      "decluttering",
+      "student",
+      "campus housing"
+    ],
+    "inferred_major": "Biology",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "university housing"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "desk lamp",
+          "mini-fridge",
+          "storage bins",
+          "small fan"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 35,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "bluetooth speaker",
+          "old charger",
+          "webcam"
+        ],
+        "total_items_sold": 4,
+        "avg_price_per_item": 20,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "electronics",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Quiet Personal Desk Fan",
+      "category": "dorm_essentials",
+      "tags": [
+        "fan",
+        "silent",
+        "compact",
+        "USB powered",
+        "personal",
+        "small"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "small",
+        "color": "white",
+        "condition_requested": [
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Honeywell"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Decluttering before moving out",
+      "original_text": "Selling a quiet, compact Honeywell desk fan. Works great, barely used. Perfect for a dorm room or small office. USB powered."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

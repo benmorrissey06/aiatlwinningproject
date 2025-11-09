@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Calculus: Early Transcendentals, 9th Edition",
+      "category": "textbooks",
+      "tags": [
+        "calculus",
+        "math",
+        "textbook",
+        "new",
+        "freshman"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Cengage"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need for MATH 101, class starts next week.",
+      "original_text": "Looking for a new or like new copy of 'Calculus Early Transcendentals 9th Ed.' for under $50. ASAP for MATH 101."
+    },
+    "location": {
+      "text_input": "campus bookstore area",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "david_chen_math_senior",
+    "context": {
+      "original_text": "Senior math major clearing out old textbooks and study guides."
+    },
+    "profile_keywords": [
+      "math textbooks",
+      "calculus books",
+      "STEM study guides",
+      "used books seller"
+    ],
+    "inferred_major": "Mathematics",
+    "inferred_location_keywords": [
+      "math building",
+      "library study rooms",
+      "senior dorms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Linear Algebra textbook",
+          "Differential Equations guide",
+          "Calculus 8th Ed."
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 42.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "Scientific Calculator",
+          "Geometry Set"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "school_supplies",
+      "electronics"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Calculus: Early Transcendentals, 9th Edition",
+      "category": "textbooks",
+      "tags": [
+        "calculus",
+        "math",
+        "textbook",
+        "used",
+        "study"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "fair",
+          "worn",
+          "highlighted"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Cengage"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Finished with course, no longer need, making space.",
+      "original_text": "Selling a used copy of Calculus Early Transcendentals 9th Ed. Condition is fair, with some highlighting on early chapters. Asking $45."
+    },
+    "location": {
+      "text_input": "library pickup",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

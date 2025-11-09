@@ -1,0 +1,129 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15.0
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a USB-C charger for my laptop ASAP. Can spend around $15."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_enthusiast_22",
+    "context": {
+      "original_text": "I often sell my old tech gear and accessories. Computer Science major. Usually have good quality electronics, especially charging solutions."
+    },
+    "profile_keywords": [
+      "electronics",
+      "tech",
+      "gadgets",
+      "cables",
+      "computer science",
+      "dorm tech",
+      "charging accessories",
+      "power banks"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "university dorms",
+      "campus tech lab"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cables",
+          "USB-C hubs",
+          "earbuds",
+          "laptop chargers",
+          "power bricks"
+        ],
+        "total_items_sold": 35,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "computer_accessories",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Anker 60W USB-C PD Charger",
+      "category": "electronics",
+      "tags": [
+        "USB-C",
+        "charger",
+        "laptop",
+        "power delivery",
+        "Anker",
+        "fast charging"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "new"
+        ]
+      },
+      "secondary": {
+        "material": "durable plastic",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 12.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "upgraded to multi-port charger",
+      "original_text": "Selling a brand new Anker 60W USB-C PD Charger. Perfect for laptops, fast charging. Black. Got a new one."
+    },
+    "location": {
+      "text_input": "Dorm room pickup, specific details given upon request",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

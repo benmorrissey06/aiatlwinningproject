@@ -1,0 +1,141 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "phone charger",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "phone",
+        "electronics"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Charger for my phone, quick"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_tech_001",
+    "context": {
+      "original_text": "Selling various tech accessories, old gaming gear, and some study aids. Always cleaning out my room!"
+    },
+    "profile_keywords": [
+      "tech accessories",
+      "electronics",
+      "gaming",
+      "study aids",
+      "sell",
+      "lend"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "engineering building",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cable",
+          "USB-C hub",
+          "earbuds",
+          "phone case"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 19.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "controller",
+          "game disk"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C Fast Charger (20W)",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "USB-C",
+        "fast charging",
+        "phone",
+        "electronics",
+        "power adapter"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "white",
+        "condition_requested": [
+          "new",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "ABS plastic",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "upgraded",
+      "original_text": "Selling my Anker 20W USB-C Fast Charger, barely used, works perfectly with all modern phones."
+    },
+    "location": {
+      "text_input": "Near East Campus Dorms",
+      "device_gps": {
+        "lat": 34.068,
+        "lng": -118.441
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

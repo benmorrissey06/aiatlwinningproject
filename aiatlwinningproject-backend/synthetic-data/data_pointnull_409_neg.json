@@ -1,0 +1,135 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "power bank",
+      "category": "electronics",
+      "tags": [
+        "portable charger",
+        "fast charging"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "phone battery dead",
+      "original_text": "Urgently need a power bank for my phone. Fast charging preferred."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "fashion_finds_by_lisa",
+    "context": {
+      "original_text": "Hi! I'm Lisa, a fashion design student. Selling pre-loved and handmade clothes and accessories!"
+    },
+    "profile_keywords": [
+      "fashion",
+      "clothing",
+      "accessories",
+      "designer",
+      "thrift",
+      "vintage",
+      "handmade"
+    ],
+    "inferred_major": "Fashion Design",
+    "inferred_location_keywords": [
+      "dorm_north_quad",
+      "campus_boutique",
+      "art_building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "crop top",
+          "vintage jeans",
+          "graphic tee"
+        ],
+        "total_items_sold": 45,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "accessories",
+        "item_examples": [
+          "earrings",
+          "scarf",
+          "handbag"
+        ],
+        "total_items_sold": 20,
+        "avg_price_per_item": 12.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "home_decor"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "denim jacket",
+      "category": "apparel",
+      "tags": [
+        "outerwear",
+        "casual",
+        "vintage_style"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "light wash blue",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "denim",
+        "brand": "Levi's"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Vintage Levi's denim jacket, light wash, size M. Great condition."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

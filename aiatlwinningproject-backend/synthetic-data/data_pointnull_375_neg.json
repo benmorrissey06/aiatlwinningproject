@@ -1,0 +1,134 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "MacBook charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Apple"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "need a macbook charger asap"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_fashionista_923",
+    "context": {
+      "original_text": "I'm a fashion design student selling pre-loved clothes and unique accessories. Always looking for new styles!"
+    },
+    "profile_keywords": [
+      "fashion",
+      "apparel",
+      "vintage",
+      "accessories",
+      "clothing",
+      "style",
+      "design"
+    ],
+    "inferred_major": "Fashion Design",
+    "inferred_location_keywords": [
+      "Fashion Dept",
+      "Dorm A common room"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "graphic t-shirt",
+          "vintage jeans",
+          "summer dress"
+        ],
+        "total_items_sold": 68,
+        "avg_price_per_item": 22.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "accessories",
+        "item_examples": [
+          "scarf",
+          "sunglasses",
+          "handbag"
+        ],
+        "total_items_sold": 25,
+        "avg_price_per_item": 18.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "fashion_items"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Vintage Denim Jacket",
+      "category": "apparel",
+      "tags": [
+        "denim",
+        "jacket",
+        "vintage",
+        "outerwear"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "blue",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "denim",
+        "brand": "Levi's"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "clearing out closet, no longer fits",
+      "original_text": "Selling a vintage Levi's denim jacket, size M, excellent condition. Perfect for spring!"
+    },
+    "location": {
+      "text_input": "near dorm quad",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

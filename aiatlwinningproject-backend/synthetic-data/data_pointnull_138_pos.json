@@ -1,0 +1,141 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "markers",
+      "category": "school_supplies",
+      "tags": null
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": null,
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need some markers for class asap."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_art_major_2024",
+    "context": {
+      "original_text": "I sell art supplies, electronics accessories, and useful dorm essentials. Ask about my used textbooks too!"
+    },
+    "profile_keywords": [
+      "art supplies",
+      "drawing",
+      "painting",
+      "crafts",
+      "dorm",
+      "electronics"
+    ],
+    "inferred_major": "Graphic Design",
+    "inferred_location_keywords": [
+      "art studio",
+      "campus center",
+      "dorm supply drop-off"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "drawing pencils set",
+          "acrylic paint kit",
+          "sketchbooks"
+        ],
+        "total_items_sold": 45,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "notebooks",
+          "gel pens",
+          "highlighters"
+        ],
+        "total_items_sold": 20,
+        "avg_price_per_item": 8.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cable",
+          "USB-C adapter"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "school_supplies",
+      "dorm_essentials",
+      "electronics"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Sharpie Permanent Markers (24-pack)",
+      "category": "school_supplies",
+      "tags": [
+        "art",
+        "writing",
+        "permanent",
+        "set",
+        "new"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "multi-color",
+        "condition_requested": [
+          "new"
+        ]
+      },
+      "secondary": {
+        "material": "ink",
+        "brand": "Sharpie"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "selling extra stock",
+      "original_text": "Selling a brand new 24-pack of assorted Sharpie permanent markers. Great for art projects or notes!"
+    },
+    "location": {
+      "text_input": "campus bookstore pickup",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

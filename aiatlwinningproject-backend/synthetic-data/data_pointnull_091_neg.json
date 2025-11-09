@@ -1,0 +1,136 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "sweater",
+      "category": "apparel",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "blue",
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "Looking for a nice sweater, maybe blue."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_tech_guy_001",
+    "context": {
+      "original_text": "Selling off old gaming gear and parts, some electronics for cheap! Mostly tech stuff, no clothes."
+    },
+    "profile_keywords": [
+      "gaming",
+      "electronics",
+      "peripherals",
+      "PC parts",
+      "tech",
+      "used components"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "library west",
+      "engineering building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming mouse",
+          "mechanical keyboard",
+          "webcam",
+          "graphics card"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 controller",
+          "Xbox game",
+          "gaming headset"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "computer_accessories",
+      "home_office"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Mechanical Gaming Keyboard",
+      "category": "electronics",
+      "tags": [
+        "gaming",
+        "keyboard",
+        "peripherals",
+        "mechanical"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "full-size",
+        "color": "black",
+        "condition_requested": [
+          "used-good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, metal",
+        "brand": "Razer"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgrading to a new model, no longer need this one.",
+      "original_text": "Selling my Razer BlackWidow mechanical keyboard, still works great. Just got a new one."
+    },
+    "location": {
+      "text_input": "Dorm 301, Engineering Quad",
+      "device_gps": {
+        "lat": 29.645,
+        "lng": -82.356
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

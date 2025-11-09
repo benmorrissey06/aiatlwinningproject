@@ -1,0 +1,130 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "HDMI cable",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "i need an HDMI chord tonight"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "dorm_tech_hub_3",
+    "context": {
+      "original_text": "I always have spare electronics and cables. Upgrading often, so selling older but still good tech."
+    },
+    "profile_keywords": [
+      "electronics",
+      "cables",
+      "adapters",
+      "gaming accessories",
+      "tech support"
+    ],
+    "inferred_major": "Electrical Engineering",
+    "inferred_location_keywords": [
+      "dorm:east campus",
+      "engineering lab"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cables",
+          "USB-C hubs",
+          "Ethernet cables",
+          "old webcams"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "controller chargers"
+        ],
+        "total_items_sold": 4,
+        "avg_price_per_item": 12,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "High-Speed HDMI Cable (6ft)",
+      "category": "electronics",
+      "tags": [
+        "HDMI",
+        "cable",
+        "6ft",
+        "high-speed",
+        "TV",
+        "monitor"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "6ft",
+        "color": "black",
+        "condition_requested": [
+          "used - very good"
+        ]
+      },
+      "secondary": {
+        "material": "PVC",
+        "brand": "Cable Matters"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 8.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": "Bought a new setup, have this extra cable.",
+      "original_text": "Selling a reliable 6ft High-Speed HDMI cable. Works perfectly, used for a few months."
+    },
+    "location": {
+      "text_input": "my dorm room, East Campus",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

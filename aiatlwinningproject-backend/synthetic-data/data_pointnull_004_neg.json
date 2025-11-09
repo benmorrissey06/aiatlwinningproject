@@ -1,0 +1,136 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "math textbook",
+      "category": "textbooks",
+      "tags": [
+        "calculus"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "urgent class requirement",
+      "original_text": "Need a textbook for my math class. ASAP."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "sophie_styles_dorm",
+    "context": {
+      "original_text": "I sell trendy clothes and cute dorm decor! Always looking to refresh my closet."
+    },
+    "profile_keywords": [
+      "fashion",
+      "apparel",
+      "dorm decor",
+      "accessories",
+      "student designer",
+      "women's clothing"
+    ],
+    "inferred_major": "Fashion Merchandising",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "student union",
+      "fashion department"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "crop top",
+          "vintage jeans",
+          "party dress"
+        ],
+        "total_items_sold": 25,
+        "avg_price_per_item": 20.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "throw pillow",
+          "fairy lights",
+          "mini fridge"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "dorm_essentials",
+      "beauty"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "trendy crop top",
+      "category": "apparel",
+      "tags": [
+        "fashion",
+        "summer",
+        "women's"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "Small",
+        "color": "White",
+        "condition_requested": [
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "Cotton blend",
+        "brand": "Zara"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "clearing out closet",
+      "original_text": "Selling a white Zara crop top, size S, like new. Perfect for summer!"
+    },
+    "location": {
+      "text_input": "Sophie's dorm room",
+      "device_gps": {
+        "lat": 34.0701,
+        "lng": -118.4442
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

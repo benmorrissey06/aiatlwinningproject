@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Calculus I Textbook",
+      "category": "textbooks",
+      "tags": [
+        "calculus",
+        "math",
+        "textbook",
+        "college"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "new",
+          "like-new"
+        ]
+      },
+      "secondary": {
+        "material": "paper",
+        "brand": "Cengage"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Starting new semester, need a pristine copy for my class.",
+      "original_text": "Looking for a NEW or LIKE-NEW Calculus I textbook, 8th edition. Max $50. Need it fast for my class next week."
+    },
+    "location": {
+      "text_input": "University Library",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "user_math_whiz_789",
+    "context": {
+      "original_text": "Math major selling old textbooks, study guides, and sometimes other school supplies. I often have math-related items available."
+    },
+    "profile_keywords": [
+      "math",
+      "calculus",
+      "textbooks",
+      "study guides",
+      "school supplies",
+      "STEM"
+    ],
+    "inferred_major": "Mathematics",
+    "inferred_location_keywords": [
+      "math building",
+      "library",
+      "dorms south"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Linear Algebra textbook",
+          "Discrete Math problems book",
+          "Calculus III solutions manual"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 45,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "graphing calculator",
+          "geometry set",
+          "notebooks"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 15,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "school_supplies",
+      "tutoring"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Calculus I Textbook, 8th Edition",
+      "category": "textbooks",
+      "tags": [
+        "calculus",
+        "math",
+        "textbook",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "paper",
+        "brand": "Cengage"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Used for last semester, no longer needed. Has some highlighting and dog-eared pages.",
+      "original_text": "Selling my old Calculus I textbook, 8th edition. It's definitely used, some wear and tear, priced at $35. Good for someone who doesn't mind a few notes."
+    },
+    "location": {
+      "text_input": "Math Department",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

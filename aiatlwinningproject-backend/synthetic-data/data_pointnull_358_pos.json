@@ -1,0 +1,133 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "biology textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "Looking for a science textbook for bio 101."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_bio_books_123",
+    "context": {
+      "original_text": "I sell old science textbooks and notes from my courses. Biology and Chemistry focused."
+    },
+    "profile_keywords": [
+      "textbooks",
+      "science",
+      "biology",
+      "used books",
+      "study aids"
+    ],
+    "inferred_major": "Biology",
+    "inferred_location_keywords": [
+      "campus library",
+      "student union"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus Textbook 9th Ed",
+          "General Chemistry Lab Manual",
+          "Intro to Biology Textbook 12th Ed"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 42.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "Scientific Calculator",
+          "Binder Set"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "school_supplies",
+      "study_materials",
+      "academia"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Biology: Concepts and Connections Textbook (10th Edition)",
+      "category": "textbooks",
+      "tags": [
+        "biology",
+        "textbook",
+        "science",
+        "introductory bio",
+        "bio101"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard textbook size",
+        "color": "blue and green",
+        "condition_requested": [
+          "good",
+          "used",
+          "no highlights"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "selling old course material",
+      "original_text": "Selling my Biology Concepts and Connections textbook, 10th edition. Good condition, no highlights. Perfect for Bio 101."
+    },
+    "location": {
+      "text_input": "campus bookstore area",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

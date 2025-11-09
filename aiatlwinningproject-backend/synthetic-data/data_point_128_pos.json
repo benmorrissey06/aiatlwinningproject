@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "wireless gaming headset",
+      "category": "gaming",
+      "tags": [
+        "headset",
+        "wireless",
+        "gaming",
+        "HyperX"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, faux leather",
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 70
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need a new headset for online gaming sessions with friends.",
+      "original_text": "Looking for a HyperX wireless gaming headset, preferably black, in good to very good condition. My budget is around $70 max."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_tech_student_404",
+    "context": {
+      "original_text": "I'm a computer science major who frequently upgrades my tech and gaming setup, so I often sell my used but well-maintained electronics and gaming peripherals."
+    },
+    "profile_keywords": [
+      "gaming",
+      "tech",
+      "computer science",
+      "electronics",
+      "peripherals",
+      "used gear",
+      "accessories"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering building",
+      "dorm common area"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "gaming mouse",
+          "mechanical keyboard",
+          "webcam"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 45,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "external hard drive",
+          "portable charger"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 30,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "audio equipment",
+      "computer accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "HyperX Cloud II Wireless Headset",
+      "category": "gaming",
+      "tags": [
+        "headset",
+        "wireless",
+        "gaming",
+        "HyperX",
+        "audio"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, memory foam",
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 65
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a different brand headset, no longer need this one.",
+      "original_text": "Selling my HyperX Cloud II Wireless headset. Barely used, in very good condition. Comes with original box."
+    },
+    "location": {
+      "text_input": "my dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

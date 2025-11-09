@@ -1,0 +1,145 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "graphic calculator",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a graphic calc for my math class ASAP"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "sarah_art_collection",
+    "context": {
+      "original_text": "I sell unique, curated vintage clothing and handmade art pieces. Always looking for new artistic inspiration!"
+    },
+    "profile_keywords": [
+      "vintage fashion",
+      "art supplies",
+      "handmade jewelry",
+      "graphic design",
+      "unique items"
+    ],
+    "inferred_major": "Art History",
+    "inferred_location_keywords": [
+      "art studio",
+      "campus gallery",
+      "flea market"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "vintage band tee",
+          "denim jacket",
+          "embroidered top"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "sketchbook set",
+          "watercolor paints",
+          "art prints"
+        ],
+        "total_items_sold": 10,
+        "avg_price_per_item": 19.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "accessories",
+        "item_examples": [
+          "handmade earrings",
+          "scarf"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "art_supplies",
+      "accessories",
+      "jewelry",
+      "crafts"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Vintage College Graphic Tee",
+      "category": "apparel",
+      "tags": [
+        "vintage",
+        "graphic",
+        "tee",
+        "cotton",
+        "unisex"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "Grey",
+        "condition_requested": [
+          "worn",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "Cotton",
+        "brand": "Hanes"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Selling vintage collection",
+      "original_text": "Vintage grey Hanes graphic tee, medium size, good condition. Perfect for a casual look."
+    },
+    "location": {
+      "text_input": "Campus Dorms",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

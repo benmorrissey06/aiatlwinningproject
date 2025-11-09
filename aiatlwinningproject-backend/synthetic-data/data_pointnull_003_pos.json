@@ -1,0 +1,130 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Geometry textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a geometry textbook ASAP for MATH101"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_math_wiz_001",
+    "context": {
+      "original_text": "I sell old textbooks, mostly STEM subjects. Also tutor math and physics."
+    },
+    "profile_keywords": [
+      "textbooks",
+      "math",
+      "STEM",
+      "tutoring",
+      "used books",
+      "science"
+    ],
+    "inferred_major": "Mathematics",
+    "inferred_location_keywords": [
+      "math department",
+      "library",
+      "campus center"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus II textbook",
+          "Linear Algebra textbook",
+          "Physics I textbook"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "Graphing calculator TI-84"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 60.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "school_supplies",
+      "education",
+      "STEM"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Geometry textbook (9th Edition)",
+      "category": "textbooks",
+      "tags": [
+        "geometry",
+        "math101",
+        "textbook",
+        "used",
+        "college",
+        "STEM"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "blue",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "finished course",
+      "original_text": "I have a Geometry textbook, 9th edition by Pearson, in good condition. Used for MATH101. Asking $30."
+    },
+    "location": {
+      "text_input": "near Math building",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

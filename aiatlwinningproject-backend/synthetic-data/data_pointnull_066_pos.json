@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "calculus textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need 'Calculus' textbook asap"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_math_wiz_007",
+    "context": {
+      "original_text": "I'm a math major always selling old textbooks and study guides after I pass my classes. Mostly STEM subjects."
+    },
+    "profile_keywords": [
+      "math major",
+      "textbooks",
+      "study guides",
+      "STEM",
+      "used books",
+      "calculus",
+      "algebra"
+    ],
+    "inferred_major": "Mathematics",
+    "inferred_location_keywords": [
+      "campus library",
+      "math department",
+      "dorm common room"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Linear Algebra textbook",
+          "Discrete Math Solutions",
+          "Physics I Textbook"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "graphing calculator",
+          "scientific calculator"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "school_supplies",
+      "STEM_supplies",
+      "electronics"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Calculus: Early Transcendentals, 9th Edition textbook",
+      "category": "textbooks",
+      "tags": [
+        "calculus",
+        "math",
+        "textbook",
+        "STEM",
+        "early transcendentals",
+        "9th edition"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard textbook",
+        "color": "blue",
+        "condition_requested": [
+          "used",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Cengage"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Finished the course, no longer needed.",
+      "original_text": "Selling my Calculus Early Transcendentals 9th edition textbook. Very good condition, light highlighting. Cengage."
+    },
+    "location": {
+      "text_input": "near campus bookstore",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

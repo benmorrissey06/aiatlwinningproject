@@ -1,0 +1,122 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "phone case",
+      "category": null,
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Need a simple black phone case for an iPhone 13."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gadget_guru_77",
+    "context": {
+      "original_text": "Selling off extra tech accessories, mostly phone cases and chargers. Always have a good deal!"
+    },
+    "profile_keywords": [
+      "electronics",
+      "phone accessories",
+      "gadgets",
+      "chargers",
+      "cases",
+      "tech"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "Engineering Quad",
+      "Dorm A"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "iPhone 12 case",
+          "USB-C charger",
+          "AirPods case",
+          "Screen protector"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "accessories",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "iPhone 13 Silicone Case",
+      "category": "electronics",
+      "tags": [
+        "phone accessory",
+        "protective case",
+        "silicone",
+        "black"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "iPhone 13",
+        "color": "black",
+        "condition_requested": [
+          "good_used"
+        ]
+      },
+      "secondary": {
+        "material": "silicone",
+        "brand": "Generic"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 10.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Selling extra items",
+      "original_text": "Barely used black silicone case for iPhone 13. Simple, protective, and in great condition."
+    },
+    "location": {
+      "text_input": "Near main library",
+      "device_gps": {
+        "lat": 40.091,
+        "lng": -88.227
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

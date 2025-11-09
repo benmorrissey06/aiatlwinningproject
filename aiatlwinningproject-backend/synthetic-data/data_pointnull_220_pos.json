@@ -1,0 +1,120 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "textbook",
+      "category": "textbooks",
+      "tags": null
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": null,
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "need a cheap textbook for bio 101 today"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "student_bio_books",
+    "context": {
+      "original_text": "Selling old biology textbooks and lab manuals. Trying to clear out space before moving dorms. Good deals!"
+    },
+    "profile_keywords": [
+      "biology textbooks",
+      "science books",
+      "lab manuals",
+      "used books",
+      "affordable textbooks"
+    ],
+    "inferred_major": "Biology",
+    "inferred_location_keywords": [
+      "campus bookstore",
+      "library",
+      "dorm"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Biology 101 Textbook",
+          "Organic Chemistry Manual"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Biology 101: The Living World, 5th Edition",
+      "category": "textbooks",
+      "tags": [
+        "biology",
+        "textbook",
+        "science",
+        "college",
+        "bio101",
+        "5th edition",
+        "living world"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard textbook",
+        "color": "multi-color cover",
+        "condition_requested": [
+          "good",
+          "used",
+          "some highlighting"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 28.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "clearing out dorm space",
+      "original_text": "Biology 101: The Living World, 5th Ed. Good condition, some highlighting. Selling for $28."
+    },
+    "location": {
+      "text_input": "my dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

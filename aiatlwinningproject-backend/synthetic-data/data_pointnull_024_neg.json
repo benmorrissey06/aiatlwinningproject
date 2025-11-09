@@ -1,0 +1,131 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Calculus 2 textbook",
+      "category": "textbooks",
+      "tags": null
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": null,
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a calc 2 book ASAP."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_gal_23",
+    "context": {
+      "original_text": "I sell gaming gear and cool tech. Always upgrading!"
+    },
+    "profile_keywords": [
+      "gaming",
+      "electronics",
+      "console",
+      "accessories",
+      "peripherals"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "Dorm A",
+      "Gaming Lounge"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS5 Controller (used)",
+          "HyperX Gaming Headset",
+          "Nintendo Switch Dock"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI Cable",
+          "USB-C Hub",
+          "Portable Charger"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 20.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "peripherals",
+      "tech_accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "HyperX Cloud Alpha Gaming Headset",
+      "category": "gaming",
+      "tags": [
+        "headset",
+        "gaming",
+        "audio",
+        "microphone"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "one-size",
+        "color": "Black",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, metal, foam",
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "selling unused gear",
+      "original_text": "HyperX Cloud Alpha Gaming Headset, used but works great. $50 OBO."
+    },
+    "location": {
+      "text_input": "Dorm A common room",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

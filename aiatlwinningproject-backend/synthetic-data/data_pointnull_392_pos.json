@@ -1,0 +1,122 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "phone charger",
+      "category": null,
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy",
+        "borrow"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Charger for my phone, ASAP."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_U789",
+    "context": {
+      "original_text": "I often sell used electronics, especially phone accessories and various cables. Can deliver quickly on campus."
+    },
+    "profile_keywords": [
+      "electronics",
+      "phone accessories",
+      "cables",
+      "chargers",
+      "gadgets",
+      "fast delivery"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "Dorm B",
+      "Campus Library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C cable",
+          "iPhone charger",
+          "Bluetooth earbuds"
+        ],
+        "total_items_sold": 25,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "phone accessories",
+      "cables"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Anker USB-C 60W Fast Charger",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "USB-C",
+        "fast charging",
+        "phone accessory",
+        "Anker"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Anker USB-C 60W fast charger. Works perfectly, good condition. Selling because I upgraded phones."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

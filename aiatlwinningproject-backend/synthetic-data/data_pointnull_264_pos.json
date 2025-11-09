@@ -1,0 +1,141 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "PS4 controller",
+      "category": "gaming",
+      "tags": [
+        "gaming",
+        "playstation"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy",
+        "borrow"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "Anyone got a spare PS4 controller they'd sell or lend?"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "usr_gmr_001",
+    "context": {
+      "original_text": "Selling my used gaming gear, especially controllers and accessories. Always upgrading so I have plenty of spares."
+    },
+    "profile_keywords": [
+      "gaming",
+      "playstation",
+      "xbox",
+      "controllers",
+      "electronics",
+      "tech accessories",
+      "used gear"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm room",
+      "gaming lounge",
+      "tech lab"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 DualShock Controller",
+          "Xbox One Wireless Headset",
+          "Nintendo Switch Dock"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cable",
+          "USB-C charger",
+          "power bank"
+        ],
+        "total_items_sold": 10,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "tech accessories",
+      "computer components"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Sony PS4 DualShock Controller",
+      "category": "gaming",
+      "tags": [
+        "PS4",
+        "controller",
+        "gaming",
+        "dualshock",
+        "sony",
+        "wireless"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "used",
+          "working"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Sony"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "selling spare item after upgrade",
+      "original_text": "Selling my black Sony PS4 DualShock Controller, in good working condition. Upgraded to PS5 so no longer need this one."
+    },
+    "location": {
+      "text_input": "campus dorm, near engineering building",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

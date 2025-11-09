@@ -1,0 +1,148 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "wireless gaming headset",
+      "category": "gaming",
+      "tags": [
+        "headset",
+        "wireless",
+        "gaming",
+        "audio"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need a good quality headset for online gaming sessions.",
+      "original_text": "Looking for a wireless gaming headset, preferably black, new or like new condition. My budget is around $80."
+    },
+    "location": {
+      "text_input": "campus dorm",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "user_cs_gamer_001",
+    "context": {
+      "original_text": "CompSci major selling old tech and gaming gear. Always upgrading!"
+    },
+    "profile_keywords": [
+      "computer science",
+      "gaming",
+      "electronics",
+      "tech peripherals",
+      "audio gear"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "campus apartment"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "mechanical keyboard",
+          "gaming mouse",
+          "webcam"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 55,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 controller",
+          "Nintendo Switch game",
+          "gaming monitor"
+        ],
+        "total_items_sold": 4,
+        "avg_price_per_item": 70,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "audio_equipment",
+        "item_examples": [
+          "bluetooth speaker",
+          "earbuds"
+        ],
+        "total_items_sold": 2,
+        "avg_price_per_item": 30,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "audio_equipment"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "HyperX Cloud II Wireless Gaming Headset",
+      "category": "gaming",
+      "tags": [
+        "headset",
+        "wireless",
+        "gaming",
+        "audio",
+        "hyperx"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "fabric, metal",
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 75
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a new headset, selling this one.",
+      "original_text": "Selling HyperX Cloud II Wireless Gaming Headset. Used for a few months, like new condition, comes with original box. $75."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

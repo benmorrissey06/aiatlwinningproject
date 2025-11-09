@@ -1,0 +1,135 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "desk lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "lighting",
+        "study",
+        "dorm_decor"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "white",
+        "condition_requested": [
+          "new",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "setting up dorm room",
+      "original_text": "Looking for a white desk lamp for my dorm, new or excellent condition. Max $25."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "sarah_smith_2025",
+    "context": {
+      "original_text": "Selling off dorm essentials before I move apartments next year. Have a lot of good condition items, including some lighting and small furniture."
+    },
+    "profile_keywords": [
+      "dorm essentials",
+      "moving out",
+      "home decor",
+      "student seller",
+      "lighting"
+    ],
+    "inferred_major": "Interior Design",
+    "inferred_location_keywords": [
+      "campus housing",
+      "off-campus apartment"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini-fridge",
+          "storage bins",
+          "desk lamp",
+          "bedside table"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 28,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "furniture",
+        "item_examples": [
+          "chair",
+          "small shelf"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 45,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "home_goods"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Modern White LED Desk Lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "LED",
+        "adjustable",
+        "study",
+        "lighting"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "white",
+        "condition_requested": [
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "TaoTronics"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18
+    },
+    "context": {
+      "urgency": null,
+      "reason": "no longer needed",
+      "original_text": "Selling my white TaoTronics LED desk lamp. Used for one semester, in excellent condition. Great for dorms."
+    },
+    "location": {
+      "text_input": "campus housing",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

@@ -1,0 +1,127 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a textbook ASAP."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_fashionista_123",
+    "context": {
+      "original_text": "I sell gently used clothes, accessories, and dorm decor. Always updating my closet!"
+    },
+    "profile_keywords": [
+      "fashion",
+      "clothing",
+      "accessories",
+      "dorm decor",
+      "sustainable fashion"
+    ],
+    "inferred_major": "Fashion Merchandising",
+    "inferred_location_keywords": [
+      "campus south",
+      "fashion district"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "graphic tee",
+          "denim jacket",
+          "midi skirt"
+        ],
+        "total_items_sold": 25,
+        "avg_price_per_item": 20.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "decorative pillow",
+          "fairy lights"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 12.5,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "dorm_essentials",
+      "jewelry"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "vintage band t-shirt",
+      "category": "apparel",
+      "tags": [
+        "band tee",
+        "vintage",
+        "graphic"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "cotton",
+        "brand": "generic-vintage"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "clearing closet",
+      "original_text": "Cool vintage band tee, size M, good condition."
+    },
+    "location": {
+      "text_input": "my dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

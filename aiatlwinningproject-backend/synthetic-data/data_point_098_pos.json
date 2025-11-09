@@ -1,0 +1,137 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "mini-fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "mini-fridge",
+        "dorm",
+        "appliance",
+        "compact"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "small",
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 100
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "moving into dorm",
+      "original_text": "Need a mini-fridge for my dorm room, preferably in good condition. My budget is around $100, and I need it somewhat urgently for move-in."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "upperclassman_gear_seller",
+    "context": {
+      "original_text": "Selling off my dorm essentials and some older tech before I move off-campus. Everything's in great shape!"
+    },
+    "profile_keywords": [
+      "dorm",
+      "essentials",
+      "appliances",
+      "electronics",
+      "moving out",
+      "second hand"
+    ],
+    "inferred_major": "Communications",
+    "inferred_location_keywords": [
+      "campus apts",
+      "dorm storage"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini-fridge",
+          "desk lamp",
+          "microwave"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 55.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "bluetooth speaker",
+          "laptop stand"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 30.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "furniture",
+      "appliances",
+      "textbooks"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Compact Dorm Mini-Fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "mini-fridge",
+        "compact",
+        "dorm",
+        "appliance",
+        "beverage cooler"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "small",
+        "color": "black",
+        "condition": "good"
+      },
+      "secondary": {
+        "material": "metal/plastic",
+        "brand": "Insignia"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null,
+      "price": 85
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "upgrading",
+      "original_text": "Selling my reliable compact mini-fridge, perfect for a dorm room. It's in good working condition, very clean."
+    },
+    "location": {
+      "text_input": "near campus",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

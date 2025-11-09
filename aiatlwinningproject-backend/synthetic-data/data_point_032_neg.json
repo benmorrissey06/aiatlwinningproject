@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wireless Gaming Headset",
+      "category": "gaming",
+      "tags": [
+        "headset",
+        "wireless",
+        "gaming",
+        "audio"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need a reliable headset for online classes and weekend gaming.",
+      "original_text": "Looking for a new or like-new wireless gaming headset, maybe around $80 max."
+    },
+    "location": {
+      "text_input": "Campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_gear_guru_7",
+    "context": {
+      "original_text": "I'm a CompSci student selling off my old tech and gaming peripherals as I upgrade. Mostly good condition used items."
+    },
+    "profile_keywords": [
+      "gaming",
+      "tech",
+      "electronics",
+      "peripherals",
+      "used gear",
+      "CompSci"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "campus",
+      "tech lab",
+      "gaming lounge"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "gaming mouse",
+          "mechanical keyboard",
+          "old console",
+          "gaming headset"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 60.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "webcam",
+          "monitor",
+          "charger"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 100.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "computer accessories",
+      "gaming peripherals"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Logitech G PRO X Wireless Gaming Headset",
+      "category": "gaming",
+      "tags": [
+        "headset",
+        "wireless",
+        "logitech",
+        "gaming",
+        "pro x"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "over-ear",
+        "color": "black",
+        "condition": "good"
+      },
+      "secondary": {
+        "material": "plastic, memory foam",
+        "brand": "Logitech"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price": 65.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": "Upgraded to a new model, selling my old one.",
+      "original_text": "Selling my Logitech G PRO X Wireless headset. Still works great, just got a new one. Condition is good."
+    },
+    "location": {
+      "text_input": "My dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

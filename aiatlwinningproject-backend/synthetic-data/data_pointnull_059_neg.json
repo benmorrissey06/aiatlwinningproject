@@ -1,0 +1,133 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "graphic calculator",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need a graphic calc fast for my math final, like a TI-84 or similar."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "artistic_soul_300",
+    "context": {
+      "original_text": "Art major selling extra supplies, handmade crafts, and unique dorm decor. Always looking for new projects!"
+    },
+    "profile_keywords": [
+      "art supplies",
+      "crafts",
+      "dorm decor",
+      "painting",
+      "drawing",
+      "handmade"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art studio",
+      "campus gallery",
+      "dorms",
+      "craft fair"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "watercolor set",
+          "sketchbook",
+          "acrylic paint tubes"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "handmade tapestry",
+          "custom painted mug",
+          "unique planter"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 28.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "dorm_essentials",
+      "crafts",
+      "decor"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "professional watercolor paint set",
+      "category": "art_supplies",
+      "tags": [
+        "watercolor",
+        "paint",
+        "art",
+        "new"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium set (24 colors)",
+        "color": "assorted",
+        "condition_requested": [
+          "new"
+        ]
+      },
+      "secondary": {
+        "material": "pigment",
+        "brand": "Winsor & Newton"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "extra supplies",
+      "original_text": "Selling my extra Winsor & Newton professional watercolor set. Brand new, never opened."
+    },
+    "location": {
+      "text_input": "campus arts building",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

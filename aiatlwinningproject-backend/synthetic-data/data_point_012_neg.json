@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Standing Desk Converter",
+      "category": "furniture",
+      "tags": [
+        "desk",
+        "standing",
+        "ergonomic",
+        "study"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "like new",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "metal",
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 100
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "for ergonomic study setup",
+      "original_text": "Need a standing desk converter, something in like new or excellent condition for around $100. My back is killing me from studying!"
+    },
+    "location": {
+      "text_input": "campus library",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "dorm_furnisher_22",
+    "context": {
+      "original_text": "Student who often sells/buys dorm furniture and study essentials. Good at organizing space."
+    },
+    "profile_keywords": [
+      "dorm essentials",
+      "furniture",
+      "study space",
+      "organization",
+      "home decor"
+    ],
+    "inferred_major": "Interior Design",
+    "inferred_location_keywords": [
+      "dorm",
+      "apartment",
+      "common areas"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "furniture",
+        "item_examples": [
+          "desk lamp",
+          "small bookshelf",
+          "desk chair",
+          "ottoman"
+        ],
+        "total_items_sold": 6,
+        "avg_price_per_item": 45,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini fridge",
+          "storage bins",
+          "area rug"
+        ],
+        "total_items_sold": 4,
+        "avg_price_per_item": 70,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "furniture",
+      "dorm_essentials",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Standing Desk Converter",
+      "category": "furniture",
+      "tags": [
+        "desk",
+        "standing",
+        "ergonomic"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "wood and metal",
+        "brand": "FlexiDesk"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null,
+      "price": 75
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "upgrading to full standing desk",
+      "original_text": "Selling my old standing desk converter. It's fully functional but has some cosmetic wear and tear from use (fair condition). Works great, just upgraded. Asking $75."
+    },
+    "location": {
+      "text_input": "seller's dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

@@ -1,0 +1,146 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Nintendo Switch game: The Legend of Zelda: Tears of the Kingdom",
+      "category": "gaming",
+      "tags": [
+        "switch",
+        "zelda",
+        "game",
+        "adventure",
+        "nintendo"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Nintendo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Want to play the latest Zelda game",
+      "original_text": "Looking for Zelda Tears of the Kingdom for my Switch, preferably in good condition. Can spend up to $50. Let me know!"
+    },
+    "location": {
+      "text_input": "Campus Dorms",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_gal_23",
+    "context": {
+      "original_text": "Avid gamer and tech enthusiast. Selling off some of my game collection and accessories to make space. Always fair prices!"
+    },
+    "profile_keywords": [
+      "Nintendo Switch",
+      "video games",
+      "collectibles",
+      "gaming accessories",
+      "tech",
+      "sell games"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "library",
+      "campus center"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "Mario Kart 8 Deluxe (Switch)",
+          "Pro Controller (Switch)",
+          "Pokemon Scarlet (Switch)"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "Gaming headset",
+          "USB-C charger"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 30.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "collectibles",
+      "apparel"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Nintendo Switch Game: The Legend of Zelda: Tears of the Kingdom",
+      "category": "gaming",
+      "tags": [
+        "switch",
+        "zelda",
+        "game",
+        "adventure",
+        "nintendo"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "cartridge",
+        "brand": "Nintendo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 48
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Finished the game, no longer needed",
+      "original_text": "Selling my copy of Zelda Tears of the Kingdom for Nintendo Switch. Only played once, in very good condition with original case. Asking $48."
+    },
+    "location": {
+      "text_input": "Seller's Dorm Room",
+      "device_gps": {
+        "lat": 34.075,
+        "lng": -118.435
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

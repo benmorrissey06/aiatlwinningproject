@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-C Hub",
+      "category": "electronics",
+      "tags": [
+        "laptop accessory",
+        "dongle",
+        "adapter",
+        "multi-port"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "space gray",
+        "condition_requested": [
+          "good",
+          "new"
+        ]
+      },
+      "secondary": {
+        "material": "aluminum",
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need for school projects and connecting peripherals to my laptop.",
+      "original_text": "Looking for a reliable USB-C hub for my laptop, preferably new or good condition. Something in space gray would be cool. Can't spend more than $25."
+    },
+    "location": {
+      "text_input": "campus library",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_tech_007",
+    "context": {
+      "original_text": "Engineering student who frequently upgrades tech, selling old accessories and gadgets."
+    },
+    "profile_keywords": [
+      "electronics",
+      "tech accessories",
+      "computer components",
+      "engineering",
+      "used gadgets",
+      "networking gear"
+    ],
+    "inferred_major": "Computer Engineering",
+    "inferred_location_keywords": [
+      "engineering building",
+      "campus dorms",
+      "tech lab"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "external SSD",
+          "gaming mouse",
+          "HDMI adapter"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 55,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "controller",
+          "old console games"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 30,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "textbooks"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Anker USB-C 7-in-1 Hub",
+      "category": "electronics",
+      "tags": [
+        "laptop accessory",
+        "multi-port adapter",
+        "data hub",
+        "ethernet",
+        "HDMI"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "space gray",
+        "condition_requested": [
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "aluminum alloy",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 60
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded my setup to a dock, don't need this portable hub anymore.",
+      "original_text": "Selling my Anker USB-C 7-in-1 Hub. Used for about a year, excellent condition. All ports work great. Asking $60."
+    },
+    "location": {
+      "text_input": "my dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

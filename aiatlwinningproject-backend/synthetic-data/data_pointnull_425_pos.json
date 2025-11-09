@@ -1,0 +1,129 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "lamp",
+      "category": null,
+      "tags": null
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": null,
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "lamp. need 1 asap."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_dorm_pro_X7Y2Z",
+    "context": {
+      "original_text": "Selling off my dorm essentials and old study gear. Moving out, so everything must go!"
+    },
+    "profile_keywords": [
+      "dorm essentials",
+      "lighting",
+      "study gear",
+      "used items",
+      "electronics"
+    ],
+    "inferred_major": "Business",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "residence hall",
+      "library area"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "desk lamp",
+          "mini fan",
+          "storage bins"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "chargers",
+          "portable speaker"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "electronics",
+      "furniture"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Adjustable LED Desk Lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "desk lamp",
+        "led",
+        "adjustable",
+        "study",
+        "white",
+        "used - good condition"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "white",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, metal",
+        "brand": "TaoTronics"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": null,
+      "reason": "Selling my old study lamp after graduation.",
+      "original_text": "Selling a great condition TaoTronics Adjustable LED Desk Lamp. Perfect for dorms! White, bright, and has different light modes. Barely used, asking $20."
+    },
+    "location": {
+      "text_input": "Near main campus dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

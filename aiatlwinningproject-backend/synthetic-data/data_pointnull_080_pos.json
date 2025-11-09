@@ -1,0 +1,130 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "mini fridge",
+      "category": "dorm_essentials",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [],
+      "price_max": 70
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a mini fridge ASAP, maybe $50-70?"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "dorm_seller_2023",
+    "context": {
+      "original_text": "Moving out and selling all my dorm essentials and extra electronics! Been a campus seller for years."
+    },
+    "profile_keywords": [
+      "dorm_essentials",
+      "appliances",
+      "furniture",
+      "electronics",
+      "moving_out"
+    ],
+    "inferred_major": "Business",
+    "inferred_location_keywords": [
+      "campus_south_dorms",
+      "dorm_village_block_B"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini fridge",
+          "desk lamp",
+          "storage bins"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 55,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "HDMI cable",
+          "USB hub"
+        ],
+        "total_items_sold": 6,
+        "avg_price_per_item": 18,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "electronics",
+      "furniture",
+      "appliances"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "mini fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "compact fridge",
+        "dorm appliance",
+        "beverage cooler"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "metal, plastic",
+        "brand": "Insignia"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 65
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "moving out, clearing space",
+      "original_text": "Selling a gently used Insignia compact mini fridge, black. Perfect for a dorm room! Asking $65."
+    },
+    "location": {
+      "text_input": "campus south dorms",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.45
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

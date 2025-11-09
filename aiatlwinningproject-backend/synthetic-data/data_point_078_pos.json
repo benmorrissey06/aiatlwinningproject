@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Nintendo Switch Pro Controller",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "switch",
+        "nintendo",
+        "wireless"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Nintendo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 40
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Lost mine and need it for a tournament this weekend.",
+      "original_text": "Looking to buy a black Nintendo Switch Pro Controller, good to very good condition. Can pay up to $40. Need it fast for a gaming tournament!"
+    },
+    "location": {
+      "text_input": "campus dorms, near student union",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "user_maria_456",
+    "context": {
+      "original_text": "Selling off my extra gaming gear, especially Switch accessories and some dorm electronics. Into game design and always looking for new tech. Quick to respond for on-campus meetups."
+    },
+    "profile_keywords": [
+      "gaming gear",
+      "tech enthusiast",
+      "nintendo switch",
+      "dorm cleanout",
+      "quick seller"
+    ],
+    "inferred_major": "Game Design",
+    "inferred_location_keywords": [
+      "on-campus",
+      "library area",
+      "north dorms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "Xbox controller",
+          "PS4 games",
+          "Gaming headset",
+          "Switch Joy-Cons"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 35,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C hub",
+          "Portable speaker"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 20,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Nintendo Switch Pro Controller (Black)",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "switch",
+        "nintendo",
+        "pro",
+        "wireless"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "black",
+        "condition_requested": [
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Nintendo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Selling extra gear",
+      "original_text": "Selling a slightly used Nintendo Switch Pro Controller, very good condition, black. Works perfectly, comes with charging cable. Asking $35."
+    },
+    "location": {
+      "text_input": "north dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

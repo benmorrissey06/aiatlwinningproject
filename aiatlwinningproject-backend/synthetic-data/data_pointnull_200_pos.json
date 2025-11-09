@@ -1,0 +1,132 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "headphones",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need some good headphones for studying tonight."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_gear_hoarder_21",
+    "context": {
+      "original_text": "Student selling off my electronics and tech gadgets. Always upgrading, so clearing out older but still great items. Fast meetups on campus!"
+    },
+    "profile_keywords": [
+      "electronics",
+      "tech gadgets",
+      "audio equipment",
+      "gaming accessories",
+      "student",
+      "computer science"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "library",
+      "student union"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "Bluetooth headphones",
+          "USB-C charger",
+          "portable speaker"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 controller",
+          "gaming mouse"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 30.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "accessories",
+      "books (tech-related)"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Sony WH-1000XM4 Noise-Cancelling Headphones",
+      "category": "electronics",
+      "tags": [
+        "audio",
+        "wireless",
+        "noise cancelling",
+        "over-ear",
+        "study",
+        "music"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "adjustable",
+        "color": "black",
+        "condition_requested": [
+          "like new",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, faux leather",
+        "brand": "Sony"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Upgraded to new model, no longer need.",
+      "original_text": "Selling my gently used Sony WH-1000XM4 headphones. Excellent noise cancellation, perfect for studying. Comes with original case and cable. Asking $80."
+    },
+    "location": {
+      "text_input": "campus dorm (pickup only)",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

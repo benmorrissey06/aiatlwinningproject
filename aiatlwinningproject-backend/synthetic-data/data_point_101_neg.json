@@ -1,0 +1,142 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "27-inch QHD Monitor",
+      "category": "electronics",
+      "tags": [
+        "monitor",
+        "qhd",
+        "27-inch",
+        "high-resolution",
+        "coding"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "27-inch",
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, metal",
+        "brand": "Dell"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 250
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need a reliable, high-resolution display for my Computer Science projects and coursework.",
+      "original_text": "Looking for a Dell 27-inch QHD monitor, new or like new condition, max $250. It's urgent for my coding setup!"
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "ee_gadget_seller_789",
+    "context": {
+      "original_text": "EE student selling used electronics, often upgrading my gear. I've got monitors, computer parts, and some gaming accessories."
+    },
+    "profile_keywords": [
+      "electronics",
+      "monitors",
+      "computer parts",
+      "engineering",
+      "gaming",
+      "tech",
+      "gadgets"
+    ],
+    "inferred_major": "Electrical Engineering",
+    "inferred_location_keywords": [
+      "engineering building",
+      "campus apartments"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming monitor",
+          "webcam",
+          "router",
+          "speakers"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 165,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "keyboard",
+          "mouse",
+          "headset"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 75,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "computer_accessories",
+      "gaming"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "24-inch FHD Monitor",
+      "category": "electronics",
+      "tags": [
+        "monitor",
+        "fhd",
+        "24-inch",
+        "used",
+        "basic"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "24-inch",
+        "color": "silver",
+        "condition_requested": [
+          "fair",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "HP"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 180
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling my old monitor after upgrading to a new setup. Good for basic tasks or a secondary screen.",
+      "original_text": "Selling a used HP 24-inch FHD monitor. It's in fair condition, slight cosmetic wear, but fully functional. Asking $180."
+    },
+    "location": {
+      "text_input": "engineering dept",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

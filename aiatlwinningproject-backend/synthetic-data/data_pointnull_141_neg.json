@@ -1,0 +1,129 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "calculus textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a calc book ASAP"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_art_major_22",
+    "context": {
+      "original_text": "I sell used art supplies and some cool dorm decor. Love to help out fellow students!"
+    },
+    "profile_keywords": [
+      "art",
+      "supplies",
+      "dorm",
+      "decor",
+      "creative",
+      "used"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art studio",
+      "dorms south"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "oil paints",
+          "sketchbooks",
+          "canvases"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 20.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini fridge",
+          "posters",
+          "bedside lamp"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "dorm_essentials",
+      "home_decor"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Set of 12 Acrylic Paint Brushes",
+      "category": "art_supplies",
+      "tags": [
+        "painting",
+        "brushes",
+        "acrylic",
+        "new"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "assorted",
+        "color": "n/a",
+        "condition_requested": [
+          "new",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "synthetic",
+        "brand": "Artist's Loft"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "seller disposing of extra stock",
+      "original_text": "Selling a brand new set of Artist's Loft acrylic paint brushes. Great for any art student!"
+    },
+    "location": {
+      "text_input": "South Campus Art Building",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

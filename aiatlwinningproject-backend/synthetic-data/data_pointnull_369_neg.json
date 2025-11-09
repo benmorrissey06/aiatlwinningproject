@@ -1,0 +1,132 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "graphic novel",
+      "category": "books",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "Want a graphic novel. Any good ones?"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_jake_123",
+    "context": {
+      "original_text": "Selling off my sports gear and some extra clothes after graduation. Big fan of Nike and Adidas."
+    },
+    "profile_keywords": [
+      "athletic gear",
+      "sporting goods",
+      "apparel",
+      "shoes",
+      "fitness"
+    ],
+    "inferred_major": "Kinesiology",
+    "inferred_location_keywords": [
+      "gym",
+      "dorms_east",
+      "athletic_complex"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "Nike running shorts",
+          "Adidas t-shirt",
+          "athletic hoodie"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "sporting_goods",
+        "item_examples": [
+          "basketball",
+          "resistance bands",
+          "yoga mat"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "sporting_goods",
+      "fitness",
+      "accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Nike Dri-FIT Running Shorts",
+      "category": "apparel",
+      "tags": [
+        "athletic",
+        "shorts",
+        "running",
+        "nike",
+        "men's"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "black",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "polyester",
+        "brand": "Nike"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 20.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "selling extra gear",
+      "original_text": "Nike Dri-FIT running shorts, men's M, black. Great condition, barely used. $20."
+    },
+    "location": {
+      "text_input": "my dorm, East Campus",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

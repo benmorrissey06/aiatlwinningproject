@@ -1,0 +1,133 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "lightning cable",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a lightning charger fast, my old one broke."
+    },
+    "location": {
+      "text_input": "my dorm",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_tech_savvy_21",
+    "context": {
+      "original_text": "I often have spare electronics and accessories. Especially cables and chargers. Hit me up if you need something last minute!"
+    },
+    "profile_keywords": [
+      "electronics",
+      "cables",
+      "chargers",
+      "phone accessories",
+      "dorm essentials",
+      "tech gadgets"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "Engineering Hall",
+      "West Campus Dorms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C cable",
+          "HDMI adapter",
+          "portable charger"
+        ],
+        "total_items_sold": 35,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "desk fan",
+          "power strip"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "tech_accessories",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Apple MFi Certified Lightning to USB-C Cable",
+      "category": "electronics",
+      "tags": [
+        "iphone charger",
+        "charging cable",
+        "apple accessory",
+        "fast charge"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "6ft",
+        "color": "white",
+        "condition_requested": [
+          "new",
+          "used - like new"
+        ]
+      },
+      "secondary": {
+        "material": "TPE",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "selling extra cable",
+      "original_text": "Selling a brand new Anker MFi certified lightning to USB-C cable, 6ft. Got an extra one."
+    },
+    "location": {
+      "text_input": "Engineering Hall",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

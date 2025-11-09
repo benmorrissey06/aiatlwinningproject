@@ -1,0 +1,142 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Calculus Early Transcendentals Textbook, 9th Ed. Stewart",
+      "category": "textbooks",
+      "tags": [
+        "calculus",
+        "math",
+        "textbook",
+        "stewart",
+        "9th edition"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good",
+          "acceptable"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Cengage Learning"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need for next semester's MA 101 class.",
+      "original_text": "Looking for a used 'Calculus Early Transcendentals, 9th Edition' by Stewart. Hoping to find it for around $30, doesn't need to be perfect condition."
+    },
+    "location": {
+      "text_input": "University Library",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_eng_001",
+    "context": {
+      "original_text": "I'm an engineering student selling my old textbooks and some dorm essentials. Trying to clear out space after graduation."
+    },
+    "profile_keywords": [
+      "engineering",
+      "textbooks",
+      "study materials",
+      "dorm clearout",
+      "math",
+      "science"
+    ],
+    "inferred_major": "Engineering",
+    "inferred_location_keywords": [
+      "engineering building",
+      "north campus dorms",
+      "academic halls"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Physics for Scientists and Engineers",
+          "Linear Algebra Done Right",
+          "Chemistry: The Central Science"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 65.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini fridge",
+          "desk lamp",
+          "storage bins"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "school_supplies",
+      "electronics",
+      "furniture"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Calculus Early Transcendentals Textbook, 9th Ed. Stewart",
+      "category": "textbooks",
+      "tags": [
+        "calculus",
+        "math",
+        "textbook",
+        "stewart",
+        "9th edition"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Cengage Learning"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 75
+    },
+    "context": {
+      "urgency": null,
+      "reason": "Finished the course, no longer need it.",
+      "original_text": "Selling 'Calculus Early Transcendentals, 9th Ed.' by Stewart. Good condition, some highlighting. Asking $75."
+    },
+    "location": {
+      "text_input": "North Campus Dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

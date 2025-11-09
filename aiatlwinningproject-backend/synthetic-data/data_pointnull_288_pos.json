@@ -1,0 +1,137 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "phone charger",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "phone"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a charger for my phone ASAP."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "emily_tech_seller_2024",
+    "context": {
+      "original_text": "Engineering student clearing out old gadgets and tech accessories. Always selling quality electronics."
+    },
+    "profile_keywords": [
+      "electronics",
+      "tech",
+      "accessories",
+      "gadgets",
+      "charging",
+      "engineering"
+    ],
+    "inferred_major": "Computer Engineering",
+    "inferred_location_keywords": [
+      "dorm",
+      "engineering building",
+      "campus center"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "Bluetooth headphones",
+          "USB-C cable",
+          "portable power bank"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "phone_accessories",
+        "item_examples": [
+          "iPhone cases",
+          "screen protectors",
+          "charging bricks"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 12.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "phone_accessories",
+      "gaming_peripherals",
+      "computer_components"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Anker USB-C Fast Charger (20W)",
+      "category": "electronics",
+      "tags": [
+        "charger",
+        "USB-C",
+        "fast charging",
+        "phone",
+        "adapter",
+        "power brick"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "white",
+        "condition_requested": [
+          "used_good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": null
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

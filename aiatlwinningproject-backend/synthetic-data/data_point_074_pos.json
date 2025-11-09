@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "White PS5 DualSense Controller",
+      "category": "gaming",
+      "tags": [
+        "PS5",
+        "DualSense",
+        "controller",
+        "wireless",
+        "gaming"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "white",
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Sony"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "My old one broke, need it for weekend gaming session in the dorms.",
+      "original_text": "Looking for a white PS5 controller, good condition, for about $50 max. Mine just died!"
+    },
+    "location": {
+      "text_input": "Near North Dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "LevelUpLeo",
+    "context": {
+      "original_text": "I'm a senior in Game Design, always upgrading my gear. Selling off my older stuff or things I have doubles of. Mostly electronics and gaming accessories."
+    },
+    "profile_keywords": [
+      "gaming",
+      "playstation",
+      "electronics",
+      "peripherals",
+      "game design student"
+    ],
+    "inferred_major": "Game Design",
+    "inferred_location_keywords": [
+      "campus center",
+      "tech department"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 games",
+          "Razer gaming mouse",
+          "Nintendo Switch controllers"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C hub",
+          "portable charger"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "collectibles",
+      "tech_accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Sony PlayStation 5 DualSense Wireless Controller (White)",
+      "category": "gaming",
+      "tags": [
+        "PS5",
+        "DualSense",
+        "controller",
+        "wireless",
+        "white",
+        "Sony"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "white",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Sony"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a custom controller, selling this spare. Lightly used, kept in original box.",
+      "original_text": "Selling my white PS5 DualSense controller. Good condition, works perfectly. Asking $45."
+    },
+    "location": {
+      "text_input": "Seller's dorm room, East Campus",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

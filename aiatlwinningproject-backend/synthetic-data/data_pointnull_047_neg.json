@@ -1,0 +1,129 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "phone charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need a charger for my phone asap."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_textbook_guru",
+    "context": {
+      "original_text": "I mostly sell old textbooks and school supplies. Occasionally some dorm decor."
+    },
+    "profile_keywords": [
+      "textbooks",
+      "school supplies",
+      "dorm essentials",
+      "study guides"
+    ],
+    "inferred_major": "Business",
+    "inferred_location_keywords": [
+      "library",
+      "bookstore",
+      "campus center"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus I Textbook",
+          "Microeconomics Textbook",
+          "Intro to Marketing Textbook"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 65.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "binders",
+          "notebooks",
+          "highlighters"
+        ],
+        "total_items_sold": 10,
+        "avg_price_per_item": 8.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "school_supplies",
+      "furniture"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Calculus I Textbook",
+      "category": "textbooks",
+      "tags": [
+        "calculus",
+        "math",
+        "university",
+        "STEM",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "blue",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "No longer needed for class after graduation.",
+      "original_text": "Selling my Calculus I Textbook, good condition, minimal highlighting, used for Math 101."
+    },
+    "location": {
+      "text_input": "campus bookstore",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

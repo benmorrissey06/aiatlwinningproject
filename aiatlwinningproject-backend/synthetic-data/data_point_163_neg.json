@@ -1,0 +1,136 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "portable monitor",
+      "category": "electronics",
+      "tags": [
+        "monitor",
+        "portable",
+        "display",
+        "study"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "15.6 inch",
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "aluminum",
+        "brand": "XYZTech"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 150
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need for remote classes and dual monitor setup",
+      "original_text": "Looking for a new or like-new 15.6 inch portable monitor, black, under $150. Urgent for classes!"
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_techie_007",
+    "context": {
+      "original_text": "Selling electronics, gadgets, sometimes textbooks. Engineering student."
+    },
+    "profile_keywords": [
+      "electronics",
+      "gadgets",
+      "monitors",
+      "tech",
+      "engineering"
+    ],
+    "inferred_major": "Engineering",
+    "inferred_location_keywords": [
+      "engineering building",
+      "campus library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming headset",
+          "USB-C dock",
+          "bluetooth speaker",
+          "old laptop"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 75,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus II textbook",
+          "Physics I lab manual"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 50,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "portable monitor",
+      "category": "electronics",
+      "tags": [
+        "monitor",
+        "portable",
+        "display",
+        "usb-c"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "15.6 inch",
+        "color": "black",
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "TechView"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling old monitor",
+      "original_text": "Selling my old 15.6 inch portable monitor. Works fine but has some scratches on the stand. Fair condition."
+    },
+    "location": {
+      "text_input": "seller's dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

@@ -1,0 +1,129 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "pen",
+      "category": "school_supplies",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "for notes",
+      "original_text": "Need a good pen for notes, ASAP."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_sally_stationery",
+    "context": {
+      "original_text": "I often have extra school and art supplies! Check my listings for new and gently used items."
+    },
+    "profile_keywords": [
+      "stationery_enthusiast",
+      "organization_guru",
+      "art_supplies",
+      "student",
+      "dorm_essentials"
+    ],
+    "inferred_major": "Graphic Design",
+    "inferred_location_keywords": [
+      "campus_library",
+      "art_building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "fineliner pens",
+          "highlighters",
+          "notebooks"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 7.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "sketchbooks",
+          "colored_pencils"
+        ],
+        "total_items_sold": 9,
+        "avg_price_per_item": 12.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "school_supplies",
+      "art_supplies",
+      "stationery"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Sakura Pigma Micron Pen Set",
+      "category": "school_supplies",
+      "tags": [
+        "drawing",
+        "writing",
+        "journaling",
+        "fineliner"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "01, 03, 05, 08",
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Sakura"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 8.5
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "selling unused supplies",
+      "original_text": "Selling a new set of Sakura Pigma Micron pens, various sizes (01, 03, 05, 08) in black. Perfect for notes, drawing, or journaling. Got too many!"
+    },
+    "location": {
+      "text_input": "campus bookstore",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

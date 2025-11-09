@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wacom Intuos Pro Medium Graphic Tablet",
+      "category": "electronics",
+      "tags": [
+        "drawing tablet",
+        "digital art",
+        "wacom",
+        "intuos pro"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": null,
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Wacom"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 200
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "for digital art class project",
+      "original_text": "I really need a Wacom Intuos Pro Medium graphic tablet, must be new or like new condition. Can spend up to $200. Urgent for my digital art class!"
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "art_techie_user_987",
+    "context": {
+      "original_text": "CompSci major, but I dabble in digital art and frequently upgrade my tech. Selling off older gear."
+    },
+    "profile_keywords": [
+      "tech gear",
+      "digital art tools",
+      "gaming peripherals",
+      "computer science",
+      "electronics",
+      "used items"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering building",
+      "north campus dorms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming mouse",
+          "mechanical keyboard",
+          "old webcam",
+          "drawing tablet pen"
+        ],
+        "total_items_sold": 9,
+        "avg_price_per_item": 75,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS5 controller",
+          "game headset"
+        ],
+        "total_items_sold": 4,
+        "avg_price_per_item": 50,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "art_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wacom Intuos Pro Medium Graphic Tablet",
+      "category": "electronics",
+      "tags": [
+        "drawing tablet",
+        "digital art",
+        "wacom",
+        "intuos pro",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Wacom"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 150
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "upgrading to a new model",
+      "original_text": "Selling my Wacom Intuos Pro Medium tablet. It's used but in good working condition, minor scratches on the surface. Comes with original pen and cable. Asking $150."
+    },
+    "location": {
+      "text_input": "north campus",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

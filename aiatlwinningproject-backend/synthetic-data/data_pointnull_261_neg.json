@@ -1,0 +1,132 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "acrylic paint",
+      "category": "art_supplies",
+      "tags": [
+        "paint",
+        "art"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "project",
+      "original_text": "Need some acrylic paints for a project by end of week."
+    },
+    "location": {
+      "text_input": "campus art studio",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_gamer_007",
+    "context": {
+      "original_text": "Selling my old tech and games. Computer science major."
+    },
+    "profile_keywords": [
+      "gamer",
+      "techie",
+      "computer science",
+      "used electronics",
+      "gaming accessories"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorms",
+      "campus tech store",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming mouse",
+          "mechanical keyboard",
+          "webcam"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 game",
+          "controller"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 20.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Gaming Headset",
+      "category": "gaming",
+      "tags": [
+        "headset",
+        "audio",
+        "gaming",
+        "electronics"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "Adjustable",
+        "color": "Black",
+        "condition_requested": [
+          "used-good"
+        ]
+      },
+      "secondary": {
+        "material": "Plastic, Faux Leather",
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 40.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "upgrade",
+      "original_text": "Selling my HyperX Cloud II gaming headset, good condition. Upgraded recently."
+    },
+    "location": {
+      "text_input": "My dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

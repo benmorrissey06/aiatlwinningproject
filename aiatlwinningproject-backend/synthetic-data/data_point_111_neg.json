@@ -1,0 +1,136 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Apple Magic Keyboard with Numeric Keypad",
+      "category": "electronics",
+      "tags": [
+        "keyboard",
+        "apple",
+        "wireless",
+        "numeric keypad",
+        "peripheral"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "full-size",
+        "color": "space gray",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "aluminum",
+        "brand": "Apple"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 90.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "My old keyboard is broken, need a replacement for essay writing.",
+      "original_text": "Looking for an Apple Magic Keyboard with Numeric Keypad, space gray. Must be new or like new condition. Can spend up to $90."
+    },
+    "location": {
+      "text_input": "campus library",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_savvy_student",
+    "context": {
+      "original_text": "I often sell my old tech gear and sometimes upgrade accessories. Mostly electronics and dorm essentials. Everything I sell is in good working order."
+    },
+    "profile_keywords": [
+      "electronics",
+      "Apple accessories",
+      "computer peripherals",
+      "dorm upgrades",
+      "used tech"
+    ],
+    "inferred_major": "Information Systems",
+    "inferred_location_keywords": [
+      "campus bookstore",
+      "tech lab"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "Logitech MX Master Mouse",
+          "USB-C Hub",
+          "Monitor Stand"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 55.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "Mini Fridge",
+          "Desk Lamp"
+        ],
+        "total_items_sold": 4,
+        "avg_price_per_item": 70.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "computer_science_gear",
+      "gaming"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Apple Magic Keyboard with Numeric Keypad",
+      "category": "electronics",
+      "tags": [
+        "keyboard",
+        "apple",
+        "wireless",
+        "numeric keypad",
+        "peripheral"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "full-size",
+        "color": "silver",
+        "condition": "fair"
+      },
+      "secondary": {
+        "material": "aluminum",
+        "brand": "Apple"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price": 75.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a mechanical keyboard, no longer need this one.",
+      "original_text": "Selling a used Apple Magic Keyboard with Numeric Keypad, silver color. It has some visible scratches and a few sticky keys, but mostly functional. $75."
+    },
+    "location": {
+      "text_input": "my dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

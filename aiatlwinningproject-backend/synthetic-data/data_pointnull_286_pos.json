@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "textbook",
+      "category": "textbooks",
+      "tags": [
+        "psychology",
+        "101"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "need a cheap textbook for psych 101, like asap"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "textbook_tycoon_123",
+    "context": {
+      "original_text": "I often sell my old textbooks and buy new ones. Majoring in Psychology, so lots of related books."
+    },
+    "profile_keywords": [
+      "textbooks",
+      "used books",
+      "psychology",
+      "social sciences",
+      "study guides"
+    ],
+    "inferred_major": "Psychology",
+    "inferred_location_keywords": [
+      "campus library",
+      "student union",
+      "psychology building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Introduction to Psychology",
+          "Research Methods in Psych",
+          "Sociology 101 Reader"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 38.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "notebooks",
+          "pens",
+          "calculators"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 7.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "school_supplies",
+      "study_aids",
+      "literature"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Introduction to Psychology Textbook",
+      "category": "textbooks",
+      "tags": [
+        "psychology",
+        "intro",
+        "101",
+        "used",
+        "paperback"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "multi-color cover",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "paper",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 28.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Clearing out old course materials",
+      "original_text": null
+    },
+    "location": {
+      "text_input": "Near main campus library entrance",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.4442
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

@@ -1,0 +1,148 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "professional watercolor paint set",
+      "category": "art_supplies",
+      "tags": [
+        "artist quality",
+        "watercolor",
+        "paint set",
+        "professional grade"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "multi-color",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Winsor & Newton"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "for an art class project due this week",
+      "original_text": "Urgently need a new or like-new Winsor & Newton professional watercolor paint set, medium size, multi-color, for my art project. Can pay up to $35. No used sets, please!"
+    },
+    "location": {
+      "text_input": "campus art building",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "user_artlover23",
+    "context": {
+      "original_text": "I'm a graphic design major selling off old art supplies, textbooks, and some dorm decor. Always looking to declutter!"
+    },
+    "profile_keywords": [
+      "graphic design",
+      "art supplies",
+      "textbooks",
+      "dorm decor",
+      "used items",
+      "crafts"
+    ],
+    "inferred_major": "Graphic Design",
+    "inferred_location_keywords": [
+      "art building",
+      "campus dorms",
+      "student union"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "sketchbook",
+          "acrylic paint set",
+          "drawing pencils"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Art History 101",
+          "Design Principles"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "desk lamp",
+          "small rug"
+        ],
+        "total_items_sold": 2,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "school_supplies",
+      "crafts",
+      "home_decor"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "watercolor paint set",
+      "category": "art_supplies",
+      "tags": [
+        "watercolor",
+        "student grade",
+        "paint set"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "multi-color",
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Reeves"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 20
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "selling old supplies",
+      "original_text": "Selling a used Reeves watercolor paint set, medium size. Colors are still good, but some pans are more used than others. Fair condition. $20."
+    },
+    "location": {
+      "text_input": "my dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

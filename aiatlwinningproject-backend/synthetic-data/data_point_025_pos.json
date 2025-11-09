@@ -1,0 +1,150 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Introduction to Literary Criticism Textbook",
+      "category": "textbooks",
+      "tags": [
+        "literary criticism",
+        "english",
+        "textbook",
+        "class-required"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 40.0
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Required for ENG 201 next week",
+      "original_text": "Looking for the 'Introduction to Literary Criticism' textbook for ENG 201. Need it in good or very good condition, ideally for under $40. Class starts soon!"
+    },
+    "location": {
+      "text_input": "campus library",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "emily_lit_major",
+    "context": {
+      "original_text": "English major always clearing out old textbooks and novels. Also sell some stationery and art supplies sometimes."
+    },
+    "profile_keywords": [
+      "english major",
+      "literature",
+      "textbooks",
+      "used books",
+      "reading",
+      "campus events"
+    ],
+    "inferred_major": "English",
+    "inferred_location_keywords": [
+      "humanities building",
+      "library study rooms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Shakespeare Compendium",
+          "Modernist Poetry Anthology",
+          "Critical Theory Reader"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 38.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "highlighters",
+          "notebooks",
+          "pens"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 6.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "sketchbook",
+          "charcoal set"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "books",
+      "school_supplies",
+      "reading"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Introduction to Literary Criticism: A Student's Guide, 3rd Ed.",
+      "category": "textbooks",
+      "tags": [
+        "literary criticism",
+        "english",
+        "textbook",
+        "used",
+        "paperback"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "No longer needed after class",
+      "original_text": "Selling 'Introduction to Literary Criticism' textbook. Good condition, minor highlighting. Perfect for ENG 201."
+    },
+    "location": {
+      "text_input": "campus dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

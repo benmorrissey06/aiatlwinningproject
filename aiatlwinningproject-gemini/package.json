@@ -1,0 +1,27 @@
+{
+  "name": "aiatl-gemini-service",
+  "version": "1.0.0",
+  "description": "Gemini AI parsing service for AIATL marketplace",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["gemini", "ai", "marketplace"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.29.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

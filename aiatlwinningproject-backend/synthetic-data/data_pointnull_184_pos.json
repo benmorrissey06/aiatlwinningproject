@@ -1,0 +1,132 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "laptop charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Urgent! Need a charger for my laptop. Any type works."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_comp_sci_001",
+    "context": {
+      "original_text": "Comp Sci student selling old electronics and accessories. Sometimes lend out tools too."
+    },
+    "profile_keywords": [
+      "electronics",
+      "tech accessories",
+      "computer components",
+      "gadgets",
+      "charging solutions",
+      "usb-c"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "engineering building",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C hub",
+          "HDMI cable",
+          "old laptop charger",
+          "power adapter"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 25,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "power strip",
+          "extension cord"
+        ],
+        "total_items_sold": 2,
+        "avg_price_per_item": 10,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "school_supplies",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "65W USB-C Laptop Charger",
+      "category": "electronics",
+      "tags": [
+        "USB-C",
+        "charger",
+        "laptop",
+        "power adapter",
+        "anker"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "black",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 20
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "no longer needed",
+      "original_text": "Selling my Anker 65W USB-C charger. Works great, barely used."
+    },
+    "location": {
+      "text_input": "campus dorms, near engineering building",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

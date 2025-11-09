@@ -1,0 +1,134 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "fan",
+      "category": "dorm_essentials",
+      "tags": [
+        "cooling"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "for my dorm",
+      "original_text": "i need a fan for my dorm asap"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "dorm_gear_seller_42",
+    "context": {
+      "original_text": "Clearing out my dorm room before summer! Lots of useful small appliances and essentials. Fast pick-up available."
+    },
+    "profile_keywords": [
+      "dorm essentials",
+      "small appliances",
+      "cooling",
+      "home goods",
+      "student move-out"
+    ],
+    "inferred_major": "Economics",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "residence halls",
+      "off-campus housing"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini fridge",
+          "desk lamp",
+          "personal fan"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 28,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "power strip",
+          "bluetooth speaker"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 20,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "electronics",
+      "home_goods"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "personal desk fan",
+      "category": "dorm_essentials",
+      "tags": [
+        "cooling",
+        "appliance",
+        "summer"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "white",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Honeywell"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "moving out, no longer needed",
+      "original_text": "Selling a reliable small white Honeywell desk fan. Perfect for dorms, used one semester, works great."
+    },
+    "location": {
+      "text_input": "campus dorms, pick up today",
+      "device_gps": {
+        "lat": 34.0689,
+        "lng": -118.4452
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

@@ -1,0 +1,125 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "professional studio easel",
+      "category": "art_supplies",
+      "tags": [
+        "easel",
+        "studio",
+        "painting",
+        "art"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "new",
+          "like-new"
+        ]
+      },
+      "secondary": {
+        "material": "wood",
+        "brand": "Winsor & Newton"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 150
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "starting a new painting project, need reliable equipment",
+      "original_text": "Looking for a new or like-new professional studio easel, preferably wooden, max $150. Something sturdy for painting."
+    },
+    "location": {
+      "text_input": "campus art studio",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "art_enthusiast_22",
+    "context": {
+      "original_text": "I sell my old art supplies, textbooks, and sometimes furniture from my dorm. Mostly art stuff now."
+    },
+    "profile_keywords": [
+      "art supplies",
+      "easel",
+      "canvases",
+      "paint",
+      "art major"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art building",
+      "studio"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "easel",
+          "canvas",
+          "oil paint set"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 65,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "furniture"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wooden Studio Easel",
+      "category": "art_supplies",
+      "tags": [
+        "easel",
+        "studio",
+        "painting",
+        "art"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "large",
+        "color": "dark brown",
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "beechwood",
+        "brand": "Daler-Rowney"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 70
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "upgrading to a new one",
+      "original_text": "Selling my old wooden studio easel. It's a bit wobbly and has some paint stains, but still functional. Asking $70."
+    },
+    "location": {
+      "text_input": "my dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

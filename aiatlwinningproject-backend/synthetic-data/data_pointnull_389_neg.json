@@ -1,0 +1,130 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "graphing calculator",
+      "category": null,
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a graphing calculator ASAP for my exam!"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "sarah_reads",
+    "context": {
+      "original_text": "I mostly sell used textbooks and some dorm decor. Always looking to declutter my collection of novels."
+    },
+    "profile_keywords": [
+      "books",
+      "novels",
+      "literature",
+      "dorm decor",
+      "textbooks",
+      "used items"
+    ],
+    "inferred_major": "English Literature",
+    "inferred_location_keywords": [
+      "dorm",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Intro to Lit 101",
+          "Shakespeare Comp. Works",
+          "Grammar Handbook"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "Fairy lights",
+          "Mini desk fan",
+          "Throw pillow"
+        ],
+        "total_items_sold": 6,
+        "avg_price_per_item": 12.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "dorm_essentials",
+      "apparel"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "used copy of 'Pride and Prejudice'",
+      "category": "textbooks",
+      "tags": [
+        "classic",
+        "novel",
+        "literature"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard paperback",
+        "color": "multi-color",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "paper",
+        "brand": "Penguin Classics"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 8.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "selling extra books after semester",
+      "original_text": "Selling my used copy of 'Pride and Prejudice'. Good condition, minor wear."
+    },
+    "location": {
+      "text_input": "campus dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

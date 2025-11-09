@@ -1,0 +1,135 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "gaming mouse",
+      "category": "gaming",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "i need a gaming mouse for tonight pls"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_gamer_007",
+    "context": {
+      "original_text": "I'm a computer science major, always upgrading my tech. Selling off older, but still great, gaming gear and electronics."
+    },
+    "profile_keywords": [
+      "gamer",
+      "tech enthusiast",
+      "computer science",
+      "electronics",
+      "gaming accessories",
+      "used electronics"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm tech",
+      "campus center"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "gaming keyboard",
+          "high-refresh monitor",
+          "gaming headset"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C hub",
+          "webcam",
+          "portable charger"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 28.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "computer_accessories",
+      "peripherals"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Logitech G502 HERO Gaming Mouse",
+      "category": "gaming",
+      "tags": [
+        "wired",
+        "RGB",
+        "high DPI",
+        "customizable",
+        "esports ready"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "used - very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Logitech"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "upgraded to wireless",
+      "original_text": "Selling my reliable Logitech G502 HERO gaming mouse. Only used for a year, works perfectly. Great for any gamer."
+    },
+    "location": {
+      "text_input": "My dorm, near campus store",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

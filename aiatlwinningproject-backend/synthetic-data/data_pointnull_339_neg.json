@@ -1,0 +1,131 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "t-shirt",
+      "category": "apparel",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "white",
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 10
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a white t-shirt asap, nothing fancy, like under $10."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_007",
+    "context": {
+      "original_text": "I sell used textbooks, unique dorm decor, and study essentials. Helping students save money!"
+    },
+    "profile_keywords": [
+      "textbooks",
+      "dorm decor",
+      "school supplies",
+      "used items",
+      "study essentials"
+    ],
+    "inferred_major": "History",
+    "inferred_location_keywords": [
+      "library",
+      "campus center",
+      "dorms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Intro to History Textbook",
+          "Calculus Workbook",
+          "Philosophy Reader"
+        ],
+        "total_items_sold": 25,
+        "avg_price_per_item": 45.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "home_goods",
+        "item_examples": [
+          "Mini Desk Lamp",
+          "Boho Tapestry",
+          "Storage Bins"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 18.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "home_goods",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "polo shirt",
+      "category": "apparel",
+      "tags": [
+        "designer",
+        "premium",
+        "preppy",
+        "sportswear"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "white",
+        "condition_requested": [
+          "excellent",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "cotton pique",
+        "brand": "Lacoste"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "selling unused gift",
+      "original_text": "Selling a brand new Lacoste polo shirt, size M, white. Never worn. Great condition."
+    },
+    "location": {
+      "text_input": "north campus dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

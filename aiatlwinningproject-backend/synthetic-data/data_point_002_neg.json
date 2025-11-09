@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wireless Gaming Headset",
+      "category": "electronics",
+      "tags": [
+        "gaming",
+        "audio",
+        "headset",
+        "wireless"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "like-new",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "SteelSeries"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need a good quality headset for online gaming.",
+      "original_text": "Looking for a like-new wireless gaming headset, maybe a SteelSeries or HyperX. Budget around $80."
+    },
+    "location": {
+      "text_input": "on campus",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_dude_42",
+    "context": {
+      "original_text": "Gamer selling off old tech to upgrade. Mostly used electronics, good prices."
+    },
+    "profile_keywords": [
+      "gaming",
+      "electronics",
+      "peripherals",
+      "tech",
+      "used gear",
+      "computer science"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "engineering building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming mouse",
+          "mechanical keyboard",
+          "monitor"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 75.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "old console games",
+          "game controller"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 30.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "computer_accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "SteelSeries Arctis 7 Wireless Gaming Headset",
+      "category": "electronics",
+      "tags": [
+        "gaming",
+        "audio",
+        "headset",
+        "wireless",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "fabric",
+        "brand": "SteelSeries"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 65
+    },
+    "context": {
+      "urgency": null,
+      "reason": "Selling my old headset after upgrading.",
+      "original_text": "Selling a used SteelSeries Arctis 7 headset. Works great, just some cosmetic wear. $65."
+    },
+    "location": {
+      "text_input": "campus dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

@@ -1,0 +1,135 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Data Structures and Algorithms in Python textbook",
+      "category": "textbooks",
+      "tags": [
+        "DSA",
+        "CS Textbook",
+        "Python",
+        "Computer Science"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Required for CS 301 next semester.",
+      "original_text": "Need 'Data Structures and Algorithms in Python' textbook. Must be in good or very good condition. Can't spend more than $35. Urgent!"
+    },
+    "location": {
+      "text_input": "campus bookstore area",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "ee_bookworm_001",
+    "context": {
+      "original_text": "EE major selling used engineering textbooks, lab equipment, and a few gadgets. Happy to help other STEM students!"
+    },
+    "profile_keywords": [
+      "Electrical Engineering",
+      "STEM textbooks",
+      "electronics",
+      "lab equipment",
+      "used books"
+    ],
+    "inferred_major": "Electrical Engineering",
+    "inferred_location_keywords": [
+      "engineering building",
+      "south campus dorms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Linear Circuits textbook",
+          "Thermodynamics textbook",
+          "Calculus III"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 55,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "Arduino Uno",
+          "Multimeter"
+        ],
+        "total_items_sold": 4,
+        "avg_price_per_item": 30,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "electronics",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Data Structures and Algorithms in Python",
+      "category": "textbooks",
+      "tags": [
+        "DSA",
+        "CS Textbook",
+        "Python"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 75
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Finished the course, no longer need.",
+      "original_text": "Selling 'Data Structures and Algorithms in Python' textbook. Very good condition, barely used. Price firm at $75."
+    },
+    "location": {
+      "text_input": "south campus dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

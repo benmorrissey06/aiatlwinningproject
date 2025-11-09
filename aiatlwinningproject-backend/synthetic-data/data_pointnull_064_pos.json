@@ -1,0 +1,144 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "graphing calculator",
+      "category": "school_supplies",
+      "tags": null
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": null,
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "I need a graphing calculator ASAP for my math class. Anyone have one?"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "math_resource_guy_789",
+    "context": {
+      "original_text": "I frequently sell used STEM textbooks, calculators, and other essential school supplies to students."
+    },
+    "profile_keywords": [
+      "math",
+      "calculus",
+      "STEM",
+      "school supplies",
+      "textbooks",
+      "tutoring",
+      "electronics"
+    ],
+    "inferred_major": "Mathematics",
+    "inferred_location_keywords": [
+      "science building",
+      "library west",
+      "campus bookstore"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "TI-84 Plus CE Calculator",
+          "protractor set",
+          "scientific calculator"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 55.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus Early Transcendentals",
+          "Physics for Scientists and Engineers"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C charger",
+          "HDMI cable"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "school_supplies",
+      "textbooks",
+      "electronics",
+      "gaming"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "TI-84 Plus CE Graphing Calculator",
+      "category": "school_supplies",
+      "tags": [
+        "math",
+        "graphing",
+        "calculator",
+        "STEM",
+        "Texas Instruments"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "black",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Texas Instruments"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 65.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "selling old school supplies",
+      "original_text": "Selling my gently used TI-84 Plus CE graphing calculator. Works perfectly, great for calculus or pre-cal."
+    },
+    "location": {
+      "text_input": "near Math building",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Calculus: Early Transcendentals, 9th Edition",
+      "category": "textbooks",
+      "tags": [
+        "calculus",
+        "math",
+        "textbook",
+        "9th edition",
+        "Stewart"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Cengage"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 40
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "for upcoming MAT 201 class",
+      "original_text": "Need 'Calculus: Early Transcendentals, 9th Ed.' (Stewart) for my math class next week. Looking for good or very good condition, max $40. ASAP!"
+    },
+    "location": {
+      "text_input": "campus bookstore area",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "math_whiz_prof",
+    "context": {
+      "original_text": "I'm a math grad student, frequently selling old textbooks, reference books, and sometimes scientific calculators or other study essentials."
+    },
+    "profile_keywords": [
+      "math major",
+      "grad student",
+      "textbook seller",
+      "used books",
+      "STEM",
+      "calculator"
+    ],
+    "inferred_major": "Mathematics",
+    "inferred_location_keywords": [
+      "math department",
+      "science building",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Linear Algebra (5th Ed.)",
+          "Discrete Math (8th Ed.)",
+          "Statistics for Engineers"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 38.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "TI-84 calculator",
+          "geometry set"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "school_supplies",
+      "electronics"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Calculus: Early Transcendentals, 8th Edition",
+      "category": "textbooks",
+      "tags": [
+        "calculus",
+        "math",
+        "textbook",
+        "8th edition",
+        "Stewart"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Cengage"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "clearing out old inventory",
+      "original_text": "Selling my old 'Calculus: Early Transcendentals, 8th Ed.' by Stewart. Good condition with some highlights, asking $30. Perfect for reference."
+    },
+    "location": {
+      "text_input": "dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

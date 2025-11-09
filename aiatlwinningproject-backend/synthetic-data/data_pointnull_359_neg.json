@@ -1,0 +1,128 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "game controller",
+      "category": "gaming",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a game controller for cheap tonight."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "fashion_ista_22",
+    "context": {
+      "original_text": "I mostly sell vintage clothing, unique accessories, and sometimes custom-designed apparel. Love finding new homes for my pre-loved items!"
+    },
+    "profile_keywords": [
+      "vintage fashion",
+      "clothing",
+      "accessories",
+      "upcycling",
+      "designer finds",
+      "sustainable fashion"
+    ],
+    "inferred_major": "Fashion Design",
+    "inferred_location_keywords": [
+      "design studio",
+      "campus thrift market",
+      "dorm closet"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "vintage denim jacket",
+          "embroidered t-shirt",
+          "silk scarf"
+        ],
+        "total_items_sold": 35,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "accessories",
+        "item_examples": [
+          "handmade earrings",
+          "leather belt"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "textiles",
+      "art_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Vintage Band T-Shirt",
+      "category": "apparel",
+      "tags": [
+        "rock band",
+        "retro",
+        "graphic tee"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "black",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "cotton",
+        "brand": "ConcertThreads (vintage)"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 28.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "clearing out closet space",
+      "original_text": "Selling a rare vintage band tee, size M, black, in good condition. $28. Perfect for concerts or casual wear!"
+    },
+    "location": {
+      "text_input": "my dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

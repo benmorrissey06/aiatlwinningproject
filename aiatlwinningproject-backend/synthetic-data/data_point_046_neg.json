@@ -1,0 +1,134 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "History of Modern Art, 5th Edition",
+      "category": "textbooks",
+      "tags": [
+        "art history",
+        "textbook",
+        "5th edition"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 40
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need for Art History 201",
+      "original_text": "Urgently seeking 'History of Modern Art' 5th edition, must be good condition, ideally under $40 for Art History 201."
+    },
+    "location": {
+      "text_input": "campus bookstore area",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "user_art_hist_22",
+    "context": {
+      "original_text": "Art history major graduating soon, selling off old textbooks, art supplies, and some dorm decor. I'm usually available on campus."
+    },
+    "profile_keywords": [
+      "art history",
+      "textbooks",
+      "art supplies",
+      "dorm decor",
+      "campus"
+    ],
+    "inferred_major": "Art History",
+    "inferred_location_keywords": [
+      "campus",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Art History 101",
+          "Renaissance Art",
+          "Modernism Explained"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 30.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "sketchbook",
+          "paint set"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "art_supplies",
+      "furniture"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "History of Modern Art, 4th Edition",
+      "category": "textbooks",
+      "tags": [
+        "art history",
+        "textbook",
+        "4th edition"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Selling 'History of Modern Art' 4th edition, good condition."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

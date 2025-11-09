@@ -1,0 +1,142 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Logitech G Pro X Superlight Gaming Mouse",
+      "category": "gaming",
+      "tags": [
+        "mouse",
+        "gaming",
+        "peripheral",
+        "wireless"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "like new",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Logitech"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 70.0
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need for upcoming esports tournament this weekend",
+      "original_text": "Looking for a Logitech G Pro X Superlight gaming mouse, ideally black and in good or like-new condition. Can pay up to $70. Need it pretty soon for a tournament."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_techie_007",
+    "context": {
+      "original_text": "I'm a CS major clearing out some old gaming gear and electronics before I graduate. Have a bunch of mice, keyboards, and monitors."
+    },
+    "profile_keywords": [
+      "gamer",
+      "PC builder",
+      "tech enthusiast",
+      "Computer Science",
+      "electronics reseller"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering building",
+      "gaming lounge",
+      "north campus dorms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "gaming keyboard",
+          "headset",
+          "mousepad",
+          "gaming chair"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 55.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "old GPU",
+          "monitor",
+          "webcam",
+          "router"
+        ],
+        "total_items_sold": 9,
+        "avg_price_per_item": 110.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "peripherals",
+      "computer_parts"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Logitech G Pro X Superlight Gaming Mouse (Black)",
+      "category": "gaming",
+      "tags": [
+        "mouse",
+        "gaming",
+        "wireless",
+        "peripheral",
+        "logitech"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Logitech"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 65.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Logitech G Pro X Superlight gaming mouse in excellent, like-new condition. Used for a couple of months, comes with original box and all accessories. Asking $65."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

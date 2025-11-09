@@ -1,0 +1,140 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "gaming headset",
+      "category": "gaming",
+      "tags": [
+        "headset",
+        "audio",
+        "microphone",
+        "pc gaming"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "like-new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 75
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need a reliable headset for online group projects and gaming.",
+      "original_text": "Looking for a black HyperX gaming headset, new or like-new condition. My budget is around $75."
+    },
+    "location": {
+      "text_input": "campus central",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_trader_alex",
+    "context": {
+      "original_text": "Sells used electronics, gaming peripherals, and occasional tech textbooks. Always fair prices."
+    },
+    "profile_keywords": [
+      "electronics",
+      "gaming",
+      "peripherals",
+      "headsets",
+      "computers",
+      "tech gadgets"
+    ],
+    "inferred_major": "Electrical Engineering",
+    "inferred_location_keywords": [
+      "engineering building",
+      "dorm room",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "gaming mouse",
+          "mechanical keyboard",
+          "webcam"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 55,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "portable charger",
+          "bluetooth speaker",
+          "old phone"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 40,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "computer parts",
+      "accessories",
+      "audio equipment"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "HyperX Cloud Alpha S Gaming Headset",
+      "category": "gaming",
+      "tags": [
+        "headset",
+        "audio",
+        "microphone",
+        "pc gaming",
+        "surround sound"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "like-new"
+        ]
+      },
+      "secondary": {
+        "material": "aluminum, leatherette, memory foam",
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 65
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a wireless model for convenience.",
+      "original_text": "Selling my HyperX Cloud Alpha S, black, like-new condition. Used for a semester. Comes with all original accessories. Asking $65."
+    },
+    "location": {
+      "text_input": "my dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

@@ -1,0 +1,145 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Gaming headset",
+      "category": "electronics",
+      "tags": [
+        "gaming",
+        "headset",
+        "audio",
+        "microphone"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "like new",
+          "new"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 75
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "My old headset broke right before a major online tournament, need a replacement ASAP.",
+      "original_text": "Need a HyperX gaming headset, black, like new or new condition. Can pay up to $75. Mine just broke, urgent!"
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamerTechWhiz",
+    "context": {
+      "original_text": "CompSci student, gamer, always upgrading my tech. Selling my old gear to fund new projects."
+    },
+    "profile_keywords": [
+      "gamer",
+      "tech enthusiast",
+      "computer science",
+      "electronics",
+      "gaming accessories",
+      "audio gear"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "campus",
+      "engineering building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming mouse",
+          "mechanical keyboard",
+          "webcam",
+          "speakers"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 55.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS5 games",
+          "Switch Pro Controller",
+          "VR headset accessories"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "audio equipment",
+      "pc components",
+      "peripherals",
+      "streaming gear"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "HyperX Cloud Alpha S Gaming Headset",
+      "category": "electronics",
+      "tags": [
+        "gaming",
+        "headset",
+        "audio",
+        "pc gaming",
+        "console gaming",
+        "microphone"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "memory foam",
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 70
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a wireless headset, no longer need this one.",
+      "original_text": "Selling my HyperX Cloud Alpha S headset. Lightly used, excellent 'like new' condition. Comes with all original accessories. Perfect for gaming on PC or console."
+    },
+    "location": {
+      "text_input": "engineering dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

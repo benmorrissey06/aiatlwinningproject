@@ -1,0 +1,142 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Nintendo Switch Pro Controller",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "switch",
+        "nintendo",
+        "pro",
+        "wireless"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Nintendo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "My old one broke, need a replacement for online multiplayer with friends.",
+      "original_text": "Looking to buy a used Nintendo Switch Pro Controller, preferably black, in good to very good condition. Can pay up to $50."
+    },
+    "location": {
+      "text_input": "on campus",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_guru_22",
+    "context": {
+      "original_text": "Computer Science major, avid gamer, often selling old tech and accessories to upgrade. Based in West Hall."
+    },
+    "profile_keywords": [
+      "gaming",
+      "electronics",
+      "Nintendo",
+      "Switch",
+      "accessories",
+      "tech",
+      "used games"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "West Hall",
+      "campus",
+      "tech lab"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "Nintendo Switch Lite",
+          "Joy-Cons",
+          "Super Mario Odyssey"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C adapter",
+          "gaming headset"
+        ],
+        "total_items_sold": 6,
+        "avg_price_per_item": 30.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "collectibles",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Nintendo Switch Pro Controller",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "switch",
+        "nintendo",
+        "pro",
+        "used",
+        "black"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "black",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Nintendo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Received a new custom controller as a gift, no longer need this spare.",
+      "original_text": "Selling a gently used Nintendo Switch Pro Controller. Black, works perfectly, only minor cosmetic wear. Asking $45."
+    },
+    "location": {
+      "text_input": "West Hall",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

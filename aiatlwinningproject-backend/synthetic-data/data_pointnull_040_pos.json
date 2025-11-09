@@ -1,0 +1,135 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "gaming controller",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "game"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "I need a gaming controller ASAP, preferably for a decent price."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_gal_42",
+    "context": {
+      "original_text": "I'm selling off some of my old gaming gear and electronics before I graduate. Also have some art supplies."
+    },
+    "profile_keywords": [
+      "gaming",
+      "electronics",
+      "console accessories",
+      "art supplies",
+      "student",
+      "graduating",
+      "tech"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm room 3B",
+      "campus central"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS5 controller",
+          "Nintendo Switch case",
+          "Xbox One game"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C hub",
+          "webcam",
+          "portable charger"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 20.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "PlayStation 5 DualSense Controller",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "PS5",
+        "gaming",
+        "wireless",
+        "white"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "white",
+        "condition_requested": [
+          "used_good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Sony"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Selling my white PS5 DualSense controller, gently used, no stick drift. Works perfectly."
+    },
+    "location": {
+      "text_input": "Dorm B, Room 305",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

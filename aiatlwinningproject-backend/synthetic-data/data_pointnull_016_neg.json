@@ -1,0 +1,126 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "laptop charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a laptop charger, asap!"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "fashion_ista_22",
+    "context": {
+      "original_text": "I sell unique vintage clothing and handmade accessories."
+    },
+    "profile_keywords": [
+      "vintage clothing",
+      "fashion",
+      "accessories",
+      "jewelry",
+      "handmade"
+    ],
+    "inferred_major": "Textile Design",
+    "inferred_location_keywords": [],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "vintage denim jacket",
+          "graphic tee",
+          "silk scarf"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "accessories",
+        "item_examples": [
+          "handmade earrings",
+          "beaded necklace"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 18.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "crafts"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Vintage Denim Jacket",
+      "category": "apparel",
+      "tags": [
+        "vintage",
+        "denim",
+        "jacket",
+        "outerwear"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "blue",
+        "condition_requested": [
+          "gently_used",
+          "worn"
+        ]
+      },
+      "secondary": {
+        "material": "denim",
+        "brand": "Levi's"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 40.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "selling_personal_item",
+      "original_text": "Selling my classic vintage Levi's denim jacket, perfect condition for its age. Size M, light blue wash."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

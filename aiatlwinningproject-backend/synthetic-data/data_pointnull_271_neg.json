@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "power bank",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a power bank quickly. My phone's dying!"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_lit_22",
+    "context": {
+      "original_text": "Selling my old literature textbooks and some cool vintage clothes I've collected. Also have some dorm decor."
+    },
+    "profile_keywords": [
+      "vintage clothing",
+      "study guides",
+      "dorm decor",
+      "fashion advice",
+      "literature"
+    ],
+    "inferred_major": "English Literature",
+    "inferred_location_keywords": [
+      "campus bookstore",
+      "library",
+      "residence hall"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "vintage t-shirts",
+          "denim jacket",
+          "graphic hoodies"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 18.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Shakespeare anthology",
+          "MLA Handbook",
+          "Literary Theory Reader"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "decorative throw pillow",
+          "small desk lamp"
+        ],
+        "total_items_sold": 2,
+        "avg_price_per_item": 10.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "textbooks",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "vintage band t-shirt",
+      "category": "apparel",
+      "tags": [
+        "rock",
+        "concert",
+        "retro"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "faded black",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "cotton",
+        "brand": "Fruit of the Loom (vintage print)"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 20
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "selling unused item",
+      "original_text": "Vintage Black Sabbath Tee - Great condition, size M. Only worn a few times."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

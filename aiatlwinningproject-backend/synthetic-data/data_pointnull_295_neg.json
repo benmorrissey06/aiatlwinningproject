@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Bluetooth headphones",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "need some headphones for my workout, something bluetooth by tomorrow"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "user_histgeek77",
+    "context": {
+      "original_text": "Selling old textbooks and some historical fiction novels. Also have extra school supplies sometimes."
+    },
+    "profile_keywords": [
+      "textbooks",
+      "history books",
+      "novels",
+      "school supplies",
+      "used books"
+    ],
+    "inferred_major": "History",
+    "inferred_location_keywords": [
+      "library study lounge",
+      "humanities building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "US History textbook",
+          "Sociology reader",
+          "Economics 101"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "books",
+        "item_examples": [
+          "historical fiction novel",
+          "biography"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 12.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "notebooks",
+          "pens",
+          "calculators"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 8.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "books",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Used 'World History 101' Textbook",
+      "category": "textbooks",
+      "tags": [
+        "history",
+        "textbook",
+        "academic"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "multi-color",
+        "condition_requested": [
+          "used - acceptable"
+        ]
+      },
+      "secondary": {
+        "material": "paper",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": "Finished the course, no longer needed.",
+      "original_text": "Selling my World History 101 textbook. Has some highlighting but fully readable."
+    },
+    "location": {
+      "text_input": "Humanities Building 312",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

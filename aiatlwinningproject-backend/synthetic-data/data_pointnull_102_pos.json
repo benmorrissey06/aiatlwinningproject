@@ -1,0 +1,144 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "desk lamp",
+      "category": "dorm_essentials",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "need a desk lamp asap"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "std_dorm_decor_enthusiast_42",
+    "context": {
+      "original_text": "Selling off dorm essentials after graduation! Lots of lighting and small decor items."
+    },
+    "profile_keywords": [
+      "dorm essentials",
+      "home decor",
+      "lighting",
+      "study space",
+      "used furniture",
+      "student seller"
+    ],
+    "inferred_major": "Interior Design",
+    "inferred_location_keywords": [
+      "campus housing",
+      "north dorms",
+      "on-campus pickup"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "bedside lamp",
+          "mini fridge",
+          "storage ottoman",
+          "desk lamp"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 25.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "home_goods",
+        "item_examples": [
+          "decorative pillows",
+          "string lights"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 12.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "power strip",
+          "USB hub"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 18.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "home_goods",
+      "electronics",
+      "small_furniture"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "LED Desk Lamp with USB Charging Port",
+      "category": "dorm_essentials",
+      "tags": [
+        "lighting",
+        "study",
+        "LED",
+        "USB"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, metal",
+        "brand": "TaoTronics"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 20.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "selling after graduation",
+      "original_text": "Selling my TaoTronics LED desk lamp. Black, good condition, has a USB port for charging. Perfect for dorm desks!"
+    },
+    "location": {
+      "text_input": "north dorms",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

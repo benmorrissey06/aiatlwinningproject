@@ -1,0 +1,144 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wacom Intuos Pro Medium drawing tablet",
+      "category": "art_supplies",
+      "tags": [
+        "drawing",
+        "digital art",
+        "tablet",
+        "intuos",
+        "graphic design"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Wacom"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 150
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need for upcoming digital illustration project deadline.",
+      "original_text": "Seeking a Wacom Intuos Pro Medium drawing tablet, must be in good or new condition. Max $150. Pretty urgent!"
+    },
+    "location": {
+      "text_input": "campus central library",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "art_student_beta_007",
+    "context": {
+      "original_text": "Art major, often sells used art tech and supplies. Passionate about digital art and always upgrading gear."
+    },
+    "profile_keywords": [
+      "Art major",
+      "digital art",
+      "drawing",
+      "illustration",
+      "art supplies",
+      "tech",
+      "used gear"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "Art Building",
+      "campus dorms",
+      "studio"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "sketchbook set",
+          "Procreate brushes",
+          "easel",
+          "graphic tablet",
+          "drawing pens"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 45,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "monitor",
+          "keyboard",
+          "webcam"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 120,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "electronics",
+      "books"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wacom Intuos Pro Medium drawing tablet (used)",
+      "category": "art_supplies",
+      "tags": [
+        "drawing",
+        "digital art",
+        "tablet",
+        "intuos",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Wacom"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 120
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a newer model, selling old one.",
+      "original_text": "Selling my Wacom Intuos Pro Medium. It's in fair condition, has some cosmetic scratches but works perfectly. Asking $120."
+    },
+    "location": {
+      "text_input": "Art dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

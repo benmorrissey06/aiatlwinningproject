@@ -1,0 +1,134 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "water bottle",
+      "category": "dorm_essentials",
+      "tags": [
+        "hydration",
+        "workout"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "blue",
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "for my workout",
+      "original_text": "Need a blue water bottle for my workout, something cheap. ASAP."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_jake_123",
+    "context": {
+      "original_text": "Active Kinesiology student selling fitness gear and dorm essentials. Always happy to help fellow students."
+    },
+    "profile_keywords": [
+      "fitness",
+      "dorm essentials",
+      "active",
+      "workout gear",
+      "sports",
+      "hydration",
+      "health"
+    ],
+    "inferred_major": "Kinesiology",
+    "inferred_location_keywords": [
+      "campus gym",
+      "dorm_commons",
+      "sports_complex"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "water bottle",
+          "mini fan",
+          "laundry basket"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 12.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "sports_equipment",
+        "item_examples": [
+          "resistance bands",
+          "yoga mat",
+          "jump rope"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 20.0,
+        "dominant_transaction_type_in_category": "lend"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "sports_equipment",
+      "fitness_accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "insulated water bottle",
+      "category": "dorm_essentials",
+      "tags": [
+        "hydration",
+        "fitness",
+        "eco-friendly"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "32 oz",
+        "color": "blue",
+        "condition_requested": [
+          "like_new"
+        ]
+      },
+      "secondary": {
+        "material": "stainless steel",
+        "brand": "HydroFlask"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "HydroFlask 32oz - Blue - Like New condition. Perfect for the gym or class!"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

@@ -1,0 +1,142 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "used gaming monitor",
+      "category": "electronics",
+      "tags": [
+        "monitor",
+        "gaming",
+        "display",
+        "budget"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "24-27 inch",
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "good",
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 150
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Need a monitor for my dorm setup without breaking the bank.",
+      "original_text": "Looking for a decent used gaming monitor, around 24-27 inches. My budget is pretty strict, ideally under $150. Good or fair condition is fine."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_gear_go_getter_789",
+    "context": {
+      "original_text": "I frequently upgrade my gaming setup and sell my slightly used electronics. I'm a CompSci major always on the lookout for new tech trends."
+    },
+    "profile_keywords": [
+      "gaming",
+      "electronics",
+      "PC components",
+      "tech",
+      "upgrade",
+      "like new condition"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "campus tech lab",
+      "dorms",
+      "student union"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming keyboard",
+          "webcam",
+          "router"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 85,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "high-refresh monitor",
+          "VR headset",
+          "gaming mouse"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 250,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "computer_accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "High-end 144Hz Gaming Monitor",
+      "category": "electronics",
+      "tags": [
+        "monitor",
+        "gaming",
+        "144hz",
+        "QHD",
+        "high-refresh",
+        "ultrawide"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "34 inch",
+        "color": "black",
+        "condition_requested": [
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, metal",
+        "brand": "Alienware"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 480
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a newer model, selling my previous setup.",
+      "original_text": "Selling my Alienware 34-inch QHD 144Hz gaming monitor. It's in 'like new' condition, barely used. Amazing for immersive gaming. Asking $480."
+    },
+    "location": {
+      "text_input": "campus apartments",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

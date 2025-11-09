@@ -1,0 +1,140 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "HDMI cable",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 10
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a cheap HDMI cable ASAP."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_XYZ789",
+    "context": {
+      "original_text": "I sell used textbooks and extra school supplies. Also some dorm decor. Can lend graphing calculators."
+    },
+    "profile_keywords": [
+      "textbooks",
+      "school supplies",
+      "dorm decor",
+      "calculators",
+      "study aids",
+      "stationery"
+    ],
+    "inferred_major": "Pre-Med",
+    "inferred_location_keywords": [
+      "Library",
+      "Chemistry Building",
+      "North Campus Dorms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Biology Textbook (Used)",
+          "Calculus Workbook",
+          "Anatomy Atlas"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 65.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "Graphing Calculator",
+          "Notebooks",
+          "Highlighters"
+        ],
+        "total_items_sold": 25,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "mixed"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "Small Desk Lamp",
+          "Mini Fridge"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 30.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "school_supplies",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Calculus II Textbook",
+      "category": "textbooks",
+      "tags": [
+        "math",
+        "used",
+        "college"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "blue",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "paper",
+        "brand": "Cengage"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 75
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "finished course",
+      "original_text": "Selling my used Calculus II textbook, Cengage, good condition."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

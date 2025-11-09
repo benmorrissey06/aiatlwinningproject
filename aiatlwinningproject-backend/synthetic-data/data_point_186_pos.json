@@ -1,0 +1,144 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Apple Pencil 2nd Gen",
+      "category": "electronics",
+      "tags": [
+        "stylus",
+        "ipad accessory",
+        "drawing tool",
+        "digital art"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "white",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Apple"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need for advanced digital art class project starting next week.",
+      "original_text": "I'm looking to buy an Apple Pencil 2nd generation, white. Needs to be new or like new condition. My budget is up to $80. Crucial for my art class project!"
+    },
+    "location": {
+      "text_input": "campus quad",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "art_techie_23",
+    "context": {
+      "original_text": "Always selling off old gadgets or art supplies I've upgraded. Love anything Apple or design related."
+    },
+    "profile_keywords": [
+      "Apple products",
+      "digital art",
+      "design tools",
+      "electronics accessories",
+      "graphic design"
+    ],
+    "inferred_major": "Digital Media Arts",
+    "inferred_location_keywords": [
+      "art building",
+      "tech lab"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "iPad Pro case",
+          "Bluetooth keyboard",
+          "Apple Watch",
+          "drawing tablet"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 75,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "Copic markers set",
+          "digital brushes pack",
+          "sketchbook"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 30,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "photography",
+      "gaming",
+      "apparel"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Apple Pencil (2nd Generation)",
+      "category": "electronics",
+      "tags": [
+        "stylus",
+        "ipad accessory",
+        "drawing tool",
+        "digital pen"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "white",
+        "condition_requested": [
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Apple"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 70
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "No longer needed as I upgraded my iPad and it came with a new one.",
+      "original_text": "Selling my Apple Pencil 2nd gen. It's in like new condition, barely used. Works perfectly. Asking $70."
+    },
+    "location": {
+      "text_input": "dorm room",
+      "device_gps": {
+        "lat": 34.075,
+        "lng": -118.445
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

@@ -1,0 +1,140 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "need a cheap charger by tomorrow"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_U7890",
+    "context": {
+      "original_text": "I sell unique, handmade accessories and vintage clothing. Also some art supplies I no longer use. I love making things!"
+    },
+    "profile_keywords": [
+      "handmade",
+      "vintage",
+      "accessories",
+      "clothing",
+      "art_supplies",
+      "crafts"
+    ],
+    "inferred_major": "Art History",
+    "inferred_location_keywords": [
+      "dorm",
+      "art studio",
+      "campus market"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "vintage denim jacket",
+          "handmade scarf",
+          "graphic tee"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "watercolor set",
+          "sketchbook",
+          "brushes"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 12.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "macrame plant hanger"
+        ],
+        "total_items_sold": 2,
+        "avg_price_per_item": 18.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "art_supplies",
+      "jewelry",
+      "dorm_decor"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Abstract Canvas Painting",
+      "category": "art_supplies",
+      "tags": [
+        "original",
+        "painting",
+        "dorm decor"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "24x36 inches",
+        "color": "multi-color",
+        "condition_requested": [
+          "new"
+        ]
+      },
+      "secondary": {
+        "material": "canvas, acrylic paint",
+        "brand": "Handmade"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "selling my art",
+      "original_text": "Original abstract painting on canvas, perfect for dorm decor."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

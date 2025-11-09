@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Vintage Denim Jacket",
+      "category": "apparel",
+      "tags": [
+        "denim",
+        "jacket",
+        "vintage",
+        "outerwear"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "blue",
+        "condition_requested": [
+          "excellent",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "denim",
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Looking to update my wardrobe with a unique piece.",
+      "original_text": "Hey, I'm looking for a vintage denim jacket, size medium, preferably blue. It absolutely has to be in excellent or like-new condition, and I can pay up to $50."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "fashion_finds_by_sophia",
+    "context": {
+      "original_text": "Fashion merchandising student selling unique clothing and dorm decor."
+    },
+    "profile_keywords": [
+      "vintage",
+      "fashion",
+      "denim",
+      "outerwear",
+      "apparel",
+      "dorm decor",
+      "style"
+    ],
+    "inferred_major": "Fashion Merchandising",
+    "inferred_location_keywords": [
+      "campus north",
+      "student union"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "vintage dresses",
+          "designer jeans",
+          "leather jackets",
+          "graphic tees"
+        ],
+        "total_items_sold": 28,
+        "avg_price_per_item": 38.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "furniture",
+        "item_examples": [
+          "desk lamp",
+          "mini bookshelf"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "accessories",
+      "art_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Vintage Denim Jacket",
+      "category": "apparel",
+      "tags": [
+        "denim",
+        "jacket",
+        "vintage",
+        "outerwear",
+        "distressed"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "blue",
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "denim",
+        "brand": "Levis"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Seller has this item on hand, listed for general sale.",
+      "original_text": "A genuine vintage Levi's denim jacket, size M, classic blue wash. It's in fair condition, with some noticeable fading and a small tear on the left sleeve, giving it a distressed look. Selling for $45."
+    },
+    "location": {
+      "text_input": "seller's apartment",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

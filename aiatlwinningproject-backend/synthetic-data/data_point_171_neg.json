@@ -1,0 +1,148 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Apple Lightning to USB-C Cable (1m)",
+      "category": "electronics",
+      "tags": [
+        "lightning",
+        "usb-c",
+        "charger",
+        "apple",
+        "cable"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "white",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Apple"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Lost my original cable, need a replacement for my iPhone.",
+      "original_text": "Looking for a new or like-new Apple Lightning to USB-C cable, 1 meter. Max $15. Lost mine!"
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": {
+        "lat": 34.0723,
+        "lng": -118.4417
+      }
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "techie_seller_23",
+    "context": {
+      "original_text": "Student passionate about tech, always upgrading. Selling old but functional gadgets."
+    },
+    "profile_keywords": [
+      "electronics",
+      "apple",
+      "chargers",
+      "cables",
+      "gadgets",
+      "tech",
+      "computer science"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "engineering building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "iPhone 12 charger",
+          "USB-C hub",
+          "Apple Watch bands",
+          "Bluetooth headphones"
+        ],
+        "total_items_sold": 25,
+        "avg_price_per_item": 30,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS5 controller",
+          "Nintendo Switch case"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 40,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "computer accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Apple Lightning to USB-C Cable (1m)",
+      "category": "electronics",
+      "tags": [
+        "lightning",
+        "usb-c",
+        "charger",
+        "apple",
+        "cable",
+        "used"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "white",
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Apple"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 10
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling extra cable after upgrade.",
+      "original_text": "Selling a used Apple Lightning to USB-C cable, 1m. Fair condition, fully functional. $10."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": {
+        "lat": 34.0723,
+        "lng": -118.4417
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

@@ -1,0 +1,130 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "pen",
+      "category": "school_supplies",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "blue",
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Just need a blue pen asap"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "math_whiz_books",
+    "context": {
+      "original_text": "Selling my old textbooks and study guides. Mostly STEM related."
+    },
+    "profile_keywords": [
+      "textbooks",
+      "study guides",
+      "academic materials",
+      "math",
+      "science",
+      "used books"
+    ],
+    "inferred_major": "Mathematics",
+    "inferred_location_keywords": [
+      "campus library",
+      "math building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus II Textbook",
+          "Linear Algebra Study Guide",
+          "Physics 101 Textbook"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 55.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "academic_materials",
+        "item_examples": [
+          "TI-84 Calculator",
+          "Engineering Paper Pad"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 30.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "academic_materials",
+      "calculators",
+      "engineering_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Advanced Differential Equations Textbook",
+      "category": "textbooks",
+      "tags": [
+        "math",
+        "differential equations",
+        "university",
+        "hardcover",
+        "advanced"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "maroon",
+        "condition_requested": [
+          "used",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "paper",
+        "brand": "Cengage Learning"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 75.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "finished course",
+      "original_text": "Selling my used Advanced Differential Equations textbook, good condition with minimal highlighting."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

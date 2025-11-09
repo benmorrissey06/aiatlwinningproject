@@ -1,0 +1,132 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "lamp",
+      "category": "dorm_essentials",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "need a cheap lamp for my dorm by tomorrow"
+    },
+    "location": {
+      "text_input": "dorm",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_dorm_pro_99",
+    "context": {
+      "original_text": "I often sell gently used dorm essentials, small furniture, and some electronics like chargers or desk lamps. I'm a good source for anyone setting up their dorm on a budget."
+    },
+    "profile_keywords": [
+      "dorm essentials",
+      "home goods",
+      "decor",
+      "used items",
+      "cheap finds",
+      "electronics"
+    ],
+    "inferred_major": "Interior Design",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "university apartments"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "desk lamp",
+          "mini fridge",
+          "storage bin"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 18,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "phone charger",
+          "power strip"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 12,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "home_goods",
+      "furniture",
+      "electronics"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "LED Desk Lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "lighting",
+        "desk",
+        "dorm",
+        "LED",
+        "adjustable"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "TaoTronics"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "moving out",
+      "original_text": "Adjustable black LED desk lamp, perfect for dorms. Good condition, works great! Need it gone by tomorrow."
+    },
+    "location": {
+      "text_input": "Dorm C",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

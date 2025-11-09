@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "mini-fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "fridge",
+        "mini",
+        "dorm"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "metal/plastic",
+        "brand": "any"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Moving into dorm next week, need a mini-fridge for drinks and snacks.",
+      "original_text": "Looking for a compact black mini-fridge for my dorm, must be in good working condition. Can pay up to $80. Need it soon for move-in!"
+    },
+    "location": {
+      "text_input": "on-campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "sophia_dormdeals",
+    "context": {
+      "original_text": "I'm a senior moving out soon, selling off all my dorm essentials and furniture. Been selling stuff on campus for a while."
+    },
+    "profile_keywords": [
+      "dorm",
+      "moving out",
+      "essentials",
+      "appliances",
+      "resale",
+      "student deals"
+    ],
+    "inferred_major": "Business",
+    "inferred_location_keywords": [
+      "on-campus",
+      "dorm"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "microwave",
+          "desk lamp",
+          "mini-fridge",
+          "fan"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 55,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "furniture",
+        "item_examples": [
+          "desk chair",
+          "storage ottoman",
+          "small bookshelf"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 65,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "electronics",
+      "furniture"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Compact Black Mini-Fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "fridge",
+        "mini",
+        "dorm",
+        "appliances"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "metal/plastic",
+        "brand": "Danby"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 70
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Used for 2 semesters, still works great. Moving off-campus and don't need it.",
+      "original_text": "Selling my reliable compact black Danby mini-fridge. Perfect for dorms, keeps drinks and snacks cold. Used for two semesters, in good working condition. Asking $70."
+    },
+    "location": {
+      "text_input": "on-campus apartment",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

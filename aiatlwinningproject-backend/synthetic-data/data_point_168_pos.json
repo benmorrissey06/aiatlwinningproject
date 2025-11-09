@@ -1,0 +1,143 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Gaming Headset",
+      "category": "gaming",
+      "tags": [
+        "headset",
+        "gaming",
+        "audio",
+        "microphone",
+        "pc",
+        "console"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Razer"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "My old headset broke, need a new one for online gaming with friends ASAP.",
+      "original_text": "Urgently looking for a black gaming headset, ideally new or like new. My budget is up to $80. Something like a Razer Kraken would be great!"
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_tech_pro",
+    "context": {
+      "original_text": "CompSci major, I often upgrade my gaming setup so I sell off my lightly used tech peripherals."
+    },
+    "profile_keywords": [
+      "gaming",
+      "electronics",
+      "peripherals",
+      "tech",
+      "computer science",
+      "hardware"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering building",
+      "library",
+      "dorm B"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "gaming mouse",
+          "mechanical keyboard",
+          "webcam"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 55,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C hub",
+          "portable charger"
+        ],
+        "total_items_sold": 4,
+        "avg_price_per_item": 28,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "accessories",
+      "computer parts"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Razer Kraken X Gaming Headset",
+      "category": "gaming",
+      "tags": [
+        "headset",
+        "gaming",
+        "audio",
+        "microphone",
+        "pc",
+        "console"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, pleather",
+        "brand": "Razer"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 65
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a wireless headset, selling my old wired one.",
+      "original_text": "Selling my Razer Kraken X gaming headset. Used only for a couple of months, in like-new condition. Perfect for PC or console gaming. Asking $65."
+    },
+    "location": {
+      "text_input": "dorm A",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

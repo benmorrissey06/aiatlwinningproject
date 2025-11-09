@@ -1,0 +1,132 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Biology textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "need a bio textbook asap, cheap please"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "textbook_trader_bio_007",
+    "context": {
+      "original_text": "Biology major clearing out old textbooks and notes from past semesters. Open to selling or lending."
+    },
+    "profile_keywords": [
+      "biology",
+      "textbooks",
+      "science",
+      "study guides",
+      "notes"
+    ],
+    "inferred_major": "Biology",
+    "inferred_location_keywords": [
+      "campus library",
+      "science building",
+      "dorm common area"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Campbell Biology",
+          "Genetics: A Conceptual Approach",
+          "Organic Chemistry Textbook"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "binders",
+          "scientific calculator",
+          "lab goggles"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 12.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "school_supplies",
+      "science_equipment"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Campbell Biology, 12th Edition",
+      "category": "textbooks",
+      "tags": [
+        "biology",
+        "textbook",
+        "science",
+        "college",
+        "pearson"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard textbook",
+        "color": "green",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "paper",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "finished course",
+      "original_text": "Selling my Campbell Biology 12th Edition. Good condition, minimal highlights. $25 firm."
+    },
+    "location": {
+      "text_input": "campus dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

@@ -1,0 +1,134 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "desk lamp",
+      "category": "dorm_essentials",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a lamp for my desk. ASAP!"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_dorm_pro_789",
+    "context": {
+      "original_text": "Hi! I'm moving out soon and have a ton of dorm essentials and small furniture to sell. Everything is well-maintained!"
+    },
+    "profile_keywords": [
+      "dorm essentials",
+      "dorm decor",
+      "home organization",
+      "moving sale",
+      "electronics",
+      "lighting"
+    ],
+    "inferred_major": "Interior Design",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "student housing",
+      "north campus"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini fridge",
+          "desk lamp",
+          "storage bins",
+          "mattress topper"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 30.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "small_furniture",
+        "item_examples": [
+          "bedside table",
+          "small bookshelf"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 55.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "small_furniture",
+      "electronics",
+      "home_decor"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "LED Desk Lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "lighting",
+        "study",
+        "dorm"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, metal",
+        "brand": "TaoTronics"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "moving out",
+      "original_text": "Selling a TaoTronics LED desk lamp, black, like new. Perfect for dorms or study space. Moving out soon!"
+    },
+    "location": {
+      "text_input": "campus dorms, north side",
+      "device_gps": {
+        "lat": 34.07,
+        "lng": -118.44
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

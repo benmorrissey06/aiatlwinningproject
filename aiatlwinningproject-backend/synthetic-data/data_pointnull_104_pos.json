@@ -1,0 +1,118 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "small fan",
+      "category": "dorm_essentials",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 15
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need a small fan for my dorm room, it's getting hot! $15 max by Friday."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "dorm_clearance_soph",
+    "context": {
+      "original_text": "Sophomore moving into an apartment, clearing out all my dorm room essentials. Fans, lamps, storage solutions, and a mini fridge."
+    },
+    "profile_keywords": [
+      "dorm essentials",
+      "small appliances",
+      "moving out",
+      "home goods"
+    ],
+    "inferred_major": "Business",
+    "inferred_location_keywords": [
+      "on-campus dorms",
+      "university housing"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "Desk fan",
+          "LED desk lamp",
+          "Storage bins"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 20,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "electronics",
+      "home_goods"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Honeywell HT-900 TurboForce Fan",
+      "category": "dorm_essentials",
+      "tags": [
+        "desk fan",
+        "small fan",
+        "personal fan",
+        "portable"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "small",
+        "color": "black",
+        "condition_requested": [
+          "used",
+          "good_condition"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Honeywell"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 12
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "No longer needed after dorm move out, upgraded to a larger fan.",
+      "original_text": "Selling my reliable Honeywell HT-900 TurboForce fan. Perfect for dorms or small spaces. Barely used, in great condition. Asking $12."
+    },
+    "location": {
+      "text_input": "On-campus pickup or nearby apartment",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

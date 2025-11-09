@@ -1,0 +1,130 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "speaker",
+      "category": "electronics",
+      "tags": null
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "Need a speaker for my dorm room"
+    },
+    "location": {
+      "text_input": "dorm room",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_electrotech99",
+    "context": {
+      "original_text": "I'm a CS student selling off some of my old tech. Always upgrading! Also have some old textbooks."
+    },
+    "profile_keywords": [
+      "electronics",
+      "tech gadgets",
+      "CS major",
+      "dorm",
+      "textbooks",
+      "audio"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "engineering building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "Bluetooth speaker",
+          "gaming headset",
+          "USB hub"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 40,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus textbook",
+          "Python programming book"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 25,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "textbooks",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Portable Bluetooth Speaker",
+      "category": "electronics",
+      "tags": [
+        "bluetooth",
+        "audio",
+        "portable",
+        "dorm"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "gently used"
+        ]
+      },
+      "secondary": {
+        "material": "plastic, fabric",
+        "brand": "JBL"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Upgraded to a new sound system.",
+      "original_text": "Selling my JBL Flip 5 portable Bluetooth speaker. Great condition, black. Asking $35."
+    },
+    "location": {
+      "text_input": "Dorm 3, Room 123",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

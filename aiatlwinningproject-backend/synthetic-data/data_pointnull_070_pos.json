@@ -1,0 +1,117 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "hoodie",
+      "category": "apparel",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "black",
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": null,
+      "price_max": null
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": null,
+      "original_text": "looking for a black hoodie, size M please"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_style_hub_001",
+    "context": {
+      "original_text": "I sell gently used college apparel, especially hoodies and branded gear. Always clean and ready to go!"
+    },
+    "profile_keywords": [
+      "apparel",
+      "hoodies",
+      "clothing",
+      "fashion",
+      "campus style"
+    ],
+    "inferred_major": "Fashion Merchandising",
+    "inferred_location_keywords": [
+      "dorm",
+      "campus center"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "hoodie",
+          "t-shirt",
+          "sweatpants",
+          "jacket"
+        ],
+        "total_items_sold": 68,
+        "avg_price_per_item": 22.5,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "dorm_essentials",
+      "accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "hoodie",
+      "category": "apparel",
+      "tags": [
+        "athletic",
+        "comfort",
+        "college branded"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "M",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "cotton blend",
+        "brand": "Adidas"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Selling an Adidas black hoodie, men's M. Great condition, soft cotton blend. Perfect for campus!"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

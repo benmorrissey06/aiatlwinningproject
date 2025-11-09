@@ -1,0 +1,135 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Organic Chemistry Textbook",
+      "category": "textbooks",
+      "tags": [
+        "chemistry",
+        "science",
+        "textbook",
+        "organic"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "starting class next week",
+      "original_text": "Need a new or like new Organic Chemistry textbook for my class starting next week. Can pay up to $80."
+    },
+    "location": {
+      "text_input": "campus bookstore area",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_chem_101",
+    "context": {
+      "original_text": "Chemistry major selling old textbooks and lab equipment."
+    },
+    "profile_keywords": [
+      "chemistry",
+      "textbooks",
+      "science",
+      "study materials",
+      "lab equipment"
+    ],
+    "inferred_major": "Chemistry",
+    "inferred_location_keywords": [
+      "science building",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Calculus II Textbook",
+          "Physics Lab Manual",
+          "Intro to Biochemistry"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 55,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "Lab goggles",
+          "Scientific calculator"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 20,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "school_supplies",
+      "electronics"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Organic Chemistry Textbook, 8th Edition",
+      "category": "textbooks",
+      "tags": [
+        "chemistry",
+        "science",
+        "textbook",
+        "organic"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "clearing out old books",
+      "original_text": "Selling my used Organic Chemistry textbook, fair condition with some highlighting."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

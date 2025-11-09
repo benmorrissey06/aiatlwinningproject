@@ -1,0 +1,137 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "charger",
+      "category": "electronics",
+      "tags": [
+        "charging",
+        "power"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 10
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a cheap charger ASAP."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "art_supplies_pro_123",
+    "context": {
+      "original_text": "I'm an art major always clearing out my studio. Lots of paints, brushes, canvases, and unique dorm decor items."
+    },
+    "profile_keywords": [
+      "art supplies",
+      "painting",
+      "drawing",
+      "crafts",
+      "dorm decor",
+      "creative",
+      "artist"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "studio",
+      "art building",
+      "dorms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "acrylic paint set",
+          "sketchbook",
+          "paintbrushes",
+          "canvas"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 20,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "posters",
+          "fairy lights",
+          "small lamps"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 12,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "dorm_essentials",
+      "crafts"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Acrylic Paint Set",
+      "category": "art_supplies",
+      "tags": [
+        "paints",
+        "art",
+        "beginner set",
+        "crafts"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "multi-color",
+        "condition_requested": [
+          "new",
+          "like_new"
+        ]
+      },
+      "secondary": {
+        "material": "acrylic",
+        "brand": "Reeves"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Clearing out studio space, don't use this brand anymore.",
+      "original_text": "Selling a new-ish acrylic paint set, 12 colors, only used a few tubes. Great for beginners."
+    },
+    "location": {
+      "text_input": "on campus, near art building",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

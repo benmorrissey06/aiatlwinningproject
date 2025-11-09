@@ -1,0 +1,149 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Introduction to Algorithms (CLRS) 3rd Edition",
+      "category": "textbooks",
+      "tags": [
+        "algorithms",
+        "computer science",
+        "data structures",
+        "textbook"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "like new",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "MIT Press"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Required for Algorithms I course next semester.",
+      "original_text": "Need 'Introduction to Algorithms' (CLRS 3rd edition) ASAP for my class. Looking for a copy in like new or good condition, willing to pay up to $45."
+    },
+    "location": {
+      "text_input": "campus bookstore area",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "stdnt_comp_sci_A789",
+    "context": {
+      "original_text": "I'm a CS student selling off old textbooks and some used electronics from dorm. Always fair prices."
+    },
+    "profile_keywords": [
+      "computer science",
+      "engineering",
+      "textbooks",
+      "calculus",
+      "programming books",
+      "electronics"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm",
+      "library",
+      "engineering building"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Operating Systems Concepts (used)",
+          "Discrete Mathematics (good)",
+          "Linear Algebra (fair)"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 32.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB hub (used)",
+          "old mouse (working)"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 15,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "notebooks (new)",
+          "pens (new)"
+        ],
+        "total_items_sold": 10,
+        "avg_price_per_item": 5,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "school_supplies",
+      "gaming"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Introduction to Algorithms (CLRS) 3rd Edition",
+      "category": "textbooks",
+      "tags": [
+        "algorithms",
+        "computer science",
+        "data structures",
+        "textbook",
+        "used",
+        "highlighted"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "MIT Press"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 30
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Clearing out old books",
+      "original_text": "Selling my CLRS 3rd edition. It's definitely 'fair' condition - lots of highlighting and some wear on the cover, but all pages are there and perfectly readable. Perfect for someone who doesn't mind a well-loved copy. Asking $30."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

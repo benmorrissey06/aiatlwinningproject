@@ -1,0 +1,128 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "laptop charger",
+      "category": "electronics",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [
+        "buy",
+        "borrow"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "mine just broke",
+      "original_text": "Need a laptop charger ASAP, mine just broke."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "fashion_reseller_99",
+    "context": {
+      "original_text": "I love finding unique vintage pieces and giving them a new home! Specializing in apparel and accessories."
+    },
+    "profile_keywords": [
+      "vintage clothing",
+      "fashion",
+      "accessories",
+      "secondhand",
+      "dorm decor"
+    ],
+    "inferred_major": "Textile and Apparel Management",
+    "inferred_location_keywords": [
+      "on-campus dorms",
+      "campus center",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "graphic tee",
+          "hoodie",
+          "denim jacket"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 28.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "throw pillow",
+          "storage bin"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "University Hoodie",
+      "category": "apparel",
+      "tags": [
+        "university merch",
+        "comfort wear"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "large",
+        "color": "grey",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "cotton blend",
+        "brand": "Champion"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "clearing out my closet for new clothes",
+      "original_text": "Selling a grey Champion university hoodie, size L, good condition."
+    },
+    "location": {
+      "text_input": "on-campus dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

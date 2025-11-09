@@ -1,0 +1,142 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "science textbook",
+      "category": "textbooks",
+      "tags": null
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": null,
+      "price_max": 20.0
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Looking for a science textbook, urgent! Don't wanna spend more than $20."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_digital_art_001",
+    "context": {
+      "original_text": "Selling off my old gaming gear and some art supplies. Always getting new tech gadgets. Mostly selling items."
+    },
+    "profile_keywords": [
+      "gaming",
+      "tech",
+      "art supplies",
+      "dorm decor",
+      "electronics"
+    ],
+    "inferred_major": "Digital Art",
+    "inferred_location_keywords": [
+      "campus north",
+      "Dorm E",
+      "library media lab"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "gaming headset",
+          "extra controller",
+          "RGB mousepad"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "sketchbook set",
+          "charcoal pencils",
+          "acrylic paint"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "portable speaker",
+          "USB-C adapter"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 28.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "art_supplies",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wacom Drawing Tablet",
+      "category": "art_supplies",
+      "tags": [
+        "digital art",
+        "graphics",
+        "tablet",
+        "creative"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "Medium",
+        "color": "Black",
+        "condition_requested": [
+          "Like New"
+        ]
+      },
+      "secondary": {
+        "material": "Plastic, Rubber",
+        "brand": "Wacom"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a different model.",
+      "original_text": "Selling my Wacom Intuos Drawing Tablet, like new condition. Used it for a semester, great for digital art students. Asking $80."
+    },
+    "location": {
+      "text_input": "Dorm E common room",
+      "device_gps": {
+        "lat": 34.0722,
+        "lng": -118.444
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

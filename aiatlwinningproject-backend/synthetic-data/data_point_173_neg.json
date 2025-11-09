@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "TI-84 Plus CE graphing calculator",
+      "category": "electronics",
+      "tags": [
+        "graphic calculator",
+        "math",
+        "statistics",
+        "calculus"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "like-new",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Texas Instruments"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 70.0
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need for Calculus III class next week. My old one broke.",
+      "original_text": "Looking for a TI-84 Plus CE calculator, preferably black and in like-new or excellent condition. Can pay up to $70. Need it pretty soon for my Calc class!"
+    },
+    "location": {
+      "text_input": "campus library",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "eng_student_22",
+    "context": {
+      "original_text": "Engineering student selling old textbooks, calculators, and gadgets. Also some sports equipment."
+    },
+    "profile_keywords": [
+      "electronics",
+      "calculators",
+      "textbooks",
+      "engineering",
+      "math",
+      "gadgets",
+      "sports equipment"
+    ],
+    "inferred_major": "Engineering",
+    "inferred_location_keywords": [
+      "engineering building",
+      "dorm D"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "TI-83 calculator",
+          "USB-C hub",
+          "gaming mouse"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Linear Algebra text",
+          "Physics I workbook"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 30.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "school_supplies",
+      "gaming"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "TI-84 Plus CE graphing calculator",
+      "category": "electronics",
+      "tags": [
+        "graphic calculator",
+        "math",
+        "statistics",
+        "calculus"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "fair",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Texas Instruments"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 55.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Selling my old TI-84 Plus CE. Screen has some minor scratches, and buttons are a bit worn but fully functional. Works great for classes, just upgraded. Price is negotiable."
+    },
+    "location": {
+      "text_input": "dorm D",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

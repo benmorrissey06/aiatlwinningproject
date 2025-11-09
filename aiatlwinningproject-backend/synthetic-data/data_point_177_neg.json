@@ -1,0 +1,142 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Winsor & Newton Professional Acrylic Paint Set",
+      "category": "art_supplies",
+      "tags": [
+        "acrylic",
+        "paint",
+        "professional",
+        "set",
+        "art"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard set (10x20ml tubes)",
+        "color": "assorted",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "acrylic paint",
+        "brand": "Winsor & Newton"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 40
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Starting a new studio project, need professional quality paints for a deadline.",
+      "original_text": "Looking for a new or like-new Winsor & Newton Professional Acrylic Paint Set, ideally under $40, really need it soon for my studio project."
+    },
+    "location": {
+      "text_input": "campus art building",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "artistic_soul_22",
+    "context": {
+      "original_text": "Selling used art supplies and some handmade items from my studio. Majoring in Fine Arts."
+    },
+    "profile_keywords": [
+      "art supplies",
+      "painting",
+      "drawing",
+      "fine arts",
+      "studio equipment",
+      "acrylics"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art studio",
+      "campus art building",
+      "dorm"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "oil paint tubes",
+          "sketchbooks",
+          "easel",
+          "acrylics"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 25,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "decor",
+        "item_examples": [
+          "small prints",
+          "handmade coasters"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 10,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "crafts",
+      "books"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Winsor & Newton Professional Acrylic Paint Set",
+      "category": "art_supplies",
+      "tags": [
+        "acrylic",
+        "paint",
+        "professional",
+        "set",
+        "used",
+        "art"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard set (10x20ml tubes)",
+        "color": "assorted",
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "acrylic paint",
+        "brand": "Winsor & Newton"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Selling off old art supplies.",
+      "original_text": "Used Winsor & Newton professional acrylic set, some tubes nearly empty and others half-used. Selling for $45."
+    },
+    "location": {
+      "text_input": "art dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

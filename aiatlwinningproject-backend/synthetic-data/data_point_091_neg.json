@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "art easel",
+      "category": "art_supplies",
+      "tags": [
+        "easel",
+        "painting",
+        "drawing",
+        "studio"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "brown",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "wood",
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 70
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Starting a new painting class next semester and need a good easel.",
+      "original_text": "I'm looking for a sturdy wooden art easel, preferably new or like new. My budget is around $70."
+    },
+    "location": {
+      "text_input": "campus art studio",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "artlover123",
+    "context": {
+      "original_text": "I'm a Fine Arts student always decluttering my studio. Selling gently used art supplies and some handmade items."
+    },
+    "profile_keywords": [
+      "art supplies",
+      "painting",
+      "drawing",
+      "studio",
+      "student artist",
+      "fine arts"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art building",
+      "dorms near art studio"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "canvas set",
+          "acrylic paints",
+          "sketchbook",
+          "brushes",
+          "easel"
+        ],
+        "total_items_sold": 25,
+        "avg_price_per_item": 15.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "desk lamp",
+          "mini fan"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 20.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "crafts",
+      "home_decor"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "wooden art easel",
+      "category": "art_supplies",
+      "tags": [
+        "easel",
+        "painting",
+        "wood"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "large",
+        "color": "natural wood",
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "pine wood",
+        "brand": "Studio Basics"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45
+    },
+    "context": {
+      "urgency": null,
+      "reason": "Selling old art supplies after graduation.",
+      "original_text": "Used Studio Basics wooden easel. It's in fair condition with some paint stains and minor scuffs, but fully functional. Asking $45."
+    },
+    "location": {
+      "text_input": "art building storage room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

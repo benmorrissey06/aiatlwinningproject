@@ -1,0 +1,131 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "desk lamp",
+      "category": "dorm_essentials",
+      "tags": null
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": null,
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a desk lamp asap for my dorm."
+    },
+    "location": {
+      "text_input": "my dorm",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "dorm_deco_dealz_7",
+    "context": {
+      "original_text": "Selling my gently used dorm items before I graduate! Lamps, organizers, small storage, etc."
+    },
+    "profile_keywords": [
+      "dorm essentials",
+      "home goods",
+      "lighting",
+      "organization",
+      "moving out sale"
+    ],
+    "inferred_major": "Interior Design",
+    "inferred_location_keywords": [
+      "campus dorm",
+      "student housing"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "bedside lamp",
+          "desk organizer",
+          "storage bins"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 22.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "small_furniture",
+        "item_examples": [
+          "folding chair",
+          "side table"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "dorm_essentials",
+      "home_goods",
+      "lighting",
+      "small_furniture"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "LED Desk Lamp",
+      "category": "dorm_essentials",
+      "tags": [
+        "adjustable",
+        "modern",
+        "study",
+        "energy-efficient"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "excellent",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "metal_plastic",
+        "brand": "TaoTronics"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18.0
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Graduating, clearing out dorm.",
+      "original_text": "Selling a gently used TaoTronics LED Desk Lamp. Adjustable brightness and color temperature, perfect for studying. In excellent condition. Pick up today!"
+    },
+    "location": {
+      "text_input": "Campus Dorm Building A",
+      "device_gps": {
+        "lat": 34.0689,
+        "lng": -118.4452
+      }
+    }
+  },
+  "outcome_label": "positive"
+}

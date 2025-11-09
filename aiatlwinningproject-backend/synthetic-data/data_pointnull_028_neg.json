@@ -1,0 +1,134 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "chemistry textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy",
+        "borrow"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "need a general chemistry textbook for chem 101, like for next week."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_fitfanatic",
+    "context": {
+      "original_text": "I sell gently used athletic wear, fitness equipment, and sometimes protein bars. Always keeping my gear fresh!"
+    },
+    "profile_keywords": [
+      "athletic wear",
+      "fitness",
+      "gym equipment",
+      "supplements",
+      "apparel"
+    ],
+    "inferred_major": "Kinesiology",
+    "inferred_location_keywords": [
+      "gym",
+      "recreation center",
+      "campus track"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "running shorts",
+          "gym t-shirt",
+          "leggings"
+        ],
+        "total_items_sold": 25,
+        "avg_price_per_item": 18.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "fitness_equipment",
+        "item_examples": [
+          "resistance bands",
+          "yoga mat",
+          "small weights"
+        ],
+        "total_items_sold": 10,
+        "avg_price_per_item": 30.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "fitness_equipment",
+      "health_supplements"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "athletic leggings",
+      "category": "apparel",
+      "tags": [
+        "gym wear",
+        "yoga",
+        "workout"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "medium",
+        "color": "black",
+        "condition_requested": [
+          "used - good",
+          "used - like new"
+        ]
+      },
+      "secondary": {
+        "material": "spandex blend",
+        "brand": "Lululemon"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 45.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "clearing out closet",
+      "original_text": "Selling a pair of black Lululemon Align leggings, size 6 (fits like M). Great condition, only worn a few times."
+    },
+    "location": {
+      "text_input": "student housing",
+      "device_gps": {
+        "lat": 34.06,
+        "lng": -118.43
+      }
+    }
+  },
+  "outcome_label": "negative"
+}

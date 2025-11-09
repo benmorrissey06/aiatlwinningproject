@@ -1,0 +1,151 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "mini-fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "compact",
+        "fridge",
+        "dorm",
+        "small appliance"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Moving into dorm soon, need a compact fridge for snacks and drinks.",
+      "original_text": "Looking for a small, black mini-fridge for my dorm room. Needs to be in good or very good condition, willing to pay up to $80. Urgent!"
+    },
+    "location": {
+      "text_input": "on-campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "sophia_m_4thyear",
+    "context": {
+      "original_text": "Upperclassman selling off dorm essentials, small electronics, and a few textbooks before moving off-campus."
+    },
+    "profile_keywords": [
+      "dorm",
+      "essentials",
+      "moving out",
+      "electronics",
+      "used items",
+      "college gear",
+      "appliances"
+    ],
+    "inferred_major": "Marketing",
+    "inferred_location_keywords": [
+      "on-campus",
+      "residence halls",
+      "north campus"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "microwave",
+          "desk lamp",
+          "mini-fridge"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 55,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "bluetooth speaker",
+          "charger",
+          "gaming headset"
+        ],
+        "total_items_sold": 4,
+        "avg_price_per_item": 35,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Intro to Marketing textbook",
+          "Microeconomics principles"
+        ],
+        "total_items_sold": 2,
+        "avg_price_per_item": 40,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "small appliances",
+      "furniture",
+      "kitchenware"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Danby Compact Mini-Fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "mini-fridge",
+        "dorm",
+        "appliance",
+        "compact",
+        "beverage cooler"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "metal/plastic",
+        "brand": "Danby"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 65
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Moving out, selling old dorm appliances that are still in great shape.",
+      "original_text": "Selling my Danby compact mini-fridge. Works perfectly, in very good condition, used for two years. Great for dorms or small offices. Asking $65."
+    },
+    "location": {
+      "text_input": "Adams Hall Dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Drawing Tablet",
+      "category": "electronics",
+      "tags": [
+        "digital art",
+        "graphics tablet",
+        "design",
+        "illustration"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Wacom"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 150
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "for digital art class project, needs to be reliable",
+      "original_text": "I'm looking for a new or like-new Wacom drawing tablet, preferably black, for my art class. My budget is around $150. Need it pretty soon for a project!"
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "art_major_sophia_22",
+    "context": {
+      "original_text": "Sophia is a Fine Arts major specializing in digital media. She often sells art supplies she no longer uses and occasional tech gadgets from previous projects or upgrades."
+    },
+    "profile_keywords": [
+      "fine arts",
+      "digital media",
+      "illustration",
+      "art supplies",
+      "tech enthusiast",
+      "student discounts"
+    ],
+    "inferred_major": "Fine Arts",
+    "inferred_location_keywords": [
+      "art building",
+      "campus dorms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "sketchbook",
+          "Copic markers",
+          "easel"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 25,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "Wacom Intuos S",
+          "old iPad mini",
+          "bluetooth speaker"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 70,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_supplies",
+      "electronics",
+      "books"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Wacom Intuos S (Small) Drawing Tablet",
+      "category": "electronics",
+      "tags": [
+        "digital art",
+        "graphics tablet",
+        "used electronics",
+        "beginner friendly"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "small",
+        "color": "black",
+        "condition_requested": [
+          "used - good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Wacom"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 85
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "upgrading to a pro model, no longer needed",
+      "original_text": "Selling my Wacom Intuos S. It's been used for a couple of semesters, has some minor cosmetic scratches but functions perfectly. Comes with original pen and cable. Great for beginners."
+    },
+    "location": {
+      "text_input": "campus dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

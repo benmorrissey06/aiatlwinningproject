@@ -1,0 +1,133 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "micro-USB charger",
+      "category": "electronics",
+      "tags": [
+        "charging"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a micro-USB charger for my phone. ASAP!"
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_solutions_student_88",
+    "context": {
+      "original_text": "I sell all kinds of tech accessories, cables, and small electronics. Always have spare chargers!"
+    },
+    "profile_keywords": [
+      "electronics",
+      "chargers",
+      "cables",
+      "tech accessories",
+      "mobile accessories"
+    ],
+    "inferred_major": "Computer Engineering",
+    "inferred_location_keywords": [
+      "dorm",
+      "campus center",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "USB-C adapter",
+          "HDMI cable",
+          "power bank",
+          "phone case"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 18.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "mini fan",
+          "desk lamp"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 15.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "school_supplies",
+      "dorm_essentials"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Anker Micro-USB Charging Cable",
+      "category": "electronics",
+      "tags": [
+        "charging",
+        "cable",
+        "phone accessory"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "6 ft",
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "good"
+        ]
+      },
+      "secondary": {
+        "material": "braided nylon",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 10.0
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "Selling an extra cable",
+      "original_text": "Selling a brand new Anker 6ft micro-USB charging cable. Super durable."
+    },
+    "location": {
+      "text_input": "Campus dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

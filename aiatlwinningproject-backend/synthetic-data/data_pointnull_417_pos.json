@@ -1,0 +1,125 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "notebook",
+      "category": "school_supplies",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need a notebook for my bio class soon."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_academic_ace_44",
+    "context": {
+      "original_text": "I'm a Biology major, always have extra school supplies like notebooks, pens, and my old textbooks available. Happy to help out."
+    },
+    "profile_keywords": [
+      "school supplies",
+      "stationery",
+      "notebooks",
+      "biology textbooks",
+      "study aids"
+    ],
+    "inferred_major": "Biology",
+    "inferred_location_keywords": [
+      "science building",
+      "library study rooms"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "spiral notebooks",
+          "composition books",
+          "gel pens"
+        ],
+        "total_items_sold": 30,
+        "avg_price_per_item": 4.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Biology 101 Textbook",
+          "Organic Chemistry Companion"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 75.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "school_supplies",
+      "textbooks"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "spiral notebook",
+      "category": "school_supplies",
+      "tags": [
+        "lined",
+        "college ruled"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "8.5x11",
+        "color": "blue",
+        "condition_requested": [
+          "new"
+        ]
+      },
+      "secondary": {
+        "material": "paper",
+        "brand": "Five Star"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 6.5
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": "extra supply",
+      "original_text": "Brand new Five Star 1-subject spiral notebook, college ruled, blue cover."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

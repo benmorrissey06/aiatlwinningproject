@@ -1,0 +1,142 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "USB-A to Gigabit Ethernet Adapter",
+      "category": "electronics",
+      "tags": [
+        "usb-a",
+        "ethernet",
+        "gigabit",
+        "adapter",
+        "network",
+        "internet"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": [
+          "new",
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 25.0
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "for stable internet in dorm",
+      "original_text": "Need a USB-A to Gigabit Ethernet adapter urgently for my dorm's internet. Preferably new or like new, can spend up to $25."
+    },
+    "location": {
+      "text_input": "north dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_enthusiast_456",
+    "context": {
+      "original_text": "I'm always selling cool tech stuff, old cables, and gaming gear. DM me for any electronics needs!"
+    },
+    "profile_keywords": [
+      "electronics repair",
+      "cables",
+      "gaming peripherals",
+      "old computers",
+      "tech accessories",
+      "computer science student"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "dorm_south",
+      "library_tech_zone"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming mouse",
+          "HDMI cable (5ft)",
+          "USB-C Hub",
+          "old laptop charger"
+        ],
+        "total_items_sold": 22,
+        "avg_price_per_item": 30.5,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "PS4 controller",
+          "mousepad"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 20.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "school_supplies"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Anker USB-C to HDMI Adapter",
+      "category": "electronics",
+      "tags": [
+        "usb-c",
+        "hdmi",
+        "adapter",
+        "video",
+        "display",
+        "anker",
+        "connectivity"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "aluminum",
+        "brand": "Anker"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 28.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Anker USB-C to HDMI Adapter, perfect for connecting your laptop to a monitor."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

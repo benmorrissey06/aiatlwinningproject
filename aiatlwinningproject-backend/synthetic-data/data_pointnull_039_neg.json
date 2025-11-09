@@ -1,0 +1,129 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "book",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy",
+        "borrow"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "high",
+      "reason": null,
+      "original_text": "Need a quick book, ASAP."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "fashion_ista_88",
+    "context": {
+      "original_text": "I sell trendy clothes and accessories from my dorm. Mostly apparel, good deals!"
+    },
+    "profile_keywords": [
+      "fashion",
+      "apparel",
+      "clothing",
+      "trendy",
+      "accessories"
+    ],
+    "inferred_major": "Fashion Design",
+    "inferred_location_keywords": [
+      "campus boutique",
+      "dorm pop-up"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "apparel",
+        "item_examples": [
+          "designer top",
+          "vintage jeans",
+          "sneakers"
+        ],
+        "total_items_sold": 35,
+        "avg_price_per_item": 40.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "accessories",
+        "item_examples": [
+          "scarf",
+          "jewelry"
+        ],
+        "total_items_sold": 12,
+        "avg_price_per_item": 25.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "apparel",
+      "accessories",
+      "jewelry"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "leather mini skirt",
+      "category": "apparel",
+      "tags": [
+        "skirt",
+        "leather",
+        "womenswear",
+        "fashion"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "S",
+        "color": "black",
+        "condition_requested": [
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "faux leather",
+        "brand": "Zara"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 35.0
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "clearing out my closet",
+      "original_text": "Selling a black faux leather mini skirt from Zara, size S. Only worn once, like new! $35."
+    },
+    "location": {
+      "text_input": "Campus dorm pickup",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

@@ -1,0 +1,128 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "book",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": null
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": null,
+      "type_acceptable": [],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a book asap for class."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "art_history_buff_22",
+    "context": {
+      "original_text": "Selling unique art pieces, rare art books, and high-quality painting supplies. Always looking for new inspiration!"
+    },
+    "profile_keywords": [
+      "art books",
+      "fine art",
+      "painting supplies",
+      "art history",
+      "vintage prints"
+    ],
+    "inferred_major": "Art History",
+    "inferred_location_keywords": [
+      "art studio",
+      "campus library - humanities wing"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "art_books",
+        "item_examples": [
+          "Picasso biography",
+          "Renaissance art catalog",
+          "Modern sculpture guide"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 45.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "art_supplies",
+        "item_examples": [
+          "watercolor set",
+          "easel",
+          "specialty brushes"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 30.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "art_books",
+      "art_supplies",
+      "rare_books",
+      "collectibles"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Post-Impressionism: A Critical History",
+      "category": "art_books",
+      "tags": [
+        "art history",
+        "academic",
+        "non-fiction"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "9.5 x 7 inches",
+        "color": "white",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "hardcover",
+        "brand": "Taschen"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 60.0
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Graduating, clearing out my academic collection.",
+      "original_text": "Selling my comprehensive guide to Post-Impressionism, perfect for art history students or enthusiasts."
+    },
+    "location": {
+      "text_input": "Campus Library pick-up",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

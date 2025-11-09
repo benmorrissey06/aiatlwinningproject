@@ -1,0 +1,139 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Gaming Headset",
+      "category": "electronics",
+      "tags": [
+        "headset",
+        "gaming",
+        "audio",
+        "mic"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "adjustable",
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "excellent"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 70
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "My old one broke during a crucial raid.",
+      "original_text": "Looking for a new or excellent condition gaming headset, preferably black HyperX. Max $70. Mine just died!"
+    },
+    "location": {
+      "text_input": "campus dorm",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_techie_789",
+    "context": {
+      "original_text": "Selling off my old tech to make space for upgrades! Always selling gaming gear."
+    },
+    "profile_keywords": [
+      "gamer",
+      "streaming",
+      "PC components",
+      "tech enthusiast",
+      "student deals"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "engineering quad",
+      "tech labs",
+      "gaming lounge"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "gaming keyboard",
+          "webcam",
+          "monitor"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 85,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "gaming",
+        "item_examples": [
+          "console controller",
+          "game discs",
+          "collectible figures"
+        ],
+        "total_items_sold": 10,
+        "avg_price_per_item": 40,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "computer_accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "HyperX Cloud II Gaming Headset",
+      "category": "electronics",
+      "tags": [
+        "headset",
+        "gaming",
+        "audio",
+        "mic",
+        "hyperx"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "adjustable",
+        "color": "black",
+        "condition_requested": [
+          "fair"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "HyperX"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 60
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a wireless model, no longer need this one.",
+      "original_text": "Selling my used HyperX Cloud II headset. Works perfectly but has some cosmetic wear on the earcups. Asking $60."
+    },
+    "location": {
+      "text_input": "my dorm",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "negative"
+}

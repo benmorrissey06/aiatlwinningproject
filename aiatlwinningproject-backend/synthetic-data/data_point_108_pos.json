@@ -1,0 +1,137 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "compact mini-fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "fridge",
+        "dorm",
+        "small appliance",
+        "cooling"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 80
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Moving into dorm next week, need essentials",
+      "original_text": "Looking for a compact black mini-fridge, must be in good or very good condition. Max $80. Need it before move-in day!"
+    },
+    "location": {
+      "text_input": "main dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "dorm_gear_guru_42",
+    "context": {
+      "original_text": "Senior moving out, selling all my dorm essentials and some electronics. Everything is well-maintained."
+    },
+    "profile_keywords": [
+      "dorm essentials",
+      "electronics",
+      "furniture",
+      "moving out",
+      "engineering student",
+      "second-hand gear"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "south campus dorms",
+      "storage unit"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "microwave",
+          "desk lamp",
+          "mini-fridge"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 60,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "monitor",
+          "gaming mouse",
+          "router"
+        ],
+        "total_items_sold": 8,
+        "avg_price_per_item": 95,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "furniture",
+      "gaming",
+      "appliances"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Igloo compact mini-fridge",
+      "category": "dorm_essentials",
+      "tags": [
+        "fridge",
+        "compact cooler",
+        "dorm appliance"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "compact",
+        "color": "black",
+        "condition_requested": [
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "metal/plastic",
+        "brand": "Igloo"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 75
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Selling due to moving out",
+      "original_text": "Selling my reliable Igloo compact mini-fridge. Perfect for dorm rooms, black color, in very good condition. Works perfectly. Asking $75."
+    },
+    "location": {
+      "text_input": "south campus dorms",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

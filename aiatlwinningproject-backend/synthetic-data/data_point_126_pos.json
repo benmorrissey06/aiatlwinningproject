@@ -1,0 +1,138 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "black PS5 controller",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "PS5",
+        "gaming",
+        "accessory"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "black",
+        "condition_requested": [
+          "good",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Sony"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 50
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "My old one broke, need a replacement for multiplayer nights with friends.",
+      "original_text": "Looking for a black PS5 controller, good or very good condition, max $50. My old one just gave out."
+    },
+    "location": {
+      "text_input": "near campus dorms",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "gamer_tech_whiz",
+    "context": {
+      "original_text": "I often upgrade my gaming setup and sell my gently used electronics and accessories. Always buying new tech, so selling old stuff."
+    },
+    "profile_keywords": [
+      "gaming",
+      "electronics",
+      "console accessories",
+      "tech gear",
+      "controllers"
+    ],
+    "inferred_major": "Computer Science",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "tech lab"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "gaming",
+        "item_examples": [
+          "Xbox One controller",
+          "Nintendo Switch games",
+          "Gaming headset"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 45,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "electronics",
+        "item_examples": [
+          "Bluetooth speaker",
+          "USB hub"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 30,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "gaming",
+      "electronics",
+      "peripherals",
+      "accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Sony DualSense Wireless Controller for PlayStation 5 (Black)",
+      "category": "gaming",
+      "tags": [
+        "controller",
+        "PS5",
+        "DualSense",
+        "gaming",
+        "accessory"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "black",
+        "condition_requested": [
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "plastic",
+        "brand": "Sony"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 42
+    },
+    "context": {
+      "urgency": "low",
+      "reason": "Upgraded to a custom controller, no longer need this spare.",
+      "original_text": "Selling a gently used black PS5 DualSense controller. Very good condition, no stick drift. Asking $42."
+    },
+    "location": {
+      "text_input": "My dorm, can meet on campus",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

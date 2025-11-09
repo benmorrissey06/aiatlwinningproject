@@ -1,0 +1,140 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "backpack",
+      "category": "school_supplies",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "for class",
+      "original_text": "Need a simple backpack for class. Not too expensive."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "student_seller_789",
+    "context": {
+      "original_text": "I'm clearing out my dorm room, selling various items like old school supplies, small furniture, and some clothing. Everything is in good condition and budget-friendly!"
+    },
+    "profile_keywords": [
+      "school supplies",
+      "dorm essentials",
+      "used items",
+      "budget-friendly",
+      "apparel"
+    ],
+    "inferred_major": "Marketing",
+    "inferred_location_keywords": [
+      "campus dorms",
+      "student union"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "backpack",
+          "notebooks",
+          "pens"
+        ],
+        "total_items_sold": 15,
+        "avg_price_per_item": 12,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "dorm_essentials",
+        "item_examples": [
+          "desk lamp",
+          "mini fridge",
+          "storage bins"
+        ],
+        "total_items_sold": 7,
+        "avg_price_per_item": 30,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "apparel",
+        "item_examples": [
+          "t-shirts",
+          "hoodies"
+        ],
+        "total_items_sold": 10,
+        "avg_price_per_item": 8,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "school_supplies",
+      "dorm_essentials",
+      "apparel"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Student Backpack",
+      "category": "school_supplies",
+      "tags": [
+        "durable",
+        "campus",
+        "used",
+        "classic"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard",
+        "color": "navy blue",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "polyester",
+        "brand": "Jansport"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 18
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": null
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

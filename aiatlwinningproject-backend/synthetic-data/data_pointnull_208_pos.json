@@ -1,0 +1,132 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "History 101 Textbook",
+      "category": "textbooks",
+      "tags": []
+    },
+    "item_attributes": {
+      "primary": {
+        "size": null,
+        "color": null,
+        "condition_requested": []
+      },
+      "secondary": {
+        "material": null,
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": null
+    },
+    "context": {
+      "urgency": "immediate",
+      "reason": null,
+      "original_text": "Need a History 101 textbook asap."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "seller_history_books_001",
+    "context": {
+      "original_text": "Selling old textbooks from my history major. Mostly good condition, some highlighting."
+    },
+    "profile_keywords": [
+      "textbooks",
+      "history",
+      "books",
+      "student",
+      "used_books",
+      "study_materials"
+    ],
+    "inferred_major": "History",
+    "inferred_location_keywords": [
+      "campus_library",
+      "dorm_west"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "textbooks",
+        "item_examples": [
+          "Intro to World History",
+          "American Revolution Reader",
+          "European History 201"
+        ],
+        "total_items_sold": 18,
+        "avg_price_per_item": 35.0,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "notebooks",
+          "pens"
+        ],
+        "total_items_sold": 5,
+        "avg_price_per_item": 5.0,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "textbooks",
+      "school_supplies",
+      "reading_materials",
+      "study_aids"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Introduction to World History, 10th Edition",
+      "category": "textbooks",
+      "tags": [
+        "history",
+        "textbook",
+        "world_history",
+        "college_level",
+        "101_course"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "standard_textbook",
+        "color": "blue",
+        "condition_requested": [
+          "good",
+          "used"
+        ]
+      },
+      "secondary": {
+        "material": "paperback",
+        "brand": "Pearson"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 28.0
+    },
+    "context": {
+      "urgency": null,
+      "reason": null,
+      "original_text": "Selling my 'Introduction to World History' textbook. 10th edition, by Pearson. Good condition, minimal highlighting on a few pages."
+    },
+    "location": {
+      "text_input": null,
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}

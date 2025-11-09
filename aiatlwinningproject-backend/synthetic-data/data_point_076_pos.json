@@ -1,0 +1,142 @@
+{
+  "flash_request": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Portable USB-C Monitor",
+      "category": "electronics",
+      "tags": [
+        "monitor",
+        "usb-c",
+        "portable",
+        "travel",
+        "second screen"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "15-16 inch",
+        "color": "black",
+        "condition_requested": [
+          "new",
+          "like new",
+          "very good"
+        ]
+      },
+      "secondary": {
+        "material": "metal",
+        "brand": null
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 200
+    },
+    "context": {
+      "urgency": "high",
+      "reason": "Need a portable monitor for my laptop when studying in the library.",
+      "original_text": "Hey, looking for a portable USB-C monitor, around 15-16 inches. Black preferred, in like-new or very good condition. My budget is up to $200. Urgent for library study sessions!"
+    },
+    "location": {
+      "text_input": "campus library",
+      "device_gps": null
+    }
+  },
+  "seller_profile": {
+    "schema_type": "SELLER_PROFILE",
+    "user_id": "tech_gear_gal_23",
+    "context": {
+      "original_text": "Engineering student clearing out some of my extra tech. Always upgrading!"
+    },
+    "profile_keywords": [
+      "electronics",
+      "gadgets",
+      "computer accessories",
+      "tech",
+      "portable devices",
+      "engineering student"
+    ],
+    "inferred_major": "Computer Engineering",
+    "inferred_location_keywords": [
+      "engineering building",
+      "dorm room",
+      "library"
+    ],
+    "sales_history_summary": [
+      {
+        "category": "electronics",
+        "item_examples": [
+          "external SSD",
+          "USB-C hub",
+          "webcam",
+          "portable speaker"
+        ],
+        "total_items_sold": 9,
+        "avg_price_per_item": 75,
+        "dominant_transaction_type_in_category": "sell"
+      },
+      {
+        "category": "school_supplies",
+        "item_examples": [
+          "scientific calculator",
+          "drafting tools"
+        ],
+        "total_items_sold": 3,
+        "avg_price_per_item": 30,
+        "dominant_transaction_type_in_category": "sell"
+      }
+    ],
+    "overall_dominant_transaction_type": "sell",
+    "related_categories_of_interest": [
+      "electronics",
+      "gaming",
+      "accessories"
+    ]
+  },
+  "actual_item": {
+    "schema_type": "FLASH_REQUEST",
+    "item_meta": {
+      "parsed_item": "Arzopa Portable Monitor 15.6 inch",
+      "category": "electronics",
+      "tags": [
+        "monitor",
+        "usb-c",
+        "portable",
+        "arzopa",
+        "15.6 inch"
+      ]
+    },
+    "item_attributes": {
+      "primary": {
+        "size": "15.6 inch",
+        "color": "black",
+        "condition_requested": [
+          "like new"
+        ]
+      },
+      "secondary": {
+        "material": "aluminum",
+        "brand": "Arzopa"
+      }
+    },
+    "transaction": {
+      "type_preferred": "buy",
+      "type_acceptable": [
+        "buy"
+      ],
+      "price_max": 160
+    },
+    "context": {
+      "urgency": "medium",
+      "reason": "Upgraded to a larger portable monitor.",
+      "original_text": "Selling my Arzopa 15.6 inch portable USB-C monitor. Barely used, like new condition, comes with original case and cables. Great for a second screen. Asking $160."
+    },
+    "location": {
+      "text_input": "dorm room",
+      "device_gps": null
+    }
+  },
+  "outcome_label": "positive"
+}
