@@ -1963,22 +1963,75 @@ async def health() -> Dict[str, Any]:
 
 @app.post("/api/flash-requests")
 async def create_flash_request(payload: FlashRequestCreate) -> Dict[str, Any]:
-    if not payload.text.strip():
-        raise HTTPException(status_code=400, detail="Flash request text cannot be empty.")
+    try:
+        if not payload.text or not payload.text.strip():
+            raise HTTPException(status_code=400, detail="Flash request text cannot be empty.")
 
-    parsed = await call_gemini_parser("/api/parse-request", {"text": payload.text})
-    parsed = apply_request_metadata(parsed, payload.metadata)
+        # Try to parse with Gemini service, but handle errors gracefully
+        try:
+            parsed = await call_gemini_parser("/api/parse-request", {"text": payload.text})
+        except HTTPException as e:
+            # If Gemini service fails, create a basic parsed request
+            print(f"[WARNING] Gemini parser failed: {e.detail}, using fallback parsing")
+            parsed = {
+                "item_meta": {
+                    "category": payload.metadata.get("category") if payload.metadata else "Other",
+                },
+                "context": {},
+                "location": {},
+                "transaction": {},
+            }
+        except Exception as e:
+            # Generic error handling for Gemini service
+            print(f"[WARNING] Gemini parser error: {e}, using fallback parsing")
+            parsed = {
+                "item_meta": {
+                    "category": payload.metadata.get("category") if payload.metadata else "Other",
+                },
+                "context": {},
+                "location": {},
+                "transaction": {},
+            }
+        
+        parsed = apply_request_metadata(parsed, payload.metadata)
 
-    request_id = str(uuid.uuid4())
-    flash_requests[request_id] = {
-        "id": request_id,
-        "raw_text": payload.text,
-        "parsed_request": parsed,
-        "created_at": datetime.utcnow().isoformat(),
-        "metadata": payload.metadata or {},
-    }
+        request_id = str(uuid.uuid4())
+        flash_requests[request_id] = {
+            "id": request_id,
+            "raw_text": payload.text,
+            "parsed_request": parsed,
+            "created_at": datetime.utcnow().isoformat(),
+            "metadata": payload.metadata or {},
+        }
 
-    return await build_match_payload(request_id, flash_requests[request_id])
+        # Try to build match payload, but handle errors gracefully
+        try:
+            return await build_match_payload(request_id, flash_requests[request_id])
+        except Exception as e:
+            print(f"[WARNING] Failed to build match payload: {e}")
+            # Return a basic response even if matching fails
+            return {
+                "success": True,
+                "requestId": request_id,
+                "request": parsed,
+                "matches": [],
+                "debug": {
+                    "error": str(e),
+                    "generatedAt": datetime.utcnow().isoformat(),
+                },
+            }
+    except HTTPException:
+        # Re-raise HTTP exceptions (they already have proper error messages)
+        raise
+    except Exception as e:
+        # Catch any other unexpected errors
+        print(f"[ERROR] Failed to create flash request: {e}")
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to create flash request: {str(e)}"
+        )
 
 
 @app.get("/api/flash-requests/{request_id}")

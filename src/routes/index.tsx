@@ -1,5 +1,6 @@
 import { createBrowserRouter, type RouteObject } from 'react-router-dom'
 import { Layout } from '@/components/layout/Layout'
+import { ProtectedRoute } from '@/components/layout/ProtectedRoute'
 import { HomePage } from '@/pages/HomePage'
 import CreateFlashRequest from '@/pages/CreateFlashRequest'
 import { SmartPingMatchesPage } from '@/pages/SmartPingMatchesPage'
@@ -12,10 +13,6 @@ import { LoginPage } from '@/pages/LoginPage'
 
 const appRoutes: RouteObject[] = [
   {
-    path: '/login',
-    element: <LoginPage />,
-  },
-  {
     element: <Layout />,
     children: [
       {
@@ -23,24 +20,48 @@ const appRoutes: RouteObject[] = [
         element: <HomePage />,
       },
       {
+        path: '/login',
+        element: <LoginPage />,
+      },
+      {
         path: '/request/create',
-        element: <CreateFlashRequest />,
+        element: (
+          <ProtectedRoute>
+            <CreateFlashRequest />
+          </ProtectedRoute>
+        ),
       },
       {
         path: '/smart-ping',
-        element: <SmartPingMatchesPage />,
+        element: (
+          <ProtectedRoute>
+            <SmartPingMatchesPage />
+          </ProtectedRoute>
+        ),
       },
       {
         path: '/listings',
-        element: <ListingsSearchPage />,
+        element: (
+          <ProtectedRoute>
+            <ListingsSearchPage />
+          </ProtectedRoute>
+        ),
       },
       {
         path: '/messages',
-        element: <MessagesChatPage />,
+        element: (
+          <ProtectedRoute>
+            <MessagesChatPage />
+          </ProtectedRoute>
+        ),
       },
       {
         path: '/profile',
-        element: <UserProfilePage />,
+        element: (
+          <ProtectedRoute>
+            <UserProfilePage />
+          </ProtectedRoute>
+        ),
       },
       {
         path: '/safety',
@@ -48,7 +69,11 @@ const appRoutes: RouteObject[] = [
       },
       {
         path: '/admin',
-        element: <AdminModerationPage />,
+        element: (
+          <ProtectedRoute>
+            <AdminModerationPage />
+          </ProtectedRoute>
+        ),
       },
       // Footer routes
       {

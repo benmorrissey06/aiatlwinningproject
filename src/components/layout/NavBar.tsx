@@ -1,5 +1,5 @@
-import { Link, useLocation } from 'react-router-dom'
-import { Zap, Menu, Bell, MapPin, ChevronDown } from 'lucide-react'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
+import { Zap, Menu, Bell, MapPin, ChevronDown, LogOut, User } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import {
@@ -15,6 +15,8 @@ import { cn } from '@/lib/utils'
 import ThemeToggle from '@/components/theme/ThemeToggle'
 import { useCampus } from './CampusContext'
 import { motion } from 'framer-motion'
+import { useState, useEffect } from 'react'
+import { toast } from 'sonner'
 
 const navLinks = [
   { to: '/', label: 'Home' },
@@ -23,8 +25,6 @@ const navLinks = [
   { to: '/listings', label: 'Listings' },
   { to: '/messages', label: 'Messages' },
   { to: '/safety', label: 'Safety' },
-  { to: '/login', label: 'Login' },
-  { to: '/profile', label: 'Profile' },
 ]
 
 const campuses = [
@@ -38,22 +38,115 @@ const campuses = [
 
 export function NavBar() {
   const location = useLocation()
+  const navigate = useNavigate()
   const { campus, setCampus } = useCampus()
+  const [isLoggedIn, setIsLoggedIn] = useState(false)
+  const [userName, setUserName] = useState<string | null>(null)
+
+  // Check if user is logged in
+  useEffect(() => {
+    const checkAuth = () => {
+      const token = localStorage.getItem('accessToken')
+      const userId = localStorage.getItem('userId')
+      setIsLoggedIn(!!token && !!userId)
+      
+      // Try to get user name from localStorage or fetch it
+      if (userId && token) {
+        // You could also fetch from API, but for now we'll use a simple approach
+        // The name will be available after login/registration
+        const storedName = localStorage.getItem('userName')
+        if (storedName) {
+          setUserName(storedName)
+        }
+      } else {
+        setUserName(null)
+      }
+    }
+    
+    checkAuth()
+    
+    // Listen for storage changes (e.g., login/logout in another tab)
+    const handleStorageChange = (e: StorageEvent) => {
+      if (e.key === 'accessToken' || e.key === 'userId' || e.key === 'userName') {
+        checkAuth()
+      }
+    }
+    
+    // Listen for custom auth change event (for same-window changes)
+    const handleAuthChange = () => {
+      checkAuth()
+    }
+    
+    window.addEventListener('storage', handleStorageChange)
+    window.addEventListener('authChange', handleAuthChange)
+    
+    // Also check on focus (when user returns to tab)
+    const handleFocus = () => {
+      checkAuth()
+    }
+    window.addEventListener('focus', handleFocus)
+    
+    return () => {
+      window.removeEventListener('storage', handleStorageChange)
+      window.removeEventListener('authChange', handleAuthChange)
+      window.removeEventListener('focus', handleFocus)
+    }
+  }, [])
+
+  const handleLogout = () => {
+    // Clear authentication data
+    localStorage.removeItem('accessToken')
+    localStorage.removeItem('userId')
+    localStorage.removeItem('userName')
+    // Clear session storage for messages/threads if desired
+    // sessionStorage.clear() // Uncomment if you want to clear all session data
+    
+    setIsLoggedIn(false)
+    setUserName(null)
+    
+    // Trigger auth change event to update UI
+    window.dispatchEvent(new CustomEvent('authChange'))
+    
+    toast.success('Logged out successfully', {
+      description: 'You have been logged out.',
+    })
+    
+    // Redirect to home page
+    navigate('/')
+  }
+
+  // Define which routes are public (accessible without login)
+  const publicRoutes = ['/', '/safety']
 
   const NavLinks = ({ mobile = false }: { mobile?: boolean }) => (
     <>
       {navLinks.map((link) => {
         const isActive = location.pathname === link.to
+        const isProtected = !publicRoutes.includes(link.to)
+        
+        // If not logged in and trying to access protected route, redirect to login
+        const handleClick = (e: React.MouseEvent) => {
+          if (!isLoggedIn && isProtected) {
+            e.preventDefault()
+            toast.error('Authentication required', {
+              description: 'Please log in to access this page.',
+            })
+            navigate('/login', { state: { from: link.to } })
+          }
+        }
+        
         if (mobile) {
           return (
             <Link
               key={link.to}
               to={link.to}
+              onClick={handleClick}
               className={cn(
                 'flex items-center justify-between rounded-xl px-3 py-2 text-base font-semibold transition-colors duration-200',
                 isActive
                   ? 'bg-gradient-to-r from-indigo-500/20 to-cyan-400/20 text-foreground'
-                  : 'text-muted-foreground hover:text-foreground hover:bg-white/5'
+                  : 'text-muted-foreground hover:text-foreground hover:bg-white/5',
+                !isLoggedIn && isProtected && 'opacity-70 hover:opacity-100'
               )}
             >
               {link.label}
@@ -65,9 +158,11 @@ export function NavBar() {
           <Link
             key={link.to}
             to={link.to}
+            onClick={handleClick}
             className={cn(
               'group relative flex items-center px-4 py-2 text-sm font-semibold uppercase tracking-[0.2em] transition-colors duration-200',
-              isActive ? 'text-foreground' : 'text-slate-500 hover:text-foreground'
+              isActive ? 'text-foreground' : 'text-slate-500 hover:text-foreground',
+              !isLoggedIn && isProtected && 'opacity-70 hover:opacity-100'
             )}
           >
             {link.label}
@@ -152,26 +247,52 @@ export function NavBar() {
 
               <ThemeToggle />
 
-              <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                  <Button variant="ghost" className="relative h-11 w-11 rounded-full bg-white/40 shadow-inner shadow-white/50 ring-1 ring-white/50 backdrop-blur btn-focus hover:bg-white/60 dark:bg-white/10 dark:ring-white/10">
-                    <Avatar>
-                      <AvatarImage src="" alt="Profile" />
-                      <AvatarFallback>U</AvatarFallback>
-                    </Avatar>
-                  </Button>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent align="end" className="w-56 rounded-2xl border border-white/20 bg-white/95 backdrop-blur-xl dark:border-white/10 dark:bg-slate-900/90">
-                  <DropdownMenuLabel>My Account</DropdownMenuLabel>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuItem asChild>
-                    <Link to="/profile">Profile</Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem>Settings</DropdownMenuItem>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuItem>Log out</DropdownMenuItem>
-                </DropdownMenuContent>
-              </DropdownMenu>
+               {isLoggedIn ? (
+                 <DropdownMenu>
+                   <DropdownMenuTrigger asChild>
+                     <Button variant="ghost" className="relative h-14 w-14 rounded-full bg-white/40 shadow-inner shadow-white/50 ring-1 ring-white/50 backdrop-blur btn-focus hover:bg-white/60 dark:bg-white/10 dark:ring-white/10 overflow-hidden">
+                       <Avatar className="h-full w-full">
+                        <AvatarImage 
+                          src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 120'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%234f46e5;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%236366f1;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='50' cy='32' r='18' fill='url(%23grad)'/%3E%3Cpath d='M 25 55 Q 25 50 30 50 L 70 50 Q 75 50 75 55 L 75 105 Q 75 110 70 110 L 30 110 Q 25 110 25 105 Z' fill='url(%23grad)'/%3E%3C/svg%3E" 
+                          alt="Profile" 
+                        />
+                        <AvatarFallback>
+                          {userName ? userName.charAt(0).toUpperCase() : 'U'}
+                        </AvatarFallback>
+                      </Avatar>
+                    </Button>
+                  </DropdownMenuTrigger>
+                  <DropdownMenuContent align="end" className="w-56 rounded-2xl border border-white/20 bg-white/95 backdrop-blur-xl dark:border-white/10 dark:bg-slate-900/90">
+                    <DropdownMenuLabel>
+                      {userName ? `Hi, ${userName}` : 'My Account'}
+                    </DropdownMenuLabel>
+                    <DropdownMenuSeparator />
+                    <DropdownMenuItem asChild>
+                      <Link to="/profile" className="flex items-center gap-2 cursor-pointer">
+                        <User className="h-4 w-4" />
+                        Profile
+                      </Link>
+                    </DropdownMenuItem>
+                    <DropdownMenuItem>Settings</DropdownMenuItem>
+                    <DropdownMenuSeparator />
+                    <DropdownMenuItem 
+                      onClick={handleLogout}
+                      className="flex items-center gap-2 cursor-pointer text-red-600 focus:text-red-600 dark:text-red-400 dark:focus:text-red-400"
+                    >
+                      <LogOut className="h-4 w-4" />
+                      Log out
+                    </DropdownMenuItem>
+                  </DropdownMenuContent>
+                </DropdownMenu>
+              ) : (
+                <Button
+                  asChild
+                  variant="default"
+                  className="rounded-xl bg-gradient-to-r from-indigo-500 to-cyan-400 px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-indigo-500/30 hover:from-indigo-600 hover:to-cyan-500 transition-all duration-200"
+                >
+                  <Link to="/login">Login</Link>
+                </Button>
+              )}
             </div>
 
             <div className="flex items-center gap-2 md:hidden">
@@ -208,19 +329,39 @@ export function NavBar() {
                       </div>
                     </div>
 
-                    <div className="flex items-center gap-3 rounded-2xl bg-white/40 p-3 shadow-inner shadow-white/40 ring-1 ring-white/50 dark:bg-white/5 dark:ring-white/10">
-                      <Avatar>
-                        <AvatarImage src="" alt="Profile" />
-                        <AvatarFallback>U</AvatarFallback>
-                      </Avatar>
-                      <div>
-                        <p className="text-sm font-semibold">You</p>
-                        <p className="text-xs text-muted-foreground">Manage profile & security</p>
+                     {isLoggedIn ? (
+                       <div className="flex items-center gap-3 rounded-2xl bg-white/40 p-3 shadow-inner shadow-white/40 ring-1 ring-white/50 dark:bg-white/5 dark:ring-white/10">
+                         <Avatar className="h-16 w-16">
+                          <AvatarImage 
+                            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 120'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%234f46e5;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%236366f1;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='50' cy='32' r='18' fill='url(%23grad)'/%3E%3Cpath d='M 25 55 Q 25 50 30 50 L 70 50 Q 75 50 75 55 L 75 105 Q 75 110 70 110 L 30 110 Q 25 110 25 105 Z' fill='url(%23grad)'/%3E%3C/svg%3E" 
+                            alt="Profile" 
+                          />
+                          <AvatarFallback>
+                            {userName ? userName.charAt(0).toUpperCase() : 'U'}
+                          </AvatarFallback>
+                        </Avatar>
+                        <div className="flex-1">
+                          <p className="text-sm font-semibold">{userName || 'You'}</p>
+                          <p className="text-xs text-muted-foreground">Manage profile & security</p>
+                        </div>
+                        <Button 
+                          onClick={handleLogout}
+                          variant="ghost" 
+                          className="rounded-xl px-3 py-1 text-xs font-semibold text-red-600 hover:bg-red-50 dark:text-red-400 dark:hover:bg-red-900/20"
+                        >
+                          <LogOut className="h-3 w-3 mr-1" />
+                          Logout
+                        </Button>
                       </div>
-                      <Button asChild variant="ghost" className="ml-auto rounded-xl px-3 py-1 text-xs font-semibold hover:bg-white/50 dark:hover:bg-white/10">
-                        <Link to="/profile">Open</Link>
+                    ) : (
+                      <Button
+                        asChild
+                        variant="default"
+                        className="w-full rounded-xl bg-gradient-to-r from-indigo-500 to-cyan-400 px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-indigo-500/30 hover:from-indigo-600 hover:to-cyan-500 transition-all duration-200"
+                      >
+                        <Link to="/login">Login</Link>
                       </Button>
-                    </div>
+                    )}
                   </div>
                 </SheetContent>
               </Sheet>

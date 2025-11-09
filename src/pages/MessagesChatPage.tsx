@@ -370,8 +370,8 @@ export function MessagesChatPage() {
           if (userProfile?.user?.name) {
             userName = userProfile.user.name
             console.log(`[handleCreateThreadForUser] ✅ Fetched seller name: ${userName}`)
-          }
-        } catch (error) {
+       }
+     } catch (error) {
           console.warn(`[handleCreateThreadForUser] ⚠️ Could not fetch user name, using: ${userName}`, error)
         }
         

@@ -52,7 +52,8 @@ export interface Flag {
   status: 'pending' | 'resolved' | 'dismissed'
 }
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:8000'
+// Use Vite proxy in development, or direct URL in production
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || (import.meta.env.DEV ? '' : 'http://127.0.0.1:8000')
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   // Get access token from localStorage if available
@@ -83,10 +84,36 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
     headers['Authorization'] = `Bearer ${accessToken}`
   }
   
-  const response = await fetch(`${API_BASE_URL}${path}`, {
-    ...init,
-    headers,
-  })
+  const url = `${API_BASE_URL}${path}`
+  console.log(`[API] Making request to: ${url}`, { method: init?.method || 'GET', headers })
+  
+  let response: Response
+  try {
+    response = await fetch(url, {
+      ...init,
+      headers,
+    })
+  } catch (fetchError: any) {
+    // Handle network errors (Failed to fetch)
+    console.error(`[API] Network error fetching ${url}:`, fetchError)
+    const errorMessage = fetchError?.message || 'Network error'
+    
+    // Provide more specific error messages
+    if (errorMessage.includes('Failed to fetch') || errorMessage.includes('NetworkError')) {
+      throw new Error(
+        `Cannot connect to backend server at ${API_BASE_URL}. ` +
+        `Please ensure the backend is running on port 8000. ` +
+        `Error: ${errorMessage}`
+      )
+    } else if (errorMessage.includes('CORS')) {
+      throw new Error(
+        `CORS error: The backend server may not be configured to allow requests from the frontend. ` +
+        `Please check CORS settings. Error: ${errorMessage}`
+      )
+    } else {
+      throw new Error(`Network request failed: ${errorMessage}`)
+    }
+  }
 
   if (!response.ok) {
     let detail: unknown
@@ -182,18 +209,38 @@ export const api = {
       text: payload.text,
       metadata: payload.metadata ?? {},
     })
-    const data = await request<{ success: boolean; requestId: string; [key: string]: unknown }>(
-      '/api/flash-requests',
-      {
-        method: 'POST',
-        body,
-      },
-    )
+    
+    try {
+      const data = await request<{ success: boolean; requestId: string; [key: string]: unknown }>(
+        '/api/flash-requests',
+        {
+          method: 'POST',
+          body,
+        },
+      )
 
-    return {
-      success: Boolean(data?.success),
-      id: data.requestId,
-      data,
+      // Handle response - backend returns requestId in the response
+      const requestId = data.requestId || (data as any).id
+      
+      if (!requestId) {
+        console.error("Server response missing requestId:", data)
+        throw new Error("Server response missing request ID. Please try again.")
+      }
+
+      return {
+        success: Boolean(data?.success),
+        id: requestId,
+        data,
+      }
+    } catch (error: any) {
+      console.error("createFlashRequest API error:", error)
+      // Re-throw with more context for better error messages
+      if (error instanceof Error) {
+        throw error
+      } else {
+        const errorMessage = error?.message || error?.detail || "Failed to create flash request"
+        throw new Error(errorMessage)
+      }
     }
   },
 

@@ -148,11 +148,47 @@ export default function CreateFlashRequest() {
           source: "CreateFlashRequest",
         },
       })
-      toast.success("Flash Request submitted")
-      navigate(`/smart-ping?requestId=${result.id}`)
-    } catch (submissionError) {
-      console.error(submissionError)
-      toast.error("Failed to submit Flash Request")
+      
+      if (result && result.id) {
+        toast.success("Flash Request submitted")
+        navigate(`/smart-ping?requestId=${result.id}`)
+      } else {
+        throw new Error("Invalid response from server: missing request ID")
+      }
+    } catch (submissionError: any) {
+      console.error("Flash Request submission error:", submissionError)
+      
+      // Extract error message with better handling for network errors
+      let errorMessage = "Failed to submit Flash Request"
+      if (submissionError instanceof Error) {
+        errorMessage = submissionError.message
+        // Check for specific error types
+        if (errorMessage.includes('Cannot connect to backend')) {
+          errorMessage = "Backend server is not running. Please start the backend server on port 8000."
+        } else if (errorMessage.includes('CORS error')) {
+          errorMessage = "CORS error: Backend server may not be configured correctly."
+        } else if (errorMessage.includes('Network request failed')) {
+          errorMessage = "Network error: Please check your connection and ensure the backend server is running."
+        }
+      } else if (submissionError?.detail) {
+        if (typeof submissionError.detail === 'string') {
+          errorMessage = submissionError.detail
+        } else if (Array.isArray(submissionError.detail)) {
+          errorMessage = submissionError.detail.map((e: any) => e.msg || e.message || String(e)).join(', ')
+        } else {
+          errorMessage = String(submissionError.detail)
+        }
+      } else if (submissionError?.message) {
+        errorMessage = submissionError.message
+      } else if (typeof submissionError === 'string') {
+        errorMessage = submissionError
+      }
+      
+      // Show error with helpful message
+      toast.error("Failed to submit Flash Request", {
+        description: errorMessage,
+        duration: 5000, // Show for 5 seconds
+      })
     } finally {
       setIsSubmitting(false)
     }

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useLocation } from 'react-router-dom'
 import { Mail, Lock, User, MapPin, FileText, Loader2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -20,6 +20,10 @@ export function LoginPage() {
     bio: ''
   })
   const navigate = useNavigate()
+  const location = useLocation()
+  
+  // Get the return URL from navigation state, or default to profile
+  const returnUrl = (location.state as { from?: string })?.from || '/profile'
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -47,10 +51,17 @@ export function LoginPage() {
         const data = await response.json()
         localStorage.setItem('accessToken', data.accessToken)
         localStorage.setItem('userId', data.userId)
+        // Store user name for display in navbar
+        if (data.user?.name) {
+          localStorage.setItem('userName', data.user.name)
+        }
         toast.success('Login successful!', {
           description: `Welcome back, ${data.user.name}!`,
         })
-        navigate('/profile')
+        // Trigger a custom event to notify NavBar of login
+        window.dispatchEvent(new CustomEvent('authChange'))
+        // Navigate to the return URL or profile
+        navigate(returnUrl)
       } else {
         // Register
         if (!formData.name || !formData.email || !formData.password || !formData.location || !formData.bio) {
@@ -81,10 +92,17 @@ export function LoginPage() {
         const data = await response.json()
         localStorage.setItem('accessToken', data.accessToken)
         localStorage.setItem('userId', data.userId)
+        // Store user name for display in navbar
+        if (data.user?.name) {
+          localStorage.setItem('userName', data.user.name)
+        }
         toast.success('Registration successful!', {
           description: 'Your account has been created and your bio is being processed.',
         })
-        navigate('/profile')
+        // Trigger a custom event to notify NavBar of login
+        window.dispatchEvent(new CustomEvent('authChange'))
+        // Navigate to the return URL or profile
+        navigate(returnUrl)
       }
     } catch (error) {
       toast.error('Error', {
